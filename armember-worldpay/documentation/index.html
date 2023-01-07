@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function () {
+                if (jQuery(window).scrollTop() > amountScrolled) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function () {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function (event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop: 0}, 'fast', 'swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast', function () {
+                        jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="' + id + '"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function () {
+                    jQuery("body").toggleClass("nav_open");
+                });
+                jQuery("#overlay").click(function () {
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="' + window.location.hash + '"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height() {
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#membership_setup_wizard">Online Worldpay Setup Wizard</a></li>
+                            <li><a class="panel" href="#membership_changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - Online Worldpay Addon ( Version: 1.1 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 27/02/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This Add-on will add payment option for ARMember plan with one time payment & plan with subscription payment.</p>
+                            <p>This add-on will work with ARMember Version 3.2.1 or greater.</p>
+                            <hr/>
+                            <h2>ARMember - Online Worldpay payment gateway Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>membership plan</strong> with <strong>Online Worldpay</strong></li>
+                                <li>setup membership plan for <strong>one time</strong> payment with <strong>Online Worldpay</strong></li>
+                                <li>setup membership plan for <strong>subscription</strong> payment with <strong>Online Worldpay</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <div id="intro">
+                        <h1>ARMember - Online Worldpay Addon ( Version: 1.1)</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 27/02/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This Add-on will add payment option for ARMember plan with one time payment & plan with subscription payment.</p>
+
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong> This plugin will only work if ARMember plugin <strong>version is higher than 3.2.1</strong>.</p>
+                            <h2>ARMember - Online Worldpay payment gateway Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>membership plan</strong> with <strong>Online Worldpay</strong></li>
+                                <li>setup membership plan for <strong>one time</strong> payment with <strong>Online Worldpay</strong></li>
+                                <li>setup membership plan for <strong>subscription</strong> payment with <strong>Online Worldpay</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                            <h2>Steps For Installation And Activation</h2>
+                            <p>You can install plugin in following two ways. and ARMember - Online Worldpay plugin requires ARMember Plugin installed and active.</p>
+                            <h3>New install via  FTP </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download the plugin and extract it. You will find a directory <strong>armember-worldpay</strong>.</li>
+                                <li>In your WordPress installation directory, upload <strong>armember-worldpay</strong> to <code>wp-content/plugins/</code></li>
+                                <li>Activate the <code>ARMember - Online Worldpay Addon </code> plugin through the <code>Plugins</code> menu from WordPress admin panel.</li>
+                            </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download the plugin.</li>
+                                <li>Log in to your WordPress admin panel</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the plugin uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="membership_setup_wizard">
+                        <h1>Online Worldpay Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Online Worldpay For Your Website</h2>
+
+                            <h4>Let's setup membership for your website :</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>When plugin activated then Online Worldpay section will be display in <code>ARMember</code> -> <code>General Settings</code> -> <code>Payment Geteways</code>.</p><p> Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/online_worldpay_general_setting.png">
+                                            <img src="images/online_worldpay_general_setting.png" alt="general setting screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>First of all need to activate the Online Worldpay payment gateway so you will be able to insert API Keys. For activation click on active button.</p>
+                                </li>
+                                <li>
+                                    <p>If you do not have online worldpay account then <a href="https://online.worldpay.com/signup" target='_blank'>online worldpay account</a>.</p>
+                                </li>
+
+                                <li>
+                                    <p>When you sign up in online worldpay then you will be able to get Service API key and Client key detail.</p>
+                                </li>
+                                <li>After you Sign In account top right corner in display "ACTIVATE" Button. This button on clicking after your live mode activate.</li>
+                                <li>
+                                    <p>You can get api in Sign In online Worldpay account and go to settings menu page.</p>
+                                    <p>Setting page in display <code>API Keys</code> menus. this menu on click then display API Keys.</p>
+                                    <p>You can get Online Worldpay API Keys from <a href='https://online.worldpay.com/settings/keys' target='_blank'>here</a></p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/online_worldpay_apikeys_setting.png">
+                                            <img src="images/online_worldpay_apikeys_setting.png" alt="API KEYS" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Insert Service API into Service key textbox and Client APi into Client key textbox in configration.</p>
+                                </li>
+                                <li>
+                                    <p>If you want than you will be able to change below field label and description. If you will not set the label then default label will be display.</p>
+                                    <ul>
+                                        <li>Credit Card</li>
+                                        <li>Expire Month</li>
+                                        <li>Expire Year</li>
+                                        <li>CVC</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>if you enable "Display actual error returned from payment gateway" then it will display actual error from payment geteway while purchasing ARMember membership plan.</p>
+                                </li>
+                                <li>
+                                    <p>Online Worldpay payment geteway supports GBP, EUR, USD, CAD, DKK, HKD, NOK, SEK and SGD currency. You can get all transaction in your native currency.</p>
+                                </li>
+                                <li>
+                                    <p>Click on SAVE button.</p>
+                                </li>
+                                <li>
+                                    <p>After setup online worldpay payment geteway you will be able to see online worldpay payment in your Plan + Signup Page in ARMember and set it for the plan.</p>
+                                    <p>Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/online_worldpay_add_or_edit_plan.png">
+                                            <img src="images/online_worldpay_add_or_edit_plan.png" alt="online worldpay add or edit plan" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>To confirm transaction on Online Worldpay account, you can <a href="https://online.worldpay.com/login" target="blank">login</a> with your Online Worldpay credential.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div id="membership_paypalpro_changelog">
+                        <h1>Changelog</h1>
+                        
+                        <div class="card">
+                            <h2>Version 1.1 (27 Feb, 2020)</h2>
+                            <ul>
+                                <li>Improvement in Payment History</li>
+                                <li>Minor bug fixes.</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>

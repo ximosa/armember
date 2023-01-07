@@ -1,0 +1,53 @@
+.arm_zapier_settings input.armember_zap_action
+{
+    width: 170px;
+}
+.arm_zapier_settings input.arm_zapier_custom_field
+{
+    width: 250px;
+    padding: 0 10px;
+    margin: 5px 0px;
+}
+.arm_zapier_helptip_icon
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.arm_zapier_settings .arm_zapier_action_error
+{
+	display: inline;
+}
+.arm_zapier_settings .arm_zap_custom_fields_label
+{
+	width: 150px;
+	display: inline-block;
+	padding: 5px 2px;
+	text-align: right;
+}
+.arm_zapier_settings .arm_zap_custom_fields_optional
+{
+	width: 150px;
+	display: inline-block;
+	padding: 5px 2px;
+}
+.arm_zapier_settings .arm_zap_custom_fields
+{
+	width: 170px;
+	display: inline-block;
+	padding: 5px 2px;
+	text-align: right;
+}
+.arm_zapier_settings .arm_selectbox.arm_zapier_user_plan
+{
+	margin-right: 5px;
+}
+.arm_zapier_settings .arm_selectbox.arm_zapier_user_plan dt
+{
+	width: 335px;
+}
+.arm_admin_form .form-table td.arm_zap_parameter_label {
+	min-width: 150px;
+	width: 150px;
+	text-align: center;
+	padding: 0px 10px;
+}

@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Mollie payment gateway Addon v2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-05-11 04:54:55+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armembermollie.php:241
+#: armembermollie.php:290
+#@ ARM_MOLLIE
+msgid "Mollie"
+msgstr "Mollie"
+
+#: armembermollie.php:254
+#@ ARM_MOLLIE
+msgid "Mollie For ARMember plugin requires ARMember Plugin installed and active."
+msgstr "Mollie For ARMember plugin requires ARMember Plugin installed and active."
+
+#: armembermollie.php:330
+#@ ARM_MOLLIE
+msgid "Payment Mode"
+msgstr "Payment Mode"
+
+#: armembermollie.php:333
+#@ ARM_MOLLIE
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: armembermollie.php:335
+#@ ARM_MOLLIE
+msgid "Live"
+msgstr "Live"
+
+#: armembermollie.php:348
+#@ ARM_MOLLIE
+msgid "Sandbox API Key"
+msgstr "Sandbox API Key"
+
+#: armembermollie.php:364
+#@ ARM_MOLLIE
+msgid "Live API Key"
+msgstr "Live API Key"
+
+#: armembermollie.php:668
+#: armembermollie.php:1037
+#@ ARM_MOLLIE
+msgid "Sorry something went wrong while processing payment with Mollie"
+msgstr "Sorry something went wrong while processing payment with Mollie"
+
+#: armembermollie.php:2688
+#@ ARM_MOLLIE
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armembermollie.php:2693
+#@ ARM_MOLLIE
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: armembermollie.php:122
+#: armembermollie.php:1113
+#@ ARM_MOLLIE
+msgid "NOTE : In case of automatic subscription, if final payable amount will be zero, then also user need to pay minimum 0.10"
+msgstr "NOTE : In case of automatic subscription, if final payable amount will be zero, then also user need to pay minimum 0.10"
+
+#: armembermollie.php:122
+#: armembermollie.php:1115
+#@ ARM_MOLLIE
+msgid "amount to start subscription for mollie."
+msgstr "amount to start subscription for mollie."
+
+#: armembermollie.php:375
+#@ ARM_MOLLIE
+msgid "Language"
+msgstr "Language"
+
+#: armembermollie.php:380
+#@ ARM_MOLLIE
+msgid "English ( en )"
+msgstr "English ( en )"
+
+#: armembermollie.php:399
+#@ ARM_MOLLIE
+msgid "Belarusian"
+msgstr "Belarusian"
+
+#: armembermollie.php:400
+#@ ARM_MOLLIE
+msgid "Belgium / French)"
+msgstr "Belgium / French)"
+
+#: armembermollie.php:401
+#@ ARM_MOLLIE
+msgid "Dutch"
+msgstr "Dutch"
+
+#: armembermollie.php:402
+#@ ARM_MOLLIE
+msgid "English"
+msgstr "English"
+
+#: armembermollie.php:404
+#@ ARM_MOLLIE
+msgid "French"
+msgstr "French"
+
+#: armembermollie.php:405
+#@ ARM_MOLLIE
+msgid "Spanish"
+msgstr "Spanish"
+
+#: armembermollie.php:257
+#@ ARM_MOLLIE
+msgid "Mollie For ARMember plugin requires ARMember plugin installed with version 3.0 or higher."
+msgstr "Mollie For ARMember plugin requires ARMember plugin installed with version 3.0 or higher."
+
+#: armembermollie.php:403
+#@ ARM_MOLLIE
+msgid "German"
+msgstr "German"
+

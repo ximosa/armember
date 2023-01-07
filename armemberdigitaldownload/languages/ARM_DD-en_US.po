@@ -1,0 +1,1188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Digital Download v1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-08-06 08:48:13+0000\n"
+"Last-Translator: admin <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armemberdigitaldownload.php:291
+#@ ARM_DD
+msgid "Manage Download"
+msgstr "Manage Download"
+
+#: armemberdigitaldownload.php:292
+#@ ARM_DD
+msgid "Manage Download History"
+msgstr "Manage Download History"
+
+#: armemberdigitaldownload.php:293
+#: armemberdigitaldownload.php:537
+#: armemberdigitaldownload.php:538
+#: core/views/arm_dd_settings.php:26
+#@ ARM_DD
+msgid "Download Settings"
+msgstr "Download Settings"
+
+#: armemberdigitaldownload.php:369
+#@ ARM_DD
+msgid "ARMember - Digital Download plugin requires ARMember Plugin installed and active."
+msgstr "ARMember - Digital Download plugin requires ARMember Plugin installed and active."
+
+#: armemberdigitaldownload.php:476
+#: core/classes/class.arm_dd_downloads.php:200
+#: core/classes/class.arm_dd_items.php:210
+#: core/classes/class.arm_dd_items.php:1338
+#@ ARM_DD
+msgid "Please select one or more records."
+msgstr "Please select one or more records."
+
+#: armemberdigitaldownload.php:477
+#: core/classes/class.arm_dd_downloads.php:203
+#: core/classes/class.arm_dd_items.php:1341
+#@ ARM_DD
+msgid "Please select valid action."
+msgstr "Please select valid action."
+
+#: armemberdigitaldownload.php:478
+#@ ARM_DD
+msgid "Settings has been saved successfully."
+msgstr "Settings has been saved successfully."
+
+#: armemberdigitaldownload.php:479
+#@ ARM_DD
+msgid "There is a error while updating settings, please try again."
+msgstr "There is a error while updating settings, please try again."
+
+#: armemberdigitaldownload.php:527
+#: armemberdigitaldownload.php:528
+#@ ARM_DD
+msgid "Manage Downloads"
+msgstr "Manage Downloads"
+
+#: armemberdigitaldownload.php:532
+#: armemberdigitaldownload.php:533
+#: core/views/arm_dd_downloads.php:5
+#@ ARM_DD
+msgid "Download History"
+msgstr "Download History"
+
+#: armemberdigitaldownload.php:631
+#@ ARM_DD
+msgid "Documentation"
+msgstr "Documentation"
+
+#: armemberdigitaldownload.php:645
+#@ ARM_DD
+msgid "Download settings saved successfully."
+msgstr "Download settings saved successfully."
+
+#: core/classes/class.arm_dd_downloads.php:44
+#: core/views/arm_dd_downloads_records.php:14
+#@ ARM_DD
+msgid "Item Name"
+msgstr "Item Name"
+
+#: core/classes/class.arm_dd_downloads.php:45
+#: core/views/arm_dd_downloads_records.php:15
+#: core/views/arm_dd_downloads_records.php:322
+#: core/views/arm_dd_downloads_records.php:323
+#@ ARM_DD
+msgid "Username"
+msgstr "Username"
+
+#: core/classes/class.arm_dd_downloads.php:46
+#: core/views/arm_dd_downloads_records.php:16
+#@ ARM_DD
+msgid "IP Address"
+msgstr "IP Address"
+
+#: core/classes/class.arm_dd_downloads.php:47
+#: core/views/arm_dd_downloads_records.php:17
+#@ ARM_DD
+msgid "Browser"
+msgstr "Browser"
+
+#: core/classes/class.arm_dd_downloads.php:48
+#: core/views/arm_dd_downloads_records.php:18
+#@ ARM_DD
+msgid "Country"
+msgstr "Country"
+
+#: core/classes/class.arm_dd_downloads.php:49
+#: core/views/arm_dd_downloads_records.php:19
+#@ ARM_DD
+msgid "Date Time"
+msgstr "Date Time"
+
+#: core/classes/class.arm_dd_downloads.php:130
+#: core/classes/class.arm_dd_items.php:1264
+#: core/views/arm_dd_downloads_records.php:277
+#: core/views/arm_dd_downloads_records.php:298
+#: core/views/arm_dd_items_records.php:186
+#: core/views/arm_dd_items_records.php:207
+#@ ARM_DD
+msgid "Delete"
+msgstr "Delete"
+
+#: core/classes/class.arm_dd_downloads.php:131
+#@ ARM_DD
+msgid "Are you sure you want to delete this download hitory?"
+msgstr "Are you sure you want to delete this download hitory?"
+
+#: core/classes/class.arm_dd_downloads.php:171
+#: core/classes/class.arm_dd_items.php:1307
+#@ ARM_DD
+msgid "Sorry, You do not have permission to perform this action."
+msgstr "Sorry, You do not have permission to perform this action."
+
+#: core/classes/class.arm_dd_downloads.php:174
+#@ ARM_DD
+msgid "Download history deleted successfully."
+msgstr "Download history deleted successfully."
+
+#: core/classes/class.arm_dd_downloads.php:180
+#: core/classes/class.arm_dd_items.php:1318
+#@ ARM_DD
+msgid "Sorry, Action not found."
+msgstr "Sorry, Action not found."
+
+#: core/classes/class.arm_dd_downloads.php:211
+#: core/classes/class.arm_dd_items.php:1349
+#: core/classes/class.arm_dd_items.php:1408
+#@ ARM_DD
+msgid "Sorry, You do not have permission to perform this action"
+msgstr "Sorry, You do not have permission to perform this action"
+
+#: core/classes/class.arm_dd_downloads.php:216
+#@ ARM_DD
+msgid "Download history has been deleted successfully."
+msgstr "Download history has been deleted successfully."
+
+#: core/classes/class.arm_dd_downloads.php:236
+#: core/classes/class.arm_dd_downloads.php:249
+#: core/widgets/class.arm_dd_tag_widgets.php:22
+#@ ARM_DD
+msgid "Sorry, Something went wrong. Please try again."
+msgstr "Sorry, Something went wrong. Please try again."
+
+#: core/classes/class.arm_dd_downloads.php:302
+#@ ARM_DD
+msgid "Sorry, You can not download more than"
+msgstr "Sorry, You can not download more than"
+
+#: core/classes/class.arm_dd_downloads.php:303
+#@ ARM_DD
+msgid "file(s) in a"
+msgstr "file(s) in a"
+
+#: core/classes/class.arm_dd_downloads.php:359
+#@ ARM_DD
+msgid "User Not Logged in"
+msgstr "User Not Logged in"
+
+#: core/classes/class.arm_dd_downloads.php:471
+#: core/classes/class.arm_dd_downloads.php:474
+#: core/classes/class.arm_dd_downloads.php:477
+#: core/classes/class.arm_dd_downloads.php:480
+#@ ARM_DD
+msgid "Click to add shortcode in textarea"
+msgstr "Click to add shortcode in textarea"
+
+#: core/classes/class.arm_dd_downloads.php:471
+#: core/classes/class.arm_dd_items.php:1565
+#@ ARM_DD
+msgid "Download Item"
+msgstr "Download Item"
+
+#: core/classes/class.arm_dd_downloads.php:471
+#@ ARM_DD
+msgid "Displays the name of downloaded file by user"
+msgstr "Displays the name of downloaded file by user"
+
+#: core/classes/class.arm_dd_downloads.php:474
+#@ ARM_DD
+msgid "Download IP Address"
+msgstr "Download IP Address"
+
+#: core/classes/class.arm_dd_downloads.php:474
+#@ ARM_DD
+msgid "Displays the IP Address of downloaded file by user"
+msgstr "Displays the IP Address of downloaded file by user"
+
+#: core/classes/class.arm_dd_downloads.php:477
+#@ ARM_DD
+msgid "Download Browser"
+msgstr "Download Browser"
+
+#: core/classes/class.arm_dd_downloads.php:477
+#@ ARM_DD
+msgid "Displays the browser of downloaded file by user"
+msgstr "Displays the browser of downloaded file by user"
+
+#: core/classes/class.arm_dd_downloads.php:480
+#@ ARM_DD
+msgid "Download Date Time"
+msgstr "Download Date Time"
+
+#: core/classes/class.arm_dd_downloads.php:480
+#@ ARM_DD
+msgid "Displays the date and time of download file by user"
+msgstr "Displays the date and time of download file by user"
+
+#: core/classes/class.arm_dd_downloads.php:486
+#@ ARM_DD
+msgid "Select"
+msgstr "Select"
+
+#: core/classes/class.arm_dd_downloads.php:487
+#@ ARM_DD
+msgid "Day"
+msgstr "Day"
+
+#: core/classes/class.arm_dd_downloads.php:488
+#@ ARM_DD
+msgid "Week"
+msgstr "Week"
+
+#: core/classes/class.arm_dd_downloads.php:489
+#@ ARM_DD
+msgid "Month"
+msgstr "Month"
+
+#: core/classes/class.arm_dd_downloads.php:490
+#@ ARM_DD
+msgid "Year"
+msgstr "Year"
+
+#: core/classes/class.arm_dd_items.php:791
+#@ ARM_DD
+msgid "Sorry! Not able to upload  file."
+msgstr "Sorry! Not able to upload  file."
+
+#: core/classes/class.arm_dd_items.php:630
+#: core/classes/class.arm_dd_items.php:797
+#@ ARM_DD
+msgid "Please select valid file."
+msgstr "Please select valid file."
+
+#: core/classes/class.arm_dd_items.php:988
+#@ ARM_DD
+msgid "Item detail has beed updated successfully."
+msgstr "Item detail has beed updated successfully."
+
+#: core/classes/class.arm_dd_items.php:1014
+#@ ARM_DD
+msgid "New item has been added successfully."
+msgstr "New item has been added successfully."
+
+#: core/classes/class.arm_dd_items.php:1117
+#: core/views/arm_dd_items_add.php:184
+#: core/views/arm_dd_items_records.php:10
+#@ ARM_DD
+msgid "Name"
+msgstr "Name"
+
+#: core/classes/class.arm_dd_items.php:1118
+#: core/views/arm_dd_items.php:132
+#: core/views/arm_dd_items_add.php:294
+#: core/views/arm_dd_items_records.php:11
+#@ ARM_DD
+msgid "Permission Type"
+msgstr "Permission Type"
+
+#: core/classes/class.arm_dd_items.php:1119
+#: core/views/arm_dd_items_records.php:12
+#@ ARM_DD
+msgid "Permission"
+msgstr "Permission"
+
+#: core/classes/class.arm_dd_items.php:1121
+#: core/views/arm_dd_items_records.php:14
+#@ ARM_DD
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: core/classes/class.arm_dd_items.php:1123
+#: core/views/arm_dd_items_records.php:16
+#@ ARM_DD
+msgid "Date"
+msgstr "Date"
+
+#: core/classes/class.arm_dd_items.php:1188
+#: core/views/arm_dd_items.php:146
+#: core/views/arm_dd_items_add.php:308
+#@ ARM_DD
+msgid "User Wise Restriction"
+msgstr "User Wise Restriction"
+
+#: core/classes/class.arm_dd_items.php:1191
+#@ ARM_DD
+msgid "Allowed Users"
+msgstr "Allowed Users"
+
+#: core/classes/class.arm_dd_items.php:1193
+#@ ARM_DD
+msgid "Denied Users"
+msgstr "Denied Users"
+
+#: core/classes/class.arm_dd_items.php:1202
+#@ ARM_DD
+msgid "Allowed Plans"
+msgstr "Allowed Plans"
+
+#: core/classes/class.arm_dd_items.php:1203
+#: core/views/arm_dd_items.php:147
+#: core/views/arm_dd_items_add.php:309
+#@ ARM_DD
+msgid "Plan Wise Restriction"
+msgstr "Plan Wise Restriction"
+
+#: core/classes/class.arm_dd_items.php:1206
+#@ ARM_DD
+msgid "Allowed Roles"
+msgstr "Allowed Roles"
+
+#: core/classes/class.arm_dd_items.php:1207
+#: core/views/arm_dd_items.php:148
+#: core/views/arm_dd_items_add.php:310
+#@ ARM_DD
+msgid "Role Wise Restriction"
+msgstr "Role Wise Restriction"
+
+#: core/classes/class.arm_dd_items.php:1210
+#: core/views/arm_dd_items.php:145
+#: core/views/arm_dd_items_add.php:307
+#@ ARM_DD
+msgid "All Users"
+msgstr "All Users"
+
+#: core/classes/class.arm_dd_items.php:1231
+#: core/views/arm_dd_items.php:83
+#: core/views/arm_dd_items_add.php:486
+#@ ARM_DD
+msgid "Close"
+msgstr "Close"
+
+#: core/classes/class.arm_dd_items.php:1573
+#@ ARM_DD
+msgid "Click to copy"
+msgstr "Click to copy"
+
+#: core/classes/class.arm_dd_items.php:1574
+#@ ARM_DD
+msgid "Code Copied"
+msgstr "Code Copied"
+
+#: core/classes/class.arm_dd_items.php:1263
+#@ ARM_DD
+msgid "Edit Download"
+msgstr "Edit Download"
+
+#: core/classes/class.arm_dd_items.php:1265
+#@ ARM_DD
+msgid "Are you sure you want to delete this item?"
+msgstr "Are you sure you want to delete this item?"
+
+#: core/classes/class.arm_dd_items.php:1312
+#@ ARM_DD
+msgid "Item deleted successfully."
+msgstr "Item deleted successfully."
+
+#: core/classes/class.arm_dd_items.php:1356
+#@ ARM_DD
+msgid "Item(s) has been deleted successfully."
+msgstr "Item(s) has been deleted successfully."
+
+#: core/classes/class.arm_dd_items.php:1421
+#@ ARM_DD
+msgid "Sorry, File not found."
+msgstr "Sorry, File not found."
+
+#: core/classes/class.arm_dd_layout.php:93
+#@ ARM_DD
+msgid "No any downloads found."
+msgstr "No any downloads found."
+
+#: core/views/arm_dd_downloads.php:22
+#@ ARM_DD
+msgid "Are you sure you want to delete this download history?"
+msgstr "Are you sure you want to delete this download history?"
+
+#: core/views/arm_dd_downloads.php:27
+#@ ARM_DD
+msgid "Delete Download History"
+msgstr "Delete Download History"
+
+#: core/views/arm_dd_downloads_records.php:276
+#: core/views/arm_dd_downloads_records.php:297
+#: core/views/arm_dd_items_records.php:185
+#: core/views/arm_dd_items_records.php:206
+#@ ARM_DD
+msgid "Bulk Actions"
+msgstr "Bulk Actions"
+
+#: core/views/arm_dd_downloads_records.php:282
+#: core/views/arm_dd_downloads_records.php:303
+#: core/views/arm_dd_items_records.php:191
+#: core/views/arm_dd_items_records.php:212
+#@ ARM_DD
+msgid "Go"
+msgstr "Go"
+
+#: core/classes/class.arm_dd_layout.php:142
+#: core/classes/class.arm_dd_layout.php:186
+#@ ARM_DD
+msgid "Download"
+msgstr "Download"
+
+#: core/views/arm_dd_downloads_records.php:326
+#@ ARM_DD
+msgid "Start Date"
+msgstr "Start Date"
+
+#: core/views/arm_dd_downloads_records.php:327
+#: core/views/arm_dd_downloads_records.php:331
+#@ ARM_DD
+msgid "Select Date"
+msgstr "Select Date"
+
+#: core/views/arm_dd_downloads_records.php:330
+#@ ARM_DD
+msgid "End Date"
+msgstr "End Date"
+
+#: core/views/arm_dd_downloads_records.php:341
+#: core/views/arm_dd_items_records.php:239
+#@ ARM_DD
+msgid "Apply"
+msgstr "Apply"
+
+#: core/views/arm_dd_downloads_records.php:343
+#@ ARM_DD
+msgid "Export To CSV"
+msgstr "Export To CSV"
+
+#: core/views/arm_dd_downloads_records.php:368
+#: core/views/arm_dd_items_records.php:220
+#: core/views/arm_dd_items_records.php:262
+#@ ARM_DD
+msgid "Search"
+msgstr "Search"
+
+#: core/views/arm_dd_downloads_records.php:369
+#@ ARM_DD
+msgid "download"
+msgstr "download"
+
+#: core/views/arm_dd_downloads_records.php:370
+#: core/views/arm_dd_items_records.php:264
+#@ ARM_DD
+msgid "Show"
+msgstr "Show"
+
+#: core/views/arm_dd_downloads_records.php:371
+#: core/views/arm_dd_items_records.php:265
+#@ ARM_DD
+msgid "Showing"
+msgstr "Showing"
+
+#: core/views/arm_dd_downloads_records.php:372
+#: core/views/arm_dd_items_records.php:266
+#@ ARM_DD
+msgid "to"
+msgstr "to"
+
+#: core/views/arm_dd_downloads_records.php:373
+#: core/views/arm_dd_items_records.php:267
+#@ ARM_DD
+msgid "of"
+msgstr "of"
+
+#: core/views/arm_dd_downloads_records.php:374
+#@ ARM_DD
+msgid "No matching download hitory found."
+msgstr "No matching download hitory found."
+
+#: core/views/arm_dd_downloads_records.php:375
+#@ ARM_DD
+msgid "No any download history found."
+msgstr "No any download history found."
+
+#: core/views/arm_dd_downloads_records.php:376
+#: core/views/arm_dd_items_records.php:270
+#@ ARM_DD
+msgid "filtered from"
+msgstr "filtered from"
+
+#: core/views/arm_dd_downloads_records.php:377
+#: core/views/arm_dd_items_records.php:271
+#@ ARM_DD
+msgid "total"
+msgstr "total"
+
+#: core/views/arm_dd_items.php:20
+#@ ARM_DD
+msgid "Manage Download Items"
+msgstr "Manage Download Items"
+
+#: core/views/arm_dd_items.php:24
+#@ ARM_DD
+msgid "Add Download Item"
+msgstr "Add Download Item"
+
+#: core/views/arm_dd_items.php:43
+#@ ARM_DD
+msgid "Are you sure you want to delete this item(s)?"
+msgstr "Are you sure you want to delete this item(s)?"
+
+#: core/views/arm_dd_items.php:48
+#@ ARM_DD
+msgid "Delete Item(s)"
+msgstr "Delete Item(s)"
+
+#: core/views/arm_dd_items_add.php:24
+#@ ARM_DD
+msgid "Add New Download"
+msgstr "Add New Download"
+
+#: core/views/arm_dd_items_add.php:50
+#@ ARM_DD
+msgid "Update Download"
+msgstr "Update Download"
+
+#: core/views/arm_dd_items.php:6
+#: core/views/arm_dd_items_add.php:147
+#@ ARM_DD
+msgid "Allowed User"
+msgstr "Allowed User"
+
+#: core/views/arm_dd_items.php:7
+#: core/views/arm_dd_items_add.php:148
+#@ ARM_DD
+msgid "Denied User"
+msgstr "Denied User"
+
+#: core/views/arm_dd_items_add.php:188
+#@ ARM_DD
+msgid "Name can not be left blank."
+msgstr "Name can not be left blank."
+
+#: core/classes/class.arm_dd_items.php:425
+#: core/views/arm_dd_items_add.php:195
+#@ ARM_DD
+msgid "Description"
+msgstr "Description"
+
+#: core/views/arm_dd_items.php:121
+#: core/views/arm_dd_items_add.php:213
+#@ ARM_DD
+msgid "Upload File"
+msgstr "Upload File"
+
+#: core/views/arm_dd_items_add.php:216
+#@ ARM_DD
+msgid "Use External URL"
+msgstr "Use External URL"
+
+#: core/views/arm_dd_items_add.php:257
+#@ ARM_DD
+msgid "Download File"
+msgstr "Download File"
+
+#: core/views/arm_dd_items_add.php:267
+#@ ARM_DD
+msgid "Please select Download file."
+msgstr "Please select Download file."
+
+#: core/views/arm_dd_items_add.php:282
+#@ ARM_DD
+msgid "Download URL"
+msgstr "Download URL"
+
+#: core/views/arm_dd_items_add.php:286
+#@ ARM_DD
+msgid "Download URL can not be left blank."
+msgstr "Download URL can not be left blank."
+
+#: core/views/arm_dd_items.php:158
+#: core/views/arm_dd_items_add.php:320
+#@ ARM_DD
+msgid "Restriction User"
+msgstr "Restriction User"
+
+#: core/views/arm_dd_items.php:179
+#: core/views/arm_dd_items_add.php:341
+#: core/views/arm_dd_settings.php:114
+#@ ARM_DD
+msgid "Please select user."
+msgstr "Please select user."
+
+#: core/views/arm_dd_items.php:187
+#: core/views/arm_dd_items_add.php:370
+#@ ARM_DD
+msgid "Allowed Plan"
+msgstr "Allowed Plan"
+
+#: core/views/arm_dd_items.php:191
+#: core/views/arm_dd_items_add.php:374
+#@ ARM_DD
+msgid "Please select plan."
+msgstr "Please select plan."
+
+#: core/views/arm_dd_items.php:191
+#: core/views/arm_dd_items_add.php:374
+#@ ARM_DD
+msgid "Select User Plan(s).."
+msgstr "Select User Plan(s).."
+
+#: core/views/arm_dd_items.php:203
+#: core/views/arm_dd_items_add.php:391
+#: core/views/arm_dd_settings.php:167
+#@ ARM_DD
+msgid "No Plan(s) Available"
+msgstr "No Plan(s) Available"
+
+#: core/views/arm_dd_items.php:212
+#: core/views/arm_dd_items_add.php:400
+#@ ARM_DD
+msgid "Allowed Role"
+msgstr "Allowed Role"
+
+#: core/views/arm_dd_items.php:216
+#: core/views/arm_dd_items_add.php:404
+#@ ARM_DD
+msgid "Please select role."
+msgstr "Please select role."
+
+#: core/views/arm_dd_items.php:216
+#: core/views/arm_dd_items_add.php:404
+#@ ARM_DD
+msgid "Select User Role(s).."
+msgstr "Select User Role(s).."
+
+#: core/views/arm_dd_items.php:225
+#: core/views/arm_dd_items_add.php:420
+#@ ARM_DD
+msgid "No Role(s) Available"
+msgstr "No Role(s) Available"
+
+#: core/classes/class.arm_dd_items.php:437
+#: core/views/arm_dd_items_add.php:429
+#@ ARM_DD
+msgid "Tag"
+msgstr "Tag"
+
+#: core/views/arm_dd_items_add.php:485
+#: core/views/arm_dd_settings.php:257
+#@ ARM_DD
+msgid "Save"
+msgstr "Save"
+
+#: core/views/arm_dd_items_records.php:263
+#@ ARM_DD
+msgid "item"
+msgstr "item"
+
+#: core/views/arm_dd_items_records.php:268
+#@ ARM_DD
+msgid "No matching item found."
+msgstr "No matching item found."
+
+#: core/views/arm_dd_items_records.php:269
+#@ ARM_DD
+msgid "No any item found."
+msgstr "No any item found."
+
+#: core/views/arm_dd_settings.php:49
+#@ ARM_DD
+msgid "Prevent hotlinking"
+msgstr "Prevent hotlinking"
+
+#: core/views/arm_dd_settings.php:62
+#@ ARM_DD
+msgid "Enable open file in browser"
+msgstr "Enable open file in browser"
+
+#: core/views/arm_dd_settings.php:104
+#@ ARM_DD
+msgid "General Restriction Option"
+msgstr "General Restriction Option"
+
+#: core/views/arm_dd_settings.php:110
+#@ ARM_DD
+msgid "Block users for download"
+msgstr "Block users for download"
+
+#: core/views/arm_dd_settings.php:140
+#@ ARM_DD
+msgid "Plan wise block download"
+msgstr "Plan wise block download"
+
+#: core/views/arm_dd_settings.php:144
+#@ ARM_DD
+msgid "Please select plans."
+msgstr "Please select plans."
+
+#: core/views/arm_dd_settings.php:144
+#@ ARM_DD
+msgid "Select Plan(s).."
+msgstr "Select Plan(s).."
+
+#: core/views/arm_dd_settings.php:175
+#@ ARM_DD
+msgid "Block IP download"
+msgstr "Block IP download"
+
+#: core/views/arm_dd_settings.php:176
+#@ ARM_DD
+msgid "Those IP Address(es) which are entered here, will not be able to download the file. Please note that IP address should exact match. For example, 0.0.0.1 will be banned if and only if IP address will exact match with user's IP address."
+msgstr "Those IP Address(es) which are entered here, will not be able to download the file. Please note that IP address should exact match. For example, 0.0.0.1 will be banned if and only if IP address will exact match with user's IP address."
+
+#: core/views/arm_dd_settings.php:190
+#@ ARM_DD
+msgid "Download File Limit"
+msgstr "Download File Limit"
+
+#: core/views/arm_dd_settings.php:191
+#@ ARM_DD
+msgid "Only this many unique downloads will be permitted every X day(s). Repeated downloads of the same exact file are NOT tabulated against the total."
+msgstr "Only this many unique downloads will be permitted every X day(s). Repeated downloads of the same exact file are NOT tabulated against the total."
+
+#: core/widgets/class.arm_dd_tag_widgets.php:10
+#@ ARM_DD
+msgid "ARMember Download Tags"
+msgstr "ARMember Download Tags"
+
+#: core/widgets/class.arm_dd_tag_widgets.php:11
+#@ ARM_DD
+msgid "Download Items Tag wise"
+msgstr "Download Items Tag wise"
+
+#: core/widgets/class.arm_dd_tag_widgets.php:42
+#@ ARM_DD
+msgid "Sorry, No any downloads found for"
+msgstr "Sorry, No any downloads found for"
+
+#: core/widgets/class.arm_dd_tag_widgets.php:101
+#@ ARM_DD
+msgid "Download Tags"
+msgstr "Download Tags"
+
+#: core/widgets/class.arm_dd_tag_widgets.php:105
+#@ ARM_DD
+msgid "Title"
+msgstr "Title"
+
+#: core/widgets/class.arm_dd_tag_widgets.php:109
+#@ ARM_DD
+msgid "Total Records To Display"
+msgstr "Total Records To Display"
+
+#: armemberdigitaldownload.php:750
+#@ ARM_DD
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armemberdigitaldownload.php:755
+#@ ARM_DD
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: core/classes/class.arm_dd_layout.php:142
+#: core/classes/class.arm_dd_layout.php:186
+#@ ARM_DD
+msgid "Downloads"
+msgstr "Downloads"
+
+#: core/views/arm_dd_items_add.php:441
+#@ ARM_DD
+msgid "Message for restricted users"
+msgstr "Message for restricted users"
+
+#: core/views/arm_dd_settings.php:36
+#@ ARM_DD
+msgid "Count only unique IP address"
+msgstr "Count only unique IP address"
+
+#: core/views/arm_dd_settings.php:37
+#@ ARM_DD
+msgid "If enabled, then same exact file, by same member will not be counted again in total no of downloads."
+msgstr "If enabled, then same exact file, by same member will not be counted again in total no of downloads."
+
+#: core/views/arm_dd_settings.php:50
+#@ ARM_DD
+msgid "If enabled, then download handler will check for PHP referer to see if it originated from your site and if not, redirect them to the homepage."
+msgstr "If enabled, then download handler will check for PHP referer to see if it originated from your site and if not, redirect them to the homepage."
+
+#: core/views/arm_dd_settings.php:75
+#@ ARM_DD
+msgid "Download multiple files as ZIP"
+msgstr "Download multiple files as ZIP"
+
+#: core/views/arm_dd_settings.php:76
+#@ ARM_DD
+msgid "If enabled, then mulitple files will be download in ZIP extenstion."
+msgstr "If enabled, then mulitple files will be download in ZIP extenstion."
+
+#: core/views/arm_dd_settings.php:88
+#@ ARM_DD
+msgid "Email to administrator when user download"
+msgstr "Email to administrator when user download"
+
+#: core/views/arm_dd_settings.php:89
+#@ ARM_DD
+msgid "If enabled, then administator user will get email notification of download detail, when any user download files."
+msgstr "If enabled, then administator user will get email notification of download detail, when any user download files."
+
+#: core/views/arm_dd_settings.php:111
+#@ ARM_DD
+msgid "Selected users will not able to download the file."
+msgstr "Selected users will not able to download the file."
+
+#: core/views/arm_dd_settings.php:141
+#@ ARM_DD
+msgid "Selected plan users are not able to download the file."
+msgstr "Selected plan users are not able to download the file."
+
+#: core/views/arm_dd_settings.php:153
+#@ ARM_DD
+msgid "User having no plan"
+msgstr "User having no plan"
+
+#: core/views/arm_dd_settings.php:196
+#@ ARM_DD
+msgid "Users having <b>no</b> plan can download maximum"
+msgstr "Users having <b>no</b> plan can download maximum"
+
+#: core/views/arm_dd_settings.php:226
+#@ ARM_DD
+msgid " plan can download maximum"
+msgstr " plan can download maximum"
+
+#: core/views/arm_dd_settings.php:203
+#: core/views/arm_dd_settings.php:231
+#@ ARM_DD
+msgid " no of files per"
+msgstr " no of files per"
+
+#: core/views/arm_dd_settings.php:224
+#@ ARM_DD
+msgid "Users having"
+msgstr "Users having"
+
+#: core/classes/class.arm_dd_items.php:109
+#: core/classes/class.arm_dd_items.php:375
+#@ ARM_DD
+msgid "downloads(s) has been imported successfully"
+msgstr "downloads(s) has been imported successfully"
+
+#: core/classes/class.arm_dd_items.php:113
+#@ ARM_DD
+msgid "All Downloaded Items"
+msgstr "All Downloaded Items"
+
+#: core/classes/class.arm_dd_items.php:129
+#@ ARM_DD
+msgid "Not Downloaded Items"
+msgstr "Not Downloaded Items"
+
+#: core/classes/class.arm_dd_items.php:277
+#: core/classes/class.arm_dd_items.php:338
+#@ ARM_DD
+msgid "This File is restricted"
+msgstr "This File is restricted"
+
+#: core/classes/class.arm_dd_items.php:366
+#@ ARM_DD
+msgid "No download was imported, please check the file."
+msgstr "No download was imported, please check the file."
+
+#: core/classes/class.arm_dd_items.php:386
+#@ ARM_DD
+msgid "No download was imported."
+msgstr "No download was imported."
+
+#: core/classes/class.arm_dd_items.php:422
+#@ ARM_DD
+msgid "Download Name"
+msgstr "Download Name"
+
+#: core/classes/class.arm_dd_items.php:428
+#@ ARM_DD
+msgid "File Name"
+msgstr "File Name"
+
+#: core/classes/class.arm_dd_items.php:431
+#@ ARM_DD
+msgid "URL"
+msgstr "URL"
+
+#: core/classes/class.arm_dd_items.php:440
+#@ ARM_DD
+msgid "Message"
+msgstr "Message"
+
+#: core/classes/class.arm_dd_items.php:461
+#: core/classes/class.arm_dd_items.php:594
+#@ ARM_DD
+msgid "Error during file upload."
+msgstr "Error during file upload."
+
+#: core/classes/class.arm_dd_items.php:571
+#@ ARM_DD
+msgid "Sorry, something went wrong."
+msgstr "Sorry, something went wrong."
+
+#: core/views/arm_dd_items.php:28
+#@ ARM_DD
+msgid "Bulk Import"
+msgstr "Bulk Import"
+
+#: core/views/arm_dd_items.php:65
+#: core/views/arm_dd_items.php:98
+#: core/views/arm_dd_items.php:115
+#@ ARM_DD
+msgid "Import Download Items"
+msgstr "Import Download Items"
+
+#: core/views/arm_dd_items.php:69
+#: core/views/arm_dd_items.php:254
+#@ ARM_DD
+msgid "Processing"
+msgstr "v"
+
+#: core/views/arm_dd_items.php:80
+#@ ARM_DD
+msgid "Previous"
+msgstr "Previous"
+
+#: core/views/arm_dd_items.php:81
+#@ ARM_DD
+msgid "Confirm"
+msgstr "Confirm"
+
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:131
+#: core/views/arm_dd_items.php:82
+#@ ARM_DD
+msgid "Cancel"
+msgstr "Cancel"
+
+#: core/views/arm_dd_items.php:123
+#@ ARM_DD
+msgid "Please select a file."
+msgstr "Please select a file."
+
+#: core/views/arm_dd_items.php:125
+#@ ARM_DD
+msgid "Only .csv file allowed."
+msgstr "Only .csv file allowed."
+
+#: core/views/arm_dd_items.php:126
+#@ ARM_DD
+msgid "CSV file must contain at max 100 records."
+msgstr "CSV file must contain at max 100 records."
+
+#: core/views/arm_dd_items.php:175
+#@ ARM_DD
+msgid "Select User"
+msgstr "Select User"
+
+#: core/views/arm_dd_items.php:234
+#@ ARM_DD
+msgid "Import"
+msgstr "Import"
+
+#: core/views/arm_dd_items.php:241
+#@ ARM_DD
+msgid "Please download sample csv"
+msgstr "Please download sample csv"
+
+#: core/views/arm_dd_items.php:241
+#@ ARM_DD
+msgid "here"
+msgstr "here"
+
+#: core/views/arm_dd_items.php:255
+#@ ARM_DD
+msgid "Uploaded CSV file contain more than 100 records. You can import only 100 records at a time."
+msgstr "Uploaded CSV file contain more than 100 records. You can import only 100 records at a time."
+
+#: core/views/arm_dd_items.php:256
+#@ ARM_DD
+msgid "Uploaded CSV file must contain non empty file_url fields."
+msgstr "Uploaded CSV file must contain non empty file_url fields."
+
+#: core/classes/class.arm_dd_items.php:1120
+#: core/views/arm_dd_items_records.php:13
+#@ ARM_DD
+msgid "No. Of Downloads"
+msgstr "No. Of Downloads"
+
+#: armemberdigitaldownload.php:371
+#@ ARM_DD
+msgid "ARMember - Digital Download plugin requires ARMember plugin installed with version 3.2 or higher."
+msgstr "ARMember - Digital Download plugin requires ARMember plugin installed with version 3.2 or higher."
+
+#: core/classes/class.arm_dd_downloads.php:43
+#: core/classes/class.arm_dd_items.php:1116
+#: core/views/arm_dd_downloads_records.php:13
+#: core/views/arm_dd_items_records.php:9
+#@ ARM_DD
+msgid "ID"
+msgstr "ID"
+
+#: core/views/arm_dd_downloads_records.php:338
+#@ ARM_DD
+msgid "Search By Download Items"
+msgstr "Search By Download Items"
+
+#: core/views/arm_dd_items.php:179
+#: core/views/arm_dd_items_add.php:341
+#: core/views/arm_dd_settings.php:114
+#@ ARM_DD
+msgid "Search by username or email..."
+msgstr "Search by username or email..."
+
+#: core/views/arm_dd_items_add.php:451
+#@ ARM_DD
+msgid "Download count"
+msgstr "Download count"
+
+#: core/views/arm_dd_settings.php:63
+#@ ARM_DD
+msgid "If enabled, then downloaded file will open in browser (htm, html, pdf, jpg, jpeg, jpe, gif, png, mp3, mp4, ogg, webm)."
+msgstr "If enabled, then downloaded file will open in browser (htm, html, pdf, jpg, jpeg, jpe, gif, png, mp3, mp4, ogg, webm)."
+
+#: core/classes/class.arm_dd_items.php:434
+#: core/views/arm_dd_items_records.php:15
+#@ ARM_DD
+msgid "Access"
+msgstr "Access"
+
+#: core/classes/class.arm_dd_items.php:434
+#: core/views/arm_dd_items_records.php:15
+#@ ARM_DD
+msgid "(Enable/Disable)"
+msgstr "(Enable/Disable)"
+
+#: core/classes/class.arm_dd_items.php:643
+#: core/classes/class.arm_dd_items.php:810
+#: core/views/arm_dd_items_add.php:116
+#@ ARM_DD
+msgid "Remove Download Item"
+msgstr "Remove Download Item"
+
+#: core/classes/class.arm_dd_items.php:1122
+#: core/views/arm_dd_items_records.php:223
+#@ ARM_DD
+msgid "Access (Enable/Disable)"
+msgstr "Access (Enable/Disable)"
+
+#: core/classes/class.arm_dd_items.php:1241
+#: core/classes/class.arm_dd_items.php:1563
+#: core/views/arm_dd_items_add.php:498
+#: core/views/arm_dd_items_records.php:281
+#@ ARM_DD
+msgid "Generate Shortcode"
+msgstr "Generate Shortcode"
+
+#: core/classes/class.arm_dd_items.php:1566
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:53
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:60
+#@ ARM_DD
+msgid "Select Type"
+msgstr "Select Type"
+
+#: core/classes/class.arm_dd_items.php:1567
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:62
+#@ ARM_DD
+msgid "Link"
+msgstr "Link"
+
+#: core/classes/class.arm_dd_items.php:1568
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:64
+#@ ARM_DD
+msgid "Button"
+msgstr "Button"
+
+#: core/classes/class.arm_dd_items.php:1569
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:71
+#@ ARM_DD
+msgid "Display Description"
+msgstr "Display Description"
+
+#: core/classes/class.arm_dd_items.php:1570
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:85
+#@ ARM_DD
+msgid "Display File Size"
+msgstr "Display File Size"
+
+#: core/classes/class.arm_dd_items.php:1571
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:99
+#@ ARM_DD
+msgid "Display Download Count"
+msgstr "Display Download Count"
+
+#: core/classes/class.arm_dd_items.php:1572
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:112
+#@ ARM_DD
+msgid "Custom Css"
+msgstr "Custom Css"
+
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:19
+#@ ARM_DD
+msgid "Digital Download"
+msgstr "Digital Download"
+
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:34
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:41
+#@ ARM_DD
+msgid "Select Download"
+msgstr "Select Download"
+
+#: core/classes/class.arm_dd_tinymce_options_shortcode.php:130
+#@ ARM_DD
+msgid "Add Shortcode"
+msgstr "Add Shortcode"
+
+#: core/views/arm_dd_items_records.php:228
+#: core/views/arm_dd_items_records.php:229
+#@ ARM_DD
+msgid "Select Access"
+msgstr "Select Access"
+
+#: core/views/arm_dd_items_records.php:230
+#@ ARM_DD
+msgid "Enable"
+msgstr "Enable"
+
+#: core/views/arm_dd_items_records.php:231
+#@ ARM_DD
+msgid "Disable"
+msgstr "Disable"
+
+#: core/classes/class.arm_dd_items.php:1260
+#@ ARM_DD
+msgid "Copy link to clipboard"
+msgstr "Copy link to clipboard"
+
+#: core/views/arm_dd_items_add.php:455
+#@ ARM_DD
+msgid "optional"
+msgstr "optional"
+

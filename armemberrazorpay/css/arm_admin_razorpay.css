@@ -1,0 +1,44 @@
+.arm_razorpay_plan_container {
+    margin: 15px 0 0;
+    padding: 0;
+    display: none;
+    max-width: 90%;
+    width: 85%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.arm_razorpay_plan_container h4 {
+    margin: 5px 0;
+}
+
+.arm_razorpay_plan_container label {
+    display: inline-block;
+    padding: 1px 10px;
+    width: 100%;
+}
+
+.arm_razorpay_plan_container label span {
+    display: inline-block;
+    width: 100%;
+}
+
+.arm_razorpay_plan_container .arm_razorpay_planid_warning {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    line-height: normal;
+    padding: 0;
+}
+
+.arm_razorpay_plan_container label.arm_razorpay_plans input {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.arm_razorpay_plan_class {
+    font-style: italic;
+    font-weight: bold;
+}

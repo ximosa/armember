@@ -1,0 +1,2111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Social Community Addon v1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-08-06 12:08:19+0000\n"
+"Last-Translator: admin <test@test.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armembercommunity.php:186
+#: core/classes/class.arm_community_settings.php:39
+#@ ARM_COMMUNITY
+msgid "Send Friend Request"
+msgstr "Send Friend Request"
+
+#: core/classes/class.arm_community_activity.php:442
+#: core/classes/class.arm_community_follow.php:247
+#: core/classes/class.arm_community_friendship.php:115
+#: core/classes/class.arm_community_friendship.php:451
+#: core/classes/class.arm_community_friendship.php:592
+#: core/classes/class.arm_community_friendship.php:620
+#: core/classes/class.arm_community_post.php:121
+#: core/classes/class.arm_community_post.php:369
+#: core/classes/class.arm_community_post.php:414
+#: core/classes/class.arm_community_post.php:416
+#: core/classes/class.arm_community_post.php:1285
+#: core/classes/class.arm_community_review.php:715
+#: core/classes/class.arm_community_settings.php:40
+#@ ARM_COMMUNITY
+msgid "Cancel"
+msgstr "Cancel"
+
+#: core/classes/class.arm_community_settings.php:41
+#@ ARM_COMMUNITY
+msgid "Accept"
+msgstr "Accept"
+
+#: armembercommunity.php:189
+#: core/classes/class.arm_community_friendship.php:113
+#: core/classes/class.arm_community_friendship.php:449
+#: core/classes/class.arm_community_friendship.php:602
+#: core/classes/class.arm_community_settings.php:26
+#: core/classes/class.arm_community_settings.php:42
+#@ ARM_COMMUNITY
+msgid "Unfriend"
+msgstr "Unfriend"
+
+#: armembercommunity.php:190
+#: core/classes/class.arm_community_settings.php:43
+#@ ARM_COMMUNITY
+msgid "Current Friends"
+msgstr "Current Friends"
+
+#: armembercommunity.php:191
+#: core/classes/class.arm_community_settings.php:44
+#@ ARM_COMMUNITY
+msgid "Friend Requests"
+msgstr "Friend Requests"
+
+#: armembercommunity.php:196
+#: core/classes/class.arm_community_settings.php:60
+#@ ARM_COMMUNITY
+msgid "Follow"
+msgstr "Follow"
+
+#: armembercommunity.php:197
+#: core/classes/class.arm_community_follow.php:244
+#: core/classes/class.arm_community_settings.php:15
+#: core/classes/class.arm_community_settings.php:16
+#: core/classes/class.arm_community_settings.php:17
+#: core/classes/class.arm_community_settings.php:61
+#@ ARM_COMMUNITY
+msgid "Unfollow"
+msgstr "Unfollow"
+
+#: armembercommunity.php:198
+#: core/classes/class.arm_community_follow.php:102
+#: core/classes/class.arm_community_settings.php:62
+#@ ARM_COMMUNITY
+msgid "Followers"
+msgstr "Followers"
+
+#: armembercommunity.php:199
+#: core/classes/class.arm_community_settings.php:63
+#@ ARM_COMMUNITY
+msgid "Followings"
+msgstr "Followings"
+
+#: armembercommunity.php:469
+#: core/classes/class.arm_community_activity.php:511
+#: core/classes/class.arm_community_message.php:1203
+#: core/classes/class.arm_community_post.php:179
+#: core/classes/class.arm_community_review.php:773
+#: core/classes/class.arm_community_review.php:845
+#: core/classes/class.arm_community_review.php:875
+#@ ARM_COMMUNITY
+msgid "Please select one or more records."
+msgstr "Please select one or more records."
+
+#: armembercommunity.php:470
+#: core/classes/class.arm_community_activity.php:514
+#: core/classes/class.arm_community_message.php:1206
+#: core/classes/class.arm_community_post.php:182
+#: core/classes/class.arm_community_review.php:780
+#@ ARM_COMMUNITY
+msgid "Please select valid action."
+msgstr "Please select valid action."
+
+#: armembercommunity.php:471
+#@ ARM_COMMUNITY
+msgid "Settings has been saved successfully."
+msgstr "Settings has been saved successfully."
+
+#: armembercommunity.php:472
+#@ ARM_COMMUNITY
+msgid "There is a error while updating settings, please try again."
+msgstr "There is a error while updating settings, please try again."
+
+#: armembercommunity.php:547
+#: armembercommunity.php:548
+#: core/classes/class.arm_community_profile.php:420
+#: core/view/arm_community_settings.php:64
+#@ ARM_COMMUNITY
+msgid "Community Settings"
+msgstr "Community Settings"
+
+#: armembercommunity.php:552
+#: armembercommunity.php:553
+#: core/classes/class.arm_community_settings.php:232
+#@ ARM_COMMUNITY
+msgid "Community Activities"
+msgstr "Community Activities"
+
+#: armembercommunity.php:606
+#@ ARM_COMMUNITY
+msgid "To Display Sender username"
+msgstr "To Display Sender username"
+
+#: armembercommunity.php:608
+#@ ARM_COMMUNITY
+msgid "Sender Username"
+msgstr "Sender Username"
+
+#: armembercommunity.php:612
+#@ ARM_COMMUNITY
+msgid "To Display Sender First Name"
+msgstr "To Display Sender First Name"
+
+#: armembercommunity.php:614
+#@ ARM_COMMUNITY
+msgid "Sender First Name"
+msgstr "Sender First Name"
+
+#: armembercommunity.php:618
+#@ ARM_COMMUNITY
+msgid "To Display Sender Last Name"
+msgstr "To Display Sender Last Name"
+
+#: armembercommunity.php:620
+#@ ARM_COMMUNITY
+msgid "Sender Last Name"
+msgstr "Sender Last Name"
+
+#: armembercommunity.php:624
+#@ ARM_COMMUNITY
+msgid "To Display Sender User ID"
+msgstr "To Display Sender User ID"
+
+#: armembercommunity.php:626
+#@ ARM_COMMUNITY
+msgid "Sender User ID"
+msgstr "Sender User ID"
+
+#: armembercommunity.php:630
+#@ ARM_COMMUNITY
+msgid "To Display Sender Nice Name"
+msgstr "To Display Sender Nice Name"
+
+#: armembercommunity.php:632
+#@ ARM_COMMUNITY
+msgid "Sender Nice Name"
+msgstr "Sender Nice Name"
+
+#: armembercommunity.php:636
+#@ ARM_COMMUNITY
+msgid "To Display Sender Display Name"
+msgstr "To Display Sender Display Name"
+
+#: armembercommunity.php:638
+#@ ARM_COMMUNITY
+msgid "Sender Display Name"
+msgstr "Sender Display Name"
+
+#: armembercommunity.php:642
+#@ ARM_COMMUNITY
+msgid "To Display Sender Email Address"
+msgstr "To Display Sender Email Address"
+
+#: armembercommunity.php:644
+#@ ARM_COMMUNITY
+msgid "Sender Email Address"
+msgstr "Sender Email Address"
+
+#: armembercommunity.php:648
+#@ ARM_COMMUNITY
+msgid "To Display Sender Profile Link"
+msgstr "To Display Sender Profile Link"
+
+#: armembercommunity.php:650
+#@ ARM_COMMUNITY
+msgid "Sender Profile Link"
+msgstr "Sender Profile Link"
+
+#: armembercommunity.php:654
+#@ ARM_COMMUNITY
+msgid "To Display Sender's meta field value. (Where `meta_key` is meta field name.)"
+msgstr "To Display Sender's meta field value. (Where `meta_key` is meta field name.)"
+
+#: armembercommunity.php:656
+#@ ARM_COMMUNITY
+msgid "Sender Meta Key"
+msgstr "Sender Meta Key"
+
+#: core/classes/class.arm_community_activity.php:40
+#: core/classes/class.arm_community_profile.php:775
+#@ ARM_COMMUNITY
+msgid "Listing"
+msgstr "Listing"
+
+#: core/classes/class.arm_community_activity.php:40
+#@ ARM_COMMUNITY
+msgid "Activity Listing"
+msgstr "Activity Listing"
+
+#: core/classes/class.arm_community_activity.php:65
+#: core/classes/class.arm_community_activity.php:74
+#: core/classes/class.arm_community_activity.php:83
+#: core/classes/class.arm_community_activity.php:90
+#: core/classes/class.arm_community_post.php:448
+#: core/classes/class.arm_community_post.php:1051
+#@ ARM_COMMUNITY
+msgid "This is my first title"
+msgstr "This is my first title"
+
+#: core/classes/class.arm_community_activity.php:91
+#: core/classes/class.arm_community_message.php:785
+#: core/classes/class.arm_community_message.php:803
+#: core/classes/class.arm_community_message.php:874
+#: core/classes/class.arm_community_message.php:892
+#: core/classes/class.arm_community_post.php:449
+#: core/classes/class.arm_community_post.php:457
+#: core/classes/class.arm_community_post.php:1052
+#: core/classes/class.arm_community_post.php:1058
+#@ ARM_COMMUNITY
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+msgstr "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+#: core/classes/class.arm_community_activity.php:112
+#: core/classes/class.arm_community_activity.php:113
+#: core/classes/class.arm_community_friendship.php:303
+#: core/classes/class.arm_community_friendship.php:305
+#: core/classes/class.arm_community_friendship.php:360
+#: core/classes/class.arm_community_friendship.php:362
+#: core/classes/class.arm_community_message.php:1019
+#: core/classes/class.arm_community_post.php:489
+#: core/classes/class.arm_community_post.php:490
+#: core/classes/class.arm_community_post.php:983
+#: core/classes/class.arm_community_post.php:1105
+#: core/classes/class.arm_community_post.php:1106
+#: core/classes/class.arm_community_review.php:535
+#: core/classes/class.arm_community_review.php:537
+#@ ARM_COMMUNITY
+msgid "Load More"
+msgstr "Load More"
+
+#: core/classes/class.arm_community_activity.php:147
+#: core/classes/class.arm_community_activity.php:159
+#: core/classes/class.arm_community_activity.php:171
+#: core/classes/class.arm_community_activity.php:180
+#: core/classes/class.arm_community_activity.php:190
+#: core/classes/class.arm_community_activity.php:211
+#: core/classes/class.arm_community_activity.php:221
+#: core/classes/class.arm_community_activity.php:231
+#: core/classes/class.arm_community_activity.php:241
+#: core/classes/class.arm_community_activity.php:251
+#: core/classes/class.arm_community_activity.php:261
+#: core/classes/class.arm_community_activity.php:271
+#@ ARM_COMMUNITY
+msgid "at"
+msgstr "at"
+
+#: core/classes/class.arm_community_activity.php:312
+#: core/classes/class.arm_community_post.php:1199
+#: core/classes/class.arm_community_profile.php:612
+#: core/classes/class.arm_community_profile.php:732
+#: core/classes/class.arm_community_settings.php:80
+#: core/view/arm_community_settings.php:49
+#@ ARM_COMMUNITY
+msgid "News Feed"
+msgstr "News Feed"
+
+#: core/classes/class.arm_community_activity.php:315
+#: core/classes/class.arm_community_post.php:583
+#: core/classes/class.arm_community_post.php:1202
+#: core/classes/class.arm_community_review.php:225
+#: core/classes/class.arm_community_review.php:244
+#@ ARM_COMMUNITY
+msgid "No"
+msgstr "No"
+
+#: core/classes/class.arm_community_activity.php:315
+#: core/classes/class.arm_community_post.php:583
+#: core/classes/class.arm_community_review.php:225
+#: core/classes/class.arm_community_review.php:244
+#@ ARM_COMMUNITY
+msgid "found."
+msgstr "found."
+
+#: core/classes/class.arm_community_activity.php:341
+#: core/view/arm_com_activity_list_records.php:5
+#@ ARM_COMMUNITY
+msgid "User"
+msgstr "User"
+
+#: core/classes/class.arm_community_activity.php:342
+#: core/classes/class.arm_community_profile.php:648
+#: core/classes/class.arm_community_settings.php:79
+#: core/view/arm_com_activity_list_records.php:6
+#: core/view/arm_community_settings.php:48
+#@ ARM_COMMUNITY
+msgid "Activity"
+msgstr "Activity"
+
+#: core/classes/class.arm_community_activity.php:343
+#: core/view/arm_com_activity_list_records.php:7
+#@ ARM_COMMUNITY
+msgid "Action"
+msgstr "Action"
+
+#: core/classes/class.arm_community_activity.php:344
+#: core/classes/class.arm_community_post.php:56
+#: core/classes/class.arm_community_review.php:650
+#: core/view/arm_com_activity_list_records.php:8
+#: core/view/arm_com_post_list_records.php:7
+#: core/view/arm_com_review_list_records.php:9
+#@ ARM_COMMUNITY
+msgid "Date"
+msgstr "Date"
+
+#: core/classes/class.arm_community_activity.php:411
+#@ ARM_COMMUNITY
+msgid "Post Deleted"
+msgstr "Post Deleted"
+
+#: core/classes/class.arm_community_activity.php:423
+#@ ARM_COMMUNITY
+msgid "User Deleted"
+msgstr "User Deleted"
+
+#: core/classes/class.arm_community_activity.php:434
+#: core/classes/class.arm_community_post.php:1280
+#@ ARM_COMMUNITY
+msgid "Spam"
+msgstr "Spam"
+
+#: core/classes/class.arm_community_activity.php:437
+#: core/classes/class.arm_community_post.php:1277
+#@ ARM_COMMUNITY
+msgid "Unspam"
+msgstr "Unspam"
+
+#: core/classes/class.arm_community_activity.php:440
+#: core/classes/class.arm_community_activity.php:442
+#: core/classes/class.arm_community_post.php:119
+#: core/classes/class.arm_community_post.php:121
+#: core/classes/class.arm_community_post.php:414
+#: core/classes/class.arm_community_post.php:416
+#: core/classes/class.arm_community_post.php:1283
+#: core/classes/class.arm_community_post.php:1285
+#: core/classes/class.arm_community_review.php:715
+#: core/view/arm_com_activity_list_records.php:170
+#: core/view/arm_com_activity_list_records.php:188
+#: core/view/arm_com_post_list_records.php:174
+#: core/view/arm_com_post_list_records.php:193
+#: core/view/arm_com_review_list_records.php:188
+#: core/view/arm_com_review_list_records.php:209
+#@ ARM_COMMUNITY
+msgid "Delete"
+msgstr "Delete"
+
+#: core/classes/class.arm_community_activity.php:442
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to delete this activity?"
+msgstr "Are you sure you want to delete this activity?"
+
+#: core/classes/class.arm_community_activity.php:486
+#: core/classes/class.arm_community_post.php:152
+#: core/classes/class.arm_community_review.php:748
+#@ ARM_COMMUNITY
+msgid "Record is deleted successfully."
+msgstr "Record is deleted successfully."
+
+#: core/classes/class.arm_community_activity.php:488
+#: core/classes/class.arm_community_post.php:155
+#: core/classes/class.arm_community_review.php:750
+#@ ARM_COMMUNITY
+msgid "Sorry, You do not have permission to perform this action."
+msgstr "Sorry, You do not have permission to perform this action."
+
+#: core/classes/class.arm_community_activity.php:491
+#: core/classes/class.arm_community_post.php:159
+#: core/classes/class.arm_community_review.php:753
+#@ ARM_COMMUNITY
+msgid "Invalid action."
+msgstr "Invalid action."
+
+#: core/classes/class.arm_community_activity.php:521
+#: core/classes/class.arm_community_post.php:189
+#: core/classes/class.arm_community_review.php:788
+#@ ARM_COMMUNITY
+msgid "Sorry, You do not have permission to perform this action"
+msgstr "Sorry, You do not have permission to perform this action"
+
+#: core/classes/class.arm_community_activity.php:528
+#@ ARM_COMMUNITY
+msgid "Activities has been deleted successfully."
+msgstr "Activities has been deleted successfully."
+
+#: core/classes/class.arm_community_activity.php:544
+#@ ARM_COMMUNITY
+msgid "user changed their profile picture."
+msgstr "user changed their profile picture."
+
+#: core/classes/class.arm_community_activity.php:545
+#@ ARM_COMMUNITY
+msgid "Member changed profile picture"
+msgstr "Member changed profile picture"
+
+#: core/classes/class.arm_community_activity.php:580
+#: core/classes/class.arm_community_post.php:919
+#: core/classes/class.arm_community_post.php:1308
+#: core/classes/class.arm_community_post.php:1339
+#: core/classes/class.arm_community_post.php:1355
+#: core/classes/class.arm_community_review.php:887
+#@ ARM_COMMUNITY
+msgid "Something went wrong. Try after sometime."
+msgstr "Something went wrong. Try after sometime."
+
+#: core/classes/class.arm_community_activity.php:593
+#@ ARM_COMMUNITY
+msgid "Activity unspammed successfully"
+msgstr "Activity unspammed successfully"
+
+#: core/classes/class.arm_community_activity.php:596
+#@ ARM_COMMUNITY
+msgid "Activity spammed successfully"
+msgstr "Activity spammed successfully"
+
+#: core/classes/class.arm_community_follow.php:103
+#@ ARM_COMMUNITY
+msgid "Following"
+msgstr "Following"
+
+#: core/classes/class.arm_community_follow.php:187
+#: core/classes/class.arm_community_friendship.php:79
+#: core/classes/class.arm_community_post.php:412
+#: core/classes/class.arm_community_review.php:169
+#@ ARM_COMMUNITY
+msgid "Loading"
+msgstr "Loading"
+
+#: core/classes/class.arm_community_follow.php:211
+#@ ARM_COMMUNITY
+msgid "No any"
+msgstr "No any"
+
+#: core/classes/class.arm_community_follow.php:211
+#@ ARM_COMMUNITY
+msgid "Found."
+msgstr "Found."
+
+#: core/classes/class.arm_community_follow.php:247
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to unfollow this user?"
+msgstr "Are you sure you want to unfollow this user?"
+
+#: core/classes/class.arm_community_follow.php:273
+#@ ARM_COMMUNITY
+msgid "Sorry, You are not able to follow this user."
+msgstr "Sorry, You are not able to follow this user."
+
+#: core/classes/class.arm_community_follow.php:281
+#@ ARM_COMMUNITY
+msgid "started following to"
+msgstr "started following to"
+
+#: core/classes/class.arm_community_follow.php:281
+#@ ARM_COMMUNITY
+msgid "Start Following"
+msgstr "Start Following"
+
+#: core/classes/class.arm_community_follow.php:298
+#@ ARM_COMMUNITY
+msgid "Sorry, You are not able to unfollow this user."
+msgstr "Sorry, You are not able to unfollow this user."
+
+#: core/classes/class.arm_community_follow.php:305
+#@ ARM_COMMUNITY
+msgid "unfollowed"
+msgstr "unfollowed"
+
+#: core/classes/class.arm_community_follow.php:305
+#@ ARM_COMMUNITY
+msgid "Stop Following"
+msgstr "Stop Following"
+
+#: core/classes/class.arm_community_friendship.php:115
+#: core/classes/class.arm_community_friendship.php:451
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to remove this friend?"
+msgstr "Are you sure you want to remove this friend?"
+
+#: core/classes/class.arm_community_friendship.php:523
+#: core/classes/class.arm_community_message.php:318
+#: core/classes/class.arm_community_message.php:512
+#@ ARM_COMMUNITY
+msgid "Send"
+msgstr "Send"
+
+#: core/classes/class.arm_community_friendship.php:535
+#@ ARM_COMMUNITY
+msgid "send friend request to"
+msgstr "send friend request to"
+
+#: core/classes/class.arm_community_friendship.php:535
+#: core/classes/class.arm_community_settings.php:24
+#@ ARM_COMMUNITY
+msgid "Friend Request Sent"
+msgstr "Friend Request Sent"
+
+#: core/classes/class.arm_community_friendship.php:553
+#: core/view/arm_com_review_list_records.php:184
+#: core/view/arm_com_review_list_records.php:207
+#@ ARM_COMMUNITY
+msgid "Approve"
+msgstr "Approve"
+
+#: core/classes/class.arm_community_friendship.php:570
+#@ ARM_COMMUNITY
+msgid "user become a friend with"
+msgstr "user become a friend with"
+
+#: core/classes/class.arm_community_friendship.php:570
+#@ ARM_COMMUNITY
+msgid "Friendship Established"
+msgstr "Friendship Established"
+
+#: core/classes/class.arm_community_friendship.php:602
+#@ ARM_COMMUNITY
+msgid "remove"
+msgstr "remove"
+
+#: core/classes/class.arm_community_friendship.php:602
+#@ ARM_COMMUNITY
+msgid "from friend list"
+msgstr "from friend list"
+
+#: core/classes/class.arm_community_friendship.php:630
+#@ ARM_COMMUNITY
+msgid "cancel"
+msgstr "cancel"
+
+#: core/classes/class.arm_community_friendship.php:630
+#@ ARM_COMMUNITY
+msgid "friend request"
+msgstr "friend request"
+
+#: core/classes/class.arm_community_friendship.php:630
+#@ ARM_COMMUNITY
+msgid "Friend Request Canceled"
+msgstr "Friend Request Canceled"
+
+#: core/classes/class.arm_community_message.php:25
+#@ ARM_COMMUNITY
+msgid "Sorry, Something went wrong."
+msgstr "Sorry, Something went wrong."
+
+#: core/classes/class.arm_community_message.php:49
+#@ ARM_COMMUNITY
+msgid "Sorry, something went wrong while deleting this message"
+msgstr "Sorry, something went wrong while deleting this message"
+
+#: core/classes/class.arm_community_message.php:61
+#@ ARM_COMMUNITY
+msgid "This message has been deleted."
+msgstr "This message has been deleted."
+
+#: core/classes/class.arm_community_message.php:73
+#@ ARM_COMMUNITY
+msgid "Sorry, Something went wrong. Please try again."
+msgstr "Sorry, Something went wrong. Please try again."
+
+#: core/classes/class.arm_community_message.php:103
+#@ ARM_COMMUNITY
+msgid "Sorry, something went wrong while deleting conversation."
+msgstr "Sorry, something went wrong while deleting conversation."
+
+#: core/classes/class.arm_community_message.php:124
+#@ ARM_COMMUNITY
+msgid "Sorry, something went wrong while hiding conversation."
+msgstr "Sorry, something went wrong while hiding conversation."
+
+#: core/classes/class.arm_community_message.php:143
+#@ ARM_COMMUNITY
+msgid "Sorry, something went wrong while moving this conversation."
+msgstr "Sorry, something went wrong while moving this conversation."
+
+#: core/classes/class.arm_community_message.php:189
+#@ ARM_COMMUNITY
+msgid "Inbox"
+msgstr "Inbox"
+
+#: core/classes/class.arm_community_message.php:190
+#@ ARM_COMMUNITY
+msgid "Archive"
+msgstr "Archive"
+
+#: core/classes/class.arm_community_message.php:191
+#@ ARM_COMMUNITY
+msgid "Block Users"
+msgstr "Block Users"
+
+#: core/classes/class.arm_community_message.php:205
+#: core/classes/class.arm_community_message.php:227
+#@ ARM_COMMUNITY
+msgid "New Message"
+msgstr "New Message"
+
+#: core/classes/class.arm_community_message.php:212
+#@ ARM_COMMUNITY
+msgid "Reply"
+msgstr "Reply"
+
+#: core/classes/class.arm_community_message.php:260
+#@ ARM_COMMUNITY
+msgid "Search by username"
+msgstr "Search by username"
+
+#: core/classes/class.arm_community_message.php:318
+#: core/classes/class.arm_community_message.php:512
+#: core/classes/class.arm_community_message.php:699
+#@ ARM_COMMUNITY
+msgid "Send Message"
+msgstr "Send Message"
+
+#: core/classes/class.arm_community_message.php:425
+#: core/classes/class.arm_community_message.php:622
+#@ ARM_COMMUNITY
+msgid "ago"
+msgstr "ago"
+
+#: core/classes/class.arm_community_message.php:430
+#@ ARM_COMMUNITY
+msgid "Hide Convorsation"
+msgstr "Hide Convorsation"
+
+#: core/classes/class.arm_community_message.php:431
+#: core/classes/class.arm_community_message.php:628
+#@ ARM_COMMUNITY
+msgid "Delete Convorsation"
+msgstr "Delete Convorsation"
+
+#: core/classes/class.arm_community_message.php:543
+#: core/classes/class.arm_community_message.php:547
+#: core/classes/class.arm_community_message.php:732
+#: core/classes/class.arm_community_message.php:739
+#@ ARM_COMMUNITY
+msgid "You have no any"
+msgstr "You have no any"
+
+#: core/classes/class.arm_community_message.php:543
+#: core/classes/class.arm_community_message.php:547
+#: core/classes/class.arm_community_message.php:732
+#: core/classes/class.arm_community_message.php:739
+#@ ARM_COMMUNITY
+msgid "message."
+msgstr "message."
+
+#: core/classes/class.arm_community_message.php:627
+#@ ARM_COMMUNITY
+msgid "Move To Inbox"
+msgstr "Move To Inbox"
+
+#: core/classes/class.arm_community_message.php:784
+#: core/classes/class.arm_community_message.php:802
+#: core/classes/class.arm_community_message.php:873
+#: core/classes/class.arm_community_message.php:891
+#@ ARM_COMMUNITY
+msgid "This is my first message"
+msgstr "This is my first message"
+
+#: core/classes/class.arm_community_message.php:1099
+#@ ARM_COMMUNITY
+msgid "Sender sends message1"
+msgstr "Sender sends message1"
+
+#: core/classes/class.arm_community_message.php:1114
+#@ ARM_COMMUNITY
+msgid "Receiver sends message1"
+msgstr "Receiver sends message1"
+
+#: core/classes/class.arm_community_message.php:1129
+#@ ARM_COMMUNITY
+msgid "Sender sends message2"
+msgstr "Sender sends message2"
+
+#: core/classes/class.arm_community_message.php:1144
+#@ ARM_COMMUNITY
+msgid "receiver sends message2"
+msgstr "receiver sends message2"
+
+#: core/classes/class.arm_community_message.php:1159
+#@ ARM_COMMUNITY
+msgid "sender sends message3"
+msgstr "sender sends message3"
+
+#: core/classes/class.arm_community_message.php:1342
+#: core/classes/class.arm_community_message.php:1359
+#@ ARM_COMMUNITY
+msgid "Entered an invalid username."
+msgstr "Entered an invalid username."
+
+#: core/classes/class.arm_community_message.php:1380
+#@ ARM_COMMUNITY
+msgid "User blocked successfully"
+msgstr "User blocked successfully"
+
+#: core/classes/class.arm_community_message.php:1463
+#: core/classes/class.arm_community_review.php:463
+#@ ARM_COMMUNITY
+msgid "Submit"
+msgstr "Submit"
+
+#: core/classes/class.arm_community_message.php:1483
+#@ ARM_COMMUNITY
+msgid "Expired"
+msgstr "Expired"
+
+#: core/classes/class.arm_community_post.php:53
+#: core/view/arm_com_post_list_records.php:4
+#@ ARM_COMMUNITY
+msgid "Post Title"
+msgstr "Post Title"
+
+#: core/classes/class.arm_community_post.php:54
+#: core/view/arm_com_post_list_records.php:5
+#@ ARM_COMMUNITY
+msgid "Post Content"
+msgstr "Post Content"
+
+#: core/classes/class.arm_community_post.php:55
+#: core/view/arm_com_post_list_records.php:6
+#@ ARM_COMMUNITY
+msgid "Post By"
+msgstr "Post By"
+
+#: core/classes/class.arm_community_post.php:117
+#@ ARM_COMMUNITY
+msgid "View Comments"
+msgstr "View Comments"
+
+#: core/classes/class.arm_community_post.php:121
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to delete this post?"
+msgstr "Are you sure you want to delete this post?"
+
+#: core/classes/class.arm_community_post.php:195
+#@ ARM_COMMUNITY
+msgid "Post(s) has been deleted successfully."
+msgstr "Post(s) has been deleted successfully."
+
+#: core/classes/class.arm_community_post.php:214
+#@ ARM_COMMUNITY
+msgid "User Posts"
+msgstr "User Posts"
+
+#: core/classes/class.arm_community_post.php:215
+#@ ARM_COMMUNITY
+msgid "Parent User Posts"
+msgstr "Parent User Posts"
+
+#: core/classes/class.arm_community_post.php:216
+#@ ARM_COMMUNITY
+msgid "All User Posts"
+msgstr "All User Posts"
+
+#: core/classes/class.arm_community_post.php:217
+#@ ARM_COMMUNITY
+msgid "View User Post"
+msgstr "View User Post"
+
+#: core/classes/class.arm_community_post.php:218
+#@ ARM_COMMUNITY
+msgid "Add New Post"
+msgstr "Add New Post"
+
+#: core/classes/class.arm_community_post.php:219
+#@ ARM_COMMUNITY
+msgid "Add New"
+msgstr "Add New"
+
+#: core/classes/class.arm_community_post.php:220
+#@ ARM_COMMUNITY
+msgid "Edit Post"
+msgstr "Edit Post"
+
+#: core/classes/class.arm_community_post.php:221
+#@ ARM_COMMUNITY
+msgid "Update Post"
+msgstr "Update Post"
+
+#: core/classes/class.arm_community_post.php:222
+#@ ARM_COMMUNITY
+msgid "Search Post"
+msgstr "Search Post"
+
+#: core/classes/class.arm_community_post.php:223
+#@ ARM_COMMUNITY
+msgid "Not Found"
+msgstr "Not Found"
+
+#: core/classes/class.arm_community_post.php:224
+#@ ARM_COMMUNITY
+msgid "Not found in Trash"
+msgstr "Not found in Trash"
+
+#: core/classes/class.arm_community_post.php:232
+#@ ARM_COMMUNITY
+msgid "user_posts"
+msgstr "user_posts"
+
+#: core/classes/class.arm_community_post.php:233
+#@ ARM_COMMUNITY
+msgid "Users Posts"
+msgstr "Users Posts"
+
+#: core/classes/class.arm_community_post.php:336
+#@ ARM_COMMUNITY
+msgid "Upload Attachment"
+msgstr "Upload Attachment"
+
+#: core/classes/class.arm_community_post.php:338
+#@ ARM_COMMUNITY
+msgid "Remove Attachment"
+msgstr "Remove Attachment"
+
+#: core/classes/class.arm_community_post.php:364
+#: core/classes/class.arm_community_post.php:405
+#: core/classes/class.arm_community_post.php:581
+#: core/classes/class.arm_community_post.php:610
+#: core/classes/class.arm_community_profile.php:640
+#: core/classes/class.arm_community_settings.php:14
+#: core/classes/class.arm_community_settings.php:78
+#: core/view/arm_community_settings.php:47
+#@ ARM_COMMUNITY
+msgid "Post"
+msgstr "Post"
+
+#: core/classes/class.arm_community_post.php:374
+#: core/classes/class.arm_community_settings.php:31
+#@ ARM_COMMUNITY
+msgid "Edit"
+msgstr "Edit"
+
+#: core/classes/class.arm_community_post.php:380
+#@ ARM_COMMUNITY
+msgid "Please enter post description."
+msgstr "Please enter post description."
+
+#: core/classes/class.arm_community_post.php:381
+#@ ARM_COMMUNITY
+msgid "Please enter post title."
+msgstr "Please enter post title."
+
+#: core/classes/class.arm_community_post.php:407
+#: core/classes/class.arm_community_profile.php:625
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to delete this"
+msgstr "Are you sure you want to delete this"
+
+#: core/classes/class.arm_community_post.php:407
+#: core/classes/class.arm_community_profile.php:625
+#@ ARM_COMMUNITY
+msgid "?"
+msgstr "?"
+
+#: core/classes/class.arm_community_post.php:416
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to delete this comment ?"
+msgstr "Are you sure you want to delete this comment ?"
+
+#: core/classes/class.arm_community_post.php:456
+#: core/classes/class.arm_community_post.php:1057
+#@ ARM_COMMUNITY
+msgid "This is my second title"
+msgstr "This is my second title"
+
+#: core/classes/class.arm_community_post.php:507
+#: core/classes/class.arm_community_post.php:641
+#: core/classes/class.arm_community_post.php:1127
+#@ ARM_COMMUNITY
+msgid "Comments"
+msgstr "Comments"
+
+#: core/classes/class.arm_community_post.php:507
+#: core/classes/class.arm_community_post.php:641
+#: core/classes/class.arm_community_post.php:659
+#: core/classes/class.arm_community_post.php:1127
+#: core/classes/class.arm_community_post.php:1238
+#: core/view/arm_com_post.php:6
+#@ ARM_COMMUNITY
+msgid "Comment"
+msgstr "Comment"
+
+#: core/classes/class.arm_community_post.php:514
+#: core/classes/class.arm_community_post.php:648
+#: core/classes/class.arm_community_post.php:1134
+#@ ARM_COMMUNITY
+msgid "Likes"
+msgstr "Likes"
+
+#: core/classes/class.arm_community_post.php:514
+#: core/classes/class.arm_community_post.php:648
+#: core/classes/class.arm_community_post.php:660
+#: core/classes/class.arm_community_post.php:853
+#: core/classes/class.arm_community_post.php:1134
+#@ ARM_COMMUNITY
+msgid "Like"
+msgstr "Like"
+
+#: core/classes/class.arm_community_post.php:551
+#: core/classes/class.arm_community_post.php:733
+#: core/classes/class.arm_community_post.php:1174
+#@ ARM_COMMUNITY
+msgid "Read More"
+msgstr "Read More"
+
+#: core/classes/class.arm_community_post.php:596
+#@ ARM_COMMUNITY
+msgid "Please enter comment"
+msgstr "Please enter comment"
+
+#: core/classes/class.arm_community_post.php:597
+#: core/classes/class.arm_community_post.php:948
+#@ ARM_COMMUNITY
+msgid "Comment added successfully."
+msgstr "Comment added successfully."
+
+#: core/classes/class.arm_community_post.php:600
+#@ ARM_COMMUNITY
+msgid "Post comment"
+msgstr "Post comment"
+
+#: core/classes/class.arm_community_post.php:611
+#@ ARM_COMMUNITY
+msgid "has been not added successfully."
+msgstr "has been not added successfully."
+
+#: core/classes/class.arm_community_post.php:672
+#@ ARM_COMMUNITY
+msgid "New post published"
+msgstr "New post published"
+
+#: core/classes/class.arm_community_post.php:780
+#@ ARM_COMMUNITY
+msgid "has been updated successfully."
+msgstr "has been updated successfully."
+
+#: core/classes/class.arm_community_post.php:783
+#@ ARM_COMMUNITY
+msgid "has been added successfully."
+msgstr "has been added successfully."
+
+#: core/classes/class.arm_community_post.php:819
+#@ ARM_COMMUNITY
+msgid "Member like post"
+msgstr "Member like post"
+
+#: core/classes/class.arm_community_post.php:844
+#@ ARM_COMMUNITY
+msgid "Member unlike post"
+msgstr "Member unlike post"
+
+#: core/classes/class.arm_community_post.php:858
+#@ ARM_COMMUNITY
+msgid "Unlike"
+msgstr "Unlike"
+
+#: core/classes/class.arm_community_post.php:879
+#@ ARM_COMMUNITY
+msgid "day ago"
+msgstr "day ago"
+
+#: core/classes/class.arm_community_post.php:881
+#@ ARM_COMMUNITY
+msgid "hour ago"
+msgstr "hour ago"
+
+#: core/classes/class.arm_community_post.php:883
+#@ ARM_COMMUNITY
+msgid "minute ago"
+msgstr "minute ago"
+
+#: core/classes/class.arm_community_post.php:885
+#@ ARM_COMMUNITY
+msgid "Just now"
+msgstr "Just now"
+
+#: core/classes/class.arm_community_post.php:1202
+#@ ARM_COMMUNITY
+msgid "found"
+msgstr "found"
+
+#: core/classes/class.arm_community_post.php:1236
+#: core/view/arm_com_post.php:4
+#@ ARM_COMMUNITY
+msgid "User Avatar"
+msgstr "User Avatar"
+
+#: core/classes/class.arm_community_post.php:1237
+#: core/view/arm_com_post.php:5
+#@ ARM_COMMUNITY
+msgid "User Name"
+msgstr "User Name"
+
+#: core/classes/class.arm_community_post.php:1285
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to delete this comment?"
+msgstr "Are you sure you want to delete this comment?"
+
+#: core/classes/class.arm_community_post.php:1342
+#@ ARM_COMMUNITY
+msgid "Comment deleted successfully"
+msgstr "Comment deleted successfully"
+
+#: core/classes/class.arm_community_post.php:1362
+#@ ARM_COMMUNITY
+msgid "Comment unspammed successfully."
+msgstr "Comment unspammed successfully."
+
+#: core/classes/class.arm_community_post.php:1365
+#@ ARM_COMMUNITY
+msgid "Comment spammed successfully."
+msgstr "Comment spammed successfully."
+
+#: core/classes/class.arm_community_profile.php:56
+#@ ARM_COMMUNITY
+msgid "Tab Title Color"
+msgstr "Tab Title Color"
+
+#: core/classes/class.arm_community_profile.php:62
+#@ ARM_COMMUNITY
+msgid "Tab Title Hover Color"
+msgstr "Tab Title Hover Color"
+
+#: core/classes/class.arm_community_profile.php:68
+#@ ARM_COMMUNITY
+msgid "Button Font Color"
+msgstr "Button Font Color"
+
+#: core/classes/class.arm_community_profile.php:74
+#@ ARM_COMMUNITY
+msgid "Button bg Color"
+msgstr "Button bg Color"
+
+#: core/classes/class.arm_community_profile.php:84
+#@ ARM_COMMUNITY
+msgid "Community Font Settings"
+msgstr "Community Font Settings"
+
+#: core/classes/class.arm_community_profile.php:87
+#@ ARM_COMMUNITY
+msgid "Community Tab Font"
+msgstr "Community Tab Font"
+
+#: core/classes/class.arm_community_profile.php:88
+#@ ARM_COMMUNITY
+msgid "Community Title Font"
+msgstr "Community Title Font"
+
+#: core/classes/class.arm_community_profile.php:89
+#@ ARM_COMMUNITY
+msgid "Community Sub Title Font"
+msgstr "Community Sub Title Font"
+
+#: core/classes/class.arm_community_profile.php:90
+#@ ARM_COMMUNITY
+msgid "Community Content Font"
+msgstr "Community Content Font"
+
+#: core/classes/class.arm_community_profile.php:91
+#@ ARM_COMMUNITY
+msgid "Community Button Font"
+msgstr "Community Button Font"
+
+#: core/classes/class.arm_community_profile.php:420
+#@ ARM_COMMUNITY
+msgid "Select Community Settings."
+msgstr "Select Community Settings."
+
+#: core/classes/class.arm_community_profile.php:428
+#@ ARM_COMMUNITY
+msgid "Display Follow Section?"
+msgstr "Display Follow Section?"
+
+#: core/classes/class.arm_community_profile.php:437
+#@ ARM_COMMUNITY
+msgid "Display Friendship Button?"
+msgstr "Display Friendship Button?"
+
+#: core/classes/class.arm_community_profile.php:445
+#@ ARM_COMMUNITY
+msgid "Display Friendship Section?"
+msgstr "Display Friendship Section?"
+
+#: core/classes/class.arm_community_profile.php:455
+#@ ARM_COMMUNITY
+msgid "Display News Feed Section?"
+msgstr "Display News Feed Section?"
+
+#: core/classes/class.arm_community_profile.php:465
+#@ ARM_COMMUNITY
+msgid "Display Message Section?"
+msgstr "Display Message Section?"
+
+#: core/classes/class.arm_community_profile.php:475
+#@ ARM_COMMUNITY
+msgid "Display Post Section?"
+msgstr "Display Post Section?"
+
+#: core/classes/class.arm_community_profile.php:485
+#@ ARM_COMMUNITY
+msgid "Display Review Section?"
+msgstr "Display Review Section?"
+
+#: core/classes/class.arm_community_profile.php:495
+#@ ARM_COMMUNITY
+msgid "Display Activity Section?"
+msgstr "Display Activity Section?"
+
+#: core/classes/class.arm_community_profile.php:505
+#@ ARM_COMMUNITY
+msgid "Display Section In Tab?"
+msgstr "Display Section In Tab?"
+
+#: core/classes/class.arm_community_profile.php:517
+#@ ARM_COMMUNITY
+msgid "Click here to enable community settings"
+msgstr "Click here to enable community settings"
+
+#: core/classes/class.arm_community_profile.php:615
+#: core/classes/class.arm_community_settings.php:81
+#: core/view/arm_community_settings.php:50
+#@ ARM_COMMUNITY
+msgid "Profile"
+msgstr "Profile"
+
+#: core/classes/class.arm_community_profile.php:618
+#: core/classes/class.arm_community_settings.php:38
+#@ ARM_COMMUNITY
+msgid "Friends"
+msgstr "Friends"
+
+#: core/classes/class.arm_community_profile.php:623
+#: core/classes/class.arm_community_settings.php:51
+#: core/classes/class.arm_community_settings.php:53
+#@ ARM_COMMUNITY
+msgid "Message"
+msgstr "Message"
+
+#: core/classes/class.arm_community_profile.php:627
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to delete this conversation ?"
+msgstr "Are you sure you want to delete this conversation ?"
+
+#: core/classes/class.arm_community_profile.php:629
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to hide this conversation?"
+msgstr "Are you sure you want to hide this conversation?"
+
+#: core/classes/class.arm_community_profile.php:631
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to move this conversation to Inbox?"
+msgstr "Are you sure you want to move this conversation to Inbox?"
+
+#: core/classes/class.arm_community_profile.php:633
+#@ ARM_COMMUNITY
+msgid "You have no any inbox message."
+msgstr "You have no any inbox message."
+
+#: core/classes/class.arm_community_profile.php:635
+#@ ARM_COMMUNITY
+msgid "You have no any archive message."
+msgstr "You have no any archive message."
+
+#: core/classes/class.arm_community_profile.php:644
+#: core/classes/class.arm_community_review.php:223
+#: core/classes/class.arm_community_review.php:242
+#: core/classes/class.arm_community_settings.php:77
+#: core/view/arm_community_settings.php:46
+#@ ARM_COMMUNITY
+msgid "Review"
+msgstr "Review"
+
+#: core/classes/class.arm_community_profile.php:775
+#@ ARM_COMMUNITY
+msgid "Post Listing"
+msgstr "Post Listing"
+
+#: core/classes/class.arm_community_review.php:133
+#: core/classes/class.arm_community_review.php:307
+#@ ARM_COMMUNITY
+msgid "Give Review"
+msgstr "Give Review"
+
+#: core/classes/class.arm_community_review.php:171
+#@ ARM_COMMUNITY
+msgid "Average"
+msgstr "Average"
+
+#: core/classes/class.arm_community_review.php:171
+#@ ARM_COMMUNITY
+msgid "Average Reviews"
+msgstr "Average Reviews"
+
+#: core/classes/class.arm_community_review.php:177
+#: core/classes/class.arm_community_review.php:605
+#@ ARM_COMMUNITY
+msgid "Add Review"
+msgstr "Add Review"
+
+#: core/classes/class.arm_community_review.php:191
+#: core/classes/class.arm_community_review.php:323
+#: core/classes/class.arm_community_review.php:596
+#: core/classes/class.arm_community_review.php:711
+#: core/view/arm_com_review_list_records.php:284
+#@ ARM_COMMUNITY
+msgid "Edit Review"
+msgstr "Edit Review"
+
+#: core/classes/class.arm_community_review.php:289
+#@ ARM_COMMUNITY
+msgid "By"
+msgstr "By"
+
+#: core/classes/class.arm_community_review.php:427
+#: core/classes/class.arm_community_review.php:649
+#: core/view/arm_com_review_list_records.php:8
+#@ ARM_COMMUNITY
+msgid "Rating"
+msgstr "Rating"
+
+#: core/classes/class.arm_community_review.php:431
+#@ ARM_COMMUNITY
+msgid "Please selelct Rating"
+msgstr "Please selelct Rating"
+
+#: core/classes/class.arm_community_review.php:437
+#: core/classes/class.arm_community_review.php:645
+#: core/view/arm_com_review_list_records.php:4
+#@ ARM_COMMUNITY
+msgid "Title"
+msgstr "Title"
+
+#: core/classes/class.arm_community_review.php:441
+#@ ARM_COMMUNITY
+msgid "Please enter title"
+msgstr "Please enter title"
+
+#: core/classes/class.arm_community_review.php:447
+#: core/classes/class.arm_community_review.php:646
+#: core/view/arm_com_review_list_records.php:5
+#@ ARM_COMMUNITY
+msgid "Description"
+msgstr "Description"
+
+#: core/classes/class.arm_community_review.php:451
+#@ ARM_COMMUNITY
+msgid "Please enter description"
+msgstr "Please enter description"
+
+#: core/classes/class.arm_community_review.php:554
+#@ ARM_COMMUNITY
+msgid "Review has been not added successfully."
+msgstr "Review has been not added successfully."
+
+#: core/classes/class.arm_community_review.php:560
+#@ ARM_COMMUNITY
+msgid "Review has been not added because the user not exists."
+msgstr "Review has been not added because the user not exists."
+
+#: core/classes/class.arm_community_review.php:596
+#@ ARM_COMMUNITY
+msgid "user edit review given to"
+msgstr "user edit review given to"
+
+#: core/classes/class.arm_community_review.php:605
+#@ ARM_COMMUNITY
+msgid "user give review to"
+msgstr "user give review to"
+
+#: core/classes/class.arm_community_review.php:622
+#@ ARM_COMMUNITY
+msgid "Review has been added successfully."
+msgstr "Review has been added successfully."
+
+#: core/classes/class.arm_community_review.php:647
+#: core/view/arm_com_review_list_records.php:6
+#@ ARM_COMMUNITY
+msgid "Review From"
+msgstr "Review From"
+
+#: core/classes/class.arm_community_review.php:648
+#: core/view/arm_com_review_list_records.php:7
+#@ ARM_COMMUNITY
+msgid "Review To"
+msgstr "Review To"
+
+#: core/classes/class.arm_community_review.php:705
+#@ ARM_COMMUNITY
+msgid "Approve Review"
+msgstr "Approve Review"
+
+#: core/classes/class.arm_community_review.php:708
+#: core/view/arm_com_review_list_records.php:186
+#: core/view/arm_com_review_list_records.php:208
+#@ ARM_COMMUNITY
+msgid "Disapprove"
+msgstr "Disapprove"
+
+#: core/classes/class.arm_community_review.php:713
+#@ ARM_COMMUNITY
+msgid "Delete Review"
+msgstr "Delete Review"
+
+#: core/classes/class.arm_community_review.php:715
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to delete this review?"
+msgstr "Are you sure you want to delete this review?"
+
+#: core/classes/class.arm_community_review.php:798
+#@ ARM_COMMUNITY
+msgid "Review(s) has been deleted successfully."
+msgstr "Review(s) has been deleted successfully."
+
+#: core/classes/class.arm_community_review.php:803
+#: core/classes/class.arm_community_review.php:840
+#@ ARM_COMMUNITY
+msgid "Review(s) has been approved successfully."
+msgstr "Review(s) has been approved successfully."
+
+#: core/classes/class.arm_community_review.php:807
+#: core/classes/class.arm_community_review.php:870
+#@ ARM_COMMUNITY
+msgid "Review(s) has been disapproved successfully."
+msgstr "Review(s) has been disapproved successfully."
+
+#: core/classes/class.arm_community_review.php:910
+#@ ARM_COMMUNITY
+msgid "Review has been edited successfully."
+msgstr "Review has been edited successfully."
+
+#: core/classes/class.arm_community_settings.php:20
+#@ ARM_COMMUNITY
+msgid "New"
+msgstr "New"
+
+#: core/classes/class.arm_community_settings.php:20
+#@ ARM_COMMUNITY
+msgid "Published"
+msgstr "Published"
+
+#: core/classes/class.arm_community_settings.php:20
+#@ ARM_COMMUNITY
+msgid "Created New"
+msgstr "Created New"
+
+#: core/classes/class.arm_community_settings.php:21
+#@ ARM_COMMUNITY
+msgid "Liked"
+msgstr "Liked"
+
+#: core/classes/class.arm_community_settings.php:22
+#@ ARM_COMMUNITY
+msgid "Unliked"
+msgstr "Unliked"
+
+#: core/classes/class.arm_community_settings.php:23
+#@ ARM_COMMUNITY
+msgid "Changed Their Profile Picture"
+msgstr "Changed Their Profile Picture"
+
+#: core/classes/class.arm_community_settings.php:24
+#@ ARM_COMMUNITY
+msgid "Sent Friend Request To"
+msgstr "Sent Friend Request To"
+
+#: core/classes/class.arm_community_settings.php:25
+#@ ARM_COMMUNITY
+msgid "Become Friend"
+msgstr "Become Friend"
+
+#: core/classes/class.arm_community_settings.php:25
+#@ ARM_COMMUNITY
+msgid "Become Friend With"
+msgstr "Become Friend With"
+
+#: armembercommunity.php:187
+#: core/classes/class.arm_community_settings.php:27
+#@ ARM_COMMUNITY
+msgid "Cancel Friend Request"
+msgstr "Cancel Friend Request"
+
+#: core/classes/class.arm_community_settings.php:27
+#@ ARM_COMMUNITY
+msgid "Cancel Friend Request of"
+msgstr "Cancel Friend Request of"
+
+#: core/classes/class.arm_community_settings.php:28
+#@ ARM_COMMUNITY
+msgid "Started Following To"
+msgstr "Started Following To"
+
+#: core/classes/class.arm_community_settings.php:29
+#@ ARM_COMMUNITY
+msgid "Stop Following To"
+msgstr "Stop Following To"
+
+#: core/classes/class.arm_community_settings.php:30
+#@ ARM_COMMUNITY
+msgid "Add"
+msgstr "Add"
+
+#: core/classes/class.arm_community_settings.php:30
+#@ ARM_COMMUNITY
+msgid "Give"
+msgstr "Give"
+
+#: core/classes/class.arm_community_settings.php:30
+#@ ARM_COMMUNITY
+msgid "To"
+msgstr "To"
+
+#: core/classes/class.arm_community_settings.php:31
+#@ ARM_COMMUNITY
+msgid "Edited"
+msgstr "Edited"
+
+#: core/classes/class.arm_community_settings.php:31
+#@ ARM_COMMUNITY
+msgid "Review Given To"
+msgstr "Review Given To"
+
+#: core/classes/class.arm_community_settings.php:45
+#@ ARM_COMMUNITY
+msgid "No Friends Found."
+msgstr "No Friends Found."
+
+#: core/classes/class.arm_community_settings.php:46
+#@ ARM_COMMUNITY
+msgid "Sorry, You are not able to [code] request."
+msgstr "Sorry, You are not able to [code] request."
+
+#: core/classes/class.arm_community_settings.php:47
+#@ ARM_COMMUNITY
+msgid "No Friendship Request Found."
+msgstr "No Friendship Request Found."
+
+#: core/classes/class.arm_community_settings.php:52
+#@ ARM_COMMUNITY
+msgid "Username OR Email"
+msgstr "Username OR Email"
+
+#: core/classes/class.arm_community_settings.php:54
+#@ ARM_COMMUNITY
+msgid "Please Enter [label]."
+msgstr "Please Enter [label]."
+
+#: core/classes/class.arm_community_settings.php:55
+#@ ARM_COMMUNITY
+msgid "[label] is invalid."
+msgstr "[label] is invalid."
+
+#: core/classes/class.arm_community_settings.php:56
+#@ ARM_COMMUNITY
+msgid "Message could not be sent because you are blocked."
+msgstr "Message could not be sent because you are blocked."
+
+#: core/classes/class.arm_community_settings.php:57
+#@ ARM_COMMUNITY
+msgid "Message could not be sent because you are not friend."
+msgstr "Message could not be sent because you are not friend."
+
+#: core/classes/class.arm_community_settings.php:58
+#@ ARM_COMMUNITY
+msgid "Message sent successfully."
+msgstr "Message sent successfully."
+
+#: core/classes/class.arm_community_settings.php:130
+#@ ARM_COMMUNITY
+msgid "Community settings saved successfully."
+msgstr "Community settings saved successfully."
+
+#: core/classes/class.arm_community_settings.php:214
+#@ ARM_COMMUNITY
+msgid "Documentation"
+msgstr "Documentation"
+
+#: core/classes/class.arm_community_settings.php:234
+#@ ARM_COMMUNITY
+msgid "Manage User Posts"
+msgstr "Manage User Posts"
+
+#: core/classes/class.arm_community_settings.php:235
+#@ ARM_COMMUNITY
+msgid "Manage User Reviews"
+msgstr "Manage User Reviews"
+
+#: core/classes/class.arm_community_settings.php:236
+#@ ARM_COMMUNITY
+msgid "Manage User Activities"
+msgstr "Manage User Activities"
+
+#: core/classes/class.arm_community_settings.php:244
+#: core/classes/class.arm_community_settings.php:265
+#: core/view/arm_community_settings.php:501
+#@ ARM_COMMUNITY
+msgid "On Friend Request Received"
+msgstr "On Friend Request Received"
+
+#: core/classes/class.arm_community_settings.php:247
+#: core/classes/class.arm_community_settings.php:266
+#: core/view/arm_community_settings.php:513
+#@ ARM_COMMUNITY
+msgid "On Accepted Friend Request"
+msgstr "On Accepted Friend Request"
+
+#: core/classes/class.arm_community_settings.php:250
+#: core/classes/class.arm_community_settings.php:267
+#: core/view/arm_community_settings.php:525
+#@ ARM_COMMUNITY
+msgid "On Received New Private message"
+msgstr "On Received New Private message"
+
+#: core/classes/class.arm_community_settings.php:253
+#: core/classes/class.arm_community_settings.php:268
+#: core/view/arm_community_settings.php:537
+#@ ARM_COMMUNITY
+msgid "On Someone Followed you"
+msgstr "On Someone Followed you"
+
+#: core/classes/class.arm_community_settings.php:256
+#: core/classes/class.arm_community_settings.php:269
+#: core/view/arm_community_settings.php:549
+#@ ARM_COMMUNITY
+msgid "On Someone Liked your Post"
+msgstr "On Someone Liked your Post"
+
+#: core/classes/class.arm_community_settings.php:259
+#: core/classes/class.arm_community_settings.php:270
+#: core/view/arm_community_settings.php:561
+#@ ARM_COMMUNITY
+msgid "On Friend Commented on your Post"
+msgstr "On Friend Commented on your Post"
+
+#: core/view/arm_com_activity.php:16
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to delete this Activit(ies)?"
+msgstr "Are you sure you want to delete this Activit(ies)?"
+
+#: core/view/arm_com_activity.php:21
+#@ ARM_COMMUNITY
+msgid "Delete Activit(ies)"
+msgstr "Delete Activit(ies)"
+
+#: core/view/arm_com_activity_list_records.php:169
+#: core/view/arm_com_activity_list_records.php:187
+#: core/view/arm_com_post_list_records.php:173
+#: core/view/arm_com_post_list_records.php:192
+#: core/view/arm_com_review_list_records.php:182
+#: core/view/arm_com_review_list_records.php:206
+#@ ARM_COMMUNITY
+msgid "Bulk Actions"
+msgstr "Bulk Actions"
+
+#: core/view/arm_com_activity_list_records.php:175
+#: core/view/arm_com_activity_list_records.php:193
+#: core/view/arm_com_post_list_records.php:179
+#: core/view/arm_com_post_list_records.php:198
+#: core/view/arm_com_review_list_records.php:193
+#: core/view/arm_com_review_list_records.php:214
+#@ ARM_COMMUNITY
+msgid "Go"
+msgstr "Go"
+
+#: core/view/arm_com_activity_list_records.php:205
+#: core/view/arm_com_activity_list_records.php:237
+#: core/view/arm_com_post_list_records.php:207
+#: core/view/arm_com_post_list_records.php:244
+#: core/view/arm_com_review_list_records.php:228
+#: core/view/arm_com_review_list_records.php:261
+#@ ARM_COMMUNITY
+msgid "Search"
+msgstr "Search"
+
+#: core/view/arm_com_activity_list_records.php:214
+#: core/view/arm_com_post_list_records.php:216
+#: core/view/arm_com_review_list_records.php:237
+#@ ARM_COMMUNITY
+msgid "Filter"
+msgstr "Filter"
+
+#: core/view/arm_com_activity_list_records.php:238
+#@ ARM_COMMUNITY
+msgid "User Activity"
+msgstr "User Activity"
+
+#: core/view/arm_com_activity_list_records.php:239
+#: core/view/arm_com_post.php:195
+#: core/view/arm_com_post_list_records.php:246
+#: core/view/arm_com_review_list_records.php:263
+#@ ARM_COMMUNITY
+msgid "Show"
+msgstr "Show"
+
+#: core/view/arm_com_activity_list_records.php:240
+#: core/view/arm_com_post.php:196
+#: core/view/arm_com_post_list_records.php:247
+#: core/view/arm_com_review_list_records.php:264
+#@ ARM_COMMUNITY
+msgid "Showing"
+msgstr "Showing"
+
+#: core/view/arm_com_activity_list_records.php:241
+#: core/view/arm_com_post.php:197
+#: core/view/arm_com_post_list_records.php:248
+#: core/view/arm_com_review_list_records.php:265
+#@ ARM_COMMUNITY
+msgid "to"
+msgstr "to"
+
+#: core/view/arm_com_activity_list_records.php:242
+#: core/view/arm_com_post.php:198
+#: core/view/arm_com_post_list_records.php:249
+#: core/view/arm_com_review_list_records.php:266
+#@ ARM_COMMUNITY
+msgid "of"
+msgstr "of"
+
+#: core/view/arm_com_activity_list_records.php:243
+#@ ARM_COMMUNITY
+msgid "No matching Activity found."
+msgstr "No matching Activity found."
+
+#: core/view/arm_com_activity_list_records.php:244
+#@ ARM_COMMUNITY
+msgid "No any Activity found."
+msgstr "No any Activity found."
+
+#: core/view/arm_com_activity_list_records.php:245
+#: core/view/arm_com_post.php:201
+#: core/view/arm_com_post_list_records.php:252
+#: core/view/arm_com_review_list_records.php:269
+#@ ARM_COMMUNITY
+msgid "filtered from"
+msgstr "filtered from"
+
+#: core/view/arm_com_activity_list_records.php:246
+#: core/view/arm_com_post.php:202
+#: core/view/arm_com_post_list_records.php:253
+#: core/view/arm_com_review_list_records.php:270
+#@ ARM_COMMUNITY
+msgid "total"
+msgstr "total"
+
+#: core/view/arm_com_post.php:24
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to delete this Post(s)?"
+msgstr "Are you sure you want to delete this Post(s)?"
+
+#: core/view/arm_com_post.php:29
+#@ ARM_COMMUNITY
+msgid "Delete Post(s)"
+msgstr "Delete Post(s)"
+
+#: core/view/arm_com_post.php:165
+#@ ARM_COMMUNITY
+msgid "'s Comments"
+msgstr "'s Comments"
+
+#: core/view/arm_com_post.php:194
+#: core/view/arm_com_post_list_records.php:245
+#@ ARM_COMMUNITY
+msgid "User Post"
+msgstr "User Post"
+
+#: core/view/arm_com_post.php:199
+#: core/view/arm_com_post_list_records.php:250
+#@ ARM_COMMUNITY
+msgid "No matching post found."
+msgstr "No matching post found."
+
+#: core/view/arm_com_post.php:200
+#: core/view/arm_com_post_list_records.php:251
+#@ ARM_COMMUNITY
+msgid "No any post found."
+msgstr "No any post found."
+
+#: core/view/arm_com_review.php:15
+#@ ARM_COMMUNITY
+msgid "Are you sure you want to delete this Review(s)?"
+msgstr "Are you sure you want to delete this Review(s)?"
+
+#: core/view/arm_com_review.php:20
+#@ ARM_COMMUNITY
+msgid "Delete Review(s)"
+msgstr "Delete Review(s)"
+
+#: core/view/arm_com_review_list_records.php:262
+#@ ARM_COMMUNITY
+msgid "User Review"
+msgstr "User Review"
+
+#: core/view/arm_com_review_list_records.php:267
+#@ ARM_COMMUNITY
+msgid "No matching review found."
+msgstr "No matching review found."
+
+#: core/view/arm_com_review_list_records.php:268
+#@ ARM_COMMUNITY
+msgid "No any review found."
+msgstr "No any review found."
+
+#: core/view/arm_community_settings.php:69
+#@ ARM_COMMUNITY
+msgid "Social Feature"
+msgstr "Social Feature"
+
+#: core/view/arm_community_settings.php:69
+#@ ARM_COMMUNITY
+msgid "Active From ARMember"
+msgstr "Active From ARMember"
+
+#: core/view/arm_community_settings.php:69
+#@ ARM_COMMUNITY
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: core/view/arm_community_settings.php:69
+#@ ARM_COMMUNITY
+msgid "Page"
+msgstr "Page"
+
+#: core/view/arm_community_settings.php:79
+#@ ARM_COMMUNITY
+msgid "Allow Friendship"
+msgstr "Allow Friendship"
+
+#: core/view/arm_community_settings.php:85
+#@ ARM_COMMUNITY
+msgid "Enable if you want that user can send friend request to other user."
+msgstr "Enable if you want that user can send friend request to other user."
+
+#: core/view/arm_community_settings.php:146
+#@ ARM_COMMUNITY
+msgid "No Friends Requests Message"
+msgstr "No Friends Requests Message"
+
+#: core/view/arm_community_settings.php:154
+#@ ARM_COMMUNITY
+msgid "No Friends Message"
+msgstr "No Friends Message"
+
+#: core/view/arm_community_settings.php:162
+#@ ARM_COMMUNITY
+msgid "Error Message"
+msgstr "Error Message"
+
+#: core/view/arm_community_settings.php:166
+#@ ARM_COMMUNITY
+msgid "Approve/Send/Cancel"
+msgstr "Approve/Send/Cancel"
+
+#: core/view/arm_community_settings.php:172
+#@ ARM_COMMUNITY
+msgid "Display friends to other users"
+msgstr "Display friends to other users"
+
+#: core/view/arm_community_settings.php:186
+#@ ARM_COMMUNITY
+msgid "Allow Private Messaging"
+msgstr "Allow Private Messaging"
+
+#: core/view/arm_community_settings.php:193
+#@ ARM_COMMUNITY
+msgid "Enable if you want that user can send message to each other."
+msgstr "Enable if you want that user can send message to each other."
+
+#: core/view/arm_community_settings.php:222
+#@ ARM_COMMUNITY
+msgid "Blank Field Message"
+msgstr "Blank Field Message"
+
+#: core/view/arm_community_settings.php:226
+#: core/view/arm_community_settings.php:235
+#@ ARM_COMMUNITY
+msgid "Field Label"
+msgstr "Field Label"
+
+#: core/view/arm_community_settings.php:231
+#@ ARM_COMMUNITY
+msgid "Invalid Field Message"
+msgstr "Invalid Field Message"
+
+#: core/view/arm_community_settings.php:240
+#@ ARM_COMMUNITY
+msgid "Success Message"
+msgstr "Success Message"
+
+#: core/view/arm_community_settings.php:249
+#@ ARM_COMMUNITY
+msgid "User is not Friend"
+msgstr "User is not Friend"
+
+#: core/view/arm_community_settings.php:258
+#@ ARM_COMMUNITY
+msgid "User is blocked message"
+msgstr "User is blocked message"
+
+#: core/view/arm_community_settings.php:268
+#@ ARM_COMMUNITY
+msgid "Allow Messaging Only With Friends"
+msgstr "Allow Messaging Only With Friends"
+
+#: core/view/arm_community_settings.php:282
+#@ ARM_COMMUNITY
+msgid "Allow Follow / Unfollow"
+msgstr "Allow Follow / Unfollow"
+
+#: core/view/arm_community_settings.php:289
+#@ ARM_COMMUNITY
+msgid "Enable if you want that user can follow / unfollow to other user."
+msgstr "Enable if you want that user can follow / unfollow to other user."
+
+#: core/view/arm_community_settings.php:293
+#@ ARM_COMMUNITY
+msgid "Follow Button Text"
+msgstr "Follow Button Text"
+
+#: core/view/arm_community_settings.php:299
+#@ ARM_COMMUNITY
+msgid "Unfollow Button Text"
+msgstr "Unfollow Button Text"
+
+#: core/view/arm_community_settings.php:305
+#@ ARM_COMMUNITY
+msgid "Followers Label"
+msgstr "Followers Label"
+
+#: core/view/arm_community_settings.php:321
+#@ ARM_COMMUNITY
+msgid "Allow Review"
+msgstr "Allow Review"
+
+#: core/view/arm_community_settings.php:328
+#@ ARM_COMMUNITY
+msgid "Enable if you want that user can give review on other user profile."
+msgstr "Enable if you want that user can give review on other user profile."
+
+#: core/view/arm_community_settings.php:340
+#@ ARM_COMMUNITY
+msgid "Keep Reviews Public"
+msgstr "Keep Reviews Public"
+
+#: core/view/arm_community_settings.php:349
+#@ ARM_COMMUNITY
+msgid "Review Approved By Admin"
+msgstr "Review Approved By Admin"
+
+#: core/view/arm_community_settings.php:358
+#@ ARM_COMMUNITY
+msgid "Allow User To Change Their Submitted Review"
+msgstr "Allow User To Change Their Submitted Review"
+
+#: core/view/arm_community_settings.php:371
+#@ ARM_COMMUNITY
+msgid "Allow Post"
+msgstr "Allow Post"
+
+#: core/view/arm_community_settings.php:377
+#@ ARM_COMMUNITY
+msgid "Enable if you want that user can add his posts in his profile."
+msgstr "Enable if you want that user can add his posts in his profile."
+
+#: core/view/arm_community_settings.php:390
+#@ ARM_COMMUNITY
+msgid "Post Slug"
+msgstr "Post Slug"
+
+#: core/view/arm_community_settings.php:394
+#@ ARM_COMMUNITY
+msgid "Recommend to use alphabets only"
+msgstr "Recommend to use alphabets only"
+
+#: core/view/arm_community_settings.php:395
+#@ ARM_COMMUNITY
+msgid "Please enter post slug"
+msgstr "Please enter post slug"
+
+#: core/view/arm_community_settings.php:399
+#@ ARM_COMMUNITY
+msgid "Allow User to Set Featured Image"
+msgstr "Allow User to Set Featured Image"
+
+#: core/view/arm_community_settings.php:408
+#@ ARM_COMMUNITY
+msgid "Allow User to Like Post"
+msgstr "Allow User to Like Post"
+
+#: core/view/arm_community_settings.php:417
+#@ ARM_COMMUNITY
+msgid "Allow User to Add Comment on Post"
+msgstr "Allow User to Add Comment on Post"
+
+#: core/view/arm_community_settings.php:426
+#@ ARM_COMMUNITY
+msgid "Allow User News Feed"
+msgstr "Allow User News Feed"
+
+#: core/view/arm_community_settings.php:447
+#@ ARM_COMMUNITY
+msgid "Allow Activity"
+msgstr "Allow Activity"
+
+#: core/view/arm_community_settings.php:453
+#@ ARM_COMMUNITY
+msgid "Enable if you want to show user's activity."
+msgstr "Enable if you want to show user's activity."
+
+#: core/view/arm_community_settings.php:465
+#@ ARM_COMMUNITY
+msgid "Show Activity To All User"
+msgstr "Show Activity To All User"
+
+#: core/view/arm_community_settings.php:478
+#@ ARM_COMMUNITY
+msgid "No. of Records per Page"
+msgstr "No. of Records per Page"
+
+#: core/view/arm_community_settings.php:485
+#@ ARM_COMMUNITY
+msgid "Pagination Style"
+msgstr "Pagination Style"
+
+#: core/view/arm_community_settings.php:488
+#@ ARM_COMMUNITY
+msgid "Numeric"
+msgstr "Numeric"
+
+#: core/view/arm_community_settings.php:490
+#@ ARM_COMMUNITY
+msgid "Load More Link"
+msgstr "Load More Link"
+
+#: core/view/arm_community_settings.php:495
+#@ ARM_COMMUNITY
+msgid "Email Notification Settings"
+msgstr "Email Notification Settings"
+
+#: core/view/arm_community_settings.php:573
+#@ ARM_COMMUNITY
+msgid "Save"
+msgstr "Save"
+
+#: core/classes/class.arm_community_post.php:672
+#@ ARM_COMMUNITY
+msgid "user created new post"
+msgstr "user created new post"
+
+#: core/classes/class.arm_community_post.php:819
+#@ ARM_COMMUNITY
+msgid "user like post"
+msgstr "user like post"
+
+#: core/classes/class.arm_community_post.php:844
+#@ ARM_COMMUNITY
+msgid "user unlike post"
+msgstr "user unlike post"
+
+#: armembercommunity.php:188
+#@ ARM_COMMUNITY
+msgid "Accept Friend Request"
+msgstr "Accept Friend Request"
+
+#: core/view/arm_community_settings.php:73
+#@ ARM_COMMUNITY
+msgid "Profile Section Label"
+msgstr "Profile Section Label"
+
+#: core/view/arm_community_settings.php:90
+#: core/view/arm_community_settings.php:198
+#: core/view/arm_community_settings.php:333
+#: core/view/arm_community_settings.php:382
+#: core/view/arm_community_settings.php:458
+#@ ARM_COMMUNITY
+msgid "Section Label"
+msgstr "Section Label"
+
+#: core/view/arm_community_settings.php:98
+#@ ARM_COMMUNITY
+msgid "Send Friend Request Label"
+msgstr "Send Friend Request Label"
+
+#: core/view/arm_community_settings.php:106
+#@ ARM_COMMUNITY
+msgid "Cancel Friend Request Label"
+msgstr "Cancel Friend Request Label"
+
+#: core/view/arm_community_settings.php:114
+#@ ARM_COMMUNITY
+msgid "Accept Friend Request Label"
+msgstr "Accept Friend Request Label"
+
+#: core/view/arm_community_settings.php:122
+#@ ARM_COMMUNITY
+msgid "Unfriend Label"
+msgstr "Unfriend Label"
+
+#: core/view/arm_community_settings.php:130
+#@ ARM_COMMUNITY
+msgid "Current Friends Label"
+msgstr "Current Friends Label"
+
+#: core/view/arm_community_settings.php:138
+#@ ARM_COMMUNITY
+msgid "Friends Requests Label"
+msgstr "Friends Requests Label"
+
+#: core/view/arm_community_settings.php:206
+#@ ARM_COMMUNITY
+msgid "Username Label"
+msgstr "Username Label"
+
+#: core/view/arm_community_settings.php:214
+#@ ARM_COMMUNITY
+msgid "Message Label"
+msgstr "Message Label"
+
+#: core/view/arm_community_settings.php:311
+#@ ARM_COMMUNITY
+msgid "Following Label"
+msgstr "Following Label"
+
+#: core/view/arm_community_settings.php:436
+#@ ARM_COMMUNITY
+msgid "User News Feed Section Label"
+msgstr "User News Feed Section Label"
+
+#: armembercommunity.php:381
+#@ ARM_COMMUNITY
+msgid "ARMember - Social Community Addon plugin requires ARMember Plugin installed and active."
+msgstr "ARMember - Social Community Addon plugin requires ARMember Plugin installed and active."
+
+#: armembercommunity.php:384
+#@ ARM_COMMUNITY
+msgid "ARMember - Social Community Addon plugin requires ARMember plugin installed with version 3.0 or higher."
+msgstr "ARMember - Social Community Addon plugin requires ARMember plugin installed with version 3.0 or higher."
+
+#: armembercommunity.php:828
+#@ ARM_COMMUNITY
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armembercommunity.php:833
+#@ ARM_COMMUNITY
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: core/view/arm_community_settings.php:69
+#@ ARM_COMMUNITY
+msgid "ARMember Social Community Addon Require"
+msgstr "ARMember Social Community Addon Require"
+
+#: core/view/arm_community_settings.php:495
+#@ ARM_COMMUNITY
+msgid "You can add/edit Email content from ARMember -> Email Notification -> Add New Response button."
+msgstr "You can add/edit Email content from ARMember -> Email Notification -> Add New Response button."
+

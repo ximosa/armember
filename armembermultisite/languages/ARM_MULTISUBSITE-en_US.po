@@ -1,0 +1,696 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Member Network Site Addon v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-08-06 11:10:49+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armembermultisite.php:348
+#: armembermultisite.php:556
+#: armembermultisite.php:622
+#: armembermultisite.php:1139
+#: core/views/arm_multisite_subsite_records.php:118
+#: core/views/arm_multisite_subsite_records.php:139
+#: core/views/arm_multisite_subsite_records.php:293
+#@ ARM_MULTISUBSITE
+msgid "Delete"
+msgstr "Delete"
+
+#: armembermultisite.php:349
+#: armembermultisite.php:557
+#: armembermultisite.php:623
+#: armembermultisite.php:1140
+#: armembermultisite.php:1274
+#: core/classes/class.arm_multisite_subsite.php:154
+#: core/views/arm_multisite_subsite_records.php:286
+#@ ARM_MULTISUBSITE
+msgid "Activate"
+msgstr "Activate"
+
+#: armembermultisite.php:350
+#: armembermultisite.php:558
+#: armembermultisite.php:624
+#: armembermultisite.php:1141
+#: core/classes/class.arm_multisite_subsite.php:162
+#: core/views/arm_multisite_subsite_records.php:289
+#@ ARM_MULTISUBSITE
+msgid "Deactivate"
+msgstr "Deactivate"
+
+#: armembermultisite.php:362
+#: armembermultisite.php:1798
+#@ ARM_MULTISUBSITE
+msgid "There is no record of subsite"
+msgstr "There is no record of subsite"
+
+#: armembermultisite.php:424
+#: armembermultisite.php:1220
+#: armembermultisite.php:2453
+#@ ARM_MULTISUBSITE
+msgid "Are you sure you want to activate this Site?"
+msgstr "Are you sure you want to activate this Site?"
+
+#: armembermultisite.php:428
+#: armembermultisite.php:591
+#: armembermultisite.php:1271
+#@ ARM_MULTISUBSITE
+msgid "Please select a plan to activate the site."
+msgstr "Please select a plan to activate the site."
+
+#: armembermultisite.php:432
+#: armembermultisite.php:600
+#: armembermultisite.php:731
+#: armembermultisite.php:1275
+#: armembermultisite.php:1864
+#: armembermultisite.php:1874
+#@ ARM_MULTISUBSITE
+msgid "Cancel"
+msgstr "Cancel"
+
+#: armembermultisite.php:460
+#: armembermultisite.php:1218
+#: armembermultisite.php:2440
+#@ ARM_MULTISUBSITE
+msgid "Are you sure you want to delete this Site?"
+msgstr "Are you sure you want to delete this Site?"
+
+#: armembermultisite.php:489
+#: armembermultisite.php:498
+#: armembermultisite.php:1131
+#: armembermultisite.php:1340
+#: armembermultisite.php:2433
+#@ ARM_MULTISUBSITE
+msgid "No any subsite found"
+msgstr "No any subsite found"
+
+#: armembermultisite.php:524
+#, php-format
+#@ ARM_MULTISUBSITE
+msgid "Please delete any %d subsite."
+msgstr "Please delete any %d subsite."
+
+#: armembermultisite.php:576
+#: armembermultisite.php:1222
+#: armembermultisite.php:2474
+#@ ARM_MULTISUBSITE
+msgid "Your Site deactivated successfully."
+msgstr "Your Site deactivated successfully."
+
+#: armembermultisite.php:651
+#: armembermultisite.php:671
+#@ ARM_MULTISUBSITE
+msgid "No plan available."
+msgstr "No plan available."
+
+#: armembermultisite.php:696
+#@ ARM_MULTISUBSITE
+msgid "Multisite creation is disabled for the current plan."
+msgstr "Multisite creation is disabled for the current plan."
+
+#: armembermultisite.php:698
+#, php-format
+#@ ARM_MULTISUBSITE
+msgid "You can not activate more than %d site of plan %s."
+msgstr "You can not activate more than %d site of plan %s."
+
+#: armembermultisite.php:708
+#, php-format
+#@ ARM_MULTISUBSITE
+msgid "You can not activate more than %d site."
+msgstr "You can not activate more than %d site."
+
+#: armembermultisite.php:721
+#: armembermultisite.php:1221
+#: armembermultisite.php:2467
+#@ ARM_MULTISUBSITE
+msgid "Are you sure you want to deactivate this Site?"
+msgstr "Are you sure you want to deactivate this Site?"
+
+#: armembermultisite.php:743
+#@ ARM_MULTISUBSITE
+msgid "Invalid parameter."
+msgstr "Invalid parameter."
+
+#: armembermultisite.php:845
+#: armembermultisite.php:1147
+#, php-format
+#@ ARM_MULTISUBSITE
+msgid "You have created %d out of %d site(s)."
+msgstr "You have created %d out of %d site(s)."
+
+#: armembermultisite.php:868
+#, php-format
+#@ ARM_MULTISUBSITE
+msgid "Your Site Name must be at least 4 characters (latters/numbers only). Once your site is created the site name cannot be changed.%s"
+msgstr "Your Site Name must be at least 4 characters (latters/numbers only). Once your site is created the site name cannot be changed.%s"
+
+#: armembermultisite.php:872
+#: armembermultisite.php:1738
+#@ ARM_MULTISUBSITE
+msgid "Add New Subsite"
+msgstr "Add New Subsite"
+
+#: armembermultisite.php:873
+#: armembermultisite.php:1744
+#@ ARM_MULTISUBSITE
+msgid "Site Name"
+msgstr "Site Name"
+
+#: armembermultisite.php:874
+#@ ARM_MULTISUBSITE
+msgid "Site Title"
+msgstr "Site Title"
+
+#: armembermultisite.php:879
+#: armembermultisite.php:1765
+#@ ARM_MULTISUBSITE
+msgid "You have reached to limit of site(s) allowed to create."
+msgstr "You have reached to limit of site(s) allowed to create."
+
+#: armembermultisite.php:880
+#: armembermultisite.php:1769
+#@ ARM_MULTISUBSITE
+msgid "Submit"
+msgstr "Submit"
+
+#: armembermultisite.php:968
+#: armembermultisite.php:984
+#: armembermultisite.php:994
+#@ ARM_MULTISUBSITE
+msgid "This field can not be left blank"
+msgstr "This field can not be left blank"
+
+#: armembermultisite.php:972
+#@ ARM_MULTISUBSITE
+msgid "This field required minimum 4 characters."
+msgstr "This field required minimum 4 characters."
+
+#: armembermultisite.php:976
+#@ ARM_MULTISUBSITE
+msgid "This field should not be blank."
+msgstr "This field should not be blank."
+
+#: armembermultisite.php:987
+#: armembermultisite.php:997
+#@ ARM_MULTISUBSITE
+msgid "This field can not be left blank."
+msgstr "This field can not be left blank."
+
+#: armembermultisite.php:1135
+#: armembermultisite.php:1917
+#: core/views/arm_multisite_subsite_records.php:10
+#: core/views/arm_multisite_subsite_records.php:180
+#@ ARM_MULTISUBSITE
+msgid "Membership Plan"
+msgstr "Membership Plan"
+
+#: armembermultisite.php:1136
+#: armembermultisite.php:1918
+#@ ARM_MULTISUBSITE
+msgid "Site"
+msgstr "Site"
+
+#: armembermultisite.php:1137
+#: armembermultisite.php:1919
+#: core/views/arm_multisite_subsite_records.php:12
+#: core/views/arm_multisite_subsite_records.php:182
+#@ ARM_MULTISUBSITE
+msgid "Status"
+msgstr "Status"
+
+#: armembermultisite.php:1138
+#@ ARM_MULTISUBSITE
+msgid "Action"
+msgstr "Action"
+
+#: armembermultisite.php:1385
+#@ ARM_MULTISUBSITE
+msgid "Multisite Settings"
+msgstr "Multisite Settings"
+
+#: armembermultisite.php:1388
+#@ ARM_MULTISUBSITE
+msgid "Allow members to create subsite(s) for this plan?"
+msgstr "Allow members to create subsite(s) for this plan?"
+
+#: armembermultisite.php:1400
+#@ ARM_MULTISUBSITE
+msgid "Number of site(s) allowed to create"
+msgstr "Number of site(s) allowed to create"
+
+#: armembermultisite.php:1411
+#@ ARM_MULTISUBSITE
+msgid "Select Default Role to Apply Subsite Creator"
+msgstr "Select Default Role to Apply Subsite Creator"
+
+#: armembermultisite.php:1446
+#@ ARM_MULTISUBSITE
+msgid "Administrator"
+msgstr "Administrator"
+
+#: armembermultisite.php:1447
+#@ ARM_MULTISUBSITE
+msgid "Author"
+msgstr "Author"
+
+#: armembermultisite.php:1448
+#@ ARM_MULTISUBSITE
+msgid "Contributor"
+msgstr "Contributor"
+
+#: armembermultisite.php:1449
+#@ ARM_MULTISUBSITE
+msgid "Editor"
+msgstr "Editor"
+
+#: armembermultisite.php:1450
+#@ ARM_MULTISUBSITE
+msgid "Subscriber"
+msgstr "Subscriber"
+
+#: armembermultisite.php:1466
+#: armembermultisite.php:2446
+#@ ARM_MULTISUBSITE
+msgid "Site deleted successfully."
+msgstr "Site deleted successfully."
+
+#: armembermultisite.php:1501
+#@ ARM_MULTISUBSITE
+msgid "Please Create WordPress Multisite Network. For more information"
+msgstr "Please Create WordPress Multisite Network. For more information"
+
+#: armembermultisite.php:1501
+#@ ARM_MULTISUBSITE
+msgid "click here"
+msgstr "click here"
+
+#: armembermultisite.php:1522
+#: armembermultisite.php:2427
+#@ ARM_MULTISUBSITE
+msgid "Site has been successfully created."
+msgstr "Site has been successfully created."
+
+#: armembermultisite.php:1585
+#, php-format
+#@ ARM_MULTISUBSITE
+msgid "You have created %d site out of %d site."
+msgstr "You have created %d site out of %d site."
+
+#: armembermultisite.php:1701
+#: armembermultisite.php:1702
+#@ ARM_MULTISUBSITE
+msgid "Create Subsite"
+msgstr "Create Subsite"
+
+#: armembermultisite.php:1704
+#: armembermultisite.php:1705
+#: armembermultisite.php:1786
+#: armembermultisite.php:2359
+#: armembermultisite.php:2360
+#: armembermultisite.php:2399
+#: core/views/arm_multisite_subsite.php:8
+#@ ARM_MULTISUBSITE
+msgid "Manage Subsites"
+msgstr "Manage Subsites"
+
+#: armembermultisite.php:1719
+#@ ARM_MULTISUBSITE
+msgid "Select Form for Styling"
+msgstr "Select Form for Styling"
+
+#: armembermultisite.php:1722
+#@ ARM_MULTISUBSITE
+msgid "Please select signup / registration form."
+msgstr "Please select signup / registration form."
+
+#: armembermultisite.php:1736
+#: armembermultisite.php:1784
+#@ ARM_MULTISUBSITE
+msgid "Title"
+msgstr "Title"
+
+#: armembermultisite.php:1742
+#@ ARM_MULTISUBSITE
+msgid "Site Name Label"
+msgstr "Site Name Label"
+
+#: armembermultisite.php:1748
+#@ ARM_MULTISUBSITE
+msgid "Site Title Label"
+msgstr "Site Title Label"
+
+#: armembermultisite.php:1750
+#@ ARM_MULTISUBSITE
+msgid "Site title"
+msgstr "Site title"
+
+#: armembermultisite.php:1754
+#: armembermultisite.php:1802
+#@ ARM_MULTISUBSITE
+msgid "Display subsite information belt"
+msgstr "Display subsite information belt"
+
+#: armembermultisite.php:1764
+#@ ARM_MULTISUBSITE
+msgid "Maximum Site limit message"
+msgstr "Maximum Site limit message"
+
+#: armembermultisite.php:1768
+#@ ARM_MULTISUBSITE
+msgid "Submit button text"
+msgstr "Submit button text"
+
+#: armembermultisite.php:1790
+#@ ARM_MULTISUBSITE
+msgid "Records per page"
+msgstr "Records per page"
+
+#: armembermultisite.php:1796
+#@ ARM_MULTISUBSITE
+msgid "No Record Message"
+msgstr "No Record Message"
+
+#: armembermultisite.php:1812
+#@ ARM_MULTISUBSITE
+msgid "Subsite activate button label"
+msgstr "Subsite activate button label"
+
+#: armembermultisite.php:1818
+#@ ARM_MULTISUBSITE
+msgid "Subsite deactivate button label"
+msgstr "Subsite deactivate button label"
+
+#: armembermultisite.php:1824
+#@ ARM_MULTISUBSITE
+msgid "Subsite delete button label"
+msgstr "Subsite delete button label"
+
+#: armembermultisite.php:1830
+#@ ARM_MULTISUBSITE
+msgid "Membership plan heading label"
+msgstr "Membership plan heading label"
+
+#: armembermultisite.php:1836
+#@ ARM_MULTISUBSITE
+msgid "Subsite heading label"
+msgstr "Subsite heading label"
+
+#: armembermultisite.php:1842
+#@ ARM_MULTISUBSITE
+msgid "Status heading label"
+msgstr "Status heading label"
+
+#: armembermultisite.php:1848
+#@ ARM_MULTISUBSITE
+msgid "Action heading label"
+msgstr "Action heading label"
+
+#: armembermultisite.php:1863
+#: armembermultisite.php:1873
+#@ ARM_MULTISUBSITE
+msgid "Add Shortcode"
+msgstr "Add Shortcode"
+
+#: armembermultisite.php:1912
+#@ ARM_MULTISUBSITE
+msgid "Subsite Details"
+msgstr "Subsite Details"
+
+#: armembermultisite.php:1953
+#@ ARM_MULTISUBSITE
+msgid "No Multisite created."
+msgstr "No Multisite created."
+
+#: armembermultisite.php:2134
+#@ ARM_MULTISUBSITE
+msgid "Multisite (subsite) For ARMember plugin requires ARMember Plugin installed and active."
+msgstr "Multisite (subsite) For ARMember plugin requires ARMember Plugin installed and active."
+
+#: armembermultisite.php:2137
+#@ ARM_MULTISUBSITE
+msgid "Multisite (subsite) For ARMember plugin requires ARMember plugin installed with version 3.2.1 or higher."
+msgstr "Multisite (subsite) For ARMember plugin requires ARMember plugin installed with version 3.2.1 or higher."
+
+#: armembermultisite.php:2140
+#@ ARM_MULTISUBSITE
+msgid "To use Multisite (subsite) For ARMember plugin, you have to enable wordpress multisite."
+msgstr "To use Multisite (subsite) For ARMember plugin, you have to enable wordpress multisite."
+
+#: armembermultisite.php:2195
+#: core/classes/class.arm_multisite_subsite.php:80
+#@ ARM_MULTISUBSITE
+msgid "Please select one or more records."
+msgstr "Please select one or more records."
+
+#: armembermultisite.php:2196
+#: core/classes/class.arm_multisite_subsite.php:83
+#@ ARM_MULTISUBSITE
+msgid "Please select valid action."
+msgstr "Please select valid action."
+
+#: armembermultisite.php:2197
+#@ ARM_MULTISUBSITE
+msgid "Settings has been saved successfully."
+msgstr "Settings has been saved successfully."
+
+#: armembermultisite.php:2198
+#@ ARM_MULTISUBSITE
+msgid "There is a error while updating settings, please try again."
+msgstr "There is a error while updating settings, please try again."
+
+#: armembermultisite.php:2425
+#@ ARM_MULTISUBSITE
+msgid "Susite Added Message"
+msgstr "Susite Added Message"
+
+#: armembermultisite.php:2431
+#@ ARM_MULTISUBSITE
+msgid "Empty Subsite list message"
+msgstr "Empty Subsite list message"
+
+#: armembermultisite.php:2438
+#@ ARM_MULTISUBSITE
+msgid "Subsite Delete Confirm Message"
+msgstr "Subsite Delete Confirm Message"
+
+#: armembermultisite.php:2444
+#@ ARM_MULTISUBSITE
+msgid "Subsite Deleted Success Message"
+msgstr "Subsite Deleted Success Message"
+
+#: armembermultisite.php:2451
+#@ ARM_MULTISUBSITE
+msgid "Subsite Activation Confirm Message"
+msgstr "Subsite Activation Confirm Message"
+
+#: armembermultisite.php:2458
+#@ ARM_MULTISUBSITE
+msgid "Subsite Activated Success Message"
+msgstr "Subsite Activated Success Message"
+
+#: armembermultisite.php:717
+#: armembermultisite.php:2460
+#@ ARM_MULTISUBSITE
+msgid "Your Site activated successfully."
+msgstr "Your Site activated successfully."
+
+#: armembermultisite.php:2465
+#@ ARM_MULTISUBSITE
+msgid "Subsite Deactivation Confirm Message"
+msgstr "Subsite Deactivation Confirm Message"
+
+#: armembermultisite.php:2472
+#@ ARM_MULTISUBSITE
+msgid "Subsite Deactivated Success Message"
+msgstr "Subsite Deactivated Success Message"
+
+#: armembermultisite.php:2480
+#@ ARM_MULTISUBSITE
+msgid "Number of Subsite Allowed Warning Message"
+msgstr "Number of Subsite Allowed Warning Message"
+
+#: armembermultisite.php:2482
+#@ ARM_MULTISUBSITE
+msgid "Please Delete any [ARM_MULTISITE_TO_DELETE] Subsite."
+msgstr "Please Delete any [ARM_MULTISITE_TO_DELETE] Subsite."
+
+#: armembermultisite.php:2483
+#@ ARM_MULTISUBSITE
+msgid "This will replace difference between number of maximum site allowed and number of created site."
+msgstr "This will replace difference between number of maximum site allowed and number of created site."
+
+#: armembermultisite.php:2484
+#@ ARM_MULTISUBSITE
+msgid "This will replace number of maximum subsite allowed."
+msgstr "This will replace number of maximum subsite allowed."
+
+#: armembermultisite.php:2485
+#@ ARM_MULTISUBSITE
+msgid "This will replace number of subsite added."
+msgstr "This will replace number of subsite added."
+
+#: armembermultisite.php:2502
+#@ ARM_MULTISUBSITE
+msgid "Multisite(Subsite)"
+msgstr "Multisite(Subsite)"
+
+#: armembermultisite.php:2505
+#@ ARM_MULTISUBSITE
+msgid "Multisite Subscriptions"
+msgstr "Multisite Subscriptions"
+
+#: armembermultisite.php:2512
+#@ ARM_MULTISUBSITE
+msgid "Provides \"Singlesites\" based on purchased subscriptions"
+msgstr "Provides \"Singlesites\" based on purchased subscriptions"
+
+#: core/views/arm_multisite_subsite_records.php:9
+#: core/views/arm_multisite_subsite_records.php:179
+#@ ARM_MULTISUBSITE
+msgid "Site Owner (Username)"
+msgstr "Site Owner (Username)"
+
+#: core/views/arm_multisite_subsite_records.php:11
+#: core/views/arm_multisite_subsite_records.php:181
+#@ ARM_MULTISUBSITE
+msgid "Subsite"
+msgstr "Subsite"
+
+#: core/classes/class.arm_multisite_subsite.php:153
+#: core/views/arm_multisite_subsite_records.php:271
+#, php-format
+#@ ARM_MULTISUBSITE
+msgid "%sDeactive%s"
+msgstr "%sDeactive%s"
+
+#: core/classes/class.arm_multisite_subsite.php:161
+#: core/views/arm_multisite_subsite_records.php:275
+#, php-format
+#@ ARM_MULTISUBSITE
+msgid "%sActive%s"
+msgstr "%sActive%s"
+
+#: core/views/arm_multisite_subsite_records.php:291
+#@ ARM_MULTISUBSITE
+msgid "Visit"
+msgstr "Visit"
+
+#: core/views/arm_multisite_subsite_records.php:295
+#@ ARM_MULTISUBSITE
+msgid "Are you sure you want to delete this subsite?"
+msgstr "Are you sure you want to delete this subsite?"
+
+#: core/classes/class.arm_multisite_subsite.php:35
+#@ ARM_MULTISUBSITE
+msgid "Sorry, You do not have permission to perform this action."
+msgstr "Sorry, You do not have permission to perform this action."
+
+#: core/classes/class.arm_multisite_subsite.php:54
+#@ ARM_MULTISUBSITE
+msgid "Subsite deleted successfully."
+msgstr "Subsite deleted successfully."
+
+#: core/classes/class.arm_multisite_subsite.php:60
+#@ ARM_MULTISUBSITE
+msgid "Sorry, Action not found."
+msgstr "Sorry, Action not found."
+
+#: core/classes/class.arm_multisite_subsite.php:91
+#: core/classes/class.arm_multisite_subsite.php:169
+#: core/classes/class.arm_multisite_subsite.php:210
+#@ ARM_MULTISUBSITE
+msgid "Sorry, You do not have permission to perform this action"
+msgstr "Sorry, You do not have permission to perform this action"
+
+#: core/classes/class.arm_multisite_subsite.php:118
+#@ ARM_MULTISUBSITE
+msgid "Subsite(s) has been deleted successfully."
+msgstr "Subsite(s) has been deleted successfully."
+
+#: core/views/arm_multisite_subsite.php:21
+#@ ARM_MULTISUBSITE
+msgid "Are you sure you want to delete this subsite(s)?"
+msgstr "Are you sure you want to delete this subsite(s)?"
+
+#: core/views/arm_multisite_subsite.php:26
+#@ ARM_MULTISUBSITE
+msgid "Delete Subsite(s)"
+msgstr "Delete Subsite(s)"
+
+#: core/views/arm_multisite_subsite_records.php:117
+#: core/views/arm_multisite_subsite_records.php:138
+#@ ARM_MULTISUBSITE
+msgid "Bulk Actions"
+msgstr "Bulk Actions"
+
+#: core/views/arm_multisite_subsite_records.php:123
+#: core/views/arm_multisite_subsite_records.php:144
+#@ ARM_MULTISUBSITE
+msgid "Go"
+msgstr "Go"
+
+#: core/views/arm_multisite_subsite_records.php:315
+#@ ARM_MULTISUBSITE
+msgid "Search"
+msgstr "Search"
+
+#: core/views/arm_multisite_subsite_records.php:316
+#@ ARM_MULTISUBSITE
+msgid "item"
+msgstr "item"
+
+#: core/views/arm_multisite_subsite_records.php:317
+#@ ARM_MULTISUBSITE
+msgid "Show"
+msgstr "Show"
+
+#: core/views/arm_multisite_subsite_records.php:318
+#@ ARM_MULTISUBSITE
+msgid "Showing"
+msgstr "Showing"
+
+#: core/views/arm_multisite_subsite_records.php:319
+#@ ARM_MULTISUBSITE
+msgid "to"
+msgstr "to"
+
+#: core/views/arm_multisite_subsite_records.php:320
+#@ ARM_MULTISUBSITE
+msgid "of"
+msgstr "of"
+
+#: core/views/arm_multisite_subsite_records.php:321
+#@ ARM_MULTISUBSITE
+msgid "No matching item found."
+msgstr "No matching item found."
+
+#: core/views/arm_multisite_subsite_records.php:322
+#@ ARM_MULTISUBSITE
+msgid "No any subsite found."
+msgstr "No any subsite found."
+
+#: core/views/arm_multisite_subsite_records.php:323
+#@ ARM_MULTISUBSITE
+msgid "filtered from"
+msgstr "filtered from"
+
+#: core/views/arm_multisite_subsite_records.php:324
+#@ ARM_MULTISUBSITE
+msgid "total"
+msgstr "total"
+

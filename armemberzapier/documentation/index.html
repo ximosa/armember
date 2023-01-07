@@ -1,0 +1,557 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function() {
+                if ( jQuery(window).scrollTop() > amountScrolled ) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function() {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function(event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop:0}, 'fast','swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast',function(){
+                       jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+id+'"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                }); 
+                jQuery("#overlay").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+window.location.hash+'"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height(){
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#membership_setup_wizard">Zapier Setup Wizard</a></li>
+                            <li><a class="panel" href="#membership_setup_zapier_trigger">Zapier Trigger</a></li>
+                            <li><a class="panel" href="#membership_setup_zapier_action">Zapier Action</a></li>
+                            <li><a class="panel" href="#membership_zapier_changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - Zapier Addon ( Version: 1.7 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 25/09/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This add-on will allow you to synchronize your website data with other apps using zapier.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This plugin will only work if ARMember plugin <strong>version is 1.8 or higher. </strong> </p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/ARMemeber_zapier_addon.png">
+                                    <img src="images/ARMemeber_zapier_addon.png" alt="ARMemeber Zapier addon" />
+                                </a>
+                            </p>
+                            <h2>ARMember - Zapier Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation.</li>
+                                <li>Easy integration with other apps using Zapier.</li>
+                                <li>Zapier is service which connects over 700 different apps – to allow for useful integrations between them.</li>
+                                <li>The ARMember - Zapier supports the following triggers to automate synchronize your website data with other apps.
+                                    <ul>
+                                        <li>On User Registration</li>
+                                        <li>On User Update Profile</li>
+                                        <li>On Membership Plan Renewed</li>
+                                        <li>On Membership Plan Changed</li>
+										<li>On Membership Plan Cancel</li>
+                                        <li>On User Deleted</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <div id="intro">
+                        <h1>ARMember - Zapier Addon ( Version: 1.7 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 25/09/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This add-on will allow you to synchronize your website data with other apps using zapier.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This plugin will only work if ARMember plugin <strong>version is 1.8 or higher. </strong> </p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/ARMemeber_zapier_addon.png">
+                                    <img src="images/ARMemeber_zapier_addon.png" alt="ARMemeber Zapier addon" />
+                                </a>
+                            </p>
+                            <h2>ARMember - Zapier Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation.</li>
+                                <li>Easy integration with other apps using Zapier.</li>
+                                <li>Zapier is service which connects over 700 different apps – to allow for useful integrations between them.</li>
+                                <li>The ARMember - Zapier includes the following triggers to automate synchronize your website data with other apps.
+                                    <ul>
+                                        <li>On User Registration</li>
+                                        <li>On User Update Profile</li>
+                                        <li>On Membership Plan Renewed</li>
+                                        <li>On Membership Plan Changed</li>
+										<li>On Membership Plan Cancel</li>
+                                        <li>On User Deleted</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                           <h2>Steps For Installation And Activation</h2>
+                           <p>You can install plugin in following two ways. and ARMember - Zapier plugin requires ARMember Plugin installed and active.</p>
+                           <h3>New install via FTP </h3>
+                           <ol class="large_bottom_margin bottom_margin" type="a">
+                               <li>Download the plugin and extract it. You will find a directory <strong>armemberzapier</strong>.</li>
+                               <li>In your WordPress installation directory, upload <strong>armemberzapier</strong> to <code>wp-content/plugins/</code></li>
+                               <li>Activate the <code>ARMember - Zapier</code> plugin through the <code>Plugins</code> menu from WordPress admin panel.</li>
+                           </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download the plugin.</li>
+                                <li>Log in to your WordPress admin panel</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the plugin uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="membership_setup_wizard">
+                        <h1>Zapier Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Zapier For Your Website</h2>
+                            <h4>Let's setup ARMember - Zapier for your website :</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>When plugin activated then Zapier page will be display in <code>ARMember</code>.</p>
+                                    <p> Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/zapier_menu.png">
+                                            <img src="images/zapier_menu.png" alt="Zapier Display in ARMember section" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Click on Zapier Sattings page then you can see triggers and actions.</p>
+                                    <p>Please see below screenshots.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/zapier_page.png">
+                                            <img src="images/zapier_page.png" alt="Display Zapier Page" />
+                                        </a>
+                                    </p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/zapier_page_actions.png">
+                                            <img src="images/zapier_page_actions.png" alt="Display Zapier Page" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>You will be select fields that you want to send data in zapier. if you want to send all data than leave it blank.</p>
+                                </li>
+                                <li>
+                                    <p>You can set below triggers in your zapier account.</p>
+                                    <ul>
+                                        <li>On User Registration</li>
+                                        <li>On User Update Profile</li>
+                                        <li>On Membership Plan Renewed</li>
+                                        <li>On Membership Plan Changed</li>
+                                        <li>On User Deleted</li>
+                                    </ul>
+                                    <p>You will be able to <strong>Enable</strong> and <strong>Disable</strong> all triggers.</p>
+                                </li>
+                                <li>
+                                    <p>You can set field for action from <code>Enable User Register Using Zapier Action</code> Click <strong>Enable</strong> for your zapier account.</p>
+                                    <ul>
+                                        <li>
+                                            <p>Enter <code>armember_zap_action</code> -> <code>success</code> assign default membership plan and custom field add and Save.</p>
+                                            <p><strong></strong>For security purpose, user will be created only if above parameter and entered value will be matched with webhook URL. Use above parameter pass with Zapier webhook action.<br>Please use exact (case sensitive) parameter name and value in your Zapier webhook action.</p>
+                                        </li>
+                                        <li>
+                                            <p>You can set field for assign membership plan from <code>Assign default membership plan to user upon signup</code></p>
+                                            <p>Selected plan from this dropdown will be assigned to member only if 'arm_membership_plan' parameter (see all possible parameters below) is not passed in your webhook action.</p>
+                                        </li>
+
+                                        <li>
+                                            <p>You can add custom fields using zapier actions from <code>Enter parameter name for user custom fields</code></p>
+                                            <p>You can add all custom meta keys here for user registration. Please add only those parameters which are not listed below.</p>
+
+                                        </li>
+
+                                        <li>
+                                            <p><span class="arm_info_text"><b>Note:</b> Default parameters listed below can be passed to webhook action directly whithout adding anywhere.</span>:</p>
+                                            <p>
+                                                    <div>
+                                                        <span class="arm_zap_custom_fields"><strong>Field Name</strong></span> 
+                                                        <span class="arm_zap_custom_fields_label"><strong>Parameters</strong></span> 
+                                                    </div>
+                                                    <div>
+                                                        <span class="arm_zap_custom_fields">Email Address</span> 
+                                                        <span class="arm_zap_custom_fields_label"><code>email</code></span> 
+                                                        <span class="arm_zap_custom_fields_optional">(required)</span> 
+                                                    </div>
+                                                    <div>
+                                                        <span class="arm_zap_custom_fields">Username</span> 
+                                                        <span class="arm_zap_custom_fields_label"><code>user_login</code></span> 
+                                                        <span class="arm_zap_custom_fields_optional">(optional)</span> 
+                                                    </div>
+                                                    <div>
+                                                        <span class="arm_zap_custom_fields">First Name</span> 
+                                                        <span class="arm_zap_custom_fields_label"><code>first_name</code></span> 
+                                                        <span class="arm_zap_custom_fields_optional">(optional)</span> 
+                                                    </div>
+                                                    <div>
+                                                        <span class="arm_zap_custom_fields">Last Name</span> 
+                                                        <span class="arm_zap_custom_fields_label"><code>last_name</code></span> 
+                                                        <span class="arm_zap_custom_fields_optional">(optional)</span> 
+                                                    </div>
+                                                    <div>
+                                                        <span class="arm_zap_custom_fields">Plain Password</span> 
+                                                        <span class="arm_zap_custom_fields_label"><code>user_pass</code></span> 
+                                                        <span class="arm_zap_custom_fields_optional">(optional)</span> 
+                                                    </div>
+                                                    <div>
+                                                        <span class="arm_zap_custom_fields">Display Name</span>
+                                                        <span class="arm_zap_custom_fields_label"><code>display_name</code></span> 
+                                                        <span class="arm_zap_custom_fields_optional">(optional)</span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="arm_zap_custom_fields">User Nice Name</span> 
+                                                        <span class="arm_zap_custom_fields_label"><code>user_nicename</code></span>
+                                                        <span class="arm_zap_custom_fields_optional">(optional)</span> 
+                                                    </div>
+                                                    <div>
+                                                        <span class="arm_zap_custom_fields">Website Url</span> 
+                                                        <span class="arm_zap_custom_fields_label"><code>user_url</code></span> 
+                                                        <span class="arm_zap_custom_fields_optional">(optional)</span> 
+                                                    </div>
+                                                    <div>
+                                                        <span class="arm_zap_custom_fields">Assign Membership Plan</span> 
+                                                        <span class="arm_zap_custom_fields_label"><code>arm_member_plan_id</code></span> 
+                                                        <span class="arm_zap_custom_fields_optional">(optional)</span>
+                                                    </div>
+                                                    </p>
+                                        </li>
+
+                                    
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="membership_setup_zapier_trigger">
+                        <h1>Zapier Trigger Setup</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Zapier Trigger For Your Website</h2>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>First of all login to your zapier account. For login to zapier account <a target="_blank" href="https://zapier.com/app/login"> Click here</a>.</p>
+                                </li>
+                                <li>
+                                    <p>If you do not have zapier account then <a target="_blank" href="https://zapier.com/"> Create zapier account</a>.</p>
+                                </li>        
+                                <li>
+                                    <p>After login to your zapier account. Please follow the below steps for <strong>Create a zap</strong> or <strong>How to setup trigger</strong> in zapier.</p>
+                                    <ol>
+                                        <li>
+                                            <p>Click on <code>MAKE A ZAP</code> button from your Dashboard page.</p>
+                                        </li>
+                                        <li>
+                                            <p>For set Trigger you need to select <code>Webhooks</code> app from <code>Built-In</code> apps list.</p>
+                                            <p>Please see below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_trigger_app.png">
+                                                    <img src="images/zapier_acc_trigger_app.png" alt="Select Trigger App" />
+                                                </a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>Then after need to select app trigger. There is must need to select <code>Catch Hook</code>. It's important that you select this trigger otherwise the integration will not work.</p>
+                                            <p>Please see below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_app_trigger.png">
+                                                    <img src="images/zapier_acc_app_trigger.png" alt="Select Trigger App" />
+                                                </a>
+                                            </p>
+                                            <p>After select the trigger click on <code>Save + Continue</code> button.</p>
+                                        </li>
+                                        <li>
+                                            <p>Then the below screen will be display.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_pick_child_key.png">
+                                                    <img src="images/zapier_acc_pick_child_key.png" alt="Select Trigger App" />
+                                                </a>
+                                            </p>
+                                            <p>There is no need enter any text in the text box. So you will be able to get all field list that you selected on zapier setting page in zapier action.</p>
+                                            <p>If you specify the child key from the object then you will only access the child key in action.</p>
+                                        </li>
+                                        <li>
+                                            <p>Click on <code>Continue</code> button so you will see the below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_test.png">
+                                                    <img src="images/zapier_acc_test.png" alt="Select Trigger App" />
+                                                </a>
+                                            </p>
+                                            <p>Copy the Webhook URL and set into <code>Webhook URL</code> in ARMember Zapier setting page.</p>
+                                            <ul>
+                                                <li><p> If you want to send data to app when user register on your site then enable <code>On User Registration</code> and set the webhook url in <code>Webhook URL</code> text box.</p></li>
+                                                <li><p> If you want to send data to app when user update profile on your site then enable <code>On User Update Profile</code> and set the webhook url in <code>Webhook URL</code> text box.</p></li>
+                                                <li><p> If you want to send data to app when user renew plan on your site then enable <code>On Membership Plan Renewed</code> and set the webhook url in <code>Webhook URL</code> text box.</p></li>
+                                                <li><p> If you want to send data to app when user change plan on your site then enable <code>On Membership Plan Changed</code> and set the webhook url in <code>Webhook URL</code> text box.</p></li>
+                                                <li><p> If you want to send data to app when user delete on your site then enable <code>On User Deleted</code> and set the webhook url in <code>Webhook URL</code> text box.</p></li>
+                                                <li><p>After set the webhook url. Click on save button.</p></li>
+                                            </ul>
+                                            <p>After save the ARMember Zapier settings, Click on <code>OK, I did this</code> button on your zapier account.</p>
+                                        </li>
+                                        <li>
+                                            <p>Then perform the action in website that you have set webhook URL.</p>
+                                            <p>So Zapier webhook is tested and the field list will be display in Action. It's important that you test the trigger otherwise the field list will not appear in action app.</p>
+                                            <p>When you done the action in website than you can see the below screen in you zapier account.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_tested.png">
+                                                    <img src="images/zapier_acc_tested.png" alt="Select Trigger App" />
+                                                </a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>Click on <code>Continue</code> button. You have successfully set the trigger in your zapier account.</p>
+                                        </li>
+                                        <li>
+                                            <p>Now you can set action in your zapier account.</p>
+                                            <p>Select app that you want to set action and select action for the selected app.</p>
+                                            <p>You can connect a new account <strong>or</strong> If you have already connected an account, Than you will select an specific account.
+                                            <p>After connect the app need to set required field and test the connected app.</p>
+                                            <p>When you successfully test the connected app then after click on <code>finish</code> button and insert ZAP name.</p>
+                                            <p>If created ZAP is on in your zapier account then the data will be synchronize.</p>
+                                        </li>
+                                        <li>For more information about how to create zap <a target="_blank" href="https://zapier.com/help/creating-zap/"> Click here</a>.</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="membership_setup_zapier_action">
+                        <h1>Zapier Action Setup</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Zapier Action For Your Website</h2>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>First of all login to your zapier account. For login to zapier account <a target="_blank" href="https://zapier.com/app/login"> Click here</a>.</p>
+                                </li>
+                                <li>
+                                    <p>If you do not have zapier account then <a target="_blank" href="https://zapier.com/"> Create zapier account</a>.</p>
+                                </li>        
+                                <li>
+                                    <p>After login to your zapier account. Please follow the below steps for <strong>Create a zap</strong> or <strong>How to setup action</strong> in zapier.</p>
+                                    <ol>
+                                        <li>
+                                            <p>Click on <code>MAKE A ZAP</code> button from your Dashboard page.</p>
+                                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong> Note:</strong>Below Given Example with connect zap action with MailChimp</p>
+                                        </li>
+                                        <li>
+                                            <p>For set Trigger you need to select <code>Webhooks</code> app from <code>Your Apps</code> apps list.</p>
+                                            <p>Please see below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_action_app_trigger.png">
+                                                    <img src="images/zapier_acc_action_app_trigger.png" alt="Select Trigger App" />
+                                                </a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>Then after need to select app trigger. There is must need to select mailchimp trigger <code>New Subscriber</code>. It's important that you select this trigger otherwise the integration will not work.</p>
+                                            <p>Please see below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_action_mailchimp_trigger.png">
+                                                    <img src="images/zapier_acc_action_mailchimp_trigger.png" alt="Select MailChimp Trigger" />
+                                                </a>
+                                            </p>
+                                            <p>After select the trigger click on <code>Save + Continue</code> button.</p>
+                                        </li>
+                                        <li>
+                                            <p>Then the below screen will be display.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_action_mailchimp_list.png">
+                                                    <img src="images/zapier_acc_action_mailchimp_list.png" alt="Select MailChimp List of Group" />
+                                                </a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>Select list of group MailChimp account click on <code>Continue</code> button so you will see the below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_action_zap_setup.png">
+                                                    <img src="images/zapier_acc_action_zap_setup.png" alt="Zap Setup" />
+                                                </a>
+                                            </p>
+                                            <p>Setup your zap click on <code>Pull in Samples</code> button.</p>
+                                        </li>
+                                        <li>
+                                            <p>Then the below screen will be display.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_currently_action_step.png">
+                                                    <img src="images/zapier_acc_currently_action_step.png" alt="Currently Action Step" />
+                                                </a>
+                                            </p>
+                                            <p>After all trigger setup click on<code>"Your Zap currently lacks an Action step. Add one now!" </code></p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Action Step</strong></p>
+                                        </li>
+                                        <li>
+                                            <p>Then after select webhooks by zapier action</p>
+                                            <p>Please see below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_action_apps_select.png">
+                                                    <img src="images/zapier_acc_action_apps_select.png" alt="Select Action App" />
+                                                </a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>For set action you need to select <code>Webhooks</code> app from <code>Built-In</code> apps list.</p>
+                                            <p>Please see below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_action_webhook_select.png">
+                                                    <img src="images/zapier_acc_action_webhook_select.png" alt="Select Webhook Action" />
+                                                </a>
+                                            </p>
+                                            <p>After select the trigger click on <code>Save + Continue</code> button.</p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Enter your website url and data field following setup
+                                                <code>armember_zap_action</code> -> <code>success</code>
+                                                default parameter like email(required), first_name, last_name, user_login, password, display_name, user_nicename, user_url, custom field and assign membership plan (arm_member_plan_id) add and continue
+                                            </p>
+                                            <p>Please see below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_action_zap_form_step.png">
+                                                    <img src="images/zapier_acc_action_zap_form_step.png" alt="Webhook Form Step" />
+                                                </a>
+                                            </p>
+                                            <p>Add armember_zap_action as mendatory field for creating user using zapier webhook. with set value as at ARMember zapier settings.</p>
+                                            <p>After all field setup click on <code>Continue</code> button.</p>
+                                        </li>
+                                        <li>
+                                            <p>Then after please see below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_action_zap_form_test.png">
+                                                    <img src="images/zapier_acc_action_zap_form_test.png" alt="Webhook Test" />
+                                                </a>
+                                            </p>
+                                            <p>Click on <code>Send Test to Webhooks by Zapier</code> button.</p>
+                                        </li>
+                                        <li>
+                                            <p>Then after please see below screen.</p>
+                                            <p class="doc_image">
+                                                <a rel="lightbox" href="images/zapier_acc_action_zap_success_step.png">
+                                                    <img src="images/zapier_acc_action_zap_success_step.png" alt="Webhook Test successfully" />
+                                                </a>
+                                            </p>
+                                            <p>Click on <code>Finish</code> button. You have successfully set the trigger and action in your zapier account.</p>
+                                        </li>
+                                        
+                                    </ol>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="membership_zapier_changelog">
+                    <h1>Changelog</h1>
+                        <div class="card">
+                        <h2>Version 1.7 (25 Sep, 2020)</h2>
+                        <ul>
+                            <li>Added Newe Facility to Trigger Zapier On Cancel Plan.</li>
+                            <li>Other bug fixes</li>
+                        </ul>
+                        <h2>Version 1.6 (16 Mar, 2020)</h2>
+                        <ul>
+							<li>Added Newe Facility to Trigger Zapier On User Update Profile.</li>
+                            <li>Minor bug fixes</li>
+                        </ul>
+                        <h2>Version 1.5 (04 Feb, 2020)</h2>
+                        <ul>
+                            <li>Minor bug fixes</li>
+                        </ul>
+                        <h2>Version 1.4 (13 Sep, 2019)</h2>
+                        <ul>
+                            <li>Minor bug fixes</li>
+                        </ul>
+                        <h2>Version 1.3 (09 Jan, 2019)</h2>
+                        <ul>
+                            <li>Added New Facility to Trigger Zapier Actions.</li>
+                        </ul>
+                        <h2>Version 1.2 (12 July, 2018)</h2>
+                        <ul>
+                            <li>Minor bug fixes</li>
+                        </ul>
+                        <h2>Version 1.1 (14 October, 2017)</h2>
+                        <ul>
+                            <li>Made compatible with ARMember version 2.0</li>
+                            <li>Minor bug fixes</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>

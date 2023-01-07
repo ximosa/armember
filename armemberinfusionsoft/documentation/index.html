@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember - Infusionsoft Addon Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function() {
+                if ( jQuery(window).scrollTop() > amountScrolled ) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function() {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function(event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop:0}, 'fast','swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast',function(){
+                       jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+id+'"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                }); 
+                jQuery("#overlay").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+window.location.hash+'"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height(){
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#infusionsoft_setup_wizard">Infusionsoft Setup Wizard</a></li>
+                            <li><a class="panel" href="#infusionsoft_changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - Infusionsoft Addon ( Version: 1.1 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 14/10/2017</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing this Addon. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>Infusionsoft Addon is a bridge between Infusionsoft’s back-end interface and ARMember plugin.</p>
+                            <p>This Addon will allow you to add all users of your membership website into Infusionsoft Contacts, who will register using ARMember Registration Form.</p>
+                            
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This Addon will only work if ARMember plugin <strong> is installed with version 1.8 or higher</strong></p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/infusionsoft_get_it.png">
+                                            <img src="images/infusionsoft_get_it.png" alt="ARMemeber_infusionsoft_addon">
+                                        </a>
+                                    </p>
+                            <h2>ARMember - Infusionsoft Addon Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation And Setup</li>
+                                <li>Easily Create Contact in Infusionsoft when New User will register using ARMember Registration Form</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <div id="intro">
+                        <h1>ARMember - Infusionsoft Addon ( Version: 1.1 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 14/10/2017</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing this Addon. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>Infusionsoft Addon is a bridge between Infusionsoft’s back-end interface and ARMember plugin.</p>
+                            <p>This Addon will allow you to add all users of your membership website into Infusionsoft Contacts, who will register using ARMember Registration Form.</p>
+                            
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This Addon will only work if ARMember plugin <strong> is installed with version 1.8 or higher</strong></p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/infusionsoft_get_it.png">
+                                            <img src="images/infusionsoft_get_it.png" alt="ARMemeber_infusionsoft_addon">
+                                        </a>
+                                    </p>
+                            <h2>ARMember - Infusionsoft Addon Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation And Setup</li>
+                                <li>Easily Create Contact in Infusionsoft when New User will register using ARMember Registration Form</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                           <h2>Steps For Installation And Activation</h2>
+                           <p>ARMember - Infusionsoft Addon requires ARMember Plugin installed and active. You can install this Addon in following two ways:</p>
+                           <h3>New install via  FTP </h3>
+                           <ol class="large_bottom_margin bottom_margin" type="a">
+                               <li>Download Addon and extract it. You will find a directory <strong>armemberinfusionsoft</strong>.</li>
+                               <li>In your WordPress installation directory, upload <strong>armemberinfusionsoft</strong> to <code>wp-content/plugins/</code></li>
+                               <li>Activate the <code>ARMember - Infusionsoft Addon</code> through the <code>Plugins</code> menu from WordPress admin panel.</li>
+                           </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download Addon.</li>
+                                <li>Log in to your WordPress admin panel</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the Addon uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="infusionsoft_setup_wizard">
+                        <h1>Infusionsoft Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Infusionsoft For Your Website</h2>
+                            <h4>Let's setup ARMember - Infusionsoft Addon for your website :</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>When Addon is activated, Infusionsoft section will be displayed in <code>ARMember</code> -> <code>General Settings</code> -> <code>Opt-ins</code>. Please note that opt-ins tab will be displayed only if Opt-ins module is activated under Addons.</p><p> Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/infusionsoft_settings.png">
+                                            <img src="images/infusionsoft_settings.png" alt="general setting screen">
+                                        </a>
+                                    </p>
+                                </li>
+                                
+                                <li>
+                                    <p>If you do not have Infusionsoft account then create it.</p>
+                                    <p>For Infusionsoft account <a href="https://signin.infusionsoft.com/app/registration/createInfusionsoftId">click here</a>. </p>
+                                </li>
+                                <li>
+                                    <p>When you create your Infusionsoft ID, you will get your Infusionsoft URL.<br/>Your app name is the first part of your Infusionsoft URL. For example, if your URL is http://az169.infusionsoft.com/, then your app name is az169.</p>
+                                    <p>To obtain  API Encrypted Key, login to your Infusionsoft account, then go to Admin > Settings and click on Application in the settings menu</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/infusionsoft_API_KEY_step1.png">
+                                            <img src="images/infusionsoft_API_KEY_step1.png" alt="infusionsoft_API_KEY">
+                                        </a>
+                                    </p>
+                                    
+                                    <p>Then Scroll down to the API section and enter a passphrase in the text box
+                                    The API Passphrase is simply a password, or series of words that will be used to generate your unique API key. Be sure to remember your passphrase if you ever need to generate your API key again.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/infusionsoft_API_KEY_step2.png">
+                                            <img src="images/infusionsoft_API_KEY_step2.png" alt="infusionsoft_API_KEY">
+                                        </a>
+                                    </p>
+                                    <p>After you enter a Passphrase, click on the Save button to generate the API key</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/infusionsoft_API_KEY_step4.png">
+                                            <img src="images/infusionsoft_API_KEY_step4.png" alt="infusionsoft_API_KEY">
+                                        </a>
+                                    </p>
+                                    <p>Your API Key is now available under the textbox where you entered the pass phrase</p>
+                                    <p>Now after gettong App Name and API Encrypted Key, add it to Infusionsoft settings in ARMember</p>
+                                    <p>Click Save</p>
+                                </li>
+                                
+                                
+                                <li>
+                                    <p>After setup completes, go to Manage Forms page, then click on edit link of your Registration Form. You can see Infusionsoft checkbox under Opt-ins in Right panel.</p>
+                                    <p>Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/infusionsoft_opt_ins.png">
+                                            <img src="images/infusionsoft_opt_ins.png" alt="Infusionsoft"/>
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>check the checkbox and click Save Button</p>
+                                    <p>After this setup, you will find all users in your Infusionsoft account under Contacts, who will register to your website using this registration form.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div id="infusionsoft_changelog">
+                        <h1>Changelog</h1>
+                        <div class="card">
+                            <h2>Version 1.1 (14 October, 2017)</h2>
+                            <ul>
+                                <li>Made compatible with ARMember version 2.0</li>
+                                <li>Minor bug fixes</li>
+                            </ul>
+                           
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>

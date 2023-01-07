@@ -1,0 +1,4 @@
+[14-Jan-2019 09:15:56 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/widgets/class.arm_dd_tag_widgets.php on line 4
+[11-Feb-2019 21:10:28 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/widgets/class.arm_dd_tag_widgets.php on line 4
+[08-Sep-2019 18:28:51 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/widgets/class.arm_dd_tag_widgets.php on line 4
+[04-May-2020 23:42:30 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/widgets/class.arm_dd_tag_widgets.php on line 4

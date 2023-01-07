@@ -1,0 +1,196 @@
+.arm_multisite_container .arm_multisite_heading_main{
+    /*font-family: inherit !important;*/
+    font-size: 18px !important;
+    color: #32323a !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+    margin: 15px 0;
+}
+.arm_multisite_list_table {
+    max-width: 100%;
+    margin: 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px !important;
+    -webkit-border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+    -o-border-radius: 2px !important;
+    table-layout: auto;
+    width: 100%;
+}
+
+.arm_multisite_list_table th {
+    text-align: center;
+    color: #444444;
+    background-color: #f6f8f8;
+    border-right: 1px solid #dee5e7 !important;
+    padding: 8px 5px !important;
+    min-height: 50px;
+    border-bottom: 1px solid #dee5e7 !important;
+    cursor: default;
+}
+.arm_multisite_list_header th, td{
+    /*font-family: inherit !important;*/
+    font-size: 16px !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+    text-align: center;
+}
+.arm_multisite_container .arm_multisite_list_item td {
+    /*font-family: inherit !important;*/
+    font-size: 15px !important;
+    text-align: center;
+    color: #727277 !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid #dee5e7 !important;
+    border-right: 1px solid #dee5e7 !important;
+}
+.arm_multisite_display_none{
+    display: none;
+}
+.arm_multisite_display_block{
+    display: block;
+}
+.arm_delete_multisite{
+    cursor: pointer;
+    color: red;
+}
+.arm_multisite_loader_container
+{
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 9998;
+    background: rgba(255, 255, 255, 0.6);
+}
+.arm_multisite_loader_container .arm_loading_grid 
+{
+    position: relative;
+    z-index: 9998;
+    padding: 10px;
+    margin: 50px 0;
+    text-align: center;
+    width: 100%;
+}
+.arm_multisite_setup_form .arm_cc_field_wrapper span
+{
+    padding-bottom: 0px;
+}
+
+.arm_form_input_wrapper p {
+    margin-bottom: 0;
+}
+.arm_site_limit_message {
+    background: #e14d4b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    display: block;
+    padding: 5px 15px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.arm_activate_multisite,
+.arm_deactivate_multisite,
+.arm_mutisite_subsite_activate_btn {
+    color: #20d000;
+    cursor: pointer;
+}
+.arm_activate_multisite,
+.arm_deactivate_multisite, 
+.arm_mutisite_subsite_activate_btn {
+    background-color: #23b7e5 !important;
+    border-radius: 3px !important;
+    /*font-family: inherit;*/
+    font-size: 14px !important;
+    color: #ffffff !important;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    padding: 4px;
+    border: 1px solid #23b7e5 !important;
+    min-width: 85px;
+    min-height: 25px;
+    line-height: 24px;
+}
+
+.arm_delete_multisite {
+    background-color: #e66b6b !important;
+    border-radius: 3px !important;
+    /*font-family: inherit;*/
+    font-size: 14px !important;
+    color: #ffffff;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    padding: 4px;
+    border: 1px solid #e66b6b !important;
+    min-width: 85px;
+    min-height: 25px;
+    line-height: 24px;
+}
+.arm_multisite_btn_div {
+    position: relative;
+    margin: 5px;
+    width: auto;
+    float: left;
+}
+.arm_multisite_content {
+    width: 100%;
+    /*overflow-x: auto;*/
+}
+
+.arm_paging_wrapper_subsite_listing .arm_paging_links a {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    transition: none;
+    -webkit-transition: none;
+}
+.arm_multisite_setup_form .arm_update_card_form_heading_container {
+    padding: 0;
+    margin: 25px 0 0 0;
+
+}
+.arm_update_card_form_heading_container .arm_form_field_label_wrapper_text {
+    font-size: 18px !important;
+    color: #32323a !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    text-decoration: none !important;  
+    /*font-family: inherit !important;*/  
+}
+
+
+/*confirm activation box design*/
+.arm_confirm_activation_box {
+    display: none;
+    position: absolute;
+    right: 25%;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    z-index: 9992;
+}
+
+.arm_confirm_box_body select:focus {
+    border : 1px solid #23b7e5;
+}
+.arm_confirm_box_body select {
+    height: 38px;
+    font-size: 14px;
+    padding: 8px;
+}
+.arm_confirm_box_body .arm_form_input_wrapper {
+    width: 100%;
+}
+
+.arm_multisite_container .arm_multisite_list_item .arm_action_status {
+    width: 25%;
+}

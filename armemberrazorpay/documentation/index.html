@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function() {
+                if ( jQuery(window).scrollTop() > amountScrolled ) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function() {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function(event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop:0}, 'fast','swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast',function(){
+                       jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+id+'"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                }); 
+                jQuery("#overlay").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+window.location.hash+'"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height(){
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#membership_setup_wizard">Razorpay Setup Wizard</a></li>
+                            <li><a class="panel" href="#membership_razorpay_changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - Razorpay payment gateway Addon ( Version: 1.0 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 07/05/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This add-on will allow you to take payments on your ARMember membership setup via Razorpay.</p>
+                            <p>Razorpay accepts nigeria transactions. With this gateway you can offer Razorpay as a payment method in ARMemeber.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>This add-on will work with ARMember Version 3.0 or higher.</p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/ARMemeber_razorpay_addon.png">
+                                            <img src="images/ARMemeber_razorpay_addon.png" alt="ARMemeber_razorpay_addon" />
+                                        </a>
+                                    </p>
+                            <h2>ARMember - Razorpay payment gateway Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>membership plan</strong> with <strong>Razorpay</strong></li>
+                                <li>Setup membership plan for <strong>one time</strong> and <strong>plan with subscription</strong> payment with <strong>Razorpay</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <div id="intro">
+                        <h1>ARMember - Razorpay payment gateway Addon ( Version: 1.0 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 07/05/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This add-on will allow you to take payments on your ARMember membership setup via Razorpay.</p>
+                            <p>Razorpay accepts nigeria transactions. With this gateway you can offer Razorpay as a payment method in ARMemeber.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>This add-on will work with ARMember Version 3.0 or higher.</p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/ARMemeber_razorpay_addon.png">
+                                            <img src="images/ARMemeber_razorpay_addon.png" alt="ARMemeber_razorpay_addon" />
+                                        </a>
+                                    </p>
+                            <h2>ARMember - Razorpay payment gateway Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>membership plan</strong> with <strong>Razorpay</strong></li>
+                                <li>Setup membership plan for <strong>one time</strong> and <strong>plan with subscription</strong> payment with <strong>Razorpay</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                           <h2>Steps For Installation And Activation</h2>
+                           <p>You can install plugin in following two ways. and ARMember - Razorpay payment gateway plugin requires ARMember Plugin installed and active.</p>
+                           <h3>New install via  FTP </h3>
+                           <ol class="large_bottom_margin bottom_margin" type="a">
+                               <li>Download the plugin and extract it. You will find a directory <strong>armemberrazorpay</strong>.</li>
+                               <li>In your WordPress installation directory, upload <strong>armemberrazorpay</strong> to <code>wp-content/plugins/</code></li>
+                               <li>Activate the <code>ARMember - Razorpay payment gateway</code> plugin through the <code>Plugins</code> menu from WordPress admin panel.</li>
+                           </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download the plugin.</li>
+                                <li>Log in to your WordPress admin panel</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the plugin uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="membership_setup_wizard">
+                        <h1>Razorpay Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Razorpay For Your Website</h2>
+                            <h4>Let's setup ARMember - Razorpay payment gateway for your website :</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>When plugin activated then razorpay section will be display in <code>ARMember</code> -> <code>General Settings</code> -> <code>Payment gateways</code>.</p><p> Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/razorpay_general_settings.png">
+                                            <img src="images/razorpay_general_settings.png" alt="general setting screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>First of all need to activate the Razorpay payment gateway so you will be able to insert Key Id , Key Secret and Contact Number. For activation click on active button.</p>
+                                </li>
+                                <li>
+                                    <p>If you do not have Razorpay account then create it.</p>
+                                    <p>For Live / Sandbox account <a href="https://dashboard.razorpay.com/?next=app/dashboard#/access/signup" target='_blank'>click here</a>. </p>
+                                    
+                                </li>
+                                <li>
+                                    <p>Where do I get the <code>Key ID</code> and <code>Key Secret</code>?</p>
+                                    <p>To obtain the <code>Secrect key</code> of Razorpay access the site with your login and the password follow the steps:</p>
+                                    <p>Click Settings <code>Menu</code> -> <code>API Keys</code></p>
+                                    <p>You can see <code>Key ID</code> and For <code>Secret Key</code> you need to generate it.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/arm_razorpay_account_get_credentials.png">
+                                            <img src="images/arm_razorpay_account_get_credentials.png" alt="razorpay account credentials" />
+                                        </a>
+                                    </p>
+
+                                </li>
+
+                                <li>
+                                    <p>After added Key ID and Key Secret you need to select Contact Number field which is required by Razorpay. If you have not added phone number field in signup form than you need to create that field first from <code>ARMember</code> -> <code>Manage forms</code> page click on Add/Edit Signup Form and add Phone Number/contact number field if not exists in signup form.</p>
+                                    <p>Please see below given screenshot.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/armember_signup_form_phone_number.png">
+                                            <img src="images/armember_signup_form_phone_number.png" alt="armember signup form page" />
+                                        </a>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>After configured Razorpay configuration you can select Razorpay payment gateway for the setup form from <code>ARMember</code> -> <code>Configure Plan + Signup Form</code> -> <code>Add/Edit Setup Form</code> page.</p>
+
+                                    <p>Please see below given screenshot.</p>
+
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/razorpay_configure_plan.png">
+                                            <img src="images/razorpay_configure_plan.png" alt="Configure Plan Screen" />
+                                        </a>
+                                    </p>
+                                    
+                                </li>
+                                
+                                <li>
+                                    <p>Razorpay <strong>NOT</strong> support for Auto Debit Payment with subscription plan.</p>
+                                </li>
+
+                                <li>
+                                    <p>Razorpay support for <strong>one time</strong> and <strong>plan with subscription</strong> payment with <strong>Razorpay</strong></p>
+                                </li>
+                                
+                                <li>
+                                    <p>ARMember Razorpay Addon supports <strong>payment with AED, ALL, AMD, ARS, AUD, AWG, BBD, BDT, BMD, BND, BOB, BSD, BWP, BZD, CAD, CHF, CNY, COP, CRC, CUP, CZK, DKK, DOP, DZD, EGP, ETB, EUR, FJD, GBP, GIP, GMD, GTQ, GYD, HKD, HNL, HRK, HTG, HUF, IDR, ILS, INR, JMD, KES, KGS, KHR, KYD, KZT, LAK, LBP, LKR, LRD, LSL, MAD, MDL, MKD, MMK, MNT, MOP, MUR, MVR, MWK, MXN, MYR, NAD, NGN, NIO, NOK, NPR, NZD, PEN, PGK, PHP, PKR, QAR, RUB, SAR, SCR, SEK, SGD, SLL, SOS, SSP, SVC, SZL, THB, TTD, USD, UYU, UZS, YER, ZAR Currencies.</strong></p>
+
+                                    <p>For more infomation about currencies please refer Razorpay documentation: <a href="https://razorpay.com/docs/international-payments/#supported-currencies" target="_blank">click here</a></p>
+                                </li>
+
+
+                            </ol>
+                        </div>
+                    </div>
+
+                     <div id="membership_razorpay_changelog">
+                        <h1>Changelog</h1>
+                        <div class="card">
+                            <h2>Version 1.0 (07 May, 2020)</h2>
+                            <ul>
+                                <li>Initial Release.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+[13-Jan-2019 01:00:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[25-Jan-2019 17:58:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[08-Sep-2019 18:21:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[27-Oct-2019 18:37:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[02-Jan-2020 11:14:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[02-Feb-2020 19:38:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[03-Feb-2020 03:29:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[09-Apr-2020 23:59:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[16-Apr-2020 19:43:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[17-Apr-2020 11:43:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[17-Apr-2020 11:44:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[17-Apr-2020 11:44:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[17-Apr-2020 11:44:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[17-Apr-2020 11:45:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19
+[09-Jun-2020 08:08:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/armemberdigitaldownload.php on line 19

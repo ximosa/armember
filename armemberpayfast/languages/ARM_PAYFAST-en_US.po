@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - PayFast payment gateway Addon v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-06-02 08:44:14+0000\n"
+"Last-Translator: admin <test@test.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armemberpayfast.php:317
+#@ ARM_PAYFAST
+msgid "document"
+msgstr "document"
+
+#: armemberpayfast.php:443
+#@ ARM_PAYFAST
+msgid "Payment Mode"
+msgstr "Payment Mode"
+
+#: armemberpayfast.php:446
+#@ ARM_PAYFAST
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: armemberpayfast.php:448
+#@ ARM_PAYFAST
+msgid "Production"
+msgstr "Production"
+
+#: armemberpayfast.php:2089
+#@ ARM_PAYFAST
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armemberpayfast.php:2094
+#@ ARM_PAYFAST
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: armemberpayfast.php:278
+#: armemberpayfast.php:331
+#@ ARM_PAYFAST
+msgid "PayFast"
+msgstr "PayFast"
+
+#: armemberpayfast.php:289
+#@ ARM_PAYFAST
+msgid "PayFast For ARMember plugin requires ARMember Plugin installed and active."
+msgstr "PayFast For ARMember plugin requires ARMember Plugin installed and active."
+
+#: armemberpayfast.php:292
+#@ ARM_PAYFAST
+msgid "PayFast For ARMember plugin requires ARMember plugin installed with version 3.0 or higher."
+msgstr "PayFast For ARMember plugin requires ARMember plugin installed with version 3.0 or higher."
+
+#: armemberpayfast.php:317
+#@ ARM_PAYFAST
+msgid "You can find Mechant ID , Merchant Key and Salt Passphrase in your PayFast account. To get more details, Please refer this"
+msgstr "You can find Merchant ID, Merchant Key, and Salt Passphrase in your PayFast account. To get more details, please refer to this"
+
+#: armemberpayfast.php:325
+#@ ARM_PAYFAST
+msgid "ARMember PayFast Documentation"
+msgstr "ARMember PayFast Documentation"
+
+#: armemberpayfast.php:380
+#@ ARM_PAYFAST
+msgid "PayFast (if PayFast payment gateway is enabled)"
+msgstr "PayFast (if PayFast payment gateway is enabled)"
+
+#: armemberpayfast.php:382
+#@ ARM_PAYFAST
+msgid "PayFast does not support Free Trial period with auto debit recurring payment."
+msgstr "PayFast does not support Free Trial period with auto debit recurring payment."
+
+#: armemberpayfast.php:383
+#@ ARM_PAYFAST
+msgid "PayFast does not support Daily Recurring Billing Cycle for auto debit payment method. PayFast Support \"Monthly\" and \"Yearly\" billing cycle."
+msgstr "PayFast does not support Daily Recurring Billing Cycle for auto debit payment method. PayFast Support \"Monthly\" and \"Yearly\" billing cycle."
+
+#: armemberpayfast.php:400
+#@ ARM_PAYFAST
+msgid "Payment Fail (PayFast)"
+msgstr "Payment Fail (PayFast)"
+
+#: armemberpayfast.php:461
+#@ ARM_PAYFAST
+msgid "Test Merchant ID"
+msgstr "Test Merchant ID"
+
+#: armemberpayfast.php:467
+#@ ARM_PAYFAST
+msgid "Test Merchant Key"
+msgstr "Test Merchant Key"
+
+#: armemberpayfast.php:473
+#@ ARM_PAYFAST
+msgid "Test Salt Passphrase"
+msgstr "Test Salt Passphrase"
+
+#: armemberpayfast.php:490
+#@ ARM_PAYFAST
+msgid "Live Merchant ID"
+msgstr "Live Merchant ID"
+
+#: armemberpayfast.php:496
+#@ ARM_PAYFAST
+msgid "Live Merchant Key"
+msgstr "Live Merchant Key"
+
+#: armemberpayfast.php:502
+#@ ARM_PAYFAST
+msgid "Live Salt Passphrase"
+msgstr "Live Salt Passphrase"
+
+#: armemberpayfast.php:767
+#@ ARM_PAYFAST
+msgid "PayFast does not support Trial Period for auto debit payment method."
+msgstr "PayFast does not support Trial Period for auto debit payment method."
+
+#: armemberpayfast.php:920
+#@ ARM_PAYFAST
+msgid "PayFast does not support daily recurring billing cycle for auto debit payment method."
+msgstr "PayFast does not support daily recurring billing cycle for auto debit payment method."
+

@@ -1,0 +1,2602 @@
+.arm_friendship_button {
+	float: right;
+	width: 39%;
+	position: relative;
+	text-align: right;
+}
+.arm_com_disp_review_container,
+.arm_com_message_container,
+.arm_com_friend_container,
+.arm_com_activity_display_container {
+	float: left;
+	text-align: left;
+	width: 100%;
+}
+.arm_com_message_container,
+.arm_com_friend_container {
+	display: inline-block;
+	width: 100%;
+}
+.arm_com_friend_container ul,
+.arm_com_message_container ul {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0;
+	background-color: #f8fbff;
+	border-bottom: 1px solid #d5d9dd;
+}
+.arm_com_friend_container .arm_com_frd_content_container .arm_com_frd_content_main_wrapper {
+	display: none;
+	margin: 30px 0;
+	width: 100%;
+	float: left;
+}
+.arm_com_message_container .arm_com_msg_content_container .arm_com_msg_tab_content_active,
+.arm_com_friend_container .arm_com_frd_content_container .arm_com_frd_tab_content_active {
+	display: block;
+}
+.arm_com_user_box {
+	border: 1px solid #e8ebf0;
+	padding: 15px;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.arm_com_user_box .arm_confirm_box {
+	top: 10px;
+}
+.arm_com_user_box_right_bottom {
+	float: right;
+	margin-top: 6.5px;
+}
+.arm_com_user_box_right_bottom img {
+	width: 22px;
+    margin-right: 10px;
+    display: none;
+}
+.arm_com_user_box_right_bottom a {
+	background-color: #eef0f2;
+	padding: 10px 18px 8px 18px;
+	border-radius: 3px;
+}
+a, a:hover {
+	text-decoration: none !important;
+}
+.arm_com_message_convo_action img {
+	cursor: pointer;
+}
+.arm_com_user_box_left {
+	float: left;
+	margin-right: 20px;
+}
+.arm_com_user_box_right {
+	width: 63%;
+	float: left;   
+}
+.arm_com_friendship_approve_btn,
+.arm_com_friendship_unfriend_btn {
+	text-decoration: underline !important;
+	color: #80878d;
+}
+.arm_com_user_box_div {
+	float: left;
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+.arm_com_friendship_approve_btn:hover,
+.arm_com_friendship_unfriend_btn:hover {
+	text-decoration: underline;
+}
+.arm_com_message_container .arm_com_msg_tab_ul .arm_com_msg_tab_active,
+.arm_com_friend_container .arm_com_frd_tab_ul .arm_com_frd_tab_active {
+	color: #39a5ff;
+}
+.arm_com_message_container .arm_com_msg_tab_ul .arm_com_msg_tab_active a,
+.arm_com_friend_container .arm_com_frd_tab_ul .arm_com_frd_tab_active a {
+	color: #39a5ff;
+	outline: none;
+}
+.arm_com_message_container .arm_com_msg_tab_li,
+.arm_com_friend_container .arm_com_frd_tab_li {
+	cursor: pointer;
+	list-style-type: none;
+	float: left;
+	margin: 15px 0;
+	text-align: center;
+	padding: 5px 26px;
+}
+#arm_com_post_wrapper,
+.arm_com_wall_post_wrapper_title,
+.arm_com_post_wrapper_title,
+.arm_com_activity_title_wrapper {
+	width: 100%;
+	float: left;
+	padding: 20px 26px;
+	background: #f8fbff;
+	border-bottom: 1px solid #e8ebf0;
+	font-size: 16px;
+	text-align: left;
+	font-weight: bold;
+}
+.arm_com_message_container .arm_com_msg_tab_li a,
+.arm_com_friend_container .arm_com_frd_tab_li a {
+	color: #9EA7A5;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	font-size: 16px;
+}
+.arm_com_msg_tab_a.reply {
+	display: inline;
+}
+.arm_com_message_send_btn {
+	min-width: 145px;
+}
+.arm_com_message_container .arm_com_msg_tab_li:hover a,
+.arm_com_friend_container .arm_com_frd_tab_li:hover a {
+	color: #39a5ff;
+	text-decoration: none;
+	outline: none;
+	font-weight: normal;
+}
+.arm_com_message_container .arm_com_msg_content_wrapper,
+.arm_com_friend_container .arm_com_frd_content_wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+.arm_com_message_container .arm_com_msg_content_wrapper .arm_com_msg_compose_row,
+.arm_com_friend_container .arm_com_frd_content_wrapper .arm_com_frd_compose_row,
+.arm_com_msg_compose_row {
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+	vertical-align: top;
+}
+.arm_com_message_send_btn .active,
+.arm_com_review_btn .active,
+.arm_com_post_btn .active,
+.arm_com_post_edit_btn .active,
+.arm_com_block_user .active {
+	background-color: #25c0f0 !important;
+}
+.arm_com_msg_compose_column button:hover,
+.arm_com_review_button_wrapper button:hover,
+.arm_com_post_button_wrapper button:hover,
+.arm_com_block_user:hover {
+	background-color: #25c0f0 !important;
+	color: #ffffff !important;
+	outline: none;
+	font-size: 16px;
+	font-weight: normal;
+}
+.arm_profile_field_before_content_wrapper,
+.arm_profile_field_after_content_wrapper {
+	margin: 0;
+}
+.arm_com_message_container .arm_com_msg_content_container .arm_com_msg_tab_content_active,.arm_com_message_container .arm_com_msg_content_container .arm_com_msg_content_main_wrapper {
+	padding:0;
+}
+.arm_com_msg_compose_column_label {
+	width: 28%;
+	float: left;
+	padding-right: 5px;
+	vertical-align: top;
+}
+.arm_com_msg_compose_column {
+	float: right;
+	width: 70%;
+	padding-left: 5px;
+}
+.arm_com_msg_compose_column input[type="text"] {
+	width: 100%;
+	background-color: #fff;
+}
+.arm_com_msg_compose_column textarea {
+	width: 100%;
+	background-color: #fff;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-ms-overflow-y: auto;
+	-ms-overflow-x: hidden;
+	-moz-overflow-y: auto;
+	-moz-overflow-x: hidden;
+	-o-overflow-y: auto;
+	-o-overflow-x: hidden;
+	-webkit-overflow-y: auto;
+	-webkit-overflow-x: hidden;
+	height: 100px;
+}
+.arm_com_msg_compose_error {
+	color: red;
+	margin: 5px 0;
+	width: 100%;
+	float: left;
+}
+.arm_com_msg_success {
+	color: green;
+}
+.arm_com_msg_content_wrapper .arm_com_msg_error {
+	color: red;
+}
+.arm_com_msg_compose_success {
+	color: green;
+	margin: 5px 0;
+	width: 100%;
+	float: left;
+}
+.arm_com_message_container .arm_com_msg_content_wrapper .arm_com_field_error {
+	color: red;
+	display: none;
+	width: 100%;
+	float: left;
+	margin: 10px 0 5px 0;
+}
+.arm_com_msg_block_error {
+	color: red;
+	width: 100%;
+	float: left;
+}
+.arm_com_msg_content_wrapper .arm_com_msg_error {
+	color: red;
+}
+.arm_com_no_message, 
+.arm_com_post_no_msg,
+.arm_com_activity_no_msg,
+.arm_follow_no_msg_record {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.arm_com_activity_no_msg {
+	margin: 30px 0;
+}
+.arm_com_post_no_msg {
+	margin-top: 30px;
+}
+.arm_com_msg_compose_form {
+	margin-top: 15px;
+}
+.arm_com_msg_content_container {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.arm_com_msg_content_container textarea {
+	height: 100px;
+	width: 100%;
+	background-color: #fff;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+.arm_com_msg_no_records {
+	display:inline-block;
+	width: 100%;
+	text-align: center;
+}
+.arm_com_msg_list_wrapper {
+	width: 100%;
+	float: left;
+	margin: 30px 0;
+}
+.arm_com_msg_list_wrapper .arm_msg_list_head {
+	float:left;
+	width:100%;
+	background-color: #39a5ff;
+	color: #fff;
+}
+.arm_msg_list_head .arm_msg_list_head_checkbox {
+	float: left;
+	width: 4%;
+	text-align: center;
+}
+.arm_msg_list_head .arm_msg_list_head_username {
+	float:left;
+	width:20%;
+	text-align: center;
+}
+.arm_msg_list_head .arm_msg_list_head_subject {
+	float:left;
+	width:60%;
+}
+.arm_msg_list_head .arm_msg_list_head_action {
+	float:left;
+	width:15%;
+	text-align: center;
+}
+.arm_com_msg_list_wrapper .arm_com_msg_divider {
+	float: left;
+	border-bottom: 1px solid #39a5ff;
+	width: 100%;
+	display: block;
+}
+.arm_com_msg_wrapper {
+	float:left;
+	width:100%;
+	padding: 10px 0px;
+}
+.arm_com_msg_wrapper .arm_com_msg_checkbox {
+	float: left;
+	width: 4%;
+	text-align: center;
+}
+.arm_com_msg_wrapper .arm_msg_list_body_username {
+	float:left;
+	width:20%;
+	text-align: center;
+	padding: 0 5px;
+}
+.arm_msg_list_body_username .arm_com_msg_user_pic {
+	width:100%;
+	float:left;
+}
+.arm_msg_list_body_username .arm_com_msg_user_pic a {
+	width:100%;
+	float:left;
+	outline: none;
+}
+.arm_msg_list_body_username .arm_com_msg_user_pic img {
+	text-align: center;
+	display: inline-block;
+}
+.arm_com_msg_wrapper .arm_msg_list_body_subject {
+	float:left;
+	width:60%;
+	padding: 0 5px;
+	height: 165px;
+	overflow: hidden;
+}
+.arm_com_msg_wrapper .arm_com_msg_action {
+	float:left;
+	width:15%;
+	text-align: center;
+	padding: 0 5px;
+}
+.arm_com_msg_wrapper .arm_com_msg_action span {
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.arm_com_msg_wrapper a:hover {
+	text-decoration: none;
+	color: #504f51;
+	outline: none;
+}
+.arm_com_msg_wrapper a {
+	text-decoration: none;
+	color: #39a5ff;
+	border: none;
+	outline: none;
+}
+.arm_com_msg_list_wrapper .arm_com_msg_bulk_action {
+	float: right;
+	margin: 10px 0;
+}
+.arm_com_msg_bulk_action button#arm_com_msg_bult_apply {
+	border-radius: 2px;
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 6px;
+	font-size: 12px;
+	background-color: #39a5ff;
+	margin: 0 0 0 13px;
+	outline: none;
+	vertical-align: top;
+}
+.arm_com_msg_list_wrapper .arm_com_msg_unread {
+	background-color: #f7f7f7;
+}
+.arm_confirm_box {
+	position: absolute;
+	right: 32px;
+	margin-top: 50px;
+	font-size: 16px;
+	font-weight: normal;
+	z-index: 9992;
+}
+.arm_com_msg_delete {
+	outline: none;
+}
+
+.arm_paging_wrapper {
+	float:right;
+}
+
+.arm_paging_links a {
+	text-decoration: none;
+}
+
+.arm_blocked_users_main_container {
+	width: 100%;
+	float: left;
+	margin: 30px 0;
+}
+
+.arm_spinner{
+	display: inline-block;
+	opacity: 0;
+	width: 0;
+	margin: 0;
+	-webkit-transition: opacity 0.25s, width 0.25s;
+	-moz-transition: opacity 0.25s, width 0.25s;
+	-ms-transition: opacity 0.25s, width 0.25s;
+	-o-transition: opacity 0.25s, width 0.25s;
+	transition: opacity 0.25s, width 0.25s;
+}
+
+.arm_com_message_send_btn.active .arm_spinner,
+.arm_com_review_btn.active .arm_spinner,
+.arm_com_post_btn.active .arm_spinner,
+.arm_com_post_edit_btn.active .arm_spinner {
+	opacity: 1;
+	-ms-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	-o-opacity: 1;
+	width: auto;
+	margin-left: -5px;
+	margin-right: 5px;
+}
+
+[dir="rtl"] .arm_com_message_send_btn.active .arm_spinner,
+[dir="rtl"] .arm_com_review_btn.active .arm_spinner,
+[dir="rtl"] .arm_com_post_btn.active .arm_spinner,
+[dir="rtl"] .arm_com_post_edit_btn.active .arm_spinner {
+	margin-left: 5px;
+	margin-right: -5px;
+}
+.arm_spinner #arm_form_loader {
+	animation: arm_spin 1.5s linear infinite;
+	-webkit-animation:arm_spin 1.5s linear infinite;
+	-moz-animation:arm_spin 1.5s linear infinite;
+	-o-animation:arm_spin 1.5s linear infinite;
+	-ms-animation:arm_spin 1.5s linear infinite;
+	top:3px;
+	position:relative;
+}
+@keyframes arm_spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes arm_spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+@-moz-keyframes arm_spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+@-o-keyframes arm_spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+.arm_com_msg_content_left{
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+.arm_com_msg_content_right {
+	width: 70%;
+	float: left;
+	position: relative;
+	border-left: 1px solid #e6e6e5;
+}
+.arm_com_msg_content_sender {
+	width: 100%;
+	display: inline-block;
+	background-color: #f4f6f9;
+	border-bottom: 1px solid #e6e6e5;
+	cursor: pointer;
+	position: relative;
+}
+.arm_com_msg_user_list_container {
+	position: absolute;
+	z-index: 999999;
+}
+input[type=text].ui-autocomplete-loading {
+	background: url(../images/arm_loader.gif) 99% center no-repeat;
+	background-size: 20px;
+	-moz-background-size: 20px;
+	-o-background-size: 20px;
+	-ms-background-size: 20px;
+	-webkit-background-size: 20px;
+}
+.arm_com_msg_content_sender:hover .arm_com_msg_content_sender_icons {
+	display: inline-block;
+}
+.arm_com_msg_content_sender_img {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	padding: 10px 0 10px 10px;
+	max-width: 70px;
+	position: relative;
+}
+.arm_com_msg_content_sender_title {
+	display: inline-block;
+	width: 65%;
+	min-height: 65px;
+}
+.arm_com_msg_content_sender_name {
+	display: inline-block;
+	width: 70%;
+	vertical-align: baseline;
+	word-wrap: break-word;
+	padding: 10px 0 10px 10px;
+}
+.arm_com_msg_content_sender_name,
+.arm_com_message_convo.left .arm_com_message_convo_msg,
+.arm_com_message_convo.right .arm_com_message_convo_msg,
+.arm_com_msg_user_list_container ul li,
+.arm_com_msg_user_list_container .ui-menu .ui-menu-item {
+	-ms-word-wrap: break-word;
+	-moz-word-wrap: break-word;
+	-webkit-word-wrap: break-word;
+	-o-word-wrap: break-word;
+}
+.arm_com_msg_content_sender.active {
+	background-color: #fff;
+	border-right: none;
+	border-right: 1px solid #fff !important;
+	width: 100.5%;
+	position: relative;
+	z-index: 1;
+}
+.arm_sender_name {
+	color: #39a5ff;
+	font-size: 16px;
+	padding-top: 5px;
+}
+.arm_sender_time {
+	color: #9EA7A5;
+	font-size: 14px;
+}
+.arm_com_msg_content_sender_icons img.arm_com_msg_inbox_icon,
+.arm_com_msg_content_sender_icons img.arm_com_msg_archive_icon {
+	top: 20%;
+	right: 14%;
+	position: absolute;
+}
+.arm_com_msg_content_sender_icons img.arm_com_msg_delete_icon {
+	top: 20%;
+	right:2%;
+	position: absolute;
+}
+.arm_total_sender_msgs {
+	border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	color: #fff;
+	background-color: red;
+	padding: 2px 7px;
+}
+.arm_total_sender_msgs_div {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.arm_com_msg_display_loader,
+.arm_com_fs_display_loader,
+.arm_com_post_display_loader {
+	top: 0;
+	left: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 9999;
+	background-color: rgba(255,255,255,0.7);
+}
+.arm_com_post_wrapper {
+	position: relative;
+}
+.arm_com_fs_display_loader img,
+.arm_com_post_display_loader img {
+	top : 50%;
+	left: 50%;
+	position: absolute;
+}
+.arm_com_message_convo {
+	position: relative;
+	min-height: 125px;
+}
+.arm_com_msg_deleted {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	padding: 43px;
+}
+.arm_com_message_convo.left {
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	color: #9EA7A5;
+	padding: 10px 0 10px 30px;
+}
+.arm_com_message_convo.left .arm_com_message_convo_img {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.arm_com_message_convo.left .arm_com_message_convo_msg {
+	width: 80%;
+	float: left;
+	background-color: #f4f6f9;
+	padding: 20px;
+	margin-top: -20px;
+	padding-left: 70px;
+}
+.arm_com_message_convo.left .arm_com_message_convo_time {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-left: 70px;
+	padding-top: 2px;
+}
+.arm_com_msg_content_right_content {
+	width: 100%;
+	min-height: 500px;float: left;
+	padding: 0px 0px 10px 0px;
+}
+
+.arm_com_message_convo.right {
+	width: 100%;
+	float: right;
+	font-size: 14px;
+	color: #9EA7A5;
+	padding: 10px    30px;
+}
+
+.arm_com_message_convo.right .arm_com_message_convo_img {
+	width: 80%;
+	float: right;
+	position: relative;
+}
+
+.arm_com_message_convo.right .arm_com_message_convo_img img {
+	width: 50px;
+	height: 50px;
+}
+
+.arm_com_message_convo.right .arm_com_message_convo_img img.avatar {
+	float: right;
+}
+
+.arm_com_message_convo.left .arm_com_message_convo_msg
+.arm_com_message_convo.right .arm_com_message_convo_msg {
+	border-radius: 4px;
+	-ms-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+.arm_com_message_convo.right .arm_com_message_convo_msg {
+	width: 80%;
+	float: right;
+	background-color: #f4f6f9;
+	padding: 20px;  
+	margin-top: -20px;
+	padding-right: 70px;
+
+}
+
+.arm_com_message_convo.right .arm_com_message_convo_time {
+	width: 80%;
+	float: right;
+	position: relative;
+	padding-left: 20px;
+	padding-top: 2px;
+}
+
+.arm_com_msg_compose_row_img {
+	position: absolute;
+	margin-top: -30px;
+	z-index: 1;
+	padding-left: 0;
+}
+
+.popup_content_text .arm_com_msg_content_wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.arm_com_message_convo_div {
+	width: 100%;
+	display: inline-block;
+	height: 500px;
+	overflow-y: auto;
+	-ms-overflow-y: auto;
+	-moz-overflow-y: auto;
+	-webkit-overflow-y: auto;
+	-o-overflow-y: auto;
+	border-bottom: 1px solid #e6e6e5;
+}
+
+.arm_msg_popup_user_pic .arm_msg_popup_user_pic img,
+.arm_msg_compose .arm_msg_compose_title img {
+	border-radius: 20px;
+	-ms-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.arm_msg_popup_user_pic .arm_msg_popup_username {
+	margin-left: 15px;
+}
+
+.arm_com_msg_compose_smiley {
+	width: 59%;
+	float: right;
+}
+
+.arm_com_msg_compose_submit {
+	width: 41%;
+	float:left;
+}
+
+.arm_msg_popup_user_pic .arm_msg_send_time_ago {
+	margin-left: 15px;
+}
+
+.popup_content_text .arm_msg_popup_msg {
+	margin-top: 10px;
+}
+
+.arm_msg_compose_title {
+	margin-top: 25px;
+}
+
+.arm_msg_compose .arm_msg_compose_title h3 {
+	width: 150px;
+	display: inline;
+	margin-left: 15px;
+}
+
+.arm_msg_compose .arm_msg_compose_textarea {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.arm_msg_popup_user_pic {
+	margin-top: 15px;
+}
+
+.arm_com_msg_compose_column .arm_com_field_error {
+	display:none;
+	color:red;
+}
+
+.arm_com_msg_tab_container {
+	width: 100%;
+	float: left;
+}
+
+.arm_com_message_container .arm_com_msg_tab_li a.compose {
+	color: #1cc577;
+}
+
+.arm_com_msg_tab_li.arm_com_msg_compose,
+.arm_com_msg_tab_li.arm_com_msg_reply {
+	float: right;
+}
+
+.arm_msg_popup_msg textarea,
+.arm_msg_compose_textarea textarea {
+	height: 100px;
+}
+#arm_com_follow_container{
+	display: inline-block;
+	width: 61%;
+	float: left;
+
+}
+
+.arm_follow_friendship_belt {
+	padding: 20px 10px 20px 20px;
+	background-color: #f8fbff;
+	border-bottom: 1px solid #e8ebf0;
+	float: left;
+	width: 100%;	
+}
+
+.arm_template_wrapper_profiletemplate2 .arm_follow_friendship_belt {
+	position: relative;
+	z-index: 1;
+}
+
+.arm_com_follow_container .arm_com_follow_wrapper {
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 10px;
+	float: left;
+	text-transform: uppercase;
+}
+
+.arm_com_follow_container .arm_com_follow_wrapper .arm_com_follow_count {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: bold !important;
+}
+
+.arm_com_follow_btns {
+	width: 30%;
+	display: inline-block;
+}
+
+.arm_com_review_rating_error,
+.arm_com_review_title_error,
+.arm_com_review_desc_error {
+	display: none;
+	color: red;
+	width: 100%;
+	float: left;
+}
+
+#arm_com_give_review {
+	color: #0c7cd5;
+	font-family: Helvetica, sans-serif, 'Trebuchet MS';
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	float: right;
+}
+
+.arm_com_friendship_send_btn,
+.arm_com_friendship_send_btn[disabled]:hover,
+.arm_com_friendship_send_btn[disabled],
+.arm_com_friendship_cancel_btn,
+.arm_com_post_btn,
+.arm_com_post_btn[disabled]:hover,
+.arm_com_post_btn[disabled],
+.arm_com_post_edit_btn,
+.arm_com_post_edit_btn[disabled]:hover,
+.arm_com_post_edit_btn[disabled],
+.arm_com_review_btn,
+.arm_com_review_btn[disabled]:hover,
+.arm_com_review_btn[disabled],
+.arm_com_block_user,
+.arm_com_block_user[disabled]:hover,
+.arm_com_block_user[disabled],
+.arm_com_unfollow_btn,
+.arm_com_unfollow_btn[disabled]:hover,
+.arm_com_unfollow_btn[disabled],
+.arm_com_follow_btn,
+.arm_com_friendship_unfriend_link,
+.arm_com_follow_btn[disabled]:hover,
+.arm_com_follow_btn[disabled],
+.arm_com_message_send_btn,
+.arm_com_message_send_btn[disabled]:hover,
+.arm_com_message_send_btn[disabled] {
+	background-color: #1cc577;
+	border-color: #1cc577;
+	color: #ffffff;
+	font-family: Helvetica, sans-serif, 'Trebuchet MS';
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	border-radius: 4px;
+	-ms-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	text-transform: none;
+	padding: 10px;
+}
+
+.arm_com_post_btn,
+.arm_com_post_edit_btn,
+.arm_com_follow_btn,
+.arm_com_review_btn,
+.arm_com_message_send_btn,
+.arm_com_block_user,
+.arm_com_friendship_unfriend_link {
+	background-color: #39a5ff;
+	border-color: #39a5ff;
+}
+
+.arm_com_block_user {
+	float: right;
+}
+
+.arm_com_frd_content_container {
+	padding: 0 26px;
+}
+
+.arm_com_friendship_cancel_btn {
+	background-color: red;
+	border-color: red;
+	color: #ffffff;
+	font-family: Helvetica, sans-serif, 'Trebuchet MS';
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	-ms-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	float: right;
+}
+
+.arm_profile_tab_container {
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+
+.arm_template_wrapper_profiletemplate2 .arm_profile_tab_container_top_60,
+.arm_template_wrapper_profiletemplate3 .arm_profile_tab_container_top_60 {
+	margin-top: 60px;
+}
+
+
+.arm_follow_form_container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	font-family: inherit;
+	max-width: 100%;
+	display: inline-block;
+	padding: 35px 0 0 0;
+}
+
+.arm_follow_form_container .arm_follow_user_box {
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+.arm_follow_form_container .arm_follow_user_box .arm_follow_user_image img {
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.arm_follow_form_container .arm_follow_user_box .arm_follow_user_name {
+	margin-bottom: 50px;
+	color: #0c7cd5;
+	font-family: Helvetica, sans-serif, 'Trebuchet MS';
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.arm_follow_form_container .arm_follow_user_name a {
+	word-break: break-all;
+}
+
+.arm_com_review_popup .arm_review_form_container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.arm_com_disp_review_wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.arm_review_avg_rating {
+	float: left;
+
+}
+
+.arm_review_title_add_edit_link {
+	float: right;
+	font-size: 16px;
+	padding: 5px 0;
+}
+
+.arm_review_title {
+	margin: 0;
+	background-color: #f8fbff;
+	border-bottom: 1px solid #e6e6e5;
+	padding: 14px 26px;
+	font-size: 16px;
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-weight: bold;
+}
+
+.arm_review_title_text {
+	float: left;
+	vertical-align: middle;
+	font-size: 16px;
+	padding: 9px 0 0 0;
+	min-width: 18%;
+}
+
+.arm_com_review_popup form {
+	margin: 0;
+}
+
+.arm_no_review_msg {
+	width: 100%;
+	text-align: center;
+	margin: 30px 0 0 0;
+}
+
+.arm_review_form_container table.arm_reivew_tbl {
+	margin: 10px 0px;
+	border:none;
+}
+
+.arm_review_form_container table.arm_reivew_tbl th {
+	border: none;
+	text-align: right;
+	width: 25%;
+	margin-bottom: 20px;
+	font-family: Helvetica, sans-serif, 'Trebuchet MS';
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;  
+	padding: 15px;
+}
+
+.arm_review_form_container table.arm_reivew_tbl td {
+	border: none;
+	text-align: left;
+	width: 75%;
+	vertical-align: -webkit-baseline-middle;
+	padding: 10px 0;
+}
+
+.arm_review_form_container table.arm_reivew_tbl td span {
+	display: none;
+	color: #ff0000;
+	text-align: left;
+	width: 100%;
+	float: left;
+}
+
+.arm_review_form_container table.arm_reivew_tbl td input[type='text'],
+.arm_review_form_container table.arm_reivew_tbl td textarea {
+	width: 80%;
+}
+
+.arm_com_review_popup .arm_review_add_success,
+.arm_com_disp_review_wrapper .arm_review_add_success,
+.arm_com_post_form .arm_post_add_success {
+	color: #7bba74;
+}
+
+.arm_com_review_popup .arm_review_add_error,
+.arm_com_disp_review_wrapper .arm_review_add_error,
+.arm_com_post_form .arm_post_add_error {
+	color: #ff0000;
+}
+
+.arm_com_displ_review_container {
+	width: 100%;
+	float: left;
+	margin: 0px 0 30px 0;
+}
+
+.arm_com_disp_review_wrapper .arm_com_review_box {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 0 30px 0;
+}
+
+.arm_com_review_box_container {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #eeeeee;
+	margin-top: 30px;
+}
+
+.arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_user_img {
+	width: 8%;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 70px;
+	margin-right: 2%
+}
+
+.arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_content {
+	width: 88%;
+	display: inline-block;
+}
+
+.arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_content .arm_com_review_rating {
+	width: 100%;
+	display: inline-block;
+}
+
+.arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_content .arm_com_reivew_title {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	line-height: 32px;
+	font-weight: bold;
+	font-size: 17px;
+	padding-bottom: 10px;
+}
+
+.arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_content .arm_user_name {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_content .arm_user_name span {
+	margin-bottom: 20px;
+	color: #0c7cd5;
+	font-family: Helvetica, sans-serif, 'Trebuchet MS';
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.arm_rating,
+.arm_rating_display { 
+	border: none;
+	float: left; 
+	margin: 0;
+	padding: 0;
+}
+
+.arm_rating > label:before,
+.arm_rating_display > label:before { 
+	margin: 5px;
+	font-size: 1.25em;
+	font-family: FontAwesome;
+	display: inline-block;
+	content: "\f005";
+}
+
+.arm_rating > .half:before, 
+.arm_rating_display > .half:before { 
+	content: "\f089";
+	position: absolute;
+}
+
+.arm_rating > label,
+.arm_rating_display > label { 
+	color: #ddd; 
+	float: right; 
+}
+
+.arm_reivew_tbl fieldset.arm_rating,
+.arm_reivew_tbl fieldset.arm_rating_display {
+	margin: 0;
+	padding: 0;
+	vertical-align: middle !important;
+}
+
+.arm_rating_display > input:checked ~ label,
+.arm_rating_display:not(:checked),
+.arm_rating_display:not(:checked) ~ label {
+	color: #FFD700;
+}
+
+.arm_rating > input:checked ~ label, 
+.arm_rating:not(:checked) > label:hover,
+.arm_rating:not(:checked) > label:hover ~ label {
+	color: #FFD700;
+}
+
+.arm_rating > input:checked + label:hover, 
+.arm_rating > input:checked ~ label:hover,
+.arm_rating > label:hover ~ input:checked ~ label, 
+.arm_rating > input:checked ~ label:hover ~ label {
+	color: #FFED85;
+}
+
+.arm_com_post_content_container {
+	width: 100%;
+	float: left;
+	margin: 0 0 30px 0;
+}
+
+.arm_com_post_container {
+	width: 95%;
+	margin:0 auto;
+}
+
+.arm_post_form_container,
+.arm_com_post_display_container {
+	width: 100%;
+	float: left;
+	text-align: left;
+	margin : 30px 0 0 0;
+	position: relative;
+}
+
+.arm_post_form_container .arm_post_title {
+	padding: 20px;
+	border: 1px solid #e8ebf0;
+	margin-bottom: 0;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	position: relative;
+}
+
+.arm_title::placeholder,
+.arm_title {
+	color: #070a24 !important;
+	font-size: 16px !important;
+	font-family: "Noto Sans" !important;
+	opacity: 1 !important;
+}
+
+.arm_title:-ms-input-placeholder,
+.arm_title {
+	color: #070a24 !important;
+	font-size: 16px !important;
+	font-family: "Noto Sans" !important;
+}
+
+.arm_title::-ms-input-placeholder,
+.arm_title {
+	color: #070a24 !important;
+	font-size: 16px !important;
+	font-family: "Noto Sans" !important;
+}
+
+.arm_post_form_container .arm_com_post_user_img {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 25px 0 0;
+}
+
+.arm_post_form_container .arm_com_post_user_title_box {
+	width: 80%;
+	display: inline-block;
+}
+
+.arm_post_form_container .arm_com_post_title_error,
+.arm_post_form_container .arm_com_post_desc_error {
+	display : none;
+	color: #ff0000;
+	text-align: left;
+	padding-top: 10px;
+	width: 85%;
+	float: left;
+}
+
+.arm_post_add_success,
+.arm_post_add_error {
+	text-align: left;
+	padding-top: 10px;
+	width: 85%;
+	float: left;
+}
+
+.arm_post_form_container .arm_post_title input[type='text'] {
+	border: none;
+	width: 90%;
+	background: none;
+	height: 50px;
+	font-size: 25px;
+	padding: 15px 15px 15px 0;
+}
+
+.arm_post_form_container .arm_com_post_description {
+	border-bottom: 1px solid #e8ebf0;
+	border-left: 1px solid #e8ebf0;
+	border-right: 1px solid #e8ebf0;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	padding: 10px;
+}
+
+.arm_com_post_description .arm_description {
+	background: none;
+}
+
+.arm_post_form_container .arm_com_post_description textarea {
+	border: none;
+	width: 100%;
+}
+
+.arm_post_form_container .arm_com_post_button_wrapper {
+	padding: 20px 0;
+}
+
+.arm_com_post_box {
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #e8ebf0;
+	padding: 0;
+	overflow: hidden;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	position: relative;
+	margin-bottom: 35px;
+	background-color: #fff;
+}
+
+.arm_com_post_box .arm_com_post_image_box {
+	border-right: 1px solid #e8ebf0;
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	background-position: center;
+}
+
+.arm_com_post_box .arm_com_post_content_box {
+	float: left;
+	position: relative;
+}
+
+.arm_com_post_box .arm_com_post_content_box .arm_com_post_content_box_wrapper {
+	padding: 30px;
+}
+
+.arm_com_post_box .arm_com_post_content_box .arm_com_post_title {
+	font-size: 16px;
+	font-family: "Noto Sans";
+	color: #070a24;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+.arm_com_post_box .arm_com_post_content_box .arm_com_post_meta {
+	font-size: 15px;
+	font-family: "Noto Sans";
+	color: #80878d;
+	margin: 0 0 20px 0;
+}
+
+.arm_com_post_box .arm_com_post_content_box .arm_com_post_content {
+	font-size: 15px !important;
+	font-family: "Noto Sans" !important;
+	color: #80878d !important;
+	margin: 0 0 25px 0 !important;
+	line-height: 20px !important;
+}
+
+.arm_com_post_box .arm_com_post_content_box .arm_com_post_read_more_nav,
+.arm_com_post_comment_btn {
+	background-color: rgb(28, 154, 254);
+	font-family: "Noto Sans";
+	border-radius: 3px;
+	padding: 8px 15px;
+	border: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.arm_com_post_box .arm_com_post_content_box .arm_com_post_action_section {
+	padding: 10px 15px;
+	border-top: 1px solid #e8ebf0;
+}
+
+.arm_com_post_box .arm_com_post_content_box .arm_com_post_action_section a {
+	font-size: 15px !important;
+	font-family: "Noto Sans" !important;
+	color: #80878d !important;
+	margin: 0 15px !important;
+	min-width: 70px;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.arm_com_post_box .arm_com_post_content_box .arm_com_post_action_section a img {
+	margin-right: 5px;
+}
+
+.arm_com_post_box .arm_com_post_content_box .arm_com_post_action_section .arm_com_post_like_nav img,
+.arm_com_post_box .arm_com_post_content_box .arm_com_post_action_section .arm_com_post_dislike_nav img {
+	vertical-align: bottom;
+}
+
+.arm_post_attachment_thumb {
+	width: 80px;
+	height: 80px;
+	display: none;
+}
+
+.arm_com_post_comment_box {
+	border-bottom: 1px solid #a1acb3;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	display: none;
+}
+
+.arm_com_post_comment_box_wrapper {
+	border: 1px solid #e8ebf0;
+	border-radius: 3px;
+	padding: 15px 20px;
+	position: relative;
+	display: none;
+}
+
+.arm_com_post_comment_section {
+	position: relative;
+	padding-left: 15px;
+	margin-top: 30px;
+}
+
+.arm_com_post_comment_section:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.arm_com_post_comment_section img {
+	width: 50px;
+	position: absolute;
+	top: -21px;
+    left: 1px;
+}
+
+.arm_com_post_comment_section .arm_com_post_comment {
+	border: 1px solid #e8ebf0 !important;
+	border-radius: 3px !important;
+	box-shadow: none !important;
+	margin-bottom: 5px;
+	width: 100%;
+	padding: 10px 10px 10px 45px;
+}
+
+.arm_com_post_comment_error {
+	color: #ff0000;
+	display: none;
+}
+
+.arm_com_post_comment_msg {
+	position: absolute;
+	bottom: -13px;
+	right: 155px;
+	color: #7bba74;
+	display: none;
+}
+
+.arm_com_post_comment_section .arm_com_post_comment_loader {
+	position: absolute;
+	bottom: 7px;
+	right: 155px;
+	display: none;
+	opacity: 1 !important;
+}
+
+.arm_box_width_60 {
+	width: 60%;
+	margin-left: 40%;
+}
+
+.arm_box_width_100 {
+	width: 100%;
+	margin: 0;
+}
+
+.arm_com_activity_wrapper {
+	width: 100%;
+	float: left;
+}
+
+.arm_com_activity_box {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #eeeeee;
+	margin-top: 30px;
+}
+
+.arm_com_activity_box .arm_activity_title {
+	margin: 0 auto;
+	width: 90%;
+	padding-bottom: 30px;
+}
+
+.arm_activity_title .arm_com_activity_user_img {
+	width: 10%;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 53px;
+	margin-right: 2%;
+}
+
+.arm_activity_title .arm_com_activity_user_title_box {
+	width: 88%;
+	display: inline-block;
+	padding-top: 8px
+}
+
+.arm_activity_title .arm_com_activity_user_title_box strong {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.arm_activity_content {
+	padding: 15px 0 0 0;
+	min-width: 100%;
+	max-width: 100%;
+	display: inline-block;
+}
+
+.arm_activity_content strong {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.arm_com_activity_box .arm_com_activity_like_unlike_container {
+	border-top: 1px solid #eeeeee;
+	padding: 15px;
+}
+
+.arm_blocked_user {
+	display: inline-block;
+	width: auto;
+	padding: 3px 8px;
+	background-color: #39a5ff;
+	color: white;
+	margin-right: 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-size: 13px;
+}
+
+.arm_blocked_username {
+	display: inline-block;
+	padding: 5px;
+}
+a.arm_blocked_user_remove {
+	display: inline !important;
+	position: absolute;
+	margin-top: -14px;
+	font-size: 14px;
+	margin-left: 0px;
+	color: #39a5ff;
+	background-color: white;
+	border-radius: 100%;
+	-ms-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-o-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	padding: 2px;
+}
+
+.arm_profile_tab_menu_container ul.arm_profile_tab_menu_ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+.arm_profile_tab_menu_ul ul {
+	display: none;
+}
+
+.arm_profile_tab_menu_container li.active,
+.arm_profile_tab_menu_container li.active a {
+	color: #39a5ff;
+}
+
+.arm_profile_tab_menu_container {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #e8ebf0;
+}
+
+.arm_profile_tab_menu_container a {
+	color: #9EA7AE;
+}
+
+.arm_profile_tab_menu_container ul li {
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	padding: 0 15px 23px 15px;
+	font-family: Helvetica, sans-serif, 'Trebuchet MS';
+	line-height: 1;
+}
+
+.arm_profile_tab_contant_container {
+	width: 100%;
+	float: left;
+}
+
+.arm_profile_tab_contant_container ul li.arm_profile_li_container {
+	list-style-type: none;
+	border: 1px solid #e8ebf0;
+	border-radius: 4px;
+	-ms-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin: 30px 0;
+	width: 100%;
+	float: left;
+}
+
+.arm_emoji_wrapper {
+	display: none;
+	width: 96%;
+	float: right;
+	position: absolute;
+	background-color: #f1f4f7;
+	margin-top: 37px;
+	padding: 7px;
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.arm_emoji_wrapper img {
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	float: left;
+	margin: 5px;
+}
+
+.arm_edit_review {
+	float: right;
+	position: relative;
+	right: 0;
+	top: 35px;
+}
+
+.arm_template_wrapper .arm_profile_tab_menu_container a {
+	text-transform: uppercase;
+}
+
+.arm_com_message_container .arm_com_msg_compose_column:not(.arm_block_user_lbl) {
+	width: 100%;
+}
+
+.arm_com_msg_user_list_container .ui-menu .ui-menu-item a {
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	color: inherit;
+	border: 0;
+	margin: 0;
+	padding: 5px 6px;
+	zoom: 1;
+}
+
+.arm_com_msg_user_list_container ul li,
+.arm_com_msg_user_list_container .ui-menu .ui-menu-item {
+	display: inline-block;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	font-size: 13px;
+	line-height: 15px;
+	padding: 0;
+	width: 100%;
+	margin-bottom: 0px;
+	border: 0;
+	cursor: pointer;
+	white-space: normal;
+}
+
+.arm_com_msg_user_list_container ul,
+.arm_com_msg_user_list_container .ui-menu {
+	list-style: none;
+	max-width: 500px;
+	padding: 0;
+	background: #ffffff;
+	border: 1px solid #D2D2D2;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgb(210, 210, 210);
+	border-top: none;
+	border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	-ms-border-radius: 0 0 3px 3px;
+	-o-border-radius: 0 0 3px 3px;
+	color: #333;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	z-index: 99999;
+}
+
+.arm_com_msg_user_list_container ul,
+.arm_com_msg_user_list_container .ui-menu,
+.arm_post_title a,
+.arm_com_message_container .arm_com_msg_tab_li a,
+.arm_com_friend_container .arm_com_frd_tab_li a,
+.arm_post_form_container .arm_com_post_description textarea,
+.arm_paging_links a,
+.arm_post_form_container .arm_post_title input[type='text'],
+.arm_com_msg_wrapper a,
+.arm_com_msg_wrapper a:hover,
+.arm_msg_list_body_username .arm_com_msg_user_pic a {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	-ms-box-shadow: none;
+}
+
+.arm_com_msg_user_list_container li:focus,
+.arm_com_msg_user_list_container li:hover,
+.arm_com_msg_user_list_container .ui-state-focus,
+.arm_com_msg_user_list_container .ui-menu-item:hover,
+.arm_com_msg_user_list_container .ui-menu-item:focus {
+	border: 0;
+	background: #00c3e4 !important;
+	color: #FFF !important;
+	outline: none;
+}
+
+.arm_com_message_convo:hover {
+	background-color: #f4f6f9;
+}
+
+.arm_com_message_convo:hover .arm_com_message_convo_msg {
+	background-color: #fff;
+}
+
+.arm_com_message_convo_action {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.arm_com_message_convo:hover .arm_com_message_convo_action {
+	display: block;
+	margin: 5px;
+}
+
+.arm_com_profile_font_settings_popup_title {
+	font-style: italic;
+	font-weight: bold;
+	padding: 5px 0;
+	margin-bottom: 10px;
+}
+
+.arm_display_none {
+	display: none !important;
+}
+
+.arm_template_wrapper_profiletemplate2 #arm_com_follow_container {
+	width: 72%;
+}
+
+.arm_template_wrapper_profiletemplate2 .arm_com_follow_container .arm_com_follow_btns {
+	float: right;
+	width: 20%;
+}
+
+.arm_template_wrapper_profiletemplate2 .arm_friendship_button {
+	width: 26%;
+	margin-top: 1px;
+}
+
+.arm_template_wrapper_profiletemplate3 .arm_com_follower_wrapper {
+	margin: 0;
+}
+
+.arm_com_follow_btn,
+.arm_com_unfollow_btn,
+.arm_com_review_btn,
+.arm_com_post_btn,
+.arm_com_post_edit_btn,
+.arm_com_message_send_btn,
+.arm_com_block_user,
+.arm_com_friendship_send_btn,
+.arm_com_post_fimage_btn,
+.arm_com_post_fimage_remove_btn {
+	border: none !important;
+	cursor: pointer !important;
+}
+
+.arm_com_msg_compose_row_img img {
+	height: 50px;
+	width: 50px;
+}
+
+.arm_review_paging_div {
+	border: 1px solid transparent;
+}
+
+.arm_review_paging_div .arm_com_review_paging_container {
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+
+.arm_review_paging_div .arm_com_review_paging_container a {
+	margin-bottom: 20px;
+}
+
+.arm_com_friends_paging_container_infinite {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.arm_com_posts_paging_container {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.arm_com_friends_paging_container_infinite img,
+.arm_com_review_paging_container_infinite img {
+	margin: 0 0 0 5px !important;
+	width: 25px !important;
+	height: 25px !important;
+}
+
+.arm_com_disp_review_container .arm_template_loading img {
+	width: 70px !important;
+	min-width: 70px !important;
+	height: 70px !important;
+	padding: 0 !important;
+}
+
+.arm_com_activity_paging_container,
+.arm_com_friend_req_paging_container,
+.arm_com_wall_posts_paging_container {
+	text-align: center;
+}
+
+.arm_com_activity_load_more_link {
+	margin: 20px 0;
+}
+
+.arm_com_msgs_paging_div {
+	text-align: center;
+	margin: 18px 0 3px 0;
+}
+
+.arm_com_post_form {
+	margin: 0 !important;
+}
+
+.arm_post_form_container .arm_post_title .arm_com_post_added_type {
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+
+.arm_post_form_container .arm_post_title .arm_com_post_added_type button {
+	font-size: 13px;
+	font-family: "Noto Sans";
+	color: #77838e;
+	border: 1px solid rgb(232, 235, 240);
+	width: 66px;
+	height: 32px;
+	border-radius: 3px;
+	background: #eff0f4;
+	margin: 0 3px;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+}
+
+.arm_post_type_btn_active {
+	background: none !important;
+}
+
+.arm_com_post_button_wrapper .arm_com_post_fimage_btn,
+.arm_com_post_button_wrapper .arm_com_post_fimage_btn:hover {
+	background: none !important;
+	font-size: 13px !important;
+	font-family: "Noto Sans" !important;
+	color: #1c9afe !important;
+	outline: none !important;
+	vertical-align: top !important;
+}
+
+.arm_com_post_button_wrapper .arm_com_post_fimage_remove_btn,
+.arm_com_post_button_wrapper .arm_com_post_fimage_remove_btn:hover {
+	background: none !important;
+	font-size: 13px !important;
+	font-family: "Noto Sans" !important;
+	color: #1c9afe !important;
+	outline: none !important;
+	vertical-align: top !important;
+	color: #ff0000 !important;
+	display: none;
+}
+
+.arm_com_post_btn,
+.arm_com_post_edit_btn {
+	height: 32px !important;
+	width: 66px !important;
+	padding: 0 !important;
+	float: right;
+}
+
+.arm_com_post_edit_cancel_nav {
+	float: right;
+	margin: 0 0 0 10px;
+    padding: 9px 0 0 0;
+    cursor: pointer;
+}
+
+.arm_com_post_comment_btn {
+	margin: 10px 0 0 0;
+	float: right;
+	cursor: pointer;
+}
+
+.arm_post_comment_load_more_nav {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.arm_post_comment_load_more_nav span {
+	cursor: pointer;
+}
+
+.arm_com_post_comment_list_ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.arm_com_post_comment_list_ul li {
+	padding: 10px 0;
+}
+
+.arm_com_post_comment_list_ul li:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.arm_com_post_comment_list_ul li:last-child {
+	margin-bottom: 25px;
+}
+
+.arm_com_post_comment_list_ul li a.arm_com_comment_avatar {
+	width: 50px;
+	margin-right: 15px;
+	float: left;
+}
+
+.arm_com_post_comment_list_ul li img:not(.arm_com_post_comment_remove) {
+	border: 1px solid #e8ebf0;
+}
+
+.arm_com_post_comment_list_ul li span {
+	padding-top: 5px;
+	float: left;
+	width: calc(100% - 85px);
+}
+
+.arm_com_post_remove {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.arm_com_post_fimage_btn {
+	margin-top: 10px;
+}
+
+.arm_com_post_commnet_single {
+	position: relative;
+}
+
+.arm_com_post_comment_remove {
+	cursor: pointer;
+	z-index: 1;
+	width: 13px !important;
+	margin: 0 !important;
+}
+
+.arm_com_wall_post_display_container {
+	width: 100%;
+	float: left;
+	text-align: left;
+	position: relative;
+}
+
+.arm_com_wall_post_content_container {
+	margin-top: 30px;
+}
+
+.arm_com_user_box_left img.avatar,
+.arm_com_user_box_left img.arm_grid_avatar,
+.arm_activity_title .arm_com_activity_user_img img,
+.arm_com_msg_content_sender_img img.avatar,
+.arm_com_msg_content_sender_img img.arm_grid_avatar,
+.arm_com_message_convo_img img.avatar,
+.arm_com_message_convo_img img.arm_grid_avatar,
+.arm_com_msg_compose_row_img img.avatar,
+.arm_com_msg_compose_row_img img.arm_grid_avatar,
+.arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_user_img img,
+.arm_com_user_friend_avatar img.arm_grid_avatar.arm-avatar,
+.arm_com_wall_post_avatar img,
+.arm_com_post_comment_section img,
+.arm_follow_form_container .arm_follow_user_box .arm_follow_user_image img,
+.arm_com_post_user_img img {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #e8ebf0;
+}
+
+.arm_template_wrapper_profiletemplate1 .arm_com_user_box_left img.avatar,
+.arm_template_wrapper_profiletemplate1 .arm_com_user_box_left img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate1 .arm_activity_title .arm_com_activity_user_img img,
+.arm_template_wrapper_profiletemplate1 .arm_com_msg_content_sender_img img.avatar,
+.arm_template_wrapper_profiletemplate1 .arm_com_msg_content_sender_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate1 .arm_com_message_convo_img img.avatar,
+.arm_template_wrapper_profiletemplate1 .arm_com_message_convo_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate1 .arm_com_msg_compose_row_img img.avatar,
+.arm_template_wrapper_profiletemplate1 .arm_com_msg_compose_row_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate1 .arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_user_img img,
+.arm_template_wrapper_profiletemplate1 .arm_com_user_friend_avatar img.arm_grid_avatar.arm-avatar,
+.arm_template_wrapper_profiletemplate1 .arm_com_wall_post_avatar img,
+.arm_template_wrapper_profiletemplate1 .arm_com_post_comment_section img,
+.arm_template_wrapper_profiletemplate1 .arm_com_post_comment_list_ul li img,
+.arm_template_wrapper_profiletemplate2 .arm_com_user_box_left img.avatar,
+.arm_template_wrapper_profiletemplate2 .arm_com_user_box_left img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate2 .arm_activity_title .arm_com_activity_user_img img,
+.arm_template_wrapper_profiletemplate2 .arm_com_msg_content_sender_img img.avatar,
+.arm_template_wrapper_profiletemplate2 .arm_com_msg_content_sender_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate2 .arm_com_message_convo_img img.avatar,
+.arm_template_wrapper_profiletemplate2 .arm_com_message_convo_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate2 .arm_com_msg_compose_row_img img.avatar,
+.arm_template_wrapper_profiletemplate2 .arm_com_msg_compose_row_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate2 .arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_user_img img,
+.arm_template_wrapper_profiletemplate2 .arm_com_user_friend_avatar img.arm_grid_avatar.arm-avatar,
+.arm_template_wrapper_profiletemplate2 .arm_com_wall_post_avatar img,
+.arm_template_wrapper_profiletemplate2 .arm_com_post_comment_section img,
+.arm_template_wrapper_profiletemplate2 .arm_com_post_comment_list_ul li img,
+.arm_template_wrapper_profiletemplate4 .arm_com_user_box_left img.avatar,
+.arm_template_wrapper_profiletemplate4 .arm_com_user_box_left img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate4 .arm_activity_title .arm_com_activity_user_img img,
+.arm_template_wrapper_profiletemplate4 .arm_com_msg_content_sender_img img.avatar,
+.arm_template_wrapper_profiletemplate4 .arm_com_msg_content_sender_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate4 .arm_com_message_convo_img img.avatar,
+.arm_template_wrapper_profiletemplate4 .arm_com_message_convo_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate4 .arm_com_msg_compose_row_img img.avatar,
+.arm_template_wrapper_profiletemplate4 .arm_com_msg_compose_row_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate4 .arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_user_img img,
+.arm_template_wrapper_profiletemplate4 .arm_com_user_friend_avatar img.arm_grid_avatar.arm-avatar,
+.arm_template_wrapper_profiletemplate4 .arm_com_wall_post_avatar img,
+.arm_template_wrapper_profiletemplate4 .arm_com_post_comment_section img,
+.arm_template_wrapper_profiletemplate4 .arm_com_post_comment_list_ul li img,
+.arm_template_wrapper_profiletemplate1 .arm_com_post_user_img img,
+.arm_template_wrapper_profiletemplate2 .arm_com_post_user_img img,
+.arm_template_wrapper_profiletemplate4 .arm_com_post_user_img img,
+.arm_template_wrapper_profiletemplate1 .arm_follow_form_container .arm_follow_user_box .arm_follow_user_image img,
+.arm_template_wrapper_profiletemplate2 .arm_follow_form_container .arm_follow_user_box .arm_follow_user_image img,
+.arm_template_wrapper_profiletemplate4 .arm_follow_form_container .arm_follow_user_box .arm_follow_user_image img {
+	border-radius: 50%;
+	-ms-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.arm_template_wrapper_profiletemplate3 .arm_com_user_box_left img.avatar,
+.arm_template_wrapper_profiletemplate3 .arm_com_user_box_left img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate3 .arm_activity_title .arm_com_activity_user_img img,
+.arm_template_wrapper_profiletemplate3 .arm_com_msg_content_sender_img img.avatar,
+.arm_template_wrapper_profiletemplate3 .arm_com_msg_content_sender_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate3 .arm_com_message_convo_img img.avatar,
+.arm_template_wrapper_profiletemplate3 .arm_com_message_convo_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate3 .arm_com_msg_compose_row_img img.avatar,
+.arm_template_wrapper_profiletemplate3 .arm_com_msg_compose_row_img img.arm_grid_avatar,
+.arm_template_wrapper_profiletemplate3 .arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_user_img img,
+.arm_template_wrapper_profiletemplate3 .arm_com_user_friend_avatar img.arm_grid_avatar.arm-avatar,
+.arm_template_wrapper_profiletemplate3 .arm_com_wall_post_avatar img,
+.arm_template_wrapper_profiletemplate3 .arm_com_post_comment_section img,
+.arm_template_wrapper_profiletemplate3 .arm_com_post_comment_list_ul li img,
+.arm_template_wrapper_profiletemplate3 .arm_com_post_user_img img,
+.arm_template_wrapper_profiletemplate3 .arm_follow_form_container .arm_follow_user_box .arm_follow_user_image img {
+	border-radius: 7px;
+	-ms-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.arm_com_post_edit {
+	position: absolute;
+	right: 42px;
+	top: 12px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.arm_rating > input,
+.arm_rating_display > input,
+.arm_com_hide,
+.arm_com_wall_post_display_container .arm_com_post_remove,
+.arm_com_wall_post_display_container .arm_com_post_edit,
+.arm_com_post_form_loader,
+.arm_com_friendship_unfriend_button_loader,
+.arm_com_post_remove_confirm_box_div,
+.arm_com_post_comment_remove_confirm_box_div,
+.arm_com_msg_content_sender_icons,
+.arm_com_post_featur_image,
+.arm_com_post_edit_btn,
+.arm_com_post_edit_cancel_nav,
+.arm_com_post_comment_list_div,
+.arm_com_post_commnet_single.arm_com_comment_new_loaded,
+.arm_com_post_display_loader {
+	display: none;
+}
+
+.arm_com_post_form_loader {
+	opacity: 1 !important;
+	float: right;
+	margin: 5px 27px 0 27px;
+}
+
+.arm_com_user_friend_avatar {
+	margin-right: 15px;
+}
+
+.arm_com_friendship_unfriend_button_wrapper {
+	float: right;
+}
+
+.arm_com_friendship_unfriend_link {
+	text-decoration: none !important;
+	background-color: #eef0f2 !important;
+	color: #615d59;
+}
+
+.arm_com_friendship_approve_btn {
+	margin-right: 10px;
+}
+
+.arm_com_friendship_cancel_link {
+	color: #444444;
+}
+
+.arm_com_friendship_unfriend_btn.arm_com_friendship_unfriend_link:hover {
+	background-color: #ddddde !important;
+}
+
+.arm_com_post_box .arm_confirm_box {
+    right: 5px !important;
+    top: -20px !important;
+}
+
+.arm_com_post_box .arm_confirm_box .arm_confirm_box_arrow {
+	margin: -22px -18px 0 0;
+}
+
+.arm_com_post_commnet_single .arm_confirm_box {
+	margin: 0;
+    top: 22px;
+    right: -22px;
+}
+
+.arm_com_unfollow_button_wrapper {
+	position: relative;
+}
+
+.arm_com_unfollow_button_wrapper .arm_confirm_box {
+	top: -12px;
+}
+
+.arm_friendship_button .arm_confirm_box {
+	top: -12px;
+	right: 0;
+}
+
+.arm_com_user_following_paging_wrapper {
+	overflow: hidden;
+}
+
+.arm_com_main_tab_btn {
+	border-radius: 3px;
+	border:none;
+	box-shadow: none;
+	padding: 10px;
+	cursor: pointer;
+	outline: none;
+	display: block;
+	width: 100%;
+	text-align: left;
+	display: none;
+}
+
+.arm_com_post_comment_nav img {
+	vertical-align: middle;
+}
+
+.arm_com_msg_display_loader img {
+	top : 80px;
+	left: 50%;
+	position: absolute;
+}
+
+.arm_com_msg_div {
+	text-align: center;
+	margin: 10px 0 0 0;
+	display: none;
+}
+
+.arm_com_msg_button {
+	width: 98%;
+	text-align: left;
+	box-shadow: none;
+	border: none;
+	background: no-repeat;
+	border-bottom: 1px solid #e8ebf0;
+	padding: 5px 10px 10px 10px;
+	cursor: pointer;
+	outline: none;
+}
+
+.arm_com_msg_button img {
+	margin-right: 12px;
+	width: 30px !important;
+	height: 30px !important;
+}
+
+.arm_com_msg_button img.arm_com_msg_arrow {
+	float: right;
+    width: 9px !important;
+    height: 9px !important;
+    margin-top: 8px;
+}
+
+.arm_com_main_tab_btn .arm_com_main_tab_btn_arrow {
+	float: right;
+    width: 12px !important;
+    height: 11px !important;
+    margin-top: 4px;
+}
+
+.arm_com_msg_button img.arm_com_msg_arrow:not(.arm_com_msg_arrow_current),
+.arm_com_main_tab_btn .arm_com_main_tab_btn_arrow:not(.arm_com_main_tab_btn_arrow_current) {
+	display: none;
+}
+
+.arm_friendship_buttons a.arm_com_friendship_approve_btn {
+	padding: 8px 14px;
+    border-radius: 3px;
+}
+
+.arm_com_follow_popup_text {
+	padding: 0 20px !important;
+}
+
+.arm_com_follow_popup_text .arm_template_loading img {
+	top: 20% !important;
+}
+
+.arm_com_follow_paging_wrapper {
+	border-top: 1px solid #e8ebf0;
+	padding-top: 5px;
+	margin-bottom: 15px;
+}
+
+.arm_com_wall_post_header {
+	overflow: hidden;
+}
+
+.arm_com_wall_post_header span.arm_com_wall_post_avatar {
+	float: left;
+	margin-right: 10px;
+}
+
+.arm_com_wall_post_header .arm_com_post_title {
+	margin-bottom: 0 !important;
+}
+
+.arm_com_review_button_wrapper .arm_com_review_btn,
+.arm_com_message_send_btn,
+.arm_com_message_send_btn_popup {
+	margin-right: 10px;
+}
+
+@media all and (min-width: 767px) {
+
+	.arm_profile_tab_menu_ul {
+		display: block !important;
+	}
+
+	.arm_template_wrapper_profiletemplate3 #arm_com_follow_container {
+		width: 72%;
+	}
+
+	.arm_template_wrapper_profiletemplate3 .arm_com_follow_container .arm_com_follow_btns {
+		float: right;
+		width: 20%;
+	}
+
+	.arm_template_wrapper_profiletemplate3 .arm_friendship_button {
+		width: 26%;
+	}
+
+	.arm_template_wrapper_profiletemplate3 #arm_com_follower_wrapper {
+		margin-left: 158px;
+	}
+
+	.arm_template_wrapper_profiletemplate3 .arm_com_follow_wrapper {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.arm_template_wrapper_profiletemplate3 .arm_com_follower_wrapper {
+		margin: 0;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.arm_com_message_container .arm_com_msg_tab_li {
+		margin: 8px 0 !important;
+		padding: 8px 10px !important;
+	}
+	.arm_com_msg_tab_li.arm_com_msg_compose,
+	.arm_com_msg_tab_li.arm_com_msg_reply {
+		float: left !important;
+	}
+
+	.arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_user_img {
+		width: 14% !important;
+	}
+
+	.arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_content {
+		width: 83%;
+	}
+
+	.arm_com_user_box_right_bottom {
+		margin-top: 0;
+	}
+
+	.arm_com_user_box_right_bottom a {
+		margin-top: 9px !important;
+	}
+
+	.arm_com_post_box .arm_com_post_content_box .arm_com_post_content_box_wrapper {
+		padding: 25px 10px 30px 10px !important;
+	}
+
+	.arm_com_post_box .arm_com_post_image_box {
+		width: 100% !important;
+		height: 170px !important;
+		position: relative !important;
+		background-size: 100%; 
+	}
+	.arm_com_post_box .arm_com_post_content_box {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	.arm_com_main_tab_btn {
+		display: block;
+	}
+
+	.arm_profile_tab_menu_ul {
+		padding: 0 !important;
+		margin: 0 !important;
+		background: #f8fbff;
+		border: 1px solid #e8ebf0;
+		border-bottom: none;
+		display: none;
+	}
+
+	.arm_profile_tab_menu_ul li {
+		float: none !important;
+		text-align: left !important;
+		padding: 5px 0 5px 25px !important;
+		border-bottom: 1px solid #e8ebf0;
+	}
+
+	.arm_profile_tab_menu_ul li a {
+		display: block;
+		padding: 10px 0 !important;
+	}
+
+	.arm_template_wrapper_profiletemplate3 .arm_com_follow_wrapper {
+		margin-top: 15px;
+	}
+
+	.arm_com_follow_container {
+		display: block !important;
+		width: 100% !important;
+		float: none !important;
+	}
+
+	.arm_com_follow_container .arm_com_follow_wrapper {
+		width: 45%;
+	}
+
+	.arm_com_follow_btns {
+		margin: auto;
+		display: block;
+		width: 45%;
+	}
+
+	.arm_template_wrapper_profiletemplate3 .arm_com_follow_btns {
+		width: 22%;
+	}
+
+	.arm_template_wrapper_profiletemplate2 .arm_com_follow_container,
+	.arm_template_wrapper_profiletemplate3 .arm_com_follow_container {
+		width: 100% !important;
+	}
+
+	.arm_template_wrapper_profiletemplate2 .arm_com_follow_container .arm_com_follow_btns,
+	.arm_template_wrapper_profiletemplate3 .arm_com_follow_container .arm_com_follow_btns {
+		margin-bottom: 20px;
+		float: none;
+	}
+
+	#arm_com_follow_btn,
+	.arm_com_friendship_unfriend_link,
+	.arm_template_wrapper_profiletemplate2 .arm_com_follow_container .arm_com_follow_btns,
+	.arm_template_wrapper_profiletemplate3 .arm_com_follow_container .arm_com_follow_btns {
+		margin-top: 20px;
+	}
+
+	.arm_friendship_button {
+		float: none !important;
+		display: block !important;
+		width: 100% !important;
+		text-align: center;
+		margin-top: 20px;
+	}
+}
+
+@media all and (min-width: 479px) {
+	.arm_com_msg_content_left {
+		display: block !important;
+	}
+}
+
+@media all and (max-width: 479px) {
+
+	.arm_com_message_convo.right .arm_com_message_convo_msg,
+	.arm_com_message_convo.right .arm_com_message_convo_time {
+		width: 100% !important;
+	}
+
+	.arm_com_msg_content_sender_title {
+		min-height: 60px !important;
+	}
+
+	.arm_com_msg_content_sender_img {
+		width: 13% !important;
+	}
+
+	.arm_com_msg_content_sender_title .arm_com_msg_content_sender_name {
+		padding-top: 4px !important;
+	}
+
+	.arm_com_msg_content_left .arm_com_msg_content_sender .arm_com_msg_content_sender_img img {
+		width: 30px !important;
+		height: 29px !important;
+	}
+
+	.arm_com_msg_div {
+		display: block;
+	}
+
+	.arm_com_msg_content_left{
+		width: 98% !important;
+		float: none !important;
+		display: none;
+		overflow: hidden;
+		border-left: 1px solid #e8ebf0;
+		border-right: 1px solid #e8ebf0;
+		margin: auto;
+	}
+
+	.arm_com_msg_content_right {
+		width: 100%;
+		float: none;
+	}
+
+	.arm_com_message_container .arm_com_msg_tab_li {
+		margin: 5px 0 !important;
+		padding: 5px 10px !important;
+	}
+
+	.arm_com_msg_tab_li.arm_com_msg_compose,
+	.arm_com_msg_tab_li.arm_com_msg_reply {
+		float: left !important;
+	}
+
+	.arm_activity_title .arm_com_activity_user_img {
+		width: 18% !important;
+	}
+
+	.arm_activity_title .arm_com_activity_user_title_box {
+		width: 80% !important;
+	}
+
+	.arm_post_form_container .arm_com_post_user_title_box {
+		width: 100%;
+	}
+	.arm_post_form_container .arm_post_title input[type='text'] {
+		width: 100% !important;
+	}
+	.arm_com_frd_content_container {
+		padding: 0 !important
+	}
+	.arm_com_user_box {
+		border-left: none !important;
+		border-right: none !important;
+	}
+	.arm_com_user_box .arm_confirm_box {
+	    left: 0 !important;
+	    top: 60px !important;
+	}
+
+	.arm_com_user_box .arm_confirm_box .arm_confirm_box_arrow {
+		float: left !important;
+	}
+
+	.arm_com_post_box .arm_com_post_content_box .arm_com_post_action_section a {
+		margin-left: 0 !important;
+	}
+	.arm_com_post_box {
+		border-left: none !important;
+		border-right: none !important;
+		border-radius: 0 !important;
+	}
+	.arm_com_post_container {
+		width: 100%;
+	}
+	.arm_profile_tab_contant_ul {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	.arm_com_review_box_container {
+		margin-top: 10px !important;
+	}
+	.arm_com_disp_review_wrapper .arm_com_review_box .arm_com_review_user_img {
+		display: block !important;
+		width: 100% !important;
+		margin: 0 !important;
+		float: none !important;
+		max-width: 100% !important;
+	}
+	.arm_com_user_box_right_bottom {
+		float: none;
+		width: 100%;
+	}
+	.arm_com_follow_btns {
+		width: 65%;
+	}
+	.arm_com_follow_container .arm_com_follow_wrapper {
+		width: 91% !important;
+		padding-bottom: 15px;
+		text-align: center;
+	}
+	.arm_template_wrapper_profiletemplate3 .arm_com_follow_btns {
+		width: 55%;
+	}
+}

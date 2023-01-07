@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Paypal Pro Addon v1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-02-27 06:46:07+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armember-paypalpro.php:99
+#@ ARMember-PaypalPro
+msgid "ARMember - Paypal Pro plugin requires ARMember Plugin installed and active."
+msgstr "ARMember - Paypal Pro plugin requires ARMember Plugin installed and active."
+
+#: core/classes/class.arm_paypal_pro.php:97
+#: core/classes/class.arm_paypal_pro.php:2703
+#@ ARMember-PaypalPro
+msgid "Paypal Pro"
+msgstr "Paypal Pro"
+
+#: core/classes/class.arm_paypal_pro.php:1758
+#: core/classes/class.arm_paypal_pro.php:1784
+#: core/classes/class.arm_paypal_pro.php:1797
+#: core/classes/class.arm_paypal_pro.php:1809
+#: core/classes/class.arm_paypal_pro.php:1814
+#: core/classes/class.arm_paypal_pro.php:2585
+#: core/classes/class.arm_paypal_pro.php:2610
+#: core/classes/class.arm_paypal_pro.php:2628
+#: core/classes/class.arm_paypal_pro.php:2670
+#: core/classes/class.arm_paypal_pro.php:2677
+#@ ARMember-PaypalPro
+msgid "Sorry something went wrong while processing payment with Paypal Pro"
+msgstr "Sorry something went wrong while processing payment with Paypal Pro"
+
+#: core/classes/class.arm_paypal_pro.php:1821
+#: core/classes/class.arm_paypal_pro.php:2685
+#: core/views/arm_paypal_pro_settings.php:132
+#@ ARMember-PaypalPro
+msgid "Sorry something went wrong while processing payment with Paypal Pro."
+msgstr "Sorry something went wrong while processing payment with Paypal Pro."
+
+#: core/views/arm_paypal_pro_settings.php:38
+#@ ARMember-PaypalPro
+msgid "Payment Mode"
+msgstr "Payment Mode"
+
+#: core/views/arm_paypal_pro_settings.php:41
+#@ ARMember-PaypalPro
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: core/views/arm_paypal_pro_settings.php:43
+#@ ARMember-PaypalPro
+msgid "Live"
+msgstr "Live"
+
+#: core/views/arm_paypal_pro_settings.php:57
+#@ ARMember-PaypalPro
+msgid "Sandbox API Username"
+msgstr "Sandbox API Username"
+
+#: core/views/arm_paypal_pro_settings.php:63
+#@ ARMember-PaypalPro
+msgid "Sandbox API Password"
+msgstr "Sandbox API Password"
+
+#: core/views/arm_paypal_pro_settings.php:69
+#@ ARMember-PaypalPro
+msgid "Sandbox Vendor"
+msgstr "Sandbox Vendor"
+
+#: core/views/arm_paypal_pro_settings.php:75
+#@ ARMember-PaypalPro
+msgid "Sandbox Partner"
+msgstr "Sandbox Partner"
+
+#: core/views/arm_paypal_pro_settings.php:90
+#@ ARMember-PaypalPro
+msgid "Live API Username"
+msgstr "Live API Username"
+
+#: core/views/arm_paypal_pro_settings.php:96
+#@ ARMember-PaypalPro
+msgid "Live API Password"
+msgstr "Live API Password"
+
+#: core/views/arm_paypal_pro_settings.php:102
+#@ ARMember-PaypalPro
+msgid "Live Vendor"
+msgstr "Live Vendor"
+
+#: core/views/arm_paypal_pro_settings.php:108
+#@ ARMember-PaypalPro
+msgid "Live Partner"
+msgstr "Live Partner"
+
+#: core/views/arm_paypal_pro_settings.php:124
+#@ ARMember-PaypalPro
+msgid "Credit Card Not Authorized (Paypal Pro)"
+msgstr "Credit Card Not Authorized (Paypal Pro)"
+
+#: core/views/arm_paypal_pro_settings.php:126
+#@ ARMember-PaypalPro
+msgid "Card details could not be authorized, please use other card detail."
+msgstr "Card details could not be authorized, please use other card detail."
+
+#: core/views/arm_paypal_pro_settings.php:130
+#@ ARMember-PaypalPro
+msgid "Payment Fail (Paypal Pro)"
+msgstr "Payment Fail (Paypal Pro)"
+
+#: armember-paypalpro.php:251
+#@ ARMember-PaypalPro
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armember-paypalpro.php:256
+#@ ARMember-PaypalPro
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: armember-paypalpro.php:101
+#@ ARMember-PaypalPro
+msgid "ARMember - Paypal Pro plugin requires ARMember plugin installed with version 3.0 or higher."
+msgstr "ARMember - Paypal Pro plugin requires ARMember plugin installed with version 3.0 or higher."
+
+#: core/classes/class.arm_paypal_pro.php:1287
+#: core/classes/class.arm_paypal_pro.php:1971
+#: core/classes/class.arm_paypal_pro.php:2772
+#@ ARMember-PaypalPro
+msgid "Click Here"
+msgstr "Click Here"
+

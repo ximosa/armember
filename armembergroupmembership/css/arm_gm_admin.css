@@ -1,0 +1,27 @@
+.arm_deactive_warning{ color: #f00 !important; }
+
+.arm_group_child_member_list_fields{ float: left;width: 80%;min-width: 80%;max-width: 80%; }
+.arm_group_child_member_list_field_list{ float: left !important; width: 45% !important; display: flex; }
+.arm_group_child_member_list_field_item{ display: flex; }
+
+
+#gm_max_members, #gm_min_members, #gm_sub_user_seat_slot{ width: 20%; }
+
+.arm_max_member_error, .arm_min_member_error, .arm_sub_user_slot_error{ color: #f00; display: none; }
+.arm_child_user_selection_area dt{ width: auto !important; }
+.arm_child_user_selection_area .arm_selectbox{ width: 97% !important; }
+.arm_gm_member_group_membership_fields .arm_gm_member_group_membership_fields_list label{ min-width: 160px; }
+.arm_gm_status_active { color: #0a9d0a; }
+.arm_gm_status_pending { color: #f00; }
+#arm_gm_child_users_data{ display: none;background: #fff;width: 1000px; }
+.arm_gm_sub_user_add_div th, td{ padding: 10px; }
+.arm_gm_display_input_error{ border: 1px solid #f00 !important; }
+.arm_gm_display_button_error{ cursor: no-drop !important; opacity: 0.5; }
+#arm_gm_add_sub_user_form, #arm_gm_add_sub_user_form .required_icon, .arm_gm_edit_plan_body{ font-size: 15px !important; }
+.arm_gm_edit_member_notes{ color: #f00; }
+.arm_gm_edit_member_notes{ list-style: disc; margin-left: 10px; }
+.arm_gm_edit_member_notes label{ display: inline-block; max-width: 200px; width: 200px; }
+.edit_total_purchased_seat{ min-width: 150px; }
+.arm_gm_edit_plan_body .arm_info_text {font-size: 12px;}
+.arm_gm_child_users_seat_error, .arm_gm_child_users_seat_positive_error { display: inline-block; }
+.arm_gm_edit_plan_body tr th { padding:10px; vertical-align: top;  }

@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Square payment gateway Addon v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-09-17 06:18:29+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armembersquare.php:331
+#: armembersquare.php:391
+#@ ARM_SQUARE
+msgid "Square"
+msgstr "Square"
+
+#: armembersquare.php:342
+#@ ARM_SQUARE
+msgid "Square For ARMember plugin requires ARMember Plugin installed and active."
+msgstr "Square For ARMember plugin requires ARMember Plugin installed and active."
+
+#: armembersquare.php:345
+#@ ARM_SQUARE
+msgid "Square For ARMember plugin requires ARMember plugin installed with version 3.0 or higher."
+msgstr "Square For ARMember plugin requires ARMember plugin installed with version 3.0 or higher."
+
+#: armembersquare.php:370
+#@ ARM_SQUARE
+msgid "You can find Application ID and Access Token in your Square account. To get more details, Please refer this"
+msgstr "You can find Application ID and Access Token in your Square account. To get more details, Please refer this"
+
+#: armembersquare.php:370
+#: armembersquare.php:380
+#@ ARM_SQUARE
+msgid "document"
+msgstr "document"
+
+#: armembersquare.php:379
+#@ ARM_SQUARE
+msgid "Please make sure you have set following callback URL in your square account."
+msgstr "Please make sure you have set following callback URL in your square account."
+
+#: armembersquare.php:380
+#@ ARM_SQUARE
+msgid "To get more information about how to set callback URL in your square account, please refer this"
+msgstr "To get more information about how to set callback URL in your square account, please refer this"
+
+#: armembersquare.php:448
+#@ ARM_SQUARE
+msgid "Square (if Square payment gateway is enabled)"
+msgstr "Square (if Square payment gateway is enabled)"
+
+#: armembersquare.php:450
+#@ ARM_SQUARE
+msgid "Square does not support Free trial/plan amount with auto recurring billing cycle."
+msgstr "Square does not support Free trial/plan amount with auto recurring billing cycle."
+
+#: armembersquare.php:451
+#@ ARM_SQUARE
+msgid "Square does not support recurring billing cycle."
+msgstr "Square does not support recurring billing cycle."
+
+#: armembersquare.php:468
+#@ ARM_SQUARE
+msgid "Payment Fail (Square)"
+msgstr "Payment Fail (Square)"
+
+#: armembersquare.php:511
+#@ ARM_SQUARE
+msgid "Payment Mode"
+msgstr "Payment Mode"
+
+#: armembersquare.php:514
+#@ ARM_SQUARE
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: armembersquare.php:516
+#@ ARM_SQUARE
+msgid "Production"
+msgstr "Production"
+
+#: armembersquare.php:529
+#@ ARM_SQUARE
+msgid "Test Application ID"
+msgstr "Test Application ID"
+
+#: armembersquare.php:535
+#@ ARM_SQUARE
+msgid "Test Access Token"
+msgstr "Test Access Token"
+
+#: armembersquare.php:552
+#@ ARM_SQUARE
+msgid "Live Application ID"
+msgstr "Live Application ID"
+
+#: armembersquare.php:558
+#@ ARM_SQUARE
+msgid "Live Access Token"
+msgstr "Live Access Token"
+
+#: armembersquare.php:567
+#@ ARM_SQUARE
+msgid "Popup Title"
+msgstr "Popup Title"
+
+#: armembersquare.php:570
+#@ ARM_SQUARE
+msgid "This shortcode will be replaced with the user selected plan name."
+msgstr "This shortcode will be replaced with the user selected plan name."
+
+#: armembersquare.php:575
+#@ ARM_SQUARE
+msgid "Popup Button Title"
+msgstr "Popup Button Title"
+
+#: armembersquare.php:871
+#@ ARM_SQUARE
+msgid "Square does not support Free trial/plan amount."
+msgstr "Square does not support Free trial/plan amount."
+
+#: armembersquare.php:1076
+#@ ARM_SQUARE
+msgid "Square does not support subscription payment."
+msgstr "Square does not support subscription payment."
+
+#: armembersquare.php:1371
+#@ ARM_SQUARE
+msgid "Your payment is failed. Please try again."
+msgstr "Your payment is failed. Please try again."
+
+#: armembersquare.php:2157
+#@ ARM_SQUARE
+msgid "Square Plans"
+msgstr "Square Plans"
+
+#: armembersquare.php:2157
+#@ ARM_SQUARE
+msgid "You must need to add plan ID for recurring plans"
+msgstr "You must need to add plan ID for recurring plans"
+
+#: armembersquare.php:2157
+#@ ARM_SQUARE
+msgid "You can find / create plans easily via the"
+msgstr "You can find / create plans easily via the"
+
+#: armembersquare.php:2157
+#@ ARM_SQUARE
+msgid "plan management"
+msgstr "plan management"
+
+#: armembersquare.php:2157
+#@ ARM_SQUARE
+msgid "page of the Square dashboard."
+msgstr "page of the Square dashboard."
+
+#: armembersquare.php:2207
+#@ ARM_SQUARE
+msgid "Square plan ID"
+msgstr "Square plan ID"
+
+#: armembersquare.php:2322
+#@ ARM_SQUARE
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armembersquare.php:2327
+#@ ARM_SQUARE
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+

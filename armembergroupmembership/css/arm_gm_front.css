@@ -1,0 +1,65 @@
+.arm_gm_setup_sub_user_selection_wrapper{ border-bottom: 2px solid #ececec; }
+.arm_gm_module_sub_user_container{ margin-bottom: 2rem !important; }
+.arm_gm_sub_user_container_title{ margin-left: 1rem !important; }
+.arm_setup_sub_user_section_dropdown_area{ margin-left: 1rem !important;margin-right: 1rem !important; }
+.arm_user_group_membership_list_table{ text-align: center !important; }
+.arm_user_group_membership_list_table th{ background-color: #f6f8f8; border-right: 1px solid #dee5e7 !important; padding: 8px 5px !important; min-height: 50px; border-bottom: 1px solid #dee5e7 !important; cursor: default; word-break: inherit; }
+.arm_user_group_membership_list_table .arm_page div.arm_form_shortcode_box, .arm_form_shortcode_box, .arm_drip_shortcode_box { position: relative; min-width: auto; line-height: normal; overflow: hidden; max-height: 40px; }
+.arm_user_group_membership_list_table .arm_shortcode_text{ height: 30px !important; }
+.arm_user_group_membership_list_table .arm_shortcode_text .armCopyText{ display: none; }
+.arm_user_group_membership_list_table .arm_page div.arm_shortcode_text.arm_drip_shortcode_box { max-width: 220px; }
+.arm_user_group_membership_list_table .arm_form_shortcode_box .arm_click_to_copy_text, .arm_form_shortcode_box .arm_copied_text, .arm_click_to_copy_text, .arm_copied_text { display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #6f6f6f; padding: 6px 2px; color: #FFF; z-index: 9; cursor: pointer; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; }
+.arm_user_group_membership_list_table .arm_form_shortcode_box:hover { border-color: #6f6f6f; }
+.arm_user_group_membership_list_table .arm_form_shortcode_box:hover .arm_click_to_copy_text {
+    display: block; background: #6f6f6f; color: #FFF; }
+.arm_user_group_membership_list_table .arm_form_shortcode_box .arm_copied_text { z-index: 10; background: #00b2f0; color: #FFF; }
+.arm_user_group_membership_list_table .arm_form_shortcode_box .arm_copied_text img { vertical-align: middle; margin: -2px 8px 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none; width: auto; height: auto; display: inline-block; padding: 0; }
+.arm_confirm_box { display: none; position: absolute !important; margin-top: 0 !important; font-size: 16px !important; font-weight: normal !important; z-index: 9992 !important; }
+.arm_gm_child_member_list_invite_btn{ float: right; margin-bottom: 1rem; font-size: initial !important; }
+.arm_gm_status_active{ color: #0a9d0a; }
+.arm_gm_status_pending{ color: #f00; }
+.arm_group_membership_list_header{ font-family: Open Sans, sans-serif, 'Trebuchet MS' !important; font-size: 16px !important; color: #32323a !important; font-weight: bold !important; font-style: normal !important; text-decoration: none !important; }
+.arm_group_membership_list_item_plan_sr{ font-family: Open Sans, sans-serif, 'Trebuchet MS' !important; font-size: 15px !important; color: #727277 !important; font-weight: normal !important; font-style: normal !important; text-decoration: none !important; }
+.arm_paging_wrapper_group_membership{ display: block !important; float: right !important; }
+.arm_paging_wrapper_group_membership .arm_paging_info{ font-family: Open Sans, sans-serif, 'Trebuchet MS' !important; font-size: 14px !important; color: #727277 !important; font-weight: normal !important; font-style: normal !important; text-decoration: none !important; }
+.arm_gm_child_user_parent_wrapper_container button{ text-transform: none; font-family: Open Sans, sans-serif, 'Trebuchet MS' !important; font-size: 14px !important; color: #FFFFFF !important; font-weight: normal !important; font-style: normal !important; text-decoration: none !important; }
+.arm_gm_refresh_coupon_code { padding: 4px !important; border-radius: 3px; outline: none; background: #ececec !important; border: 1px #e0e0e0 solid !important; height: 30px; width: 30px; }
+.arm_invite_form_id #arm_invite_invite_submit{ outline: none !important; }
+.arm_invite_form_id #arm_invite_invite_submit:focus, .arm_invite_form_id #arm_invite_invite_submit:hover{ outline: none !important; }
+.arm_delete_user_button{ background-color: #e66b6b !important; outline: none; }
+.arm_delete_user_button:focus, .arm_delete_user_button:hover{ background-color: #d54e21 !important; border-radius: 3px !important; }
+.arm_invite_user_button:hover, .arm_invite_user_button:focus, .arm_gm_resend_email_button:hover, .arm_gm_resend_email_button:focus{ background-color: #00b2f0 !important; outline: none; }
+.gm_parent_wrapper_container{ overflow-x: auto; }
+.arm_gm_username_th{ min-width: 150px; max-width: 250px; }
+.arm_gm_email_th{ min-width: 150px; max-width: 250px; }
+.arm_gm_name_th{ min-width: 150px; max-width: 200px; }
+.arm_gm_status_th{ min-width: 150px; max-width: 200px; }
+.arm_gm_action_th{ min-width: 120px; max-width: 150px; }
+.arm_gm_delete_user_msg{ display: none; background-color: #d54e21; color: #fff; width: 100%; border: 1px solid #d54e21; padding: 5px 10px; border-radius: 3px;margin-bottom: 15px; border-radius: 3px; }
+.arm_gm_resend_email_msg, .arm_gm_refresh_invite_code_msg{ display: none; background-color: #5cb85c; color: #fff; width: 100%; border: 1px solid #5cb85c; padding: 5px 10px; margin-bottom: 15px; border-radius: 3px; }
+.arm_group_membership_heading_main{ margin-top: 10px; }
+#arm_gm_form_invite_user_shortcode_modal .arm_form_message_container{ margin-bottom: 20px; }
+#arm_gm_form_invite_user_shortcode_modal .arm_form_message_container .arm_success_msg{ background: #5cb85c; }
+#arm_gm_form_invite_user_shortcode_modal .arm_form_message_container .arm_error_msg{ background: #e6594d; }
+.arm_gm_child_user_parent_wrapper_container .arm_invite_user_button, .arm_gm_child_user_parent_wrapper_container .arm_gm_resend_email_button { background-color: #23b7e5 !important; border-radius: 3px !important; font-family: inherit; font-size: 14px !important; color: #ffffff !important; font-weight: normal; font-style: normal; text-decoration: none; padding: 4px; border: 1px solid #23b7e5 !important; min-width: 85px; min-height: 25px; line-height: 24px; }
+.arm_gm_delete_btn_div, .arm_gm_resend_btn_div { margin-bottom: 10px; }
+.arm_gm_child_user_parent_wrapper_container .arm_invite_user_button:hover, .arm_gm_child_user_parent_wrapper_container .arm_invite_user_button:active, .arm_gm_child_user_parent_wrapper_container .arm_invite_user_button:focus,
+.arm_gm_child_user_parent_wrapper_container .arm_gm_resend_email_button:hover, .arm_gm_child_user_parent_wrapper_container .arm_gm_resend_email_button:active, .arm_gm_child_user_parent_wrapper_container .arm_gm_resend_email_button:focus { background-color: #00b2f0 !important; border-radius: 3px !important; font-family: inherit; font-size: 14px !important; color: #ffffff; font-weight: normal; font-style: normal; text-decoration: none; padding: 4px; border: 1px solid #00b2f0 !important; min-width: 85px; min-height: 25px; background-image: none; cursor: pointer; line-height: 24px; }
+.arm_gm_child_user_parent_wrapper_container .arm_delete_user_button { background-color: #e66b6b !important; border-radius: 3px !important; font-family: inherit; font-size: 14px !important; color: #ffffff; font-weight: normal; font-style: normal; text-decoration: none; padding: 4px; border: 1px solid #e66b6b !important; min-width: 85px; min-height: 25px; }
+.arm_gm_child_user_parent_wrapper_container .arm_delete_user_button:hover, .arm_gm_child_user_parent_wrapper_container .arm_delete_user_button:active, .arm_gm_child_user_parent_wrapper_container .arm_delete_user_button:focus { background-color: #d54e21 !important; border-radius: 3px !important; font-family: inherit; font-size: 14px !important; color: #ffffff; font-weight: normal; font-style: normal; text-decoration: none; padding: 4px; border: 1px solid #d54e21 !important; min-width: 85px; min-height: 25px; background-image: none; box-shadow: none; }
+.arm_group_membership_heading_main{ margin-top: 10px; }
+#arm_gm_form_invite_user_shortcode_modal .arm_form_message_container{ margin-bottom: 20px; }
+#arm_gm_form_invite_user_shortcode_modal .arm_form_message_container .arm_success_msg{ background: #5cb85c; }
+#arm_gm_form_invite_user_shortcode_modal .arm_form_message_container .arm_error_msg{ background: #e6594d; }
+#arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_bottom .arm_form_layout_rounded .arm_error_msg_box, #arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_bottom .arm_form_layout_iconic .arm_error_msg_box{ top: 120%; bottom: auto; margin-left: 25%; }
+#arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_top .arm_form_layout_rounded .arm_error_msg_box, #arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_top .arm_form_layout_iconic .arm_error_msg_box{ bottom: 120%; top: auto; margin-left: 25%; }
+#arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_right .arm_form_layout_rounded .arm_error_msg_box, #arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_right .arm_form_layout_iconic .arm_error_msg_box{ left: 101%; right: auto; }
+#arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_left .arm_form_layout_rounded .arm_error_msg_box, #arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_left .arm_form_layout_iconic .arm_error_msg_box{ right: 101%; left: auto; }
+#arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_bottom .arm_error_msg_box .arm_error_box_arrow:after{ border-bottom-color: #e6594d !important; }
+#arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_top .arm_error_msg_box .arm_error_box_arrow:after{ border-top-color: #e6594d !important; }
+#arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_right .arm_error_msg_box .arm_error_box_arrow:after{ border-right-color: #e6594d !important; }
+#arm_gm_form_invite_user_shortcode_modal.arm_msg_pos_left .arm_error_msg_box .arm_error_box_arrow:after{ border-left-color: #e6594d !important; }
+#arm_gm_form_invite_user_shortcode_modal{ background: #fff !important;display: none; }
+.arm_gm_send_email_btn{ margin-top: 0.5rem; }
+.arm_form_field_submit_button{ cursor: pointer; }
+.arm_shortcode_text{ color: #72aa6b; background-color: #f3fff1; border: 1px solid rgba(114, 170, 107, 0.5); text-align: center; padding-top: 4px; }

@@ -1,0 +1,206 @@
+.arm_com_social_feature_active_notice {
+    display: block !important;
+    padding: 10px 15px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-right: 1px solid rgba(0,0,0,.1);
+    font-size: 16px;
+}
+.arm_rating,
+.arm_rating_display {
+    border: none !important;
+    float: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.arm_rating > input,
+.arm_rating_display > input {
+    display: none !important;
+}
+.arm_rating > label:before,
+.arm_rating_display > label:before {
+    margin: 5px !important;
+    font-size: 1.25em !important;
+    font-family: FontAwesome !important;
+    display: inline-block !important;
+    content: "\f005" !important;
+}
+.arm_rating > .half:before, 
+.arm_rating_display > .half:before {
+    content: "\f089" !important;
+    position: absolute !important;
+}
+.arm_rating > label,
+.arm_rating_display > label {
+    color: #ddd !important;
+    float: right !important;
+}
+.arm_reivew_tbl fieldset.arm_rating,
+.arm_reivew_tbl fieldset.arm_rating_display {
+    margin: 0 !important;
+    padding: 0 !important;
+    vertical-align: middle !important !important;
+}
+.arm_rating_display > input:checked ~ label,
+.arm_rating_display input[type="radio"]:checked + label::before,
+.arm_rating_display:not(:checked),
+.arm_rating_display:not(:checked) ~ label {
+    color: #FFD700 !important;
+}
+.arm_rating > input:checked ~ label,
+.arm_rating:not(:checked) > label:hover,
+.arm_rating input[type="radio"]:checked + label::before,
+.arm_rating:not(:checked) > label:hover ~ label {
+    color: #FFD700 !important;
+}
+.arm_rating > input:checked + label:hover,
+.arm_rating > input:checked ~ label:hover,
+.arm_rating > label:hover ~ input:checked ~ label,
+.arm_rating > input:checked ~ label:hover ~ label {color: #FFED85 !important;
+}
+.arm_com_msg_compose_row {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    vertical-align: top;
+}
+.arm_com_msg_compose_column_label {
+    width: 28%;
+    float: left;
+    padding-right: 5px;
+    vertical-align: top;
+}
+.arm_com_msg_compose_column {
+    float: right;
+    width: 70%;
+    padding-left: 5px;
+}
+.arm_com_msg_compose_column textarea {
+    max-width: 96% !important;
+    background-color: #fff !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    -ms-overflow-y: auto !important;
+    -ms-overflow-x: hidden !important;
+    -moz-overflow-y: auto !important;
+    -moz-overflow-x: hidden !important;
+    -o-overflow-y: auto !important;
+    -o-overflow-x: hidden !important;
+    -webkit-overflow-y: auto !important;
+    -webkit-overflow-x: hidden !important;
+    height: 100px !important;
+}
+.arm_com_review_rating_error,
+.arm_com_review_title_error,
+.arm_com_review_desc_error {
+    display: none;
+    color: red;
+    width: 100%;
+    float: left;
+}
+.arm_com_review_btn {
+    color: #fff;
+    background-color: #53ba73;
+    background-position: 20px center;
+    border: 2px solid #53ba73;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    border: medium none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    -moz-border-radius: 50px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 8px 20px 7px;
+    margin: 3px 10px 3px 0;
+    cursor: pointer;
+    min-width: 110px;
+}
+.arm_record_per_page {
+    width: 70px !important;
+}
+.arm_com_navs {
+    border-bottom: 1px solid #dee3e9;
+    margin-bottom: 20px;
+}
+.arm_com_navs .arm_com_page_nav {
+    color: #5C5C60;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 15px;
+    height: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: -4px;
+}
+.arm_com_navs .arm_com_page_nav:hover {
+    border-bottom: 4px solid #cdcdcd;
+}
+.arm_com_navs .arm_com_page_nav.arm_com_page_nav_active {
+    color: #000000;
+    border-bottom: 4px solid #00b2f0;
+}
+.arm_view_comment_popup {
+    position: relative;
+    min-height: 140px;
+}
+.arm_view_comment_popup .arm_loading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    display: none;
+}
+.arm_view_comment_popup .arm_loading img {
+    top: 15%;
+}
+.arm_com_view_post_comment_grid {
+    display: none;
+}
+.arm_com_post_filter label {
+    margin-bottom: 2px !important;
+}
+.arm_com_post_filter #arm_filter_pstart_date {
+    margin: 0 10px !important;    
+}
+.arm_com_post_filter #arm_filter_pend_date {
+    margin: 0 10px 0 0 !important;
+}
+.arm_com_post_filter #arm_filter_pstart_date,
+.arm_com_post_filter #arm_filter_pend_date {
+    height: 35px !important;
+}
+.arm_view_comment_popup {
+    padding: 15px 0 0 0 !important;
+}
+#arm_com_post_comment_list_form {
+    margin: 0 !important;
+}
+#arm_com_post_comment_list_form .dataTables_wrapper .ui-toolbar {
+    padding: 20px 5px 13px 10px;
+}
+#arm_com_user_post_comment_armmainformnewlist .fg-toolbar.ui-toolbar.ui-widget-header.ui-helper-clearfix.ui-corner-tl.ui-corner-tr,
+#arm_com_user_post_comment_armmainformnewlist .DataTables_sort_icon {
+    display: none;
+}
+.arm_com_post_slug_error {
+    visibility: hidden;
+}
+.arm_com_input_error {
+    border-color: rgb(255, 0, 0) !important;
+}
+
+
+#arm_com_user_post_comment_armmainformnewlist #armember_datatable_1_info{ padding-top: 0.5rem !important; }
+#arm_com_user_post_comment_armmainformnewlist #armember_datatable_1_paginate{ padding-top: 0rem !important; }
+#arm_com_user_post_comment_armmainformnewlist #armember_datatable_1_filter{ padding: 0.8rem !important; }
+
+
+.arm_grid_th_review_rating{ width: 9rem !important; }
+.arm_rating_display{ width: 9.5rem !important; }
+
+#arm_com_post_comment_list_form .display .arm_grid_th_thumbnail .DataTables_sort_icon{ display: none !important; }
+#arm_com_post_comment_list_form .display .sorting_desc{ background-image: none !important; }

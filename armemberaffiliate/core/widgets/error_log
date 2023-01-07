@@ -1,0 +1,15 @@
+[12-Jun-2020 15:33:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/widgets/class.arm_aff_dashboard_widgets.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/widgets/class.arm_aff_dashboard_widgets.php(156): armaffAdminDashboardWidgets->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/widgets/class.arm_aff_dashboard_widgets.php on line 8
+[12-Jun-2020 15:42:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/widgets/class.arm_aff_dashboard_widgets.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/widgets/class.arm_aff_dashboard_widgets.php(156): armaffAdminDashboardWidgets->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/widgets/class.arm_aff_dashboard_widgets.php on line 8
+[12-Jun-2020 15:42:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/widgets/class.arm_aff_dashboard_widgets.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/widgets/class.arm_aff_dashboard_widgets.php(156): armaffAdminDashboardWidgets->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/widgets/class.arm_aff_dashboard_widgets.php on line 8

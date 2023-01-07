@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Online Worldpay payment gateway Addon v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-02-27 06:44:31+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armember-worldpay.php:101
+#@ ARMember-Worldpay
+msgid "ARMember - Online Worldpay payment gateway plugin requires ARMember Plugin installed and active."
+msgstr "ARMember - Online Worldpay payment gateway plugin requires ARMember Plugin installed and active."
+
+#: armember-worldpay.php:103
+#@ ARMember-Worldpay
+msgid "ARMember - Online Worldpay payment gateway plugin requires ARMember plugin installed with version 3.2.1 or higher."
+msgstr "ARMember - Online Worldpay payment gateway plugin requires ARMember plugin installed with version 3.2.1 or higher."
+
+#: armember-worldpay.php:256
+#, php-format
+#@ ARMember-Worldpay
+msgid "An Unexpected HTTP Error occurred during the API request.%s Try again%s"
+msgstr "An Unexpected HTTP Error occurred during the API request.%s Try again%s"
+
+#: armember-worldpay.php:263
+#@ ARMember-Worldpay
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: core/classes/class.arm_online_worldpay.php:92
+#, php-format
+#@ ARMember-Worldpay
+msgid "You can find Service and Client key in your online worldpay account. To get more details, Please refer this %s document %s. You can find your API Keys  %s here %s."
+msgstr "You can find Service and Client key in your online worldpay account. To get more details, Please refer this %s document %s. You can find your API Keys  %s here %s."
+
+#: core/classes/class.arm_online_worldpay.php:99
+#: core/classes/class.arm_online_worldpay.php:1087
+#@ ARMember-Worldpay
+msgid "Online Worldpay"
+msgstr "Online Worldpay"
+
+#: core/classes/class.arm_online_worldpay.php:961
+#: core/classes/class.arm_online_worldpay.php:976
+#@ ARM_WORLDPAY_TXTDOMAIN
+#@ ARMember-Worldpay
+msgid "Sorry something went wrong while processing payment with Worldpay"
+msgstr "Sorry something went wrong while processing payment with Worldpay"
+
+#: core/classes/class.arm_online_worldpay.php:967
+#, php-format
+#@ ARMember-Worldpay
+msgid "%sClick Here%s"
+msgstr "%sClick Here%s"
+
+#: core/views/arm_online_worldpay_settings.php:16
+#@ ARMember-Worldpay
+msgid "Payment Mode"
+msgstr "Payment Mode"
+
+#: core/views/arm_online_worldpay_settings.php:19
+#@ ARMember-Worldpay
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: core/views/arm_online_worldpay_settings.php:21
+#@ ARMember-Worldpay
+msgid "Live"
+msgstr "Live"
+
+#: core/views/arm_online_worldpay_settings.php:35
+#@ ARMember-Worldpay
+msgid "Test Service key"
+msgstr "Test Service key"
+
+#: core/views/arm_online_worldpay_settings.php:41
+#@ ARMember-Worldpay
+msgid "Test Client key"
+msgstr "Test Client key"
+
+#: core/views/arm_online_worldpay_settings.php:57
+#@ ARMember-Worldpay
+msgid "Live Service key"
+msgstr "Live Service key"
+
+#: core/views/arm_online_worldpay_settings.php:63
+#@ ARMember-Worldpay
+msgid "Live Client key"
+msgstr "Live Client key"
+
+#: core/views/arm_online_worldpay_settings.php:79
+#@ ARMember-Worldpay
+msgid "Credit Card Not Authorized (Online Worldpay)"
+msgstr "Credit Card Not Authorized (Online Worldpay)"
+
+#: core/views/arm_online_worldpay_settings.php:81
+#@ ARMember-Worldpay
+msgid "Card details could not be authorized, please use other card detail."
+msgstr "Card details could not be authorized, please use other card detail."
+
+#: core/views/arm_online_worldpay_settings.php:85
+#@ ARMember-Worldpay
+msgid "Payment Fail (Online Worldpay)"
+msgstr "Payment Fail (Online Worldpay)"
+
+#: core/views/arm_online_worldpay_settings.php:87
+#@ ARMember-Worldpay
+msgid "Sorry something went wrong while processing payment with Online Worldpay."
+msgstr "Sorry something went wrong while processing payment with Online Worldpay."
+

@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function() {
+                if ( jQuery(window).scrollTop() > amountScrolled ) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function() {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function(event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop:0}, 'fast','swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast',function(){
+                       jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+id+'"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                }); 
+                jQuery("#overlay").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+window.location.hash+'"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height(){
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#membership_setup_wizard">Square Setup Wizard</a></li>
+                            <li><a class="panel" href="#membership_square_changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - Square payment gateway Addon ( Version: 1.0 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 02/10/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This add-on will allow you to take payments on your ARMember membership setup via Square.</p>
+                            <p>Square accepts global payment transactions. With this gateway you can offer Square as a payment method in ARMemeber.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>This add-on will work with ARMember Version 3.0 or higher.</p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/armember_square_addon.png">
+                                            <img src="images/armember_square_addon.png" alt="ARMemeber_square_addon" />
+                                        </a>
+                                    </p>
+                            <h2>ARMember - Square payment gateway Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>membership plan</strong> with <strong>Square</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <div id="intro">
+                        <h1>ARMember - Square payment gateway Addon ( Version: 1.0 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 02/10/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This add-on will allow you to take payments on your ARMember membership setup via Square.</p>
+                            <p>Square accepts global payment transactions. With this gateway you can offer Square as a payment method in ARMemeber.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>This add-on will work with ARMember Version 3.0 or higher.</p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/armember_square_addon.png">
+                                            <img src="images/armember_square_addon.png" alt="ARMemeber_Square_addon" />
+                                        </a>
+                                    </p>
+                            <h2>ARMember - Square payment gateway Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>membership plan</strong> with <strong>Square</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                           <h2>Steps For Installation And Activation</h2>
+                           <p>You can install plugin in following two ways. and ARMember - Square payment gateway plugin requires ARMember Plugin installed and active.</p>
+                           <h3>New install via  FTP </h3>
+                           <ol class="large_bottom_margin bottom_margin" type="a">
+                               <li>Download the plugin and extract it. You will find a directory <strong>armembersquare</strong>.</li>
+                               <li>In your WordPress installation directory, upload <strong>armembersquare</strong> to <code>wp-content/plugins/</code></li>
+                               <li>Activate the <code>ARMember - Square payment gateway</code> plugin through the <code>Plugins</code> menu from WordPress admin panel.</li>
+                           </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download the plugin.</li>
+                                <li>Log in to your WordPress admin panel</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the plugin uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="membership_setup_wizard">
+                        <h1>Square Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Square For Your Website</h2>
+                            <h4>Let's setup ARMember - Square payment gateway for your website :</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>When plugin activated then square section will be display in <code>ARMember</code> -> <code>General Settings</code> -> <code>Payment gateways</code>.</p><p> Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/square_general_setting.png">
+                                            <img src="images/square_general_setting.png" alt="general setting screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>First of all need to activate the Square payment gateway so you will be able to insert Application ID, and Access Token. For activation click on active button.</p>
+                                </li>
+                                <li>
+                                    <p>If you do not have Square account then create it.</p>
+                                    <p>For Live account <a href="https://developer.squareup.com/apps/" target='_blank'>click here</a>. </p>
+                                </li>
+                                <li>
+                                    <p>Where do I get the Application ID & Access Token?</p>
+                                    <p>To obtain Application ID & Access Token, create new app in your account.</p>
+                                    <p>Select your payment mode 'Sandbox' or 'Production'.</p>
+                                    <p>After selecting payment mode you can see your Application ID & Access Token.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/square_payment_gateway_setting.png">
+                                            <img src="images/square_payment_gateway_setting.png" alt="Payment Gateway setting screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>To set up your callback URL(s) click on the OAuth tab in your account to be appear to the OAuth page. On the OAuth page you can see <code>Redirect URL</code>. Enter <code>https://yoursite.com/?arm-listener=arm_square_api </code> URL to same callback URL at <code>ARMember</code> -> <code>General Settings</code> -> <code>Payment gateways -> Square -> callback URL</code>.</p><p> Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/square_payment_gateway_callback_url.png">
+                                            <img src="images/square_payment_gateway_callback_url.png" alt="Payment Gateway callback url settings screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>After setup Square payment gateway you will be able to see Square payment in your Plan + Signup Page in ARMember and set it for the plan.</p>
+                                    <p>Square Plan Setup </p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/square_configure_plan.png">
+                                            <img src="images/square_configure_plan.png" alt="Configure Plan Screen" />
+                                        </a>
+                                    </p>
+                                    <p>In above screen display active payment gatewey including Square payment gateway.</p>
+                                </li>
+                                <li>
+                                    <p>ARMember Square Addon supports <strong>payment with 'AUD', 'BRL', 'CAD', 'CZK', 'DKK', 'EUR', 'HKD', 'HUF', 'ILS', 'JPY', 'MYR', 'MXN', 'TWD', 'NZD', 'NOK', 'PHP', 'PLN', 'GBP', 'RUB', 'SGD', 'SEK', 'CHF', 'THB', 'USD', 'TRY', 'INR' Currency with Account.</strong></p>
+                                </li>
+                            </ol>
+							<p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i> Note: Square Payment Gateway doesn't support auto-debit Payment method.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>Square payment gateway only works with secure sites (SSL). <br/>For e.g. https://</p>
+                        </div>
+                    </div>
+
+                     <div id="membership_square_changelog">
+                        <h1>Changelog</h1>
+                        <div class="card">
+                            <h2>Version 1.0 (02 October, 2020)</h2>
+                            <ul>
+                                <li>Initial Release.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>

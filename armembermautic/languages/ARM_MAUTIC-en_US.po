@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Mautic Addon v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-10-16 10:47:51+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armembermautic.php:117
+#@ ARM_MAUTIC
+msgid "ARMember - Mautic plugin requires ARMember Plugin installed and active."
+msgstr "ARMember - Mautic plugin requires ARMember Plugin installed and active."
+
+#: armembermautic.php:197
+#@ ARM_MAUTIC
+msgid "Are you sure to delete configuration?"
+msgstr "Are you sure to delete configuration?"
+
+#: core/classes/class.arm_general_setting_mautic.php:119
+#@ ARM_MAUTIC
+msgid "Mautic"
+msgstr "Mautic"
+
+#: core/classes/class.arm_general_setting_mautic.php:122
+#@ ARM_MAUTIC
+msgid "Segment Name"
+msgstr "Segment Name"
+
+#: core/classes/class.arm_general_setting_mautic.php:129
+#@ ARM_MAUTIC
+msgid "Select Segment"
+msgstr "Select Segment"
+
+#: core/classes/class.arm_general_setting_mautic.php:196
+#@ ARM_MAUTIC
+msgid "Settings has been verified."
+msgstr "Settings has been verified."
+
+#: core/views/arm_general_setting_mautic.php:32
+#@ ARM_MAUTIC
+msgid "Base URL"
+msgstr "Base URL"
+
+#: core/views/arm_general_setting_mautic.php:35
+#@ ARM_MAUTIC
+msgid "Please enter valid URL."
+msgstr "Please enter valid URL."
+
+#: core/views/arm_general_setting_mautic.php:36
+#: core/views/arm_general_setting_mautic.php:64
+#: core/views/arm_general_setting_mautic.php:83
+#@ ARM_MAUTIC
+msgid "This field cannot be blank."
+msgstr "This field cannot be blank."
+
+#: core/views/arm_general_setting_mautic.php:42
+#@ ARM_MAUTIC
+msgid "Redirect URI"
+msgstr "Redirect URI"
+
+#: core/views/arm_general_setting_mautic.php:46
+#@ ARM_MAUTIC
+msgid "Redirect URI that you should add in Mautic API Credential."
+msgstr "Redirect URI that you should add in Mautic API Credential."
+
+#: core/views/arm_general_setting_mautic.php:53
+#@ ARM_MAUTIC
+msgid "Auth Type"
+msgstr "Auth Type"
+
+#: core/views/arm_general_setting_mautic.php:61
+#@ ARM_MAUTIC
+msgid "Public Key"
+msgstr "Public Key"
+
+#: core/views/arm_general_setting_mautic.php:68
+#@ ARM_MAUTIC
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: core/views/arm_general_setting_mautic.php:75
+#@ ARM_MAUTIC
+msgid "Verify"
+msgstr "Verify"
+
+#: core/views/arm_general_setting_mautic.php:76
+#@ ARM_MAUTIC
+msgid "Verified"
+msgstr "Verified"
+
+#: core/views/arm_general_setting_mautic.php:77
+#@ ARM_MAUTIC
+msgid "Not Verified"
+msgstr "Not Verified"
+
+#: core/views/arm_general_setting_mautic.php:93
+#@ ARM_MAUTIC
+msgid "List Name"
+msgstr "List Name"
+
+#: core/views/arm_general_setting_mautic.php:109
+#@ ARM_MAUTIC
+msgid "Refreshed"
+msgstr "Refreshed"
+
+#: core/views/arm_general_setting_mautic.php:111
+#@ ARM_MAUTIC
+msgid "Refresh List"
+msgstr "Refresh List"
+
+#: core/views/arm_general_setting_mautic.php:113
+#@ ARM_MAUTIC
+msgid "Delete Configuration"
+msgstr "Delete Configuration"
+
+#: armembermautic.php:120
+#@ ARM_MAUTIC
+msgid "ARMember - Mautic plugin requires ARMember plugin installed with version 2.0 or higher."
+msgstr "ARMember - Mautic plugin requires ARMember plugin installed with version 2.0 or higher."
+
+#: armembermautic.php:288
+#@ ARM_MAUTIC
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armembermautic.php:293
+#@ ARM_MAUTIC
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+

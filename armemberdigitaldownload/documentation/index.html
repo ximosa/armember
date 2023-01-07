@@ -1,0 +1,448 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function() {
+                if ( jQuery(window).scrollTop() > amountScrolled ) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function() {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function(event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop:0}, 'fast','swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast',function(){
+                       jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+id+'"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                }); 
+                jQuery("#overlay").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+window.location.hash+'"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height(){
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#membership_setup_wizard">Digital Download Setup Wizard</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="panel" href="#manage_download">Manage Download</a></li>
+                            <li><a class="panel" href="#manage_bulk_download">Bulk Download Import</a></li>
+                            <li><a class="panel" href="#manage_download_history">Manage Download History</a></li>
+                            <li><a class="panel" href="#download_setting">Download Settings</a></li>
+                            <li><a class="panel" href="#download_shortcode">Shortcodes</a></li>
+                        </ul>
+                        <ul><li><a class="panel" href="#downloade_changelog">Changelog</a></li></ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - Digital Download Addon ( Version: 1.7 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 06/08/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>By using this plugin you will give user to download the files and restrict files for users</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This plugin will only work if ARMember plugin <strong>version is 2.0 or higher. </strong> </p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/ARMemeber_digitaldownload_addon.png">
+                                    <img src="images/ARMemeber_digitaldownload_addon.png" alt="ARMemeber Digital Download addon" />
+                                </a>
+                            </p>
+                            <h2>ARMember - Digital Download Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation.</li>
+                                <li>Easy to Manage Downloads.</li>
+                                <li>Setup downloads to give permission for specific Plans Users, Roles Users OR Users</li>
+                                <li>Block Plans Users, IP Address OR Users</li>
+                                <li>Manage Downloads History</li>
+                                <li>Set Plan Users Download limit for days</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <!--  intro -->
+                    <div id="intro">
+                        <h1>ARMember - Digital Download Addon ( Version: 1.7 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 06/08/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>By using this plugin you will give user to download the files and restrict files for users</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This plugin will only work if ARMember plugin <strong>version is 2.0 or higher. </strong> </p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/ARMemeber_digitaldownload_addon.png">
+                                    <img src="images/ARMemeber_digitaldownload_addon.png" alt="ARMemeber Digital Download addon" />
+                                </a>
+                            </p>
+                            <h2>ARMember - Digital Download Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation.</li>
+                                <li>Easy to Manage Downloads.</li>
+                                <li>Setup downloads to give permission for specific Plans Users, Roles Users OR Users</li>
+                                <li>Block Plans Users, IP Address OR Users</li>
+                                <li>Manage Downloads History</li>
+                                <li>Set Plan Users Download limit for days</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- installation -->
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                           <h2>Steps For Installation And Activation</h2>
+                           <p>You can install plugin in following two ways. and ARMember - Digital Download plugin requires ARMember Plugin installed and active.</p>
+                           <h3>New install via FTP </h3>
+                           <ol class="large_bottom_margin bottom_margin" type="a">
+                               <li>Download the plugin and extract it. You will find a directory <strong>armemberdigitaldownload</strong>.</li>
+                               <li>In your WordPress installation directory, upload <strong>armemberdigitaldownload</strong> to <code>wp-content/plugins/</code></li>
+                               <li>Activate the <code>ARMember - Digital Download</code> plugin through the <code>Plugins</code> menu from WordPress admin panel.</li>
+                           </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download the plugin.</li>
+                                <li>Log in to your WordPress admin panel</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the plugin uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- setup wizard -->
+                    <div id="membership_setup_wizard">
+                        <h1>Digital Download Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Digital Download For Your Website</h2>
+                            <h4>Let's setup ARMember - Digital Download for your website :</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>When plugin activated then Digital Download pages will be display in <code>ARMember</code>.</p>
+                                    <p> Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/dd_menu.png">
+                                            <img src="images/dd_menu.png" alt="Digital Downlaod Display in ARMember section" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>For view list of all Downloads with download details go to the <a class="panel" href="#manage_download">Manage Download</a> menu from the admin interface.</p>
+                                </li>
+                                <li>
+                                    <p>To view list of all history of downloads with their details go to the  <a class="panel" href="#manage_download_history">Manage download history</a> menu from the admin interface.</p>
+                                </li>
+                                <li>
+                                    <p>Download basic settings are available in Download Settings. To get more detail about this section, please <a class="panel" href="#download_setting">click here</a>.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- Manage Download -->
+                    <div id="manage_download">
+                        <h1>Manage Download</h1>
+                        <div class="card">
+                            <p>To view list of all download with their details go to the <strong>Manage Download</strong> menu from the admin interface.</p>
+                            <p>Here you are able to see all downloads listed with their details like Name, Permission, Download(Number of how many users are download.), Access (Enable/Disable) of the Download, Generate Shortcode, Download Added Date. Also Download Name and  Download(Number of how many users are download.) column is sortable here.</p>
+                            <p>Please see below screen.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/dd_manage_downloads.png">
+                                    <img src="images/dd_manage_downloads.png" alt="Armember Manage Download" />
+                                </a>
+                            </p>
+                            <h2>Bulk Actions</h2>
+                            <p>This option will be helpful when same action need to be performed on multiple download rows at same time.</p>
+                                <ol class="large_bottom_margin bottom_margin">
+                                    <li>
+                                        <h4>Delete</h4>
+                                        <p>Select number of rows that you want to delete and select Delete Bulk Action then click on Go button.</p>
+                                    </li>
+                                </ol>
+                            <h2>Actions</h2>
+                            <p>For each row of grid there are some action options provided which are as following</p>
+                                <ol class="large_bottom_margin bottom_margin">
+                                    <li>
+                                        <h4>Edit</h4>
+                                        <p>At each row you have Icon for <code>EDIT</code> download at right side, by clicking on it you will be redirected to page where you will be allowed to Update download Details.</p>
+                                        <p>You can update download's basic field like <code>Name</code>, <code>Description</code>, <code>Type</code>, <code>Download Files</code>, <code>Permission</code> & <code>Tags</code>
+                                    </li>
+                                    <li>
+                                        <h4>Generate Shortcode</h4>
+                                        <p>Generate shortcode by just one click on <code>Generate Shortcode</code> Button, by clicking on it you will get popup in which you can add <code>Display Description</code>, <code>Display File Size</code>, <code>Display Download Count</code> , <code>Link Type</code> &  <code>CSS</code> parameter that you want to require.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Enable & Disable</h4>
+                                        <p>You can <code>ENABLE</code> or <code>DISABLE</code> download using single switch.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Delete</h4>
+                                        <p>Each download can be deleted by just one click on <code>DELETE</code> Icon at right side.</p>
+                                    </li>
+                                </ol>
+                            <h2>Search</h2>
+                                <p>You have Search Box at top of the grid plus other filter options are also available which are <code>FILTER BY ACCESS
+(ENABLE/DISABLE)</code>.</p>
+                            <h2>Add Item</h2>
+                            <p>You have a button at top, by clicking on <code>Add download Item</code> button you will be redirected to page from where you can add download manually. </p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/dd_download_add.png">
+                                    <img src="images/dd_download_add.png" alt="Armember Download add" width="100%" />
+                                </a>
+                            </p>
+                            <h2>Bulk Import</h2>
+                             <p>You have a button at top, by clicking on <code>Bulk Import</code> button you will get popup in which you can upload csv file containing download file names and download file URLS. </p>
+                             <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>Your CSV file need to be same as sample file that you can download by clicking on link in 'Bulk Import' popup.</p>
+                             <p class="doc_image">
+                                <a rel="lightbox" href="images/dd_bulk_import_download.png">
+                                    <img src="images/dd_bulk_import_download.png" alt="Armember Download add" width="100%" />
+                                </a>
+                             </p>
+                             <p>Here you can set permission type as same as you get in 'Add Download' page. All the imported download files will be set this permission. All imported files will have same permission.</p>
+                             <p>One download shortcode will be generated for each URL in CSV. Also only 100 downloads can be imported at a time.</p>
+                             <p>In CSV, file_url field must contain only one file URL in each row.</p>
+                             <p>After importing file, you will get grid with checkbox for each CSV row, from here you can select/deselect files that you want to import. Click on 'Confirm' button. You will see process bar untill all the files will be imported.</p>
+                             <p>Once import completed, you will get list of all files imported. Here you can also get list of all files skipped while import. Close popup to see all imported downloads in 'Manage Downloads'.</p>
+
+                             
+                        </div>
+                    </div>
+
+                    <div id="manage_bulk_download">
+                        <h1>Manage Download</h1>
+                        <div class="card">
+                            <h2>Bulk Import</h2>
+                            <p>Suppose, you have 500 files to be uploaded to create download shortcodes. It will be very tedious and time consuming task to upload files one by one and create shortcode. Well, you don't need to do this as this plugin provides bulk import facility where you can upload 100 files which will create one shortcode for each file. For this you must need to create CSV file with minimum two fields, file_name and file_url.</p>
+                             <p>You have a button at top, by clicking on <code>Bulk Import</code> button you will get popup in which you can upload csv file containing download file names and download file URLS. </p>
+                             <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>Your CSV file need to be same as sample file that you can download by clicking on link in 'Bulk Import' popup.</p>
+                             <p class="doc_image">
+                                <a rel="lightbox" href="images/dd_bulk_import_download.png">
+                                    <img src="images/dd_bulk_import_download.png" alt="Armember Download add" width="100%" />
+                                </a>
+                             </p>
+                             <p>Here you can set permission type as same as you get in 'Add Download' page. All the imported download files will be set this permission. All imported files will have same permission.</p>
+                             <p>One download shortcode will be generated for each URL in CSV. Also only 100 downloads can be imported at a time.</p>
+                             <p>In CSV, file_url field must contain only one file URL in each row.</p>
+                             <p>After importing file, you will get grid with checkbox for each CSV row, from here you can select/deselect files that you want to import. Click on 'Confirm' button. You will see process bar untill all the files will be imported.</p>
+                             <p>Once import completed, you will get list of all files imported. Here you can also get list of all files skipped while import. Close popup to see all imported downloads in 'Manage Downloads'.</p>
+
+                             
+                        </div>
+                    </div>
+                    <!-- Manage Download History -->
+                    <div id="manage_download_history">
+                        <h1>Manage Download History</h1>
+                        <div class="card">
+                            <p>View list of all Download history with their details go to the <strong>Manage Download History</strong> menu from the admin interface.</p>
+                            <p>Here you are able to see all download history listed with their details like Name, Username(Display if user is loggedin), IP Address, Browser, Country, Download Date Time. Also Username and Download Date Time column is sortable here.</p>
+                            <p>Please see below screen.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/dd_manage_downloads_history.png">
+                                    <img src="images/dd_manage_downloads_history.png" alt="Armember Manage Download History" />
+                                </a>
+                            </p>
+                            <h2>Bulk Actions</h2>
+                                <p>This option will be helpful when same action need to be performed on multiple download rows at same time.</p>
+                                <ol class="large_bottom_margin bottom_margin">
+                                    <li>
+                                        <h4>Delete</h4>
+                                        <p>Select number of rows that you want to delete and select Delete Bulk Action then click on Go button.</p>
+                                    </li>
+                                </ol>
+                            <h2>Actions</h2>
+                            <p>For each row of grid there are some action options provided which are as following</p>
+                                <ol class="large_bottom_margin bottom_margin">
+                                    <li>
+                                        <h4>Delete</h4>
+                                        <p>Each download history can be deleted by just one click on <code>DELETE</code> Icon at right side.</p>
+                                    </li>
+                                </ol>
+                            <h2>Search</h2>
+                                <p>You have Search Box at top of the grid plus other filter options are also available which are <code>FILTER BY DOWNLOAD ITEMS</code> & <code>FILTER BY DATE TIME</code>.</p>
+                        </div>
+                    </div>
+                    <!-- Download Settings -->
+                    <div id="download_setting">
+                        <h1>ARMember - Download Settings</h1>
+                        <div class="card">
+                            <p>Go to the Download Settings menu from the admin interface.</p>
+                            <p>Let's check each option in detail:</p>
+                            <p>Please see below screen.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/dd_downloads_setting.png">
+                                    <img src="images/dd_downloads_setting.png" alt="Armember Download Settings" />
+                                </a>
+                            </p>
+                            <h2>Permission denied message</h2>
+                                <p>If you do not give file permission to user. And user try to access the file then display the message. </p> 
+                            <h2>Count only uniqe IP address</h2>
+                                <p>If you will enable the setting then same exact file, by the same member will not be counted against</p>
+                            <h2>Prevent hotlinking</h2>
+                                <p>If enabled, the download handler will check the PHP referer to see if it originated from your site and if not than, redirect them to the homepage.</p>
+                            <h2>Enable open file in browser</h2>
+                                <p>If you will enable the setting then specify extenstions file should be displayed in browser (htm, html, pdf, jpg, jpeg, jpe, gif, png, mp3, mp4, flv, ogg, webm)</p>
+                            <h2>Download multiple file as ZIP</h2>
+                                <p>If you will enable the setting then mulitple file will be download in <strong>ZIP</strong> extenstion.</p>
+                            <h2>Email notification when user download</h2>
+                                <p>Any user download any file then admin get email notification with download details. Also you will be  </p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/dd_general_restriction_section.png">
+                                    <img src="images/dd_general_restriction_section.png" alt="Armember General Restriction Option" />
+                                </a>
+                            </p>
+                            <h2>Block users for download</h2>
+                                <p>Here you will be able to select <strong>Users</strong>. Selected users will blocked and not able to download the file.</p> 
+                            <h2>Plan wise block download</h2>
+                                <p>Here you will be able to select <strong>Plans</strong>. Selected plans users will be blocked and they are not able to download the file.</p> 
+                            <h2>Block IP download</h2>
+                                <p>Those IP Address(es) which are entered here, will not be able to download the file. Please note that IP address should exact match. For example, 0.0.0.1 will be banned if and only if IP address will exact match with user's IP address.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/dd_download_file_limit.png">
+                                    <img src="images/dd_download_file_limit.png" alt="Armember Download File Limit" />
+                                </a>
+                            </p>
+                            <h2>Download File Limit</h2>
+                                <p>Only this many unique downloads will be permitted every X day(s). Repeated downloads of the same exact file are NOT tabulated against the total.</p>
+                        </div>
+                    </div>
+                    <!-- Shortcodes -->
+                    <div id="download_shortcode">
+                        <h1>Download Shortcodes</h1>
+                        <div class="card">
+                            <h1>[arm_download]</h1>
+                            <p>Display Download Shortcode.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>item_id</code></td>
+                                    <td>ID of Download (Required Parameter)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>show_description</code></td>
+                                    <td>Display Description. Default: false</td>
+                                </tr>
+                                <tr>
+                                    <td><code>show_size</code></td>
+                                    <td>Display File Size. Default: false</td>
+                                </tr>
+                                <tr>
+                                    <td><code>show_download_count</code></td>
+                                    <td>Display No of File Download. Default: false</td>
+                                </tr>
+                                <tr>
+                                    <td><code>link_type</code></td>
+                                    <td>Display Link Type. (link/button) Default: link</td>
+                                </tr>
+                                <tr>
+                                    <td><code>css</code></td>
+                                    <td>Custom CSS</td>
+                                </tr>
+                            </table>    
+                        </div>
+                    </div>
+                    <div id="downloade_changelog">
+                    <h1>Changelog</h1>
+                        <div class="card">
+                        <h2>Version 1.7 (06 Aug, 2020)</h2>
+                        <ul>
+                            <li>Updated DataTables Library.</li>
+                            <li>Other Minor bug fixes.</li>
+                        </ul>
+                        <h2>Version 1.6 (06 April, 2020)</h2>
+                        <ul>
+                            <li>Imporved file download security</li>
+                            <li>Minor bug fixes.</li>
+                        </ul>
+                        <h2>Version 1.5 (30 March, 2019)</h2>
+                        <ul>
+                            <li>Minor bug fixes.</li>
+                        </ul>
+                        <h2>Version 1.4 (15 March, 2019)</h2>
+                        <ul>
+                            <li>Minor bug fixes.</li>
+                        </ul>
+                        <h2>Version 1.3 (08 March, 2018)</h2>
+                            <ul>
+                                <li>Minor bug fixes.</li>
+                            </ul>
+                        <h2>Version 1.2 (16 January, 2018)</h2>
+                            <ul>
+                                <li>Added facility to import bulk downloads.</li>
+                                <li>Added .htaccess file to secure all download files which prevent all downloads to browse by any user.</li>
+                                <li>Other minor bug fixes.</li>
+                            </ul>
+                        <h2>Version 1.1 (20 December, 2017)</h2>
+                            <ul>
+                                <li>Added new argument in shortcode for displaying total no of downloads and file size.</li>
+                                <li>Message for restricted download links is added for each download item.</li>
+                                <li>Added facility to modify download link title.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>

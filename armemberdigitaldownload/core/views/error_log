@@ -1,0 +1,84 @@
+[13-Jan-2019 01:04:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads.php on line 5
+[13-Jan-2019 01:04:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_get_all_roles() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_add.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_add.php on line 13
+[13-Jan-2019 01:05:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/upgrade_latest_data_ddownload.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/upgrade_latest_data_ddownload.php on line 6
+[13-Jan-2019 01:05:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_get_all_roles() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items.php on line 3
+[13-Jan-2019 01:05:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_dd_item_all_data() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads_records.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads_records.php on line 4
+[13-Jan-2019 01:06:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_dd_get_settings() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_settings.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_settings.php on line 4
+[13-Jan-2019 01:06:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_records.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_records.php on line 9
+[25-Feb-2019 13:14:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_get_all_roles() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_add.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_add.php on line 13
+[27-Feb-2019 05:50:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads.php on line 5
+[02-Mar-2019 00:39:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/upgrade_latest_data_ddownload.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/upgrade_latest_data_ddownload.php on line 6
+[02-Mar-2019 11:25:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_dd_item_all_data() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads_records.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads_records.php on line 4
+[04-Mar-2019 08:53:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_get_all_roles() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items.php on line 3
+[07-Mar-2019 18:30:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_dd_get_settings() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_settings.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_settings.php on line 4
+[10-Mar-2019 18:25:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_records.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_records.php on line 9
+[08-Sep-2019 18:31:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_dd_item_all_data() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads_records.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads_records.php on line 4
+[08-Sep-2019 18:32:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_get_all_roles() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_add.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_add.php on line 13
+[08-Sep-2019 18:32:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_downloads.php on line 5
+[08-Sep-2019 18:33:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_records.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items_records.php on line 9
+[08-Sep-2019 18:34:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/upgrade_latest_data_ddownload.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/upgrade_latest_data_ddownload.php on line 6
+[08-Sep-2019 18:34:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_get_all_roles() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_items.php on line 3
+[08-Sep-2019 18:35:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function arm_dd_get_settings() on null in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_settings.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/views/arm_dd_settings.php on line 4

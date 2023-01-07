@@ -1,0 +1,357 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Zapier Addon v1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-09-25 07:01:34+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armemberzapier.php:340
+#@ ARM_ZAPIER
+msgid "ARMember - Zapier plugin requires ARMember Plugin installed and active."
+msgstr "ARMember - Zapier plugin requires ARMember Plugin installed and active."
+
+#: armemberzapier.php:288
+#: armemberzapier.php:325
+#: armemberzapier.php:422
+#: armemberzapier.php:423
+#@ ARM_ZAPIER
+msgid "Zapier Settings"
+msgstr "Zapier Settings"
+
+#: core/classes/class.arm_zapier_settings.php:103
+#@ ARM_ZAPIER
+msgid "Zapier settings saved successfully."
+msgstr "Zapier settings saved successfully."
+
+#: core/classes/class.arm_zapier_settings.php:115
+#@ ARM_ZAPIER
+msgid "Documentation"
+msgstr "Documentation"
+
+#: core/views/arm_zapier_settings.php:125
+#@ ARM_ZAPIER
+msgid "Please enter user register webhook url."
+msgstr "Please enter user register webhook url."
+
+#: core/views/arm_zapier_settings.php:126
+#@ ARM_ZAPIER
+msgid "Please enter valid user register webhook url."
+msgstr "Please enter valid user register webhook url."
+
+#: core/views/arm_zapier_settings.php:175
+#@ ARM_ZAPIER
+msgid "Please enter user renew plan webhook url."
+msgstr "Please enter user renew plan webhook url."
+
+#: core/views/arm_zapier_settings.php:176
+#@ ARM_ZAPIER
+msgid "Please enter valid user renew plan webhook url."
+msgstr "Please enter valid user renew plan webhook url."
+
+#: core/views/arm_zapier_settings.php:202
+#@ ARM_ZAPIER
+msgid "Please enter user change plan webhook url."
+msgstr "Please enter user change plan webhook url."
+
+#: core/views/arm_zapier_settings.php:203
+#@ ARM_ZAPIER
+msgid "Please enter valid user change plan webhook url."
+msgstr "Please enter valid user change plan webhook url."
+
+#: core/views/arm_zapier_settings.php:229
+#@ ARM_ZAPIER
+msgid "Please enter user delete webhook url."
+msgstr "Please enter user delete webhook url."
+
+#: core/views/arm_zapier_settings.php:230
+#@ ARM_ZAPIER
+msgid "Please enter valid user delete webhook url."
+msgstr "Please enter valid user delete webhook url."
+
+#: core/views/arm_zapier_settings.php:436
+#@ ARM_ZAPIER
+msgid "Save"
+msgstr "Save"
+
+#: core/views/arm_zapier_settings.php:53
+#@ ARM_ZAPIER
+msgid "Zapier Settings For Triggers"
+msgstr "Zapier Settings For Triggers"
+
+#: core/views/arm_zapier_settings.php:80
+#@ ARM_ZAPIER
+msgid "Field Setting"
+msgstr "Field Setting"
+
+#: core/views/arm_zapier_settings.php:84
+#@ ARM_ZAPIER
+msgid "Select fields to send in Zapier Trigger"
+msgstr "Select fields to send in Zapier Trigger"
+
+#: core/views/arm_zapier_settings.php:96
+#@ ARM_ZAPIER
+msgid "If you will not select any field(s) here, Than it will send all those field's value which you have created in your registration (signup) forms as well as user's plan details like, Plan Id & Plan Name."
+msgstr "If you will not select any field(s) here, Than it will send all those field's value which you have created in your registration (signup) forms as well as user's plan details like, Plan Id & Plan Name."
+
+#: core/views/arm_zapier_settings.php:98
+#@ ARM_ZAPIER
+msgid "Select field(s) that you want to send while any trigger called to zapier. Leave blank to send all fields."
+msgstr "Select field(s) that you want to send while any trigger called to zapier. Leave blank to send all fields."
+
+#: core/views/arm_zapier_settings.php:103
+#@ ARM_ZAPIER
+msgid "Trigger Settings"
+msgstr "Trigger Settings"
+
+#: core/views/arm_zapier_settings.php:107
+#@ ARM_ZAPIER
+msgid "On User Registration"
+msgstr "On User Registration"
+
+#: core/views/arm_zapier_settings.php:115
+#@ ARM_ZAPIER
+msgid "Send data to zapier when any new user register / signup with your site."
+msgstr "Send data to zapier when any new user register / signup with your site."
+
+#: core/views/arm_zapier_settings.php:121
+#: core/views/arm_zapier_settings.php:145
+#: core/views/arm_zapier_settings.php:171
+#: core/views/arm_zapier_settings.php:198
+#: core/views/arm_zapier_settings.php:225
+#: core/views/arm_zapier_settings.php:252
+#@ ARM_ZAPIER
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+#: core/views/arm_zapier_settings.php:157
+#@ ARM_ZAPIER
+msgid "On Membership Plan Renewed"
+msgstr "On Membership Plan Renewed"
+
+#: core/views/arm_zapier_settings.php:165
+#@ ARM_ZAPIER
+msgid "Send data to zapier when any user will renew his membership plan."
+msgstr "Send data to zapier when any user will renew his membership plan."
+
+#: core/views/arm_zapier_settings.php:184
+#@ ARM_ZAPIER
+msgid "On Membership Plan Changed"
+msgstr "On Membership Plan Changed"
+
+#: core/views/arm_zapier_settings.php:192
+#@ ARM_ZAPIER
+msgid "Send data to zapier when any user change his existing membership plan to other plan."
+msgstr "Send data to zapier when any user change his existing membership plan to other plan."
+
+#: core/views/arm_zapier_settings.php:211
+#@ ARM_ZAPIER
+msgid "On User Deleted"
+msgstr "On User Deleted"
+
+#: core/views/arm_zapier_settings.php:219
+#@ ARM_ZAPIER
+msgid "Send data to zapier when admin will delete any user from your site."
+msgstr "Send data to zapier when admin will delete any user from your site."
+
+#: armemberzapier.php:407
+#@ ARM_ZAPIER
+msgid "Settings has been saved successfully."
+msgstr "Settings has been saved successfully."
+
+#: armemberzapier.php:408
+#@ ARM_ZAPIER
+msgid "There is a error while updating settings, please try again."
+msgstr "There is a error while updating settings, please try again."
+
+#: armemberzapier.php:571
+#@ ARM_ZAPIER
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armemberzapier.php:576
+#@ ARM_ZAPIER
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: armemberzapier.php:157
+#@ ARM_ZAPIER
+msgid "User Updated Successfully from Zapier WebHook."
+msgstr "User Updated Successfully from Zapier WebHook."
+
+#: armemberzapier.php:163
+#@ ARM_ZAPIER
+msgid "User Registered Successfully from Zapier WebHook."
+msgstr "User Registered Successfully from Zapier WebHook."
+
+#: armemberzapier.php:217
+#@ ARM_ZAPIER
+msgid "'email' parameter is required"
+msgstr "'email' parameter is required"
+
+#: armemberzapier.php:225
+#@ ARM_ZAPIER
+msgid "zapier verify parameter not matched"
+msgstr "zapier verify parameter not matched"
+
+#: armemberzapier.php:234
+#@ ARM_ZAPIER
+msgid "Zapier Action Not Enable from ARMember Zapier Settings"
+msgstr "Zapier Action Not Enable from ARMember Zapier Settings"
+
+#: core/views/arm_zapier_settings.php:264
+#@ ARM_ZAPIER
+msgid "Zapier Settings For Actions"
+msgstr "Zapier Settings For Actions"
+
+#: core/views/arm_zapier_settings.php:268
+#@ ARM_ZAPIER
+msgid "Enable User Register Using Zapier Action"
+msgstr "Enable User Register Using Zapier Action"
+
+#: core/views/arm_zapier_settings.php:289
+#@ ARM_ZAPIER
+msgid "Please enter zap action."
+msgstr "Please enter zap action."
+
+#: core/views/arm_zapier_settings.php:290
+#@ ARM_ZAPIER
+msgid "(Required)"
+msgstr "(Required)"
+
+#: core/views/arm_zapier_settings.php:310
+#@ ARM_ZAPIER
+msgid "Select Plan"
+msgstr "Select Plan"
+
+#: core/views/arm_zapier_settings.php:333
+#@ ARM_ZAPIER
+msgid "(Optional)"
+msgstr "(Optional)"
+
+#: core/views/arm_zapier_settings.php:353
+#: core/views/arm_zapier_settings.php:368
+#@ ARM_ZAPIER
+msgid "Add Custom Field"
+msgstr "Add Custom Field"
+
+#: core/views/arm_zapier_settings.php:355
+#: core/views/arm_zapier_settings.php:370
+#@ ARM_ZAPIER
+msgid "Remove Custom Field"
+msgstr "Remove Custom Field"
+
+#: armemberzapier.php:208
+#@ ARM_ZAPIER
+msgid "User update failed from Zapier WebHook."
+msgstr "User update failed from Zapier WebHook."
+
+#: armemberzapier.php:342
+#@ ARM_ZAPIER
+msgid "ARMember - Zapier plugin requires ARMember plugin installed with version 3.2.1 or higher."
+msgstr "ARMember - Zapier plugin requires ARMember plugin installed with version 3.2.1 or higher."
+
+#: core/views/arm_zapier_settings.php:282
+#@ ARM_ZAPIER
+msgid "Zapier Action parameter name and value"
+msgstr "Zapier Action parameter name and value"
+
+#: core/views/arm_zapier_settings.php:288
+#@ ARM_ZAPIER
+msgid "For security purpose, user will be created only if above parameter and entered value will be matched with webhook URL. Use above parameter pass with Zapier webhook action."
+msgstr "For security purpose, user will be created only if above parameter and entered value will be matched with webhook URL. Use above parameter pass with Zapier webhook action."
+
+#: core/views/arm_zapier_settings.php:288
+#@ ARM_ZAPIER
+msgid "Please use exact (case sensitive) parameter name and value in your Zapier webhook action."
+msgstr "Please use exact (case sensitive) parameter name and value in your Zapier webhook action."
+
+#: core/views/arm_zapier_settings.php:293
+#@ ARM_ZAPIER
+msgid "Parameter Name"
+msgstr "Parameter Name"
+
+#: core/views/arm_zapier_settings.php:294
+#@ ARM_ZAPIER
+msgid "Parameter Value"
+msgstr "Parameter Value"
+
+#: core/views/arm_zapier_settings.php:304
+#@ ARM_ZAPIER
+msgid "Assign default membership plan to user upon signup"
+msgstr "Assign default membership plan to user upon signup"
+
+#: core/views/arm_zapier_settings.php:332
+#@ ARM_ZAPIER
+msgid "Selected plan from this dropdown will be assigned to member only if 'arm_membership_plan' parameter (see all possible parameters below) is not passed in your webhook action."
+msgstr "Selected plan from this dropdown will be assigned to member only if 'arm_membership_plan' parameter (see all possible parameters below) is not passed in your webhook action."
+
+#: core/views/arm_zapier_settings.php:339
+#@ ARM_ZAPIER
+msgid "Enter parameter name for user custom fields"
+msgstr "Enter parameter name for user custom fields"
+
+#: core/views/arm_zapier_settings.php:339
+#@ ARM_ZAPIER
+msgid "You can add all custom meta keys here for user registration. Please add only those parameters which are not listed below."
+msgstr "You can add all custom meta keys here for user registration. Please add only those parameters which are not listed below."
+
+#: core/views/arm_zapier_settings.php:382
+#@ ARM_ZAPIER
+msgid "Default parameters listed below can be passed to webhook action directly whithout adding anywhere."
+msgstr "Default parameters listed below can be passed to webhook action directly whithout adding anywhere."
+
+#: core/views/arm_zapier_settings.php:132
+#@ ARM_ZAPIER
+msgid "On User Update Profile"
+msgstr "On User Update Profile"
+
+#: core/views/arm_zapier_settings.php:140
+#@ ARM_ZAPIER
+msgid "Send data to zapier when any user update profile in your site."
+msgstr "Send data to zapier when any user update profile in your site."
+
+#: core/views/arm_zapier_settings.php:149
+#@ ARM_ZAPIER
+msgid "Please enter user profile webhook url."
+msgstr "Please enter user profile webhook url."
+
+#: core/views/arm_zapier_settings.php:150
+#@ ARM_ZAPIER
+msgid "Please enter valid user profile webhook url."
+msgstr "Please enter valid user profile webhook url."
+
+#: core/views/arm_zapier_settings.php:238
+#@ ARM_ZAPIER
+msgid "On Membership Plan Cancel"
+msgstr "On Membership Plan Cancel"
+
+#: core/views/arm_zapier_settings.php:246
+#@ ARM_ZAPIER
+msgid "Send data to zapier when any user cancel his existing membership plan."
+msgstr "Send data to zapier when any user cancel his existing membership plan."
+
+#: core/views/arm_zapier_settings.php:256
+#@ ARM_ZAPIER
+msgid "Please enter user cancel plan webhook url."
+msgstr "Please enter user cancel plan webhook url."
+
+#: core/views/arm_zapier_settings.php:257
+#@ ARM_ZAPIER
+msgid "Please enter valid user cancel plan webhook url."
+msgstr "Please enter valid user cancel plan webhook url."
+

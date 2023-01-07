@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function() {
+                if ( jQuery(window).scrollTop() > amountScrolled ) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function() {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function(event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop:0}, 'fast','swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast',function(){
+                       jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+id+'"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                }); 
+                jQuery("#overlay").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+window.location.hash+'"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height(){
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#membership_setup_wizard">AffiliateWP Setup Wizard</a></li>
+                            <li><a class="panel" href="#affiliatewp_changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - AffiliateWP Addon ( Version: 1.2 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 29/04/2019</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>If your system has activated "AffiliateWp" plugin, then this add-on will allow you to integrate it with ARMember.</p>
+                            <p>By using this combo of "ARMember + AffiliateWp" user can get "commission" on sharing Referral of the plan - the plan for which  'Enable AffiliateWP Referral' option is enabled.</p>
+                            <p>For this : you have to set Default Referral from <code>affiliate > setting > misc > Default Referral URL</code></p>
+                            <p>In <code>ARMember > Manage Plans > Add / Edit Membership plan</code> you will get an option : "Enable AffiliateWP Referral".</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This plugin will only work if ARMember plugin <strong>version is higher than 1.6 and AffiliateWP Version: 1.9.5.1 or higher. </strong> </p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/ARMember_affiliate_wp_addon.png">
+                                            <img src="images/ARMember_affiliate_wp_addon.png" alt="ARMember_affiliate_wp_addon" width="100%">
+                                        </a>
+                                    </p>
+                            <h2>ARMember - AffiliateWP Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>membership plan</strong> with <strong>AffiliateWP</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <div id="intro">
+                        <h1>ARMember - AffiliateWP Addon ( Version: 1.2 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 29/04/2019</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>If your system has activated "AffiliateWp" plugin, then this add-on will allow you to integrate it with ARMember.</p>
+                            <p>By using this combo of "ARMember + AffiliateWp" user can get "commission" on sharing Referral of the plan - the plan for which  'Enable AffiliateWP Referral' option is enabled.</p>
+                            <p>For this : you have to set Default Referral from <code>affiliate > setting > misc > Default Referral URL</code></p>
+                            <p>In <code>ARMember > Manage Plans > Add / Edit Membership plan</code> you will get an option : "Enable AffiliateWP Referral".</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This plugin will only work if ARMember plugin <strong>version is higher than 1.6 and AffiliateWP Version: 1.9.5.1 or higher. </strong> </p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/ARMember_affiliate_wp_addon.png">
+                                            <img src="images/ARMember_affiliate_wp_addon.png" alt="ARMember_affiliate_wp_addon" width="100%">
+                                        </a>
+                                    </p>
+                            <h2>ARMember - AffiliateWP Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy to Setup of <strong>membership plan</strong> with <strong>AffiliateWP</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                           <h2>Steps For Installation And Activation</h2>
+                           <p>You can install plugin in following two ways. and ARMember - AffiliateWP plugin requires ARMember Plugin (version higher than 1.6) installed and activated and AffiliateWP - 1.9.5.1 or higher aswell.</p>
+                           <h3>New install via  FTP </h3>
+                           <ol class="large_bottom_margin bottom_margin" type="a">
+                               <li>Download the plugin and extract it. You will find a directory <strong>armemberaffiliatewp</strong>.</li>
+                               <li>In your WordPress installation directory, upload <strong>armemberaffiliatewp</strong> to <code>wp-content/plugins/</code></li>
+                               <li>Activate the <code>ARMember - AffiliateWP Addon </code> plugin through the <code>Plugins</code> menu from WordPress admin panel.</li>
+                           </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download the plugin.</li>
+                                <li>Log in to your WordPress admin panel</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the plugin uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="membership_setup_wizard">
+                        <h1>AffiliateWP Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup ARMember-AffiliateWP For Your Website</h2>
+                            
+                            <h4>Let's setup membership for your website :</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>When plugin activated then AffiliateWP section will be display in <code>ARMember</code> -> <code>Manage Plans</code> -> <code>Add / Edit Membership plan</code>.</p><p> Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/affiliatewp_membership_plan.png">
+                                            <img src="images/affiliatewp_membership_plan.png" alt="general setting screen" width="100%">
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>You will be able to enable and disable referrals plan wise.</p>
+                                </li>
+                                <li>
+                                    <p>If you will enable referrals then new referrals will be created.</p>
+                                </li>
+                                <li>Please set a configur signup plan page url in affiliate > setting > misc > Default Referral URL. So when user check their affiliate area after getting logged in to site - user will be able to share the signup page url with their affiliate id url.
+                                <p class="doc_image">
+                                        <a rel="lightbox" href="images/affiliatewp_misc.png">
+                                            <img src="images/affiliatewp_misc.png" alt="general setting screen" width="100%">
+                                        </a>
+                                    </p>
+                                    (If non registerd user become member to site through the url shared by other member, then that perticular user will get commission of related plan in which this option of 'Enable AffiliateWP Referral' has been enabled.)
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div id="affiliatewp_changelog">
+                        <h1>Changelog</h1>
+                        <div class="card">
+                            <h2>Version 1.2 (29 April, 2019)</h2>
+                            <ul>
+                                <li>Minor bug fixes</li>
+                            </ul>
+                            <h2>Version 1.1 (14 October, 2017)</h2>
+                            <ul>
+                                <li>Made compatible with ARMember version 2.0</li>
+                                <li>Minor bug fixes</li>
+                            </ul>
+                           
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+[13-Jan-2019 01:03:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php(350): arm_dd_layout->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php on line 8
+[13-Jan-2019 01:03:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php(483): arm_dd_downloads->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php on line 8
+[13-Jan-2019 01:07:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php(1475): arm_dd_items->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php on line 8
+[22-Feb-2019 14:39:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php(350): arm_dd_layout->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php on line 8
+[08-Mar-2019 22:18:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php(483): arm_dd_downloads->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php on line 8
+[10-Mar-2019 22:16:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php(1475): arm_dd_items->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php on line 8
+[08-Sep-2019 18:29:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php(350): arm_dd_layout->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php on line 8
+[08-Sep-2019 18:30:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php(483): arm_dd_downloads->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php on line 8
+[08-Sep-2019 18:30:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php(1475): arm_dd_items->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php on line 8
+[14-Nov-2019 02:32:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php(483): arm_dd_downloads->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php on line 8
+[23-Nov-2019 22:54:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php(1475): arm_dd_items->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php on line 8
+[24-Nov-2019 06:34:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php(350): arm_dd_layout->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php on line 8
+[12-Jan-2020 08:41:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php(483): arm_dd_downloads->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php on line 8
+[02-Feb-2020 19:38:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php(350): arm_dd_layout->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php on line 8
+[02-Feb-2020 19:39:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php(1475): arm_dd_items->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php on line 8
+[02-Feb-2020 19:39:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php(350): arm_dd_layout->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php on line 8
+[11-Jun-2020 21:20:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php(350): arm_dd_layout->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_layout.php on line 8
+[11-Jun-2020 21:24:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php(1475): arm_dd_items->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_items.php on line 8
+[15-Aug-2020 04:51:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php:8
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php(483): arm_dd_downloads->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberdigitaldownload/core/classes/class.arm_dd_downloads.php on line 8

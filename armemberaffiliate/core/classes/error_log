@@ -1,0 +1,5 @@
+[12-Jun-2020 15:42:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/classes/class.arm_aff_affiliate.php:10
+Stack trace:
+#0 /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/classes/class.arm_aff_affiliate.php(988): arm_aff_affiliate->__construct()
+#1 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/core/classes/class.arm_aff_affiliate.php on line 10

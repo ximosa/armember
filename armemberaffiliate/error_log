@@ -1,0 +1,36 @@
+[12-Jun-2020 15:32:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php on line 14
+[12-Jun-2020 15:33:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php on line 14
+[12-Jun-2020 15:39:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php on line 14
+[12-Jun-2020 15:40:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php on line 14
+[12-Jun-2020 15:40:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php on line 14
+[12-Jun-2020 15:40:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php on line 14
+[12-Jun-2020 15:41:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php on line 14
+[12-Jun-2020 15:43:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php on line 14
+[12-Jun-2020 15:50:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_ssl() in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/armemberplugin/public_html/testdrive/wp-content/plugins/armemberaffiliate/armemberaffiliate.php on line 14

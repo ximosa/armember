@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember - Mautic Addon Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function() {
+                if ( jQuery(window).scrollTop() > amountScrolled ) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function() {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function(event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop:0}, 'fast','swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast',function(){
+                       jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+id+'"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                }); 
+                jQuery("#overlay").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+window.location.hash+'"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height(){
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#membership_setup_wizard">Mautic Setup Wizard</a></li>
+                            <li><a class="panel" href="#membership_mautic_changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - Mautic Addon ( Version: 1.1 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 14/10/2017</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing this Addon. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>Mautic is an open-source marketing automation software and ARMember - Mautic Addon is a bridge between Mautic’s back-end interface and ARMember plugin.</p>
+                            <p>This Addon will allow you to add all users of your membership website into Mautic Contacts, who will register using ARMember Registration Form.</p>
+                            <p>This Addon does not just add users to Mautic contacts but also facilitates you to add users in specific Mautic segment. You will also be allowed to add users in different segments who will register from different Sign Up Forms used for different purposes.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This Addon will only work if ARMember plugin <strong> is installed with version 1.7 or higher</strong></p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/mautic_get_it.png">
+                                            <img src="images/mautic_get_it.png" alt="ARMemeber_mautic_addon">
+                                        </a>
+                                    </p>
+                            <h2>ARMember - Mautic Addon Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation And Setup</li>
+                                <li>Easily Create Contact in Mautic when New User will register using ARMember Registration Form</li>
+                                <li>Easily Assign New User to perticular Mautic Segment</li>
+                                <li>Assign Different Segments to Users who will register using Different Sign Up Forms</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <div id="intro">
+                        <h1>ARMember - Mautic Addon ( Version: 1.1 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 14/10/2017</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing this Addon. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>Mautic is an open-source marketing automation software and ARMember - Mautic Addon is a bridge between Mautic’s back-end interface and ARMember plugin.</p>
+                            <p>This Addon will allow you to add all users of your membership website into Mautic Contacts, who will register using ARMember Registration Form.</p>
+                            <p>This Addon does not just add users to Mautic contacts but also facilitates you to add users in specific Mautic segment. You will also be allowed to add users in different segments who will register from different Sign Up Forms used for different purposes.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This Addon will only work if ARMember plugin <strong> is installed with version 1.7 or higher</strong></p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/mautic_get_it.png">
+                                            <img src="images/mautic_get_it.png" alt="ARMemeber_mautic_addon">
+                                        </a>
+                                    </p>
+                            <h2>ARMember - Mautic Addon Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation And Setup</li>
+                                <li>Easily Create Contact in Mautic when New User will register using ARMember Registration Form</li>
+                                <li>Easily Assign New User to perticular Mautic Segment</li>
+                                <li>Assign Different Segments to Users who will register using Different Sign Up Forms</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                           <h2>Steps For Installation And Activation</h2>
+                           <p>You can install this Addon in following two ways. and ARMember - Mautic Addon requires ARMember Plugin installed and active.</p>
+                           <h3>New install via  FTP </h3>
+                           <ol class="large_bottom_margin bottom_margin" type="a">
+                               <li>Download Addon and extract it. You will find a directory <strong>armembermautic</strong>.</li>
+                               <li>In your WordPress installation directory, upload <strong>armembermautic</strong> to <code>wp-content/plugins/</code></li>
+                               <li>Activate the <code>ARMember - Mautic Addon</code> through the <code>Plugins</code> menu from WordPress admin panel.</li>
+                           </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download Addon.</li>
+                                <li>Log in to your WordPress admin panel</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the Addon uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="membership_setup_wizard">
+                        <h1>Mautic Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Mautic For Your Website</h2>
+                            <h4>Let's setup ARMember - Mautic Addon for your website :</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>When Addon is activated, Mautic section will be displayed in <code>ARMember</code> -> <code>General Settings</code> -> <code>Opt-ins</code>. Please note that opt-ins tab will be displayed only if Opt-ins module is activated under Addons.</p><p> Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/mautic_settings.png">
+                                            <img src="images/mautic_settings.png" alt="general setting screen">
+                                        </a>
+                                    </p>
+                                </li>
+                                
+                                <li>
+                                    <p>If you do not have Mautic account then create it.</p>
+                                    <p>For Mautic account <a href="https://mautic.com/signup-free-account/">click here</a>. </p>
+                                </li>
+                                <li>
+                                    <p>When you create your Mautic account, you will get your Base URL for Mautic.<br/>For ex., https://XXXXXXX.mautic.net</p>
+                                    <p>To obtain Public Key and Secret Key, login to your Mautic account, then go to API Credentials.</p>
+                                    <p>Click New</p>
+                                    <p>Select "OAuth2" in Authorization Protocol</p>
+                                    <p>Add Name </p>
+                                    <p>Copy Redirect URI that shown in above image and add it to Callback URI in Mautic </p>
+                                    <p>Click Apply, then you can see Client ID and Client Secret. Add them to Public Key and Secret Key respectively.</p>
+                                    <p>Click Save & Close.</p>
+                                </li>
+                                
+                                <li>
+                                    <p>After getting all details from Mautic, fill it under Mautic section in Opt-ins, Click Save button and refresh page. Only after that you can see Varify link next to Secret Key.</p>
+                                    <p>Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/mautic_settings_with_keys.png">
+                                            <img src="images/mautic_settings_with_keys.png" alt="Configure Mautic" />
+                                        </a>
+                                    </p>
+                                    <p>Click on Varify link, If varification successes, you can see list of all Mautic Segments in List Name select box. Select any of segments that you want to set as default. After that do not forget to click on Save button.</p>
+                                </li>
+                                <li>
+                                    <p>After setup completes, go to Manage Forms page, then click on edit link of your Registration Form. You can see Mautic checkbox under Opt-ins in Right panel.</p>
+                                    <p>Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/mautic_opt_ins.png">
+                                            <img src="images/mautic_opt_ins.png" alt="Mautic"/>
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Select Segment from the list in which you want to add your website users who will register using this registration form.</p>
+                                    <p>Click Save Button.</p>
+                                </li>
+                                <li>
+                                    <p>If your website have more than one Registration Forms for different purposes, you can set different segements for different forms and can manage your users in Mautic easily.</p>
+                                    <p>Click Save Button. Now All is Set.</p>
+                                    <p>After this setup, you will find all users in your Mautic account under Contacts, who will register to your website using this registration form.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div id="membership_mautic_changelog">
+                        <h1>Changelog</h1>
+                        <div class="card">
+                            <h2>Version 1.1 (14 October, 2017)</h2>
+                            <ul>
+                                <li>Made compatible with ARMember version 2.0</li>
+                                <li>Minor bug fixes</li>
+                            </ul>
+                           
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>

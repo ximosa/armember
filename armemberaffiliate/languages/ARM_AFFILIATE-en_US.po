@@ -1,0 +1,2262 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Individual Affiliate Addon v3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-08-06 11:26:48+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armemberaffiliate.php:338
+#: armemberaffiliate.php:804
+#: armemberaffiliate.php:805
+#: core/classes/class.arm_aff_affiliate.php:775
+#: core/view/arm_affiliate_settings.php:73
+#@ ARM_AFFILIATE
+msgid "Affiliate Settings"
+msgstr "Affiliate Settings"
+
+#: armemberaffiliate.php:339
+#: armemberaffiliate.php:809
+#: armemberaffiliate.php:810
+#@ ARM_AFFILIATE
+msgid "Manage Referral"
+msgstr "Manage Referral"
+
+#: armemberaffiliate.php:340
+#: armemberaffiliate.php:814
+#: armemberaffiliate.php:815
+#: core/view/arm_payout_list.php:8
+#@ ARM_AFFILIATE
+msgid "Manage Payouts"
+msgstr "Manage Payouts"
+
+#: armemberaffiliate.php:341
+#: armemberaffiliate.php:819
+#: armemberaffiliate.php:820
+#@ ARM_AFFILIATE
+msgid "Affiliate User Visits"
+msgstr "Affiliate User Visits"
+
+#: armemberaffiliate.php:342
+#: armemberaffiliate.php:824
+#: armemberaffiliate.php:825
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:49
+#@ ARM_AFFILIATE
+msgid "Affiliate Statistics"
+msgstr "Affiliate Statistics"
+
+#: core/classes/class.arm_aff_layout.php:341
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:179
+#@ ARM_AFFILIATE
+msgid "User Name"
+msgstr "User Name"
+
+#: core/classes/class.arm_aff_layout.php:341
+#: core/classes/class.arm_aff_layout.php:388
+#: core/classes/class.arm_aff_layout.php:561
+#: core/classes/class.arm_aff_layout.php:602
+#: core/classes/class.arm_aff_payouts.php:155
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:185
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:246
+#: core/view/arm_payout_list.php:124
+#: core/view/arm_referral_list.php:107
+#: core/widgets/class.arm_aff_dashboard_widgets.php:121
+#@ ARM_AFFILIATE
+msgid "Amount"
+msgstr "Amount"
+
+#: core/classes/class.arm_aff_layout.php:341
+#: core/classes/class.arm_aff_layout.php:394
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:191
+#@ ARM_AFFILIATE
+msgid "Plan"
+msgstr "Plan"
+
+#: core/classes/class.arm_aff_layout.php:341
+#: core/classes/class.arm_aff_layout.php:400
+#: core/classes/class.arm_aff_layout.php:608
+#: core/classes/class.arm_aff_statistics.php:31
+#: core/classes/class.arm_aff_statistics.php:178
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:197
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:252
+#: core/view/arm_statistics_list_records.php:15
+#: core/view/arm_statistics_summery_records.php:16
+#@ ARM_AFFILIATE
+msgid "Date"
+msgstr "Date"
+
+#: core/classes/class.arm_aff_affiliate.php:443
+#: core/classes/class.arm_aff_banner.php:221
+#: core/classes/class.arm_aff_layout.php:341
+#: core/classes/class.arm_aff_layout.php:406
+#: core/classes/class.arm_aff_referrals.php:402
+#: core/classes/class.arm_aff_referrals.php:413
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:203
+#: core/view/arm_affiliate_list_records.php:18
+#: core/view/arm_affiliate_list_records.php:225
+#: core/view/arm_banner_add.php:159
+#: core/view/arm_banner_list_records.php:9
+#: core/view/arm_referral_list_records.php:22
+#: core/view/arm_referral_list_records.php:37
+#: core/view/arm_referral_list_records.php:323
+#: core/widgets/class.arm_aff_dashboard_widgets.php:123
+#@ ARM_AFFILIATE
+msgid "Status"
+msgstr "Status"
+
+#: core/classes/class.arm_aff_payouts.php:39
+#: core/classes/class.arm_aff_referrals.php:397
+#: core/classes/class.arm_aff_referrals.php:407
+#: core/classes/class.arm_aff_statistics.php:36
+#: core/view/arm_payout_list_records.php:11
+#: core/view/arm_payout_list_records.php:184
+#: core/view/arm_referral_list_records.php:17
+#: core/view/arm_referral_list_records.php:31
+#: core/view/arm_statistics_list_records.php:20
+#: core/view/arm_statistics_list_records.php:211
+#: core/widgets/class.arm_aff_dashboard_widgets.php:120
+#@ ARM_AFFILIATE
+msgid "Affiliate User"
+msgstr "Affiliate User"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:27
+#: core/view/arm_affiliate_commision_setup.php:23
+#: core/view/arm_referral_list.php:98
+#@ ARM_AFFILIATE
+msgid "Plan Name"
+msgstr "Plan Name"
+
+#: core/widgets/class.arm_aff_dashboard_widgets.php:122
+#@ ARM_AFFILIATE
+msgid "Reference User"
+msgstr "Reference User"
+
+#: armemberaffiliate.php:715
+#: core/classes/class.arm_aff_affiliate.php:644
+#: core/classes/class.arm_aff_banner.php:334
+#: core/classes/class.arm_aff_referrals.php:350
+#@ ARM_AFFILIATE
+msgid "Please select one or more records."
+msgstr "Please select one or more records."
+
+#: armemberaffiliate.php:716
+#: core/classes/class.arm_aff_affiliate.php:647
+#: core/classes/class.arm_aff_banner.php:337
+#: core/classes/class.arm_aff_referrals.php:353
+#@ ARM_AFFILIATE
+msgid "Please select valid action."
+msgstr "Please select valid action."
+
+#: core/classes/class.arm_aff_affiliate.php:655
+#: core/classes/class.arm_aff_banner.php:345
+#: core/classes/class.arm_aff_referrals.php:360
+#: core/classes/class.arm_aff_referrals.php:608
+#: core/classes/class.arm_affiliate_commision_setup.php:320
+#@ ARM_AFFILIATE
+msgid "Sorry, You do not have permission to perform this action"
+msgstr "Sorry, You do not have permission to perform this action"
+
+#: core/classes/class.arm_aff_referrals.php:365
+#@ ARM_AFFILIATE
+msgid "Referral(s) has been deleted successfully."
+msgstr "Referral(s) has been deleted successfully."
+
+#: core/classes/class.arm_aff_referrals.php:539
+#@ ARM_AFFILIATE
+msgid "Accept Referral"
+msgstr "Accept Referral"
+
+#: core/classes/class.arm_aff_referrals.php:543
+#@ ARM_AFFILIATE
+msgid "Reject Referral"
+msgstr "Reject Referral"
+
+#: core/classes/class.arm_aff_affiliate.php:581
+#: core/classes/class.arm_aff_banner.php:284
+#: core/classes/class.arm_aff_referrals.php:550
+#: core/classes/class.arm_affiliate_commision_setup.php:211
+#: core/view/arm_affiliate_list_records.php:190
+#: core/view/arm_affiliate_list_records.php:208
+#: core/view/arm_banner_list_records.php:171
+#: core/view/arm_banner_list_records.php:189
+#: core/view/arm_referral_list_records.php:263
+#: core/view/arm_referral_list_records.php:281
+#@ ARM_AFFILIATE
+msgid "Delete"
+msgstr "Delete"
+
+#: core/classes/class.arm_aff_referrals.php:551
+#@ ARM_AFFILIATE
+msgid "Are you sure you want to delete this referral?"
+msgstr "Are you sure you want to delete this referral?"
+
+#: core/classes/class.arm_aff_referrals.php:582
+#@ ARM_AFFILIATE
+msgid "Something went wrong in perform action"
+msgstr "Something went wrong in perform action"
+
+#: core/classes/class.arm_aff_referrals.php:587
+#@ ARM_AFFILIATE
+msgid "Referral is deleted successfully."
+msgstr "Referral is deleted successfully."
+
+#: core/classes/class.arm_aff_referrals.php:590
+#@ ARM_AFFILIATE
+msgid "Referral is accepted successfully."
+msgstr "Referral is accepted successfully."
+
+#: core/classes/class.arm_aff_referrals.php:593
+#@ ARM_AFFILIATE
+msgid "Referral is rejected successfully."
+msgstr "Referral is rejected successfully."
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:42
+#@ ARM_AFFILIATE
+msgid "Affiliate Information"
+msgstr "Affiliate Information"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:44
+#@ ARM_AFFILIATE
+msgid "Affiliate User Referral"
+msgstr "Affiliate User Referral"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:130
+#@ ARM_AFFILIATE
+msgid "Affiliate Text"
+msgstr "Affiliate Text"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:489
+#@ ARM_AFFILIATE
+msgid "Add Shortcode"
+msgstr "Add Shortcode"
+
+#: core/classes/class.arm_aff_payouts.php:161
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:490
+#: core/view/arm_affiliate_commision_setup.php:436
+#: core/view/arm_affiliate_commision_setup.php:503
+#: core/view/arm_affiliate_list.php:101
+#: core/view/arm_payout_list.php:101
+#: core/view/arm_referral_list.php:122
+#@ ARM_AFFILIATE
+msgid "Cancel"
+msgstr "Cancel"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:172
+#@ ARM_AFFILIATE
+msgid "User Referral"
+msgstr "User Referral"
+
+#: core/classes/class.arm_aff_banner.php:218
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:99
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:209
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:264
+#: core/view/arm_banner_add.php:90
+#: core/view/arm_banner_list_records.php:6
+#@ ARM_AFFILIATE
+msgid "Title"
+msgstr "Title"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:211
+#@ ARM_AFFILIATE
+msgid "Referrals"
+msgstr "Referrals"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:215
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:270
+#@ ARM_AFFILIATE
+msgid "Records Per Page"
+msgstr "Records Per Page"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:221
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:276
+#@ ARM_AFFILIATE
+msgid "No Records Message"
+msgstr "No Records Message"
+
+#: core/classes/class.arm_aff_affiliate.php:445
+#: core/view/arm_affiliate_list_records.php:20
+#@ ARM_AFFILIATE
+msgid "No. Of Visitors"
+msgstr "No. Of Visitors"
+
+#: core/classes/class.arm_aff_affiliate.php:446
+#: core/view/arm_affiliate_list_records.php:21
+#@ ARM_AFFILIATE
+msgid "Converted As User"
+msgstr "Converted As User"
+
+#: core/classes/class.arm_affiliate_settings.php:94
+#@ ARM_AFFILIATE
+msgid "Affiliate settings saved successfully."
+msgstr "Affiliate settings saved successfully."
+
+#: core/view/arm_affiliate_settings.php:89
+#@ ARM_AFFILIATE
+msgid "Please enter Referral Variable."
+msgstr "Please enter Referral Variable."
+
+#: core/view/arm_affiliate_settings.php:90
+#@ ARM_AFFILIATE
+msgid "Please enter valid Referral Variable."
+msgstr "Please enter valid Referral Variable."
+
+#: core/view/arm_affiliate_settings.php:200
+#@ ARM_AFFILIATE
+msgid "Please enter Referral Timeout."
+msgstr "Please enter Referral Timeout."
+
+#: core/view/arm_affiliate_settings.php:201
+#@ ARM_AFFILIATE
+msgid "Please enter valid Referral Timeout."
+msgstr "Please enter valid Referral Timeout."
+
+#: core/classes/class.arm_aff_affiliate.php:813
+#: core/classes/class.arm_aff_affiliate.php:860
+#: core/classes/class.arm_affiliate_commision_setup.php:30
+#: core/classes/class.arm_affiliate_commision_setup.php:130
+#: core/view/arm_affiliate_commision_setup.php:26
+#: core/view/arm_affiliate_commision_setup.php:34
+#@ ARM_AFFILIATE
+msgid "Referral Rate"
+msgstr "Referral Rate"
+
+#: core/view/arm_affiliate_settings.php:214
+#@ ARM_AFFILIATE
+msgid "Please enter Referral Rate."
+msgstr "Please enter Referral Rate."
+
+#: core/view/arm_affiliate_settings.php:215
+#@ ARM_AFFILIATE
+msgid "Please enter valid Referral Rate."
+msgstr "Please enter valid Referral Rate."
+
+#: core/view/arm_affiliate_settings.php:97
+#@ ARM_AFFILIATE
+msgid "Referral URL"
+msgstr "Referral URL"
+
+#: core/view/arm_affiliate_settings.php:102
+#@ ARM_AFFILIATE
+msgid "Please enter Referral URL."
+msgstr "Please enter Referral URL."
+
+#: core/view/arm_affiliate_settings.php:103
+#@ ARM_AFFILIATE
+msgid "Please enter valid Referral URL."
+msgstr "Please enter valid Referral URL."
+
+#: core/view/arm_affiliate_settings.php:256
+#@ ARM_AFFILIATE
+msgid "Do Not Allow Zero Amount Commission"
+msgstr "Do Not Allow Zero Amount Commission"
+
+#: core/view/arm_affiliate_commision_setup.php:435
+#: core/view/arm_affiliate_commision_setup.php:502
+#: core/view/arm_affiliate_list.php:100
+#: core/view/arm_affiliate_settings.php:368
+#: core/view/arm_banner_add.php:176
+#: core/view/arm_referral_list.php:121
+#@ ARM_AFFILIATE
+msgid "Save"
+msgstr "Save"
+
+#: core/view/arm_affiliate_list_records.php:244
+#: core/view/arm_payout_list.php:77
+#: core/view/arm_referral_list_records.php:341
+#: core/view/arm_statistics_list_records.php:245
+#: core/view/arm_statistics_summery_records.php:218
+#@ ARM_AFFILIATE
+msgid "Start Date"
+msgstr "Start Date"
+
+#: core/view/arm_affiliate_list_records.php:245
+#: core/view/arm_affiliate_list_records.php:249
+#: core/view/arm_payout_list.php:80
+#: core/view/arm_payout_list.php:89
+#: core/view/arm_referral_list_records.php:342
+#: core/view/arm_referral_list_records.php:346
+#: core/view/arm_statistics_list_records.php:246
+#: core/view/arm_statistics_list_records.php:250
+#: core/view/arm_statistics_summery_records.php:219
+#: core/view/arm_statistics_summery_records.php:223
+#@ ARM_AFFILIATE
+msgid "Select Date"
+msgstr "Select Date"
+
+#: core/view/arm_affiliate_list_records.php:248
+#: core/view/arm_payout_list.php:86
+#: core/view/arm_referral_list_records.php:345
+#: core/view/arm_statistics_list_records.php:249
+#: core/view/arm_statistics_summery_records.php:222
+#@ ARM_AFFILIATE
+msgid "End Date"
+msgstr "End Date"
+
+#: core/view/arm_affiliate_list_records.php:256
+#: core/view/arm_payout_list_records.php:190
+#: core/view/arm_referral_list_records.php:353
+#: core/view/arm_statistics_list_records.php:254
+#: core/view/arm_statistics_summery_records.php:227
+#@ ARM_AFFILIATE
+msgid "Apply"
+msgstr "Apply"
+
+#: core/classes/class.arm_aff_payouts.php:145
+#: core/view/arm_payout_list.php:69
+#: core/view/arm_payout_list_records.php:193
+#: core/view/arm_referral_list_records.php:355
+#: core/view/arm_statistics_list_records.php:256
+#: core/view/arm_statistics_summery_records.php:229
+#@ ARM_AFFILIATE
+msgid "Export To CSV"
+msgstr "Export To CSV"
+
+#: core/view/arm_affiliate_commision_setup.php:346
+#: core/view/arm_affiliate_commision_setup.php:395
+#: core/view/arm_affiliate_list_records.php:221
+#: core/view/arm_affiliate_list_records.php:280
+#: core/view/arm_banner_list_records.php:220
+#: core/view/arm_payout_list.php:129
+#: core/view/arm_payout_list_records.php:214
+#: core/view/arm_referral_list_records.php:305
+#: core/view/arm_referral_list_records.php:378
+#: core/view/arm_statistics_list_records.php:277
+#: core/view/arm_statistics_summery_records.php:250
+#@ ARM_AFFILIATE
+msgid "Search"
+msgstr "Search"
+
+#: core/view/arm_referral_list_records.php:379
+#@ ARM_AFFILIATE
+msgid "referrals"
+msgstr "referrals"
+
+#: core/view/arm_affiliate_commision_setup.php:348
+#: core/view/arm_affiliate_commision_setup.php:397
+#: core/view/arm_affiliate_list_records.php:282
+#: core/view/arm_banner_list_records.php:222
+#: core/view/arm_payout_list.php:131
+#: core/view/arm_payout_list_records.php:216
+#: core/view/arm_referral_list_records.php:380
+#: core/view/arm_statistics_list_records.php:279
+#: core/view/arm_statistics_summery_records.php:252
+#@ ARM_AFFILIATE
+msgid "Show"
+msgstr "Show"
+
+#: core/view/arm_affiliate_commision_setup.php:349
+#: core/view/arm_affiliate_commision_setup.php:398
+#: core/view/arm_affiliate_list_records.php:283
+#: core/view/arm_banner_list_records.php:223
+#: core/view/arm_payout_list.php:132
+#: core/view/arm_payout_list_records.php:217
+#: core/view/arm_referral_list_records.php:381
+#: core/view/arm_statistics_list_records.php:280
+#: core/view/arm_statistics_summery_records.php:253
+#@ ARM_AFFILIATE
+msgid "Showing"
+msgstr "Showing"
+
+#: core/view/arm_affiliate_commision_setup.php:350
+#: core/view/arm_affiliate_commision_setup.php:399
+#: core/view/arm_affiliate_list_records.php:284
+#: core/view/arm_banner_list_records.php:224
+#: core/view/arm_payout_list.php:133
+#: core/view/arm_payout_list_records.php:218
+#: core/view/arm_referral_list_records.php:382
+#: core/view/arm_statistics_list_records.php:281
+#: core/view/arm_statistics_summery_records.php:254
+#@ ARM_AFFILIATE
+msgid "to"
+msgstr "to"
+
+#: core/view/arm_affiliate_commision_setup.php:351
+#: core/view/arm_affiliate_commision_setup.php:400
+#: core/view/arm_affiliate_list_records.php:285
+#: core/view/arm_banner_list_records.php:225
+#: core/view/arm_payout_list.php:134
+#: core/view/arm_payout_list_records.php:219
+#: core/view/arm_referral_list_records.php:383
+#: core/view/arm_statistics_list_records.php:282
+#: core/view/arm_statistics_summery_records.php:255
+#@ ARM_AFFILIATE
+msgid "of"
+msgstr "of"
+
+#: core/view/arm_payout_list_records.php:220
+#@ ARM_AFFILIATE
+msgid "No matching payout found."
+msgstr "No matching payout found."
+
+#: core/view/arm_payout_list_records.php:221
+#@ ARM_AFFILIATE
+msgid "No any payout found."
+msgstr "No any payout found."
+
+#: core/view/arm_affiliate_commision_setup.php:354
+#: core/view/arm_affiliate_commision_setup.php:403
+#: core/view/arm_affiliate_list_records.php:288
+#: core/view/arm_banner_list_records.php:228
+#: core/view/arm_payout_list.php:137
+#: core/view/arm_payout_list_records.php:222
+#: core/view/arm_referral_list_records.php:386
+#: core/view/arm_statistics_list_records.php:285
+#: core/view/arm_statistics_summery_records.php:258
+#@ ARM_AFFILIATE
+msgid "filtered from"
+msgstr "filtered from"
+
+#: core/view/arm_affiliate_commision_setup.php:355
+#: core/view/arm_affiliate_commision_setup.php:404
+#: core/view/arm_affiliate_list_records.php:289
+#: core/view/arm_banner_list_records.php:229
+#: core/view/arm_payout_list.php:138
+#: core/view/arm_payout_list_records.php:223
+#: core/view/arm_referral_list_records.php:387
+#: core/view/arm_statistics_list_records.php:286
+#: core/view/arm_statistics_summery_records.php:259
+#@ ARM_AFFILIATE
+msgid "total"
+msgstr "total"
+
+#: core/view/arm_referral_list.php:8
+#@ ARM_AFFILIATE
+msgid "Manage Referrals"
+msgstr "Manage Referrals"
+
+#: core/view/arm_referral_list.php:26
+#@ ARM_AFFILIATE
+msgid "Are you sure you want to delete this referral(s)?"
+msgstr "Are you sure you want to delete this referral(s)?"
+
+#: core/view/arm_referral_list.php:31
+#@ ARM_AFFILIATE
+msgid "Delete Referral(s)"
+msgstr "Delete Referral(s)"
+
+#: core/view/arm_referral_list_records.php:85
+#@ ARM_AFFILIATE
+msgid "Select Plan"
+msgstr "Select Plan"
+
+#: core/view/arm_affiliate_list_records.php:189
+#: core/view/arm_affiliate_list_records.php:207
+#: core/view/arm_banner_list_records.php:170
+#: core/view/arm_banner_list_records.php:188
+#: core/view/arm_referral_list_records.php:262
+#: core/view/arm_referral_list_records.php:280
+#@ ARM_AFFILIATE
+msgid "Bulk Actions"
+msgstr "Bulk Actions"
+
+#: core/view/arm_affiliate_list_records.php:195
+#: core/view/arm_affiliate_list_records.php:213
+#: core/view/arm_banner_list_records.php:176
+#: core/view/arm_banner_list_records.php:194
+#: core/view/arm_referral_list_records.php:268
+#: core/view/arm_referral_list_records.php:286
+#@ ARM_AFFILIATE
+msgid "Go"
+msgstr "Go"
+
+#: core/view/arm_referral_list_records.php:314
+#: core/view/arm_statistics_list_records.php:235
+#: core/view/arm_statistics_summery_records.php:208
+#@ ARM_AFFILIATE
+msgid "Select Plans"
+msgstr "Select Plans"
+
+#: core/view/arm_affiliate_list_records.php:230
+#: core/view/arm_affiliate_list_records.php:231
+#: core/view/arm_referral_list_records.php:328
+#@ ARM_AFFILIATE
+msgid "Select Status"
+msgstr "Select Status"
+
+#: core/view/arm_affiliate_settings.php:233
+#: core/view/arm_referral_list_records.php:330
+#@ ARM_AFFILIATE
+msgid "Pending"
+msgstr "Pending"
+
+#: core/view/arm_affiliate_settings.php:234
+#: core/view/arm_referral_list_records.php:331
+#@ ARM_AFFILIATE
+msgid "Rejected"
+msgstr "Rejected"
+
+#: core/view/arm_referral_list_records.php:384
+#@ ARM_AFFILIATE
+msgid "No matching referral found."
+msgstr "No matching referral found."
+
+#: core/view/arm_referral_list_records.php:385
+#@ ARM_AFFILIATE
+msgid "No any referral found."
+msgstr "No any referral found."
+
+#: core/view/arm_statistics.php:26
+#@ ARM_AFFILIATE
+msgid "Manage Statistics"
+msgstr "Manage Statistics"
+
+#: core/view/arm_statistics.php:92
+#@ ARM_AFFILIATE
+msgid "Total Referrals"
+msgstr "Total Referrals"
+
+#: core/classes/class.arm_aff_statistics.php:179
+#: core/view/arm_statistics_summery_records.php:17
+#@ ARM_AFFILIATE
+msgid "Total Visitor"
+msgstr "Total Visitor"
+
+#: core/view/arm_payout_list.php:123
+#@ ARM_AFFILIATE
+msgid "Date Time"
+msgstr "Date Time"
+
+#: core/widgets/class.arm_aff_dashboard_widgets.php:144
+#@ ARM_AFFILIATE
+msgid "View All Referrals"
+msgstr "View All Referrals"
+
+#: core/widgets/class.arm_aff_dashboard_widgets.php:150
+#@ ARM_AFFILIATE
+msgid "There is no any recent referrals found."
+msgstr "There is no any recent referrals found."
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:138
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:311
+#@ ARM_AFFILIATE
+msgid "Select Social Network(s) to Share Affiliate Link"
+msgstr "Select Social Network(s) to Share Affiliate Link"
+
+#: armemberaffiliate.php:337
+#: armemberaffiliate.php:799
+#: armemberaffiliate.php:800
+#@ ARM_AFFILIATE
+msgid "Manage Affiliate"
+msgstr "Manage Affiliate"
+
+#: armemberaffiliate.php:343
+#: armemberaffiliate.php:829
+#: armemberaffiliate.php:830
+#: core/view/arm_banner_list.php:7
+#@ ARM_AFFILIATE
+msgid "Manage Banners"
+msgstr "Manage Banners"
+
+#: armemberaffiliate.php:845
+#: core/classes/class.arm_affiliate_woocommerce.php:108
+#: core/classes/class.arm_affiliate_woocommerce.php:131
+#@ ARM_AFFILIATE
+msgid "ARMember Affiliate"
+msgstr "ARMember Affiliate"
+
+#: core/classes/class.arm_aff_affiliate.php:10
+#: core/classes/class.arm_aff_payouts.php:10
+#: core/classes/class.arm_aff_referrals.php:11
+#@ ARM_AFFILIATE
+msgid "pending"
+msgstr "pending"
+
+#: core/classes/class.arm_aff_affiliate.php:11
+#: core/classes/class.arm_aff_payouts.php:11
+#@ ARM_AFFILIATE
+msgid "unpaid"
+msgstr "unpaid"
+
+#: core/classes/class.arm_aff_affiliate.php:12
+#: core/classes/class.arm_aff_payouts.php:12
+#: core/classes/class.arm_aff_referrals.php:13
+#@ ARM_AFFILIATE
+msgid "paid"
+msgstr "paid"
+
+#: core/classes/class.arm_aff_affiliate.php:13
+#: core/classes/class.arm_aff_payouts.php:13
+#: core/classes/class.arm_aff_referrals.php:14
+#@ ARM_AFFILIATE
+msgid "rejected"
+msgstr "rejected"
+
+#: core/classes/class.arm_aff_affiliate.php:392
+#: core/classes/class.arm_aff_affiliate.php:410
+#: core/classes/class.arm_aff_referrals.php:620
+#@ ARM_AFFILIATE
+msgid "Affiliate user saved successfully"
+msgstr "Affiliate user saved successfully"
+
+#: core/classes/class.arm_aff_affiliate.php:415
+#@ ARM_AFFILIATE
+msgid "Sorry, User not found."
+msgstr "Sorry, User not found."
+
+#: core/classes/class.arm_aff_affiliate.php:440
+#: core/classes/class.arm_affiliate_commision_setup.php:127
+#: core/view/arm_affiliate_commision_setup.php:31
+#: core/view/arm_affiliate_commision_setup.php:486
+#: core/view/arm_affiliate_list_records.php:15
+#: core/view/arm_affiliate_settings.php:121
+#: core/view/arm_referral_list.php:80
+#@ ARM_AFFILIATE
+msgid "Username"
+msgstr "Username"
+
+#: core/classes/class.arm_aff_affiliate.php:441
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:159
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:332
+#: core/view/arm_affiliate_list_records.php:16
+#@ ARM_AFFILIATE
+msgid "Email"
+msgstr "Email"
+
+#: core/classes/class.arm_aff_affiliate.php:442
+#: core/view/arm_affiliate_list_records.php:17
+#@ ARM_AFFILIATE
+msgid "Affiliate Starts From"
+msgstr "Affiliate Starts From"
+
+#: core/classes/class.arm_aff_affiliate.php:444
+#@ ARM_AFFILIATE
+msgid "Affiliate Link"
+msgstr "Affiliate Link"
+
+#: core/classes/class.arm_aff_affiliate.php:447
+#: core/classes/class.arm_aff_statistics.php:182
+#: core/view/arm_affiliate_list_records.php:22
+#: core/view/arm_statistics_summery_records.php:20
+#@ ARM_AFFILIATE
+msgid "Revenue Amount"
+msgstr "Revenue Amount"
+
+#: core/classes/class.arm_aff_affiliate.php:582
+#@ ARM_AFFILIATE
+msgid "Are you sure you want to delete this affiliate user?"
+msgstr "Are you sure you want to delete this affiliate user?"
+
+#: core/classes/class.arm_aff_affiliate.php:613
+#: core/classes/class.arm_affiliate_commision_setup.php:559
+#@ ARM_AFFILIATE
+msgid "Sorry, You do not have permission to perform this action."
+msgstr "Sorry, You do not have permission to perform this action."
+
+#: core/classes/class.arm_aff_affiliate.php:617
+#@ ARM_AFFILIATE
+msgid "Affiliate is deleted successfully."
+msgstr "Affiliate is deleted successfully."
+
+#: core/classes/class.arm_aff_affiliate.php:623
+#: core/classes/class.arm_affiliate_commision_setup.php:568
+#@ ARM_AFFILIATE
+msgid "Sorry, Action not found."
+msgstr "Sorry, Action not found."
+
+#: core/classes/class.arm_aff_affiliate.php:661
+#@ ARM_AFFILIATE
+msgid "Affiliate(s) has been deleted successfully."
+msgstr "Affiliate(s) has been deleted successfully."
+
+#: core/classes/class.arm_aff_affiliate.php:785
+#@ ARM_AFFILIATE
+msgid "Enable Affiliate Referral"
+msgstr "Enable Affiliate Referral"
+
+#: core/classes/class.arm_aff_affiliate.php:799
+#: core/classes/class.arm_aff_affiliate.php:846
+#: core/classes/class.arm_affiliate_commision_setup.php:29
+#: core/classes/class.arm_affiliate_commision_setup.php:129
+#: core/view/arm_affiliate_commision_setup.php:25
+#: core/view/arm_affiliate_commision_setup.php:33
+#@ ARM_AFFILIATE
+msgid "Referral Type"
+msgstr "Referral Type"
+
+#: core/classes/class.arm_aff_affiliate.php:804
+#: core/classes/class.arm_aff_affiliate.php:851
+#: core/classes/class.arm_affiliate_commision_setup.php:73
+#: core/view/arm_affiliate_commision_setup.php:310
+#@ ARM_AFFILIATE
+msgid "Percentage"
+msgstr "Percentage"
+
+#: core/classes/class.arm_aff_affiliate.php:806
+#: core/classes/class.arm_aff_affiliate.php:853
+#: core/classes/class.arm_affiliate_commision_setup.php:76
+#: core/view/arm_affiliate_commision_setup.php:313
+#@ ARM_AFFILIATE
+msgid "Fixed Rate"
+msgstr "Fixed Rate"
+
+#: core/classes/class.arm_aff_affiliate.php:817
+#: core/classes/class.arm_aff_affiliate.php:864
+#@ ARM_AFFILIATE
+msgid "%"
+msgstr "%"
+
+#: core/classes/class.arm_aff_banner.php:71
+#@ ARM_AFFILIATE
+msgid "Sorry! Not able to upload  file."
+msgstr "Sorry! Not able to upload  file."
+
+#: core/classes/class.arm_aff_banner.php:77
+#@ ARM_AFFILIATE
+msgid "Please select valid file."
+msgstr "Please select valid file."
+
+#: core/classes/class.arm_aff_banner.php:156
+#@ ARM_AFFILIATE
+msgid "Banner detail has beed updated successfully."
+msgstr "Banner detail has beed updated successfully."
+
+#: core/classes/class.arm_aff_banner.php:175
+#@ ARM_AFFILIATE
+msgid "New banner has been added successfully."
+msgstr "New banner has been added successfully."
+
+#: core/classes/class.arm_aff_banner.php:219
+#: core/view/arm_banner_add.php:112
+#: core/view/arm_banner_list_records.php:7
+#@ ARM_AFFILIATE
+msgid "Banner"
+msgstr "Banner"
+
+#: core/classes/class.arm_aff_banner.php:220
+#: core/view/arm_banner_list_records.php:8
+#@ ARM_AFFILIATE
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: core/classes/class.arm_aff_banner.php:222
+#: core/view/arm_banner_add.php:136
+#: core/view/arm_banner_list_records.php:10
+#@ ARM_AFFILIATE
+msgid "Link"
+msgstr "Link"
+
+#: core/classes/class.arm_aff_banner.php:282
+#@ ARM_AFFILIATE
+msgid "Edit Banner"
+msgstr "Edit Banner"
+
+#: core/classes/class.arm_aff_banner.php:285
+#@ ARM_AFFILIATE
+msgid "Are you sure you want to delete this banner?"
+msgstr "Are you sure you want to delete this banner?"
+
+#: core/classes/class.arm_aff_banner.php:313
+#@ ARM_AFFILIATE
+msgid "banner is deleted successfully."
+msgstr "banner is deleted successfully."
+
+#: core/classes/class.arm_aff_banner.php:350
+#@ ARM_AFFILIATE
+msgid "banner(s) has been deleted successfully."
+msgstr "banner(s) has been deleted successfully."
+
+#: core/classes/class.arm_aff_layout.php:341
+#: core/classes/class.arm_aff_layout.php:375
+#: core/classes/class.arm_aff_layout.php:382
+#@ ARM_AFFILIATE
+msgid "No."
+msgstr "No."
+
+#: core/classes/class.arm_aff_layout.php:347
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:223
+#@ ARM_AFFILIATE
+msgid "There is no any referral found"
+msgstr "There is no any referral found"
+
+#: core/classes/class.arm_aff_layout.php:561
+#@ ARM_AFFILIATE
+msgid "Tr No"
+msgstr "Tr No"
+
+#: core/classes/class.arm_aff_layout.php:561
+#@ ARM_AFFILIATE
+msgid "Payout Date"
+msgstr "Payout Date"
+
+#: core/classes/class.arm_aff_layout.php:561
+#: core/classes/class.arm_aff_layout.php:614
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:258
+#: core/view/arm_payout_list.php:125
+#@ ARM_AFFILIATE
+msgid "Balance"
+msgstr "Balance"
+
+#: core/classes/class.arm_aff_layout.php:569
+#@ ARM_AFFILIATE
+msgid "There is no any payout found"
+msgstr "There is no any payout found"
+
+#: core/classes/class.arm_aff_payouts.php:40
+#: core/view/arm_payout_list_records.php:12
+#@ ARM_AFFILIATE
+msgid "Total Earning"
+msgstr "Total Earning"
+
+#: core/classes/class.arm_aff_payouts.php:41
+#: core/view/arm_payout_list_records.php:13
+#@ ARM_AFFILIATE
+msgid "Paid Amount"
+msgstr "Paid Amount"
+
+#: core/classes/class.arm_aff_payouts.php:42
+#: core/view/arm_payout_list_records.php:14
+#@ ARM_AFFILIATE
+msgid "Due Amount"
+msgstr "Due Amount"
+
+#: core/classes/class.arm_aff_payouts.php:147
+#: core/view/arm_payout_list.php:116
+#@ ARM_AFFILIATE
+msgid "Payment History"
+msgstr "Payment History"
+
+#: core/classes/class.arm_aff_payouts.php:149
+#@ ARM_AFFILIATE
+msgid "Pay To User"
+msgstr "Pay To User"
+
+#: core/classes/class.arm_aff_payouts.php:160
+#@ ARM_AFFILIATE
+msgid "Pay"
+msgstr "Pay"
+
+#: core/classes/class.arm_aff_payouts.php:234
+#@ ARM_AFFILIATE
+msgid "You will not able to pay more than commission amount"
+msgstr "You will not able to pay more than commission amount"
+
+#: core/classes/class.arm_aff_payouts.php:252
+#@ ARM_AFFILIATE
+msgid "Amount paid successfully."
+msgstr "Amount paid successfully."
+
+#: core/classes/class.arm_aff_payouts.php:340
+#@ ARM_AFFILIATE
+msgid "No any payments found for export to CSV."
+msgstr "No any payments found for export to CSV."
+
+#: core/classes/class.arm_aff_referrals.php:12
+#@ ARM_AFFILIATE
+msgid "accepted"
+msgstr "accepted"
+
+#: core/classes/class.arm_aff_referrals.php:398
+#: core/classes/class.arm_aff_referrals.php:408
+#: core/classes/class.arm_aff_statistics.php:38
+#: core/classes/class.arm_aff_statistics.php:181
+#: core/view/arm_referral_list_records.php:18
+#: core/view/arm_referral_list_records.php:32
+#: core/view/arm_statistics_list_records.php:22
+#: core/view/arm_statistics_summery_records.php:19
+#@ ARM_AFFILIATE
+msgid "Commission"
+msgstr "Commission"
+
+#: core/classes/class.arm_aff_referrals.php:399
+#: core/classes/class.arm_aff_referrals.php:409
+#: core/classes/class.arm_aff_statistics.php:39
+#: core/view/arm_referral_list_records.php:19
+#: core/view/arm_referral_list_records.php:33
+#: core/view/arm_statistics_list_records.php:23
+#@ ARM_AFFILIATE
+msgid "Membership Plan"
+msgstr "Membership Plan"
+
+#: core/classes/class.arm_aff_referrals.php:400
+#: core/classes/class.arm_aff_referrals.php:410
+#: core/classes/class.arm_aff_statistics.php:37
+#: core/view/arm_referral_list_records.php:20
+#: core/view/arm_referral_list_records.php:34
+#: core/view/arm_statistics_list_records.php:21
+#@ ARM_AFFILIATE
+msgid "Referred User"
+msgstr "Referred User"
+
+#: core/classes/class.arm_aff_referrals.php:401
+#: core/classes/class.arm_aff_referrals.php:412
+#: core/view/arm_referral_list_records.php:21
+#: core/view/arm_referral_list_records.php:36
+#@ ARM_AFFILIATE
+msgid "Referral Date"
+msgstr "Referral Date"
+
+#: core/classes/class.arm_aff_referrals.php:547
+#@ ARM_AFFILIATE
+msgid "Edit Referral Amount"
+msgstr "Edit Referral Amount"
+
+#: core/classes/class.arm_aff_statistics.php:30
+#: core/classes/class.arm_aff_statistics.php:177
+#: core/view/arm_statistics_list_records.php:14
+#: core/view/arm_statistics_summery_records.php:15
+#@ ARM_AFFILIATE
+msgid "SR. No"
+msgstr "SR. No"
+
+#: core/classes/class.arm_aff_statistics.php:32
+#: core/view/arm_statistics_list_records.php:16
+#@ ARM_AFFILIATE
+msgid "Browser"
+msgstr "Browser"
+
+#: core/classes/class.arm_aff_statistics.php:33
+#: core/view/arm_statistics_list_records.php:17
+#@ ARM_AFFILIATE
+msgid "IP"
+msgstr "IP"
+
+#: core/classes/class.arm_aff_statistics.php:34
+#: core/view/arm_statistics_list_records.php:18
+#@ ARM_AFFILIATE
+msgid "Country"
+msgstr "Country"
+
+#: core/classes/class.arm_aff_statistics.php:35
+#: core/view/arm_statistics_list_records.php:19
+#@ ARM_AFFILIATE
+msgid "Converted"
+msgstr "Converted"
+
+#: core/classes/class.arm_aff_statistics.php:180
+#: core/view/arm_statistics_summery_records.php:18
+#@ ARM_AFFILIATE
+msgid "Total Converted"
+msgstr "Total Converted"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:19
+#@ ARM_AFFILIATE
+msgid "Affiliate"
+msgstr "Affiliate"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:33
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:40
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:295
+#@ ARM_AFFILIATE
+msgid "Select Option"
+msgstr "Select Option"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:45
+#@ ARM_AFFILIATE
+msgid "Affiliate User Payment"
+msgstr "Affiliate User Payment"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:46
+#@ ARM_AFFILIATE
+msgid "Affiliate Banner"
+msgstr "Affiliate Banner"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:233
+#@ ARM_AFFILIATE
+msgid "User Payments"
+msgstr "User Payments"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:266
+#@ ARM_AFFILIATE
+msgid "Payouts"
+msgstr "Payouts"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:278
+#@ ARM_AFFILIATE
+msgid "There is no any payouts found"
+msgstr "There is no any payouts found"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:288
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:295
+#@ ARM_AFFILIATE
+msgid "Select Banner"
+msgstr "Select Banner"
+
+#: core/classes/class.arm_affiliate_settings.php:174
+#: core/classes/class.arm_affiliate_settings.php:184
+#@ ARM_AFFILIATE
+msgid "Notify the affiliates when credited with a referral"
+msgstr "Notify the affiliates when credited with a referral"
+
+#: core/classes/class.arm_affiliate_settings.php:175
+#: core/classes/class.arm_affiliate_settings.php:187
+#@ ARM_AFFILIATE
+msgid "Notify admin when one user refer to other user"
+msgstr "Notify admin when one user refer to other user"
+
+#: core/classes/class.arm_affiliate_settings.php:201
+#@ ARM_AFFILIATE
+msgid "Affiliate Add-on Documentation"
+msgstr "Affiliate Add-on Documentation"
+
+#: core/view/arm_affiliate_list.php:8
+#@ ARM_AFFILIATE
+msgid "Manage Affiliate Users"
+msgstr "Manage Affiliate Users"
+
+#: core/view/arm_affiliate_list.php:12
+#: core/view/arm_affiliate_list.php:77
+#@ ARM_AFFILIATE
+msgid "Create Affiliate User"
+msgstr "Create Affiliate User"
+
+#: core/view/arm_affiliate_list.php:28
+#@ ARM_AFFILIATE
+msgid "Are you sure you want to delete this affiliate user(s)?"
+msgstr "Are you sure you want to delete this affiliate user(s)?"
+
+#: core/view/arm_affiliate_list.php:33
+#@ ARM_AFFILIATE
+msgid "Delete Affiliate user(s)"
+msgstr "Delete Affiliate user(s)"
+
+#: core/view/arm_affiliate_list.php:83
+#@ ARM_AFFILIATE
+msgid "Select User"
+msgstr "Select User"
+
+#: core/view/arm_affiliate_list.php:86
+#: core/view/arm_affiliate_list.php:89
+#@ ARM_AFFILIATE
+msgid "Please select user."
+msgstr "Please select user."
+
+#: core/view/arm_affiliate_list_records.php:19
+#@ ARM_AFFILIATE
+msgid "Affiliate Id"
+msgstr "Affiliate Id"
+
+#: core/view/arm_affiliate_list_records.php:232
+#: core/view/arm_banner_add.php:165
+#@ ARM_AFFILIATE
+msgid "Active"
+msgstr "Active"
+
+#: core/view/arm_affiliate_list_records.php:233
+#: core/view/arm_banner_add.php:168
+#@ ARM_AFFILIATE
+msgid "Inactive"
+msgstr "Inactive"
+
+#: core/view/arm_affiliate_commision_setup.php:396
+#: core/view/arm_affiliate_list_records.php:281
+#: core/view/arm_banner_list_records.php:221
+#: core/view/arm_statistics_list_records.php:278
+#: core/view/arm_statistics_summery_records.php:251
+#@ ARM_AFFILIATE
+msgid "affiliates"
+msgstr "affiliates"
+
+#: core/view/arm_affiliate_commision_setup.php:401
+#: core/view/arm_affiliate_list_records.php:286
+#: core/view/arm_banner_list_records.php:226
+#: core/view/arm_statistics_list_records.php:283
+#: core/view/arm_statistics_summery_records.php:256
+#@ ARM_AFFILIATE
+msgid "No matching affiliate user found."
+msgstr "No matching affiliate user found."
+
+#: core/view/arm_affiliate_commision_setup.php:402
+#: core/view/arm_affiliate_list_records.php:287
+#: core/view/arm_banner_list_records.php:227
+#: core/view/arm_statistics_list_records.php:284
+#: core/view/arm_statistics_summery_records.php:257
+#@ ARM_AFFILIATE
+msgid "No any affiliate user found."
+msgstr "No any affiliate user found."
+
+#: core/view/arm_affiliate_settings.php:81
+#@ ARM_AFFILIATE
+msgid " Affiliate URL Parameter name"
+msgstr " Affiliate URL Parameter name"
+
+#: core/view/arm_affiliate_settings.php:82
+#: core/view/arm_affiliate_settings.php:306
+#@ ARM_AFFILIATE
+msgid "Whenever you will change this parameter name existing affiliate URLs will be affected. Old Affiliate URLs will be stopped working.( So Please do not change until its necessary. )"
+msgstr "Whenever you will change this parameter name existing affiliate URLs will be affected. Old Affiliate URLs will be stopped working.( So Please do not change until its necessary. )"
+
+#: core/view/arm_affiliate_settings.php:192
+#@ ARM_AFFILIATE
+msgid "Referral Cookie Expiration"
+msgstr "Referral Cookie Expiration"
+
+#: core/view/arm_affiliate_settings.php:193
+#@ ARM_AFFILIATE
+msgid "Enter number of days you want to keep valid generated affiliate URL in users browser."
+msgstr "Enter number of days you want to keep valid generated affiliate URL in users browser."
+
+#: core/view/arm_affiliate_settings.php:197
+#@ ARM_AFFILIATE
+msgid "Days"
+msgstr "Days"
+
+#: core/view/arm_affiliate_settings.php:198
+#@ ARM_AFFILIATE
+msgid "If you enter 0, referrals will only be valid until the visitor closes the browser (session)."
+msgstr "If you enter 0, referrals will only be valid until the visitor closes the browser (session)."
+
+#: core/view/arm_affiliate_settings.php:199
+#@ ARM_AFFILIATE
+msgid "The default value is 1. In this case, if a visitor comes to your site via an affiliate link,<br/> a suggested referral will be valid until 1 days after she or he clicked that affiliate link."
+msgstr "The default value is 1. In this case, if a visitor comes to your site via an affiliate link,<br/> a suggested referral will be valid until 1 days after she or he clicked that affiliate link."
+
+#: core/view/arm_affiliate_settings.php:208
+#@ ARM_AFFILIATE
+msgid "Default Referral Amount"
+msgstr "Default Referral Amount"
+
+#: core/view/arm_affiliate_settings.php:209
+#@ ARM_AFFILIATE
+msgid "If user will signup without any plan selection of ARMember than default amount entered here will be considered."
+msgstr "If user will signup without any plan selection of ARMember than default amount entered here will be considered."
+
+#: core/view/arm_affiliate_settings.php:98
+#@ ARM_AFFILIATE
+msgid "Set page URL that you want to referral visit the page first."
+msgstr "Set page URL that you want to referral visit the page first."
+
+#: core/view/arm_affiliate_settings.php:222
+#@ ARM_AFFILIATE
+msgid "Default Referral Status"
+msgstr "Default Referral Status"
+
+#: core/view/arm_affiliate_settings.php:223
+#@ ARM_AFFILIATE
+msgid "Set default referral status."
+msgstr "Set default referral status."
+
+#: core/view/arm_affiliate_settings.php:232
+#: core/view/arm_referral_list_records.php:329
+#@ ARM_AFFILIATE
+msgid "Accepted"
+msgstr "Accepted"
+
+#: core/view/arm_affiliate_settings.php:243
+#@ ARM_AFFILIATE
+msgid "Allow Referrals when Renew / Change Plan"
+msgstr "Allow Referrals when Renew / Change Plan"
+
+#: core/view/arm_affiliate_settings.php:244
+#@ ARM_AFFILIATE
+msgid "Allow affiliate user to get referral commission when any referred user will change / renew his membership plan."
+msgstr "Allow affiliate user to get referral commission when any referred user will change / renew his membership plan."
+
+#: core/view/arm_affiliate_settings.php:268
+#@ ARM_AFFILIATE
+msgid "Automatic Create Affiliate link upon new Registration"
+msgstr "Automatic Create Affiliate link upon new Registration"
+
+#: core/view/arm_affiliate_settings.php:269
+#@ ARM_AFFILIATE
+msgid "Allow newly registered user to become affiliate user by default."
+msgstr "Allow newly registered user to become affiliate user by default."
+
+#: core/view/arm_banner_add.php:13
+#@ ARM_AFFILIATE
+msgid "Add New Banner"
+msgstr "Add New Banner"
+
+#: core/view/arm_banner_add.php:35
+#@ ARM_AFFILIATE
+msgid "Update Banner"
+msgstr "Update Banner"
+
+#: core/view/arm_banner_add.php:94
+#@ ARM_AFFILIATE
+msgid "Title can not be left blank."
+msgstr "Title can not be left blank."
+
+#: core/view/arm_banner_add.php:101
+#@ ARM_AFFILIATE
+msgid "Description"
+msgstr "Description"
+
+#: core/view/arm_banner_add.php:122
+#@ ARM_AFFILIATE
+msgid "Please select Banner file."
+msgstr "Please select Banner file."
+
+#: core/view/arm_banner_add.php:140
+#@ ARM_AFFILIATE
+msgid "Link can not be left blank."
+msgstr "Link can not be left blank."
+
+#: core/view/arm_banner_add.php:141
+#@ ARM_AFFILIATE
+msgid "Please insert link with http or https."
+msgstr "Please insert link with http or https."
+
+#: core/view/arm_banner_add.php:148
+#@ ARM_AFFILIATE
+msgid "Open Link In New Tab"
+msgstr "Open Link In New Tab"
+
+#: core/view/arm_banner_add.php:177
+#@ ARM_AFFILIATE
+msgid "Close"
+msgstr "Close"
+
+#: core/view/arm_banner_list.php:11
+#@ ARM_AFFILIATE
+msgid "Add Banner"
+msgstr "Add Banner"
+
+#: core/view/arm_banner_list.php:27
+#@ ARM_AFFILIATE
+msgid "Are you sure you want to delete this banner(s)?"
+msgstr "Are you sure you want to delete this banner(s)?"
+
+#: core/view/arm_banner_list.php:32
+#@ ARM_AFFILIATE
+msgid "Delete Banner(s)"
+msgstr "Delete Banner(s)"
+
+#: core/view/arm_payout_list.php:100
+#@ ARM_AFFILIATE
+msgid "Export"
+msgstr "Export"
+
+#: core/view/arm_payout_list.php:122
+#@ ARM_AFFILIATE
+msgid "Tr. Id"
+msgstr "Tr. Id"
+
+#: core/view/arm_payout_list.php:130
+#@ ARM_AFFILIATE
+msgid "payment"
+msgstr "payment"
+
+#: core/view/arm_payout_list.php:135
+#@ ARM_AFFILIATE
+msgid "No payment found"
+msgstr "No payment found"
+
+#: core/view/arm_payout_list.php:136
+#@ ARM_AFFILIATE
+msgid "There is no any payment found."
+msgstr "There is no any payment found."
+
+#: core/view/arm_payout_list_records.php:215
+#@ ARM_AFFILIATE
+msgid "payout"
+msgstr "payout"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:93
+#: core/classes/class.arm_affiliate_commision_setup.php:210
+#: core/view/arm_affiliate_commision_setup.php:324
+#: core/view/arm_referral_list.php:72
+#@ ARM_AFFILIATE
+msgid "Edit Referral"
+msgstr "Edit Referral"
+
+#: core/view/arm_referral_list.php:89
+#@ ARM_AFFILIATE
+msgid "Reference Username"
+msgstr "Reference Username"
+
+#: core/view/arm_referral_list_records.php:309
+#: core/view/arm_statistics_list_records.php:230
+#: core/view/arm_statistics_summery_records.php:203
+#@ ARM_AFFILIATE
+msgid "Membership"
+msgstr "Membership"
+
+#: core/classes/class.arm_aff_layout.php:1393
+#: core/view/arm_statistics.php:38
+#: core/view/arm_statistics.php:51
+#: core/view/arm_statistics.php:64
+#: core/view/arm_statistics.php:79
+#: core/view/arm_statistics.php:105
+#@ ARM_AFFILIATE
+msgid "Total"
+msgstr "Total"
+
+#: core/classes/class.arm_aff_layout.php:1394
+#: core/view/arm_statistics.php:42
+#: core/view/arm_statistics.php:55
+#: core/view/arm_statistics.php:68
+#: core/view/arm_statistics.php:83
+#: core/view/arm_statistics.php:96
+#: core/view/arm_statistics.php:109
+#@ ARM_AFFILIATE
+msgid "Current Month"
+msgstr "Current Month"
+
+#: core/view/arm_statistics.php:125
+#@ ARM_AFFILIATE
+msgid "Visits"
+msgstr "Visits"
+
+#: core/view/arm_statistics_list_records.php:213
+#@ ARM_AFFILIATE
+msgid "Select user(s).."
+msgstr "Select user(s).."
+
+#: core/view/arm_statistics_list_records.php:221
+#@ ARM_AFFILIATE
+msgid "No Users Available"
+msgstr "No Users Available"
+
+#: armemberaffiliate.php:717
+#@ ARM_AFFILIATE
+msgid "Settings has been saved successfully."
+msgstr "Settings has been saved successfully."
+
+#: armemberaffiliate.php:718
+#@ ARM_AFFILIATE
+msgid "There is a error while updating settings, please try again."
+msgstr "There is a error while updating settings, please try again."
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:134
+#@ ARM_AFFILIATE
+msgid "URL"
+msgstr "URL"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:134
+#@ ARM_AFFILIATE
+msgid ": It will be replaced with user's affiliate URL."
+msgstr ": It will be replaced with user's affiliate URL."
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:143
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:316
+#@ ARM_AFFILIATE
+msgid "Facebook"
+msgstr "Facebook"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:147
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:320
+#@ ARM_AFFILIATE
+msgid "Twitter"
+msgstr "Twitter"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:151
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:324
+#@ ARM_AFFILIATE
+msgid "Linked In"
+msgstr "Linked In"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:155
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:328
+#@ ARM_AFFILIATE
+msgid "VKontakt"
+msgstr "VKontakt"
+
+#: core/view/arm_banner_add.php:130
+#@ ARM_AFFILIATE
+msgid "Please select banner file."
+msgstr "Please select banner file."
+
+#: armemberaffiliate.php:344
+#@ ARM_AFFILIATE
+msgid "Migration"
+msgstr "Migration"
+
+#: armemberaffiliate.php:601
+#@ ARM_AFFILIATE
+msgid "ARMember Affiliate plugin requires ARMember Plugin installed and active."
+msgstr "ARMember Affiliate plugin requires ARMember Plugin installed and active."
+
+#: armemberaffiliate.php:719
+#@ ARM_AFFILIATE
+msgid "Your data is migrated successfully."
+msgstr "Your data is migrated successfully."
+
+#: armemberaffiliate.php:720
+#: core/classes/class.arm_affiliate_migration.php:339
+#: core/classes/class.arm_affiliate_migration.php:540
+#@ ARM_AFFILIATE
+msgid "There is a error while migrating data, please try again."
+msgstr "There is a error while migrating data, please try again."
+
+#: armemberaffiliate.php:1169
+#@ ARM_AFFILIATE
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armemberaffiliate.php:1174
+#@ ARM_AFFILIATE
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: core/classes/class.arm_aff_affiliate.php:898
+#@ ARM_AFFILIATE
+msgid "There is an error while creating affiliate, please try again."
+msgstr "There is an error while creating affiliate, please try again."
+
+#: core/classes/class.arm_aff_affiliate.php:908
+#@ ARM_AFFILIATE
+msgid "Please enter required data properly."
+msgstr "Please enter required data properly."
+
+#: core/classes/class.arm_aff_affiliate.php:929
+#@ ARM_AFFILIATE
+msgid "This user has already created affiliate account."
+msgstr "This user has already created affiliate account."
+
+#: core/classes/class.arm_aff_affiliate.php:966
+#@ ARM_AFFILIATE
+msgid "Affiliate account is created successfully."
+msgstr "Affiliate account is created successfully."
+
+#: core/classes/class.arm_aff_layout.php:774
+#@ ARM_AFFILIATE
+msgid "Affiliate Account"
+msgstr "Affiliate Account"
+
+#: core/classes/class.arm_aff_layout.php:780
+#: core/classes/class.arm_affiliate_commision_setup.php:126
+#: core/view/arm_affiliate_commision_setup.php:30
+#@ ARM_AFFILIATE
+msgid "Affiliate ID"
+msgstr "Affiliate ID"
+
+#: core/classes/class.arm_aff_layout.php:785
+#@ ARM_AFFILIATE
+msgid "Affiliate Referral URL"
+msgstr "Affiliate Referral URL"
+
+#: core/classes/class.arm_aff_layout.php:825
+#@ ARM_AFFILIATE
+msgid "Website"
+msgstr "Website"
+
+#: core/classes/class.arm_aff_layout.php:833
+#@ ARM_AFFILIATE
+msgid "About Your Website"
+msgstr "About Your Website"
+
+#: core/classes/class.arm_aff_referrals.php:411
+#: core/view/arm_referral_list_records.php:35
+#@ ARM_AFFILIATE
+msgid "Order"
+msgstr "Order"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:47
+#@ ARM_AFFILIATE
+msgid "Affiliate Register"
+msgstr "Affiliate Register"
+
+#: core/classes/class.arm_affiliate_migration.php:45
+#: core/classes/class.arm_affiliate_migration.php:55
+#@ ARM_AFFILIATE
+msgid "There is an error while migrating data, please try again."
+msgstr "There is an error while migrating data, please try again."
+
+#: core/classes/class.arm_affiliate_migration.php:62
+#: core/classes/class.arm_affiliate_migration.php:827
+#@ ARM_AFFILIATE
+msgid "You must install and activate selected plugin to migrate data from that."
+msgstr "You must install and activate selected plugin to migrate data from that."
+
+#: core/classes/class.arm_affiliate_migration.php:149
+#: core/classes/class.arm_affiliate_migration.php:239
+#: core/classes/class.arm_affiliate_migration.php:247
+#@ ARM_AFFILIATE
+msgid "Your Data Migrated Successfully."
+msgstr "Your Data Migrated Successfully."
+
+#: core/classes/class.arm_affiliate_migration.php:275
+#: core/classes/class.arm_affiliate_migration.php:471
+#@ ARM_AFFILIATE
+msgid "Already Exist affiliates in ARMemeber Affilieates."
+msgstr "Already Exist affiliates in ARMemeber Affilieates."
+
+#: core/classes/class.arm_affiliate_migration.php:814
+#@ ARM_AFFILIATE
+msgid "Sorry, your existing affiliate accounts detail are not available."
+msgstr "Sorry, your existing affiliate accounts detail are not available."
+
+#: core/classes/class.arm_affiliate_migration.php:816
+#@ ARM_AFFILIATE
+msgid "There is no database table exist for plugin from where you are trying to migrate data."
+msgstr "There is no database table exist for plugin from where you are trying to migrate data."
+
+#: core/classes/class.arm_affiliate_migration.php:821
+#: core/classes/class.arm_affiliate_migration.php:944
+#@ ARM_AFFILIATE
+msgid "Please select plugin from where to migrate affiliate accounts."
+msgstr "Please select plugin from where to migrate affiliate accounts."
+
+#: core/classes/class.arm_affiliate_woocommerce.php:71
+#@ ARM_AFFILIATE
+msgid "Select Affiliate"
+msgstr "Select Affiliate"
+
+#: core/classes/class.arm_affiliate_woocommerce.php:149
+#@ ARM_AFFILIATE
+msgid "ARMember Affiliates commission rate on each sale of this product"
+msgstr "ARMember Affiliates commission rate on each sale of this product"
+
+#: core/classes/class.arm_affiliate_woocommerce.php:155
+#@ ARM_AFFILIATE
+msgid "ARMember Affiliate Rate"
+msgstr "ARMember Affiliate Rate"
+
+#: core/classes/class.arm_affiliate_woocommerce.php:156
+#@ ARM_AFFILIATE
+msgid "( Blank is considered to use default rates. )"
+msgstr "( Blank is considered to use default rates. )"
+
+#: core/classes/class.arm_affiliate_woocommerce.php:163
+#@ ARM_AFFILIATE
+msgid "Disable affiliate commission on sale of this product."
+msgstr "Disable affiliate commission on sale of this product."
+
+#: core/view/arm_affiliate_migration.php:21
+#@ ARM_AFFILIATE
+msgid "Please select plugin from where you would like to migrate affiliate accounts."
+msgstr "Please select plugin from where you would like to migrate affiliate accounts."
+
+#: core/view/arm_affiliate_migration.php:41
+#@ ARM_AFFILIATE
+msgid "There are {WP_AFFILIATE_RECORDS} total affiliates to migrate from {WP_AFFILIATE} plugin."
+msgstr "There are {WP_AFFILIATE_RECORDS} total affiliates to migrate from {WP_AFFILIATE} plugin."
+
+#: core/view/arm_affiliate_migration.php:42
+#@ ARM_AFFILIATE
+msgid "Make sure to change Affiliate URL Parameter name same as you have set for {WP_AFFILIATE} plugin."
+msgstr "Make sure to change Affiliate URL Parameter name same as you have set for {WP_AFFILIATE} plugin."
+
+#: core/view/arm_affiliate_migration.php:43
+#@ ARM_AFFILIATE
+msgid "While migrating banner/creative if there is already exist banner with same id then it will be skipped to be migrated."
+msgstr "While migrating banner/creative if there is already exist banner with same id then it will be skipped to be migrated."
+
+#: core/view/arm_affiliate_migration.php:44
+#@ ARM_AFFILIATE
+msgid "After complete migration please check affiliate settings first to make all user referral URL working properly."
+msgstr "After complete migration please check affiliate settings first to make all user referral URL working properly."
+
+#: core/view/arm_affiliate_migration.php:49
+#@ ARM_AFFILIATE
+msgid "Deactivate {WP_AFFILIATE} plugin After Complete Migration."
+msgstr "Deactivate {WP_AFFILIATE} plugin After Complete Migration."
+
+#: core/view/arm_affiliate_migration.php:52
+#@ ARM_AFFILIATE
+msgid "Check this option to deactivate {WP_AFFILIATE} plugin after complete migration."
+msgstr "Check this option to deactivate {WP_AFFILIATE} plugin after complete migration."
+
+#: core/view/arm_affiliate_migration.php:58
+#@ ARM_AFFILIATE
+msgid "Change affiliate URL parameter name"
+msgstr "Change affiliate URL parameter name"
+
+#: core/view/arm_affiliate_migration.php:61
+#@ ARM_AFFILIATE
+msgid "This will change affiliate URL parameter name same as you have set for {WP_AFFILIATE} plugin."
+msgstr "This will change affiliate URL parameter name same as you have set for {WP_AFFILIATE} plugin."
+
+#: core/view/arm_affiliate_migration.php:67
+#@ ARM_AFFILIATE
+msgid "Enable Fancy referral URL after migration."
+msgstr "Enable Fancy referral URL after migration."
+
+#: core/view/arm_affiliate_migration.php:70
+#@ ARM_AFFILIATE
+msgid "Check this option to enable fancy URL after complete migration."
+msgstr "Check this option to enable fancy URL after complete migration."
+
+#: core/view/arm_affiliate_migration.php:76
+#@ ARM_AFFILIATE
+msgid "Enable Affiliate Id Encoding after migration."
+msgstr "Enable Affiliate Id Encoding after migration."
+
+#: core/view/arm_affiliate_migration.php:79
+#@ ARM_AFFILIATE
+msgid "Check this option to enable Affiliate ID Encoding."
+msgstr "Check this option to enable Affiliate ID Encoding."
+
+#: core/view/arm_affiliate_migration.php:85
+#@ ARM_AFFILIATE
+msgid "Replace {WP_AFFILIATE} Shortcodes With ARMember Affiliates Shortcodes."
+msgstr "Replace {WP_AFFILIATE} Shortcodes With ARMember Affiliates Shortcodes."
+
+#: core/view/arm_affiliate_migration.php:88
+#@ ARM_AFFILIATE
+msgid "Replace your {WP_AFFILIATE} plugin shortcodes placed in pages or posts with ARMember Affiliates provided shortcodes."
+msgstr "Replace your {WP_AFFILIATE} plugin shortcodes placed in pages or posts with ARMember Affiliates provided shortcodes."
+
+#: core/view/arm_affiliate_migration.php:100
+#@ ARM_AFFILIATE
+msgid "Migrate"
+msgstr "Migrate"
+
+#: core/view/arm_affiliate_settings.php:111
+#@ ARM_AFFILIATE
+msgid "It is for security purpose. if you select MD5 encoding then the affiliate user share that URL then other user will not able to see actual affiliate user id in URL."
+msgstr "It is for security purpose. if you select MD5 encoding then the affiliate user share that URL then other user will not able to see actual affiliate user id in URL."
+
+#: core/view/arm_affiliate_settings.php:149
+#@ ARM_AFFILIATE
+msgid "Enable Fancy Affiliate URL"
+msgstr "Enable Fancy Affiliate URL"
+
+#: core/view/arm_affiliate_settings.php:150
+#@ ARM_AFFILIATE
+msgid "Provide fancy URL like."
+msgstr "Provide fancy URL like."
+
+#: core/view/arm_affiliate_settings.php:284
+#@ ARM_AFFILIATE
+msgid "Form Settings"
+msgstr "Form Settings"
+
+#: core/view/arm_affiliate_settings.php:285
+#@ ARM_AFFILIATE
+msgid "Set your form fields to let your user create affiliate logged in to your site."
+msgstr "Set your form fields to let your user create affiliate logged in to your site."
+
+#: core/view/arm_affiliate_settings.php:289
+#@ ARM_AFFILIATE
+msgid "Form Input Style"
+msgstr "Form Input Style"
+
+#: core/view/arm_affiliate_settings.php:296
+#@ ARM_AFFILIATE
+msgid "Material Style"
+msgstr "Material Style"
+
+#: core/view/arm_affiliate_settings.php:297
+#@ ARM_AFFILIATE
+msgid "Standard Style"
+msgstr "Standard Style"
+
+#: core/view/arm_affiliate_settings.php:305
+#@ ARM_AFFILIATE
+msgid " Form Title"
+msgstr " Form Title"
+
+#: core/view/arm_affiliate_settings.php:313
+#@ ARM_AFFILIATE
+msgid "Field Options"
+msgstr "Field Options"
+
+#: core/view/arm_affiliate_settings.php:351
+#@ ARM_AFFILIATE
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: core/view/arm_affiliate_settings.php:356
+#@ ARM_AFFILIATE
+msgid "Enable Integration"
+msgstr "Enable Integration"
+
+#: core/view/arm_affiliate_settings.php:87
+#@ ARM_AFFILIATE
+msgid "The current Affiliate URL parameter name Ex. :"
+msgstr "The current Affiliate URL parameter name Ex. :"
+
+#: core/view/arm_affiliate_settings.php:184
+#@ ARM_AFFILIATE
+msgid "The Referral URL is :"
+msgstr "The Referral URL is :"
+
+#: armemberaffiliate.php:834
+#: armemberaffiliate.php:835
+#: core/view/arm_affiliate_migration.php:10
+#@ ARM_AFFILIATE
+msgid "Migration Tool"
+msgstr "Migration Tool"
+
+#: core/view/arm_affiliate_migration.php:20
+#@ ARM_AFFILIATE
+msgid "select affiliate plugin <br> to migrate"
+msgstr "select affiliate plugin <br> to migrate"
+
+#: core/view/arm_affiliate_migration.php:39
+#@ ARM_AFFILIATE
+msgid "Before migration process starts please note that"
+msgstr "Before migration process starts please note that"
+
+#: core/view/arm_affiliate_migration.php:93
+#@ ARM_AFFILIATE
+msgid "Sorry! Migration is not possible!"
+msgstr "Sorry! Migration is not possible!"
+
+#: core/view/arm_affiliate_migration.php:93
+#@ ARM_AFFILIATE
+msgid "You already have {ARMAFF_AFFILIATE_RECORDS} affiliate accounts exist in ARMember Affiliate and it has last affiliate ID is {ARM_LAST_AFFILIATE}. While as {WP_AFFILIATE} has last affiliate ID {WP_FIRST_AFFILIATE}. So, its conflicting with both the IDs."
+msgstr "You already have {ARMAFF_AFFILIATE_RECORDS} affiliate accounts exist in ARMember Affiliate and it has last affiliate ID is {ARM_LAST_AFFILIATE}. While as {WP_AFFILIATE} has last affiliate ID {WP_FIRST_AFFILIATE}. So, its conflicting with both the IDs."
+
+#: core/view/arm_affiliate_migration.php:93
+#@ ARM_AFFILIATE
+msgid "If you still want to migrate all Affiliates accounts from {WP_AFFILIATE} to ARMember affiliates, you need to delete all the affiliate accounts first from ARMember affiliates. So, it will not be any confliction and you will be able to migrate successfully."
+msgstr "If you still want to migrate all Affiliates accounts from {WP_AFFILIATE} to ARMember affiliates, you need to delete all the affiliate accounts first from ARMember affiliates. So, it will not be any confliction and you will be able to migrate successfully."
+
+#: armemberaffiliate.php:1103
+#@ ARM_AFFILIATE
+msgid "Unknown"
+msgstr "Unknown"
+
+#: core/classes/class.arm_aff_layout.php:596
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:240
+#@ ARM_AFFILIATE
+msgid "Payout No."
+msgstr "Payout No."
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:43
+#@ ARM_AFFILIATE
+msgid "Affiliate Visits"
+msgstr "Affiliate Visits"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:48
+#@ ARM_AFFILIATE
+msgid "Conditional Content"
+msgstr "Conditional Content"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:345
+#@ ARM_AFFILIATE
+msgid "Display Content Based On"
+msgstr "Display Content Based On"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:352
+#@ ARM_AFFILIATE
+msgid "If Affiliate User"
+msgstr "If Affiliate User"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:353
+#@ ARM_AFFILIATE
+msgid "If Non Affiliate User"
+msgstr "If Non Affiliate User"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:360
+#@ ARM_AFFILIATE
+msgid "Content"
+msgstr "Content"
+
+#: armemberaffiliate.php:345
+#: armemberaffiliate.php:839
+#: armemberaffiliate.php:840
+#@ ARM_AFFILIATE
+msgid "Manage User Commission"
+msgstr "Manage User Commission"
+
+#: core/classes/class.arm_aff_affiliate.php:793
+#@ ARM_AFFILIATE
+msgid "Enable Affiliate Referral if you want to give affiliate commission to users who will signup with this plan."
+msgstr "Enable Affiliate Referral if you want to give affiliate commission to users who will signup with this plan."
+
+#: core/classes/class.arm_aff_affiliate.php:826
+#@ ARM_AFFILIATE
+msgid "Affiliate Settings For Each Recurring Payment"
+msgstr "Affiliate Settings For Each Recurring Payment"
+
+#: core/classes/class.arm_aff_affiliate.php:833
+#@ ARM_AFFILIATE
+msgid "Enable Referral On Each Recurring Payment"
+msgstr "Enable Referral On Each Recurring Payment"
+
+#: core/classes/class.arm_aff_affiliate.php:841
+#@ ARM_AFFILIATE
+msgid "Enable this setting if you want to give affiliate commission to users on each payment cycle of subscription."
+msgstr "Enable this setting if you want to give affiliate commission to users on each payment cycle of subscription."
+
+#: core/classes/class.arm_affiliate_commision_setup.php:26
+#: core/view/arm_affiliate_commision_setup.php:22
+#@ ARM_AFFILIATE
+msgid "Plan ID"
+msgstr "Plan ID"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:28
+#: core/view/arm_affiliate_commision_setup.php:24
+#@ ARM_AFFILIATE
+msgid "Plan Type"
+msgstr "Plan Type"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:58
+#: core/view/arm_affiliate_commision_setup.php:296
+#@ ARM_AFFILIATE
+msgid "Paid"
+msgstr "Paid"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:59
+#: core/view/arm_affiliate_commision_setup.php:296
+#@ ARM_AFFILIATE
+msgid "Multiple Cycle"
+msgstr "Multiple Cycle"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:128
+#: core/view/arm_affiliate_commision_setup.php:32
+#@ ARM_AFFILIATE
+msgid "User ID"
+msgstr "User ID"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:131
+#: core/view/arm_affiliate_commision_setup.php:35
+#@ ARM_AFFILIATE
+msgid "Recurring Referral Status"
+msgstr "Recurring Referral Status"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:192
+#@ ARM_AFFILIATE
+msgid "Disabled"
+msgstr "Disabled"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:194
+#@ ARM_AFFILIATE
+msgid "Enabled"
+msgstr "Enabled"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:212
+#@ ARM_AFFILIATE
+msgid "Are you sure you want to delete setup for this affiliate user?"
+msgstr "Are you sure you want to delete setup for this affiliate user?"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:235
+#: core/classes/class.arm_affiliate_commision_setup.php:275
+#@ ARM_AFFILIATE
+msgid "There is an error while getting plan options, please try again."
+msgstr "There is an error while getting plan options, please try again."
+
+#: core/classes/class.arm_affiliate_commision_setup.php:349
+#@ ARM_AFFILIATE
+msgid "Plan referral detail is updated successfully"
+msgstr "Plan referral detail is updated successfully"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:351
+#@ ARM_AFFILIATE
+msgid "There is an error while saving plan referral options, please try again."
+msgstr "There is an error while saving plan referral options, please try again."
+
+#: core/classes/class.arm_affiliate_commision_setup.php:371
+#@ ARM_AFFILIATE
+msgid "Sorry, Affiliate user does not found."
+msgstr "Sorry, Affiliate user does not found."
+
+#: core/classes/class.arm_affiliate_commision_setup.php:424
+#@ ARM_AFFILIATE
+msgid "Affiliate user commission saved successfully"
+msgstr "Affiliate user commission saved successfully"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:440
+#@ ARM_AFFILIATE
+msgid "Affiliate user commission updated successfully"
+msgstr "Affiliate user commission updated successfully"
+
+#: core/classes/class.arm_affiliate_commision_setup.php:446
+#@ ARM_AFFILIATE
+msgid "Commission setup is already exist for this affiliate user."
+msgstr "Commission setup is already exist for this affiliate user."
+
+#: core/classes/class.arm_affiliate_commision_setup.php:465
+#: core/classes/class.arm_affiliate_commision_setup.php:525
+#@ ARM_AFFILIATE
+msgid "There is an error while getting setup options, please try again."
+msgstr "There is an error while getting setup options, please try again."
+
+#: core/classes/class.arm_affiliate_commision_setup.php:562
+#@ ARM_AFFILIATE
+msgid "Affiliate user commission is deleted successfully."
+msgstr "Affiliate user commission is deleted successfully."
+
+#: core/classes/class.arm_affiliate_commision_setup.php:612
+#@ ARM_AFFILIATE
+msgid "Users Having No Plan"
+msgstr "Users Having No Plan"
+
+#: core/view/arm_affiliate_commision_setup.php:264
+#@ ARM_AFFILIATE
+msgid "ARMember Plans Affiliates"
+msgstr "ARMember Plans Affiliates"
+
+#: core/view/arm_affiliate_commision_setup.php:345
+#@ ARM_AFFILIATE
+msgid "Show / Hide columns"
+msgstr "Show / Hide columns"
+
+#: core/view/arm_affiliate_commision_setup.php:347
+#@ ARM_AFFILIATE
+msgid "plans"
+msgstr "plans"
+
+#: core/view/arm_affiliate_commision_setup.php:352
+#@ ARM_AFFILIATE
+msgid "No matching plans found"
+msgstr "No matching plans found"
+
+#: core/view/arm_affiliate_commision_setup.php:353
+#@ ARM_AFFILIATE
+msgid "No any subscription plan found."
+msgstr "No any subscription plan found."
+
+#: core/view/arm_affiliate_commision_setup.php:367
+#@ ARM_AFFILIATE
+msgid "ARMember User Commissions"
+msgstr "ARMember User Commissions"
+
+#: core/view/arm_affiliate_commision_setup.php:371
+#: core/view/arm_affiliate_commision_setup.php:453
+#@ ARM_AFFILIATE
+msgid "Add New User Commission"
+msgstr "Add New User Commission"
+
+#: core/view/arm_affiliate_commision_setup.php:422
+#@ ARM_AFFILIATE
+msgid "Edit Affiliate Settings"
+msgstr "Edit Affiliate Settings"
+
+#: core/view/arm_affiliate_commision_setup.php:453
+#@ ARM_AFFILIATE
+msgid "Edit User Commission"
+msgstr "Edit User Commission"
+
+#: core/view/arm_affiliate_commision_setup.php:459
+#@ ARM_AFFILIATE
+msgid "Select User To Give Commission"
+msgstr "Select User To Give Commission"
+
+#: core/view/arm_affiliate_commision_setup.php:466
+#: core/view/arm_affiliate_commision_setup.php:471
+#@ ARM_AFFILIATE
+msgid "Select Affiliate User"
+msgstr "Select Affiliate User"
+
+#: core/view/arm_affiliate_commision_setup.php:482
+#@ ARM_AFFILIATE
+msgid "Please select affiliate user."
+msgstr "Please select affiliate user."
+
+#: core/classes/class.arm_aff_referrals.php:82
+#@ ARM_AFFILIATE
+msgid "To Display Affiliate User ID"
+msgstr "To Display Affiliate User ID"
+
+#: core/classes/class.arm_aff_referrals.php:84
+#@ ARM_AFFILIATE
+msgid "Affiliate User ID"
+msgstr "Affiliate User ID"
+
+#: core/classes/class.arm_aff_referrals.php:168
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:101
+#@ ARM_AFFILIATE
+msgid "Refer a Friend"
+msgstr "Refer a Friend"
+
+#: core/classes/class.arm_aff_referrals.php:169
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:107
+#@ ARM_AFFILIATE
+msgid "Email Address"
+msgstr "Email Address"
+
+#: core/classes/class.arm_aff_referrals.php:170
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:113
+#@ ARM_AFFILIATE
+msgid "Send Email"
+msgstr "Send Email"
+
+#: core/classes/class.arm_aff_referrals.php:171
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:119
+#@ ARM_AFFILIATE
+msgid "Mail sent successfully"
+msgstr "Mail sent successfully"
+
+#: core/classes/class.arm_aff_referrals.php:245
+#@ ARM_AFFILIATE
+msgid "This field can not be left blank"
+msgstr "This field can not be left blank"
+
+#: core/classes/class.arm_aff_referrals.php:249
+#@ ARM_AFFILIATE
+msgid "This field required comma separate email."
+msgstr "This field required comma separate email."
+
+#: core/classes/class.arm_aff_referrals.php:253
+#@ ARM_AFFILIATE
+msgid "This field should not be blank."
+msgstr "This field should not be blank."
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:41
+#@ ARM_AFFILIATE
+msgid "Refer/Invite Friend"
+msgstr "Refer/Invite Friend"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:41
+#@ ARM_AFFILIATE
+msgid "Reffer Friend"
+msgstr "Reffer Friend"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:70
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:76
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:77
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:82
+#@ ARM_AFFILIATE
+msgid "Select Form"
+msgstr "Select Form"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:105
+#@ ARM_AFFILIATE
+msgid "Email Label"
+msgstr "Email Label"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:111
+#@ ARM_AFFILIATE
+msgid "Button Text"
+msgstr "Button Text"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:117
+#@ ARM_AFFILIATE
+msgid "Mail Sent Message"
+msgstr "Mail Sent Message"
+
+#: core/classes/class.arm_affiliate_settings.php:176
+#: core/classes/class.arm_affiliate_settings.php:190
+#@ ARM_AFFILIATE
+msgid "On Affiliate user Refer/Invite friends"
+msgstr "On Affiliate user Refer/Invite friends"
+
+#: core/classes/class.arm_affiliate_settings.php:177
+#: core/classes/class.arm_affiliate_settings.php:193
+#@ ARM_AFFILIATE
+msgid "On user register as affiliate account"
+msgstr "On user register as affiliate account"
+
+#: core/view/arm_affiliate_list.php:86
+#@ ARM_AFFILIATE
+msgid "Search by username..."
+msgstr "Search by username..."
+
+#: core/view/arm_affiliate_settings.php:352
+#@ ARM_AFFILIATE
+msgid "By Enable this settings ARMember Affiliate will allow to provide referrals on each sale of WooCommerce Products."
+msgstr "By Enable this settings ARMember Affiliate will allow to provide referrals on each sale of WooCommerce Products."
+
+#: armemberaffiliate.php:604
+#@ ARM_AFFILIATE
+msgid "ARmember Affiliate plugin requires ARMember plugin installed with version 3.3.2 or higher."
+msgstr "ARmember Affiliate plugin requires ARMember plugin installed with version 3.3.2 or higher."
+
+#: core/view/arm_statistics.php:126
+#@ ARM_AFFILIATE
+msgid "Summary"
+msgstr "Summary"
+
+#: core/classes/class.arm_aff_layout.php:1388
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:374
+#@ ARM_AFFILIATE
+msgid "Earnings"
+msgstr "Earnings"
+
+#: core/classes/class.arm_aff_layout.php:1389
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:387
+#@ ARM_AFFILIATE
+msgid "Payments (Paid)"
+msgstr "Payments (Paid)"
+
+#: core/classes/class.arm_aff_layout.php:1390
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:399
+#@ ARM_AFFILIATE
+msgid "Payments (Unpaid)"
+msgstr "Payments (Unpaid)"
+
+#: core/classes/class.arm_aff_layout.php:1391
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:411
+#@ ARM_AFFILIATE
+msgid "Visitor"
+msgstr "Visitor"
+
+#: core/classes/class.arm_aff_layout.php:1392
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:423
+#@ ARM_AFFILIATE
+msgid "Referral"
+msgstr "Referral"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:50
+#@ ARM_AFFILIATE
+msgid "Affiliate Earning"
+msgstr "Affiliate Earning"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:51
+#@ ARM_AFFILIATE
+msgid "Affiliate Payment Paid"
+msgstr "Affiliate Payment Paid"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:52
+#@ ARM_AFFILIATE
+msgid "Affiliate Payment Unpaid"
+msgstr "Affiliate Payment Unpaid"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:53
+#@ ARM_AFFILIATE
+msgid "Affiliate Referral"
+msgstr "Affiliate Referral"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:372
+#@ ARM_AFFILIATE
+msgid "Earning Title"
+msgstr "Earning Title"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:378
+#@ ARM_AFFILIATE
+msgid "Earning Background Color"
+msgstr "Earning Background Color"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:385
+#@ ARM_AFFILIATE
+msgid "Payment Paid Title"
+msgstr "Payment Paid Title"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:391
+#@ ARM_AFFILIATE
+msgid "Paid Payment Background Color"
+msgstr "Paid Payment Background Color"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:397
+#@ ARM_AFFILIATE
+msgid "Payment Unpaid Title"
+msgstr "Payment Unpaid Title"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:403
+#@ ARM_AFFILIATE
+msgid "Unpaid Payment Background Color"
+msgstr "Unpaid Payment Background Color"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:409
+#@ ARM_AFFILIATE
+msgid "Visitor Title"
+msgstr "Visitor Title"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:415
+#@ ARM_AFFILIATE
+msgid "Visitor Background Color"
+msgstr "Visitor Background Color"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:421
+#@ ARM_AFFILIATE
+msgid "Referral Title"
+msgstr "Referral Title"
+
+#: core/classes/class.arm_aff_tinymce_options_shortcode.php:427
+#@ ARM_AFFILIATE
+msgid "Referral Background Color"
+msgstr "Referral Background Color"
+
+#: core/view/arm_affiliate_settings.php:110
+#@ ARM_AFFILIATE
+msgid "Affiliate ID Style"
+msgstr "Affiliate ID Style"
+
+#: core/view/arm_affiliate_settings.php:119
+#@ ARM_AFFILIATE
+msgid "Plain ID"
+msgstr "Plain ID"
+
+#: core/view/arm_affiliate_settings.php:120
+#@ ARM_AFFILIATE
+msgid "MD5 Encoded ID"
+msgstr "MD5 Encoded ID"
+

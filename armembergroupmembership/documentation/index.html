@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember - Group/Umbrella Membership Addon Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function() {
+                if ( jQuery(window).scrollTop() > amountScrolled ) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function() {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function(event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop:0}, 'fast','swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast',function(){
+                       jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+id+'"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                }); 
+                jQuery("#overlay").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+window.location.hash+'"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height(){
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#membership_setup_wizard">Group Membership Setup Wizard</a></li>
+                            <li><a class="panel" href="#membership_gm_changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - Group/Umbrella Membership Addon ( Version: 1.0 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 09/11/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This add-on will allow you to manage Group/Umbrella Membership on your ARMember membership setup via Group Membership.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>This add-on will work with ARMember Version 4.1 or higher.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/armember_gm_addon.png">
+                                    <img src="images/armember_gm_addon.png" alt="ARMemeber gm addon" />
+                                </a>
+                            </p>
+                            <h2>ARMember - Group Membership Addon Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>membership plan</strong> with <strong>Group Membership</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <div id="intro">
+                        <h1>ARMember - Group/Umbrella Membership Addon ( Version: 1.0 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 09/11/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This add-on will allow you to manage Group Membership on your ARMember membership setup via Group Membership.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>This add-on will work with ARMember Version 4.1 or higher.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/armember_gm_addon.png">
+                                    <img src="images/armember_gm_addon.png" alt="ARMemeber gm addon" />
+                                </a>
+                            </p>
+                            <h2>ARMember - Group Membership Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>membership plan</strong> with <strong>Group Membership</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                           <h2>Steps For Installation And Activation</h2>
+                           <p>You can install plugin in following two ways. and ARMember - gm payment gateway plugin requires ARMember Plugin installed and active.</p>
+                           <h3>New install via  FTP </h3>
+                           <ol class="large_bottom_margin bottom_margin" type="a">
+                               <li>Download the plugin and extract it. You will find a directory <strong>armembergroupmembership</strong>.</li>
+                               <li>In your WordPress installation directory, upload <strong>armembergroupmembership</strong> to <code>wp-content/plugins/</code></li>
+                               <li>Activate the <code>ARMember - Group Membership</code> plugin through the <code>Plugins</code> menu from WordPress admin panel.</li>
+                           </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download the plugin.</li>
+                                <li>Log in to your WordPress admin panel</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the plugin uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="membership_setup_wizard">
+                        <h1>Group Membership Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Group Membership For Your Website</h2>
+                            <h4>Let's setup ARMember - Group Membership for your website :</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p> After activate addon, you can enable group membership for any plan. Group Membership plan enable/disable section will display in <code>ARMember</code> -> <code>Manage Plans</code> -> <code>Add / Edit Plan</code> -> <code>Group Membership Settings</code>.</p><p> Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/gm_plan_enable_disable.png">
+                                            <img src="images/gm_plan_enable_disable.png" alt="Plan Enable Disable Group Membership">
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p> Enter your maximum members limit in 'Maximum Members' option and enter value of your minimum members limit in 'Minimum Members' option. Select your purchase slot from 'Child user seat purchase slot'.</p>
+                                </li>
+                                <li>
+                                    <p> After activating Group Membership for plan, configure your plan with 'Configure Plan + Signup Page'. After configure your setup, copy setup shortcode and add in your signup page. Now when you access your signup page it have option of how many users you want to purchase like below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/gm_plan_purchase_screen.png">
+                                            <img src="images/gm_plan_purchase_screen.png" alt="Plan Purchase Screen">
+                                        </a>
+                                    </p>
+                                    <p> In 'Sub User Selection' section it will display purchase seats according to your purchase slot selection for plan.</p>
+                                    <p> You can change label of 'Sub User Selection' for your plan setup from 'Configure Plan + Signup Page'. Navigate <code>'Configure Plan + Signup Page'</code> -> <code>Other Options</code> and there is option named 'Sub User Selection Label' from here you can change label value for your setup.</p>
+                                    <p> For add summary text in your plan summary text, you can add it from your 'Configure Plan + Signup Page'. In 'Summary Text' option from your plan setup there is one option of '[SELECTED_CHILD]' which will replace with your selected child user.</p>
+                                </li>
+                                <li>
+                                    <p> For child user signup, Enable 'Enable Child User Invitation?' option in your register page from 'Membership Shortcode' option. Please see below screen.</p>
+                                    <p> Also you can change value of your child user invite code field label & child user invite code field placeholder from 'Membership Shortcode'. Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/child_user_invite_code_option.png">
+                                            <img src="images/child_user_invite_code_option.png" alt="Child User Register Form Invite Code Option">
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p> Admin user can see all Group Members data in <code>ARMember</code> -> <code>Group Membership</code> page. It looks like following screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/admin_group_membership_listing.png">
+                                            <img src="images/admin_group_membership_listing.png" alt="Admin Group Membership Listing">
+                                        </a>
+                                    </p>
+                                    <p> Also admin user can view child users data with on click of child users counter in Group membership page.</p>
+                                    <p> If admin wants edit group membership of any user or if admin wants to add child user then it can add from Group Membership page. Also admin can delete group membership of any member from Group Membership page.
+                                </li>
+                                <li>
+                                    <p> After signup with Group Membership, parent user can view their child user data with shortcode from 'Membership Shortcode' in their page. For add shortcode see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/membership_shortcode_option.png">
+                                            <img src="images/membership_shortcode_option.png" alt="Membership Shortcode Option">
+                                        </a>
+                                    </p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/child_user_listing_shortcode.png">
+                                            <img src="images/child_user_listing_shortcode.png" alt="Child User Listing Shortcode">
+                                        </a>
+                                    </p>
+
+                                    <p> This shortcode displays data of child user invitation code and added child users list like following screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/child_user_invitation_code_list.png">
+                                            <img src="images/child_user_invitation_code_list.png" alt="Child User Invitation Code List">
+                                        </a>
+                                    </p>
+                                    <p> To change the labels of listing tables screen, shortcode have options like following screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/groupmembership_listing_fields.png">
+                                            <img src="images/groupmembership_listing_fields.png" alt="Child User Shortcode Options">
+                                        </a>
+                                    </p>
+                                    <p> For enable/disable button and change button text and also to apply custom css to button shortcode provides the options to enable/disable specific buttons like following screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/group_membership_buttons_options.png">
+                                            <img src="images/group_membership_buttons_options.png" alt="Child User Shortcode Options">
+                                        </a>
+                                    </p>
+                                    <p> For Change labels of invite popup field and also to change form style, shortcode have option of selecting form for change style and input field to change the values of invite popup fields like following screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/group_membership_form_fields_options.png">
+                                            <img src="images/group_membership_form_fields_options.png" alt="Child User Shortcode Options">
+                                        </a>
+                                    </p>
+                                    <p> Parent user invite their child user from click on 'Invite' button. Invite button open popup where input your invite user email id and if you want to invite more than one users then you can add email of more than one users with 'comma separated (,)' . </p>
+                                    <p> If you want to change your invite code or you want to refresh your invite code then it can be refresh from 'Refresh Invite Code' button in your invitation code list.</p>
+                                    <p> Using this shortcode, it also displays parent users all child users list in 'Child Users List' table. Also parent user can delete its child user from this table.</p>
+                                    <p> If you want to display only parent user seat counter then there is also option available in 'Membership Shortcode'. Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/parent_user_seat_counter_shortcode.png">
+                                            <img src="images/parent_user_seat_counter_shortcode.png" alt="Parent User Seat Counter">
+                                        </a>
+                                    </p>
+                                    <p> After adding this shortcode in your page, it will add following line in your page like following screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/parent_user_total_seat_counter.png">
+                                            <img src="images/parent_user_total_seat_counter.png" alt="Parent User Seat Counter Line">
+                                        </a>
+                                    </p>
+                                </li>
+                                
+                                <li>
+                                    <p> By default all Content Access Rules which is applied to parent user is automatically added to its child users.</p>
+                                    <p> If parent user wants to restrict any page for child user then it can restrict from <code>ARMember</code>-><code>General Settings</code>-><code>Set Child User Restrict Page</code> option. Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/admin_child_user_restrict.png">
+                                            <img src="images/admin_child_user_restrict.png" alt="Child User Restrict Settings">
+                                        </a>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>For add child users from admin side, navigate section of 'Group Membership' in ARMember and in this page, there is listing of members who have group membership enabled.</p>
+                                    <p>To add specific child users to any member it have option of add child user like following screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/admin_add_sub_user.png">
+                                            <img src="images/admin_add_sub_user.png" alt="Child User Add From Admin">
+                                        </a>
+                                    </p>
+                                    <p>Also to edit any group membership users seat limit, group membership user have option of 'Edit Group Membeship'. So member can edit their group membership. Please see below screen. </p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/edit_group_membership.png">
+                                            <img src="images/edit_group_membership.png" alt="Edit Group Membership">
+                                        </a>
+                                    </p>
+                                    <p>In group membership listing page there is option of display all child users. There is column of child users and it display counter of child users. When click on child users counter it will display list of all child users like following screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/admin_child_users_list.png">
+                                            <img src="images/admin_child_users_list.png" alt="Edit Group Membership">
+                                        </a>
+                                    </p>
+                                </li>
+                            </ol>
+
+                            <hr>
+                            
+                            <h3>Common Messages For Group Membership</h3>
+                            <p> Go to Common Messages tab at General Settings to configure Error messages and success messages.</p>
+                            <p>To set default error message and success message required when particular action will occur.</p>
+                            <ul>
+                                <li>
+                                    <h4>Child User Invite Code Label</h4>
+                                    <p>Here you can change invite code popup label.</p>
+                                </li>
+                                <li>
+                                    <h4>Child User Invite Code Empty Error</h4>
+                                    <p>Here you can change invite code textbox error message.</p>
+                                </li>
+                                <li>
+                                    <h4>Child User Invite Code Used Error</h4>
+                                    <p>Here you can change invite code already used error message.</p>
+                                </li>
+                                <li>
+                                    <h4>Child User Invite Email Available Error</h4>
+                                    <p>Here you can change invite code email availability error message.</p> 
+                                </li>
+                                <li>
+                                    <h4>Child User Invite Code Available Error</h4>
+                                    <p>Here you can change invite code availability error message.</p>    
+                                </li>
+                                <li>
+                                    <h4>Child User Invitation Success Message</h4>
+                                    <p>Here you can change child user successfully invite message.</p>    
+                                </li>
+                                <li>
+                                    <h4>Child User Delete Message</h4>
+                                    <p>Here you can change child user delete message.</p>
+                                </li>
+                                <li>
+                                    <h4>Child User Resend Email Success Message</h4>
+                                    <p>Here you can change child user resend email successfully message.</p>    
+                                </li>
+                                <li>
+                                    <h4>Child User Refresh Invite Code Message</h4>
+                                    <p>Here you can change child user refresh invite code successfully message.</p>
+                                </li>
+                            </ul>
+                                
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/group_membership_common_messages.png">
+                                    <img src="images/group_membership_common_messages.png" alt="Child User Restrict Settings">
+                                </a>
+                            </p>
+
+                            <hr>
+
+                            <h3>Email Template Tags For Group Membership</h3>
+                            <ul>
+                                <li>
+                                    <h4>{ARM_GM_INVITE_COUPON_CODE}</h4>
+                                    <p>This email template tag is used to display invite code when parent user invite any child user.</p>
+                                </li>
+                                <li>
+                                    <h4>{ARM_GM_INVITE_PAGE}</h4>
+                                    <p>This email template tag is used to display invite page link when parent user invite any child user.</p>
+                                </li>
+                                <li>
+                                    <h4>{ARM_GM_PARENT_USER_USERNAME}</h4>
+                                    <p>This email template tag is used to display parent user username when child user receives notification of successfully signup as child user.</p>
+                                </li>
+                            </ul>
+                            
+                            <hr>
+
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i> If any user signup as child user then user cannot purchase membership plans. And content permission will be inherited from their parent user.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i> Admininistrator can assign non group membership plan to member if group membership plan not available member account.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i> ARMember Group Membership does not possible with ARMember Multiple Membership.</p>
+                        </div>
+                    </div>
+
+                     <div id="membership_gm_changelog">
+                        <h1>Changelog</h1>
+                        <div class="card">
+                            <h2>Version 1.0 (09 November, 2020)</h2>
+                            <ul>
+                                <li>Initial Release.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>

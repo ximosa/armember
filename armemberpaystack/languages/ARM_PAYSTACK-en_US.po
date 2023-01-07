@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Paystack payment gateway Addon v1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-06-20 10:59:22+0000\n"
+"Last-Translator: admin <test@test.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armemberpaystack.php:263
+#: armemberpaystack.php:324
+#@ ARM_PAYSTACK
+msgid "Paystack"
+msgstr "Paystack"
+
+#: armemberpaystack.php:274
+#@ ARM_PAYSTACK
+msgid "Paystack For ARMember plugin requires ARMember Plugin installed and active."
+msgstr "Paystack For ARMember plugin requires ARMember Plugin installed and active."
+
+#: armemberpaystack.php:277
+#@ ARM_PAYSTACK
+msgid "Paystack For ARMember plugin requires ARMember plugin installed with version 3.0 or higher."
+msgstr "Paystack For ARMember plugin requires ARMember plugin installed with version 3.0 or higher."
+
+#: armemberpaystack.php:302
+#: armemberpaystack.php:312
+#@ ARM_PAYSTACK
+msgid "document"
+msgstr "document"
+
+#: armemberpaystack.php:311
+#@ ARM_PAYSTACK
+msgid "Please make sure you have set following callback URL in your paystack account."
+msgstr "Please make sure you have set following callback URL in your paystack account."
+
+#: armemberpaystack.php:373
+#@ ARM_PAYSTACK
+msgid "Paystack (if Paystack payment gateway is enabled)"
+msgstr "Paystack (if Paystack payment gateway is enabled)"
+
+#: armemberpaystack.php:375
+#@ ARM_PAYSTACK
+msgid "Paystack does not support Free trial/plan amount with auto recurring billing cycle."
+msgstr "Paystack does not support Free trial/plan amount with auto recurring billing cycle."
+
+#: armemberpaystack.php:392
+#@ ARM_PAYSTACK
+msgid "Payment Fail (Paystack)"
+msgstr "Payment Fail (Paystack)"
+
+#: armemberpaystack.php:434
+#@ ARM_PAYSTACK
+msgid "Payment Mode"
+msgstr "Payment Mode"
+
+#: armemberpaystack.php:437
+#@ ARM_PAYSTACK
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: armemberpaystack.php:439
+#@ ARM_PAYSTACK
+msgid "Production"
+msgstr "Production"
+
+#: armemberpaystack.php:452
+#@ ARM_PAYSTACK
+msgid "Test Secret Key"
+msgstr "Test Secret Key"
+
+#: armemberpaystack.php:458
+#@ ARM_PAYSTACK
+msgid "Test Public Key"
+msgstr "Test Public Key"
+
+#: armemberpaystack.php:474
+#@ ARM_PAYSTACK
+msgid "Live Secret Key"
+msgstr "Live Secret Key"
+
+#: armemberpaystack.php:480
+#@ ARM_PAYSTACK
+msgid "Live Public Key"
+msgstr "Live Public Key"
+
+#: armemberpaystack.php:996
+#@ ARM_PAYSTACK
+msgid "Payment through Paystack is not supported for selected plan."
+msgstr "Payment through Paystack is not supported for selected plan."
+
+#: armemberpaystack.php:2424
+#@ ARM_PAYSTACK
+msgid "Paystack Plans"
+msgstr "Paystack Plans"
+
+#: armemberpaystack.php:2424
+#@ ARM_PAYSTACK
+msgid "You must need to add plan ID for recurring plans"
+msgstr "You must need to add plan ID for recurring plans"
+
+#: armemberpaystack.php:2424
+#@ ARM_PAYSTACK
+msgid "You can find / create plans easily via the"
+msgstr "You can find / create plans easily via the"
+
+#: armemberpaystack.php:2424
+#@ ARM_PAYSTACK
+msgid "plan management"
+msgstr "plan management"
+
+#: armemberpaystack.php:2424
+#@ ARM_PAYSTACK
+msgid "page of the Paystack dashboard."
+msgstr "page of the Paystack dashboard."
+
+#: armemberpaystack.php:2474
+#@ ARM_PAYSTACK
+msgid "Paystack plan ID"
+msgstr "Paystack plan ID"
+
+#: armemberpaystack.php:2994
+#@ ARM_PAYSTACK
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armemberpaystack.php:2999
+#@ ARM_PAYSTACK
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: armemberpaystack.php:302
+#@ ARM_PAYSTACK
+msgid "You can find Secret key and Public key in your Paystack account. To get more details, Please refer this"
+msgstr "You can find Secret key and Public key in your Paystack account. To get more details, Please refer this"
+
+#: armemberpaystack.php:312
+#@ ARM_PAYSTACK
+msgid "To get more information about how to set callback URL in your paystack account, please refer this"
+msgstr "To get more information about how to set callback URL in your paystack account, please refer this"
+

@@ -1,0 +1,1233 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MotoPress Demo\n"
+"POT-Creation-Date: 2017-01-26 11:07+0200\n"
+"PO-Revision-Date: 2016-09-07 11:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-SearchPath-0: templates-functions\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: classes\n"
+
+#: classes/class-capability.php:279
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: classes/class-core.php:110
+msgid "Update Product"
+msgstr ""
+
+#: classes/class-core.php:111 templates/admin/settings/toolbar.php:148
+msgid "Add Product"
+msgstr ""
+
+#: classes/class-core.php:158
+msgid ""
+"Reset your demo to default (syncronized with Administrator's updates).\n"
+"Your demo expiration date, URL and login credentials won't change.\n"
+"It may take a while"
+msgstr ""
+
+#: classes/class-core.php:159 classes/modules/class-settings.php:292
+msgid "Great! Your demo has been reset successfully."
+msgstr ""
+
+#: classes/class-core.php:160
+msgid "Oops! Something went wrong."
+msgstr ""
+
+#: classes/class-hooks.php:140 classes/modules/class-settings.php:127
+#: templates/admin/settings/general.php:43
+msgid "Reset Demo"
+msgstr ""
+
+#: classes/class-hooks.php:208 classes/class-hooks.php:222
+#: classes/class-hooks.php:288 classes/class-site-error.php:32
+#: classes/class-site-error.php:44
+msgid "Demo"
+msgstr ""
+
+#: classes/class-hooks.php:222 classes/class-hooks.php:251
+#: classes/class-hooks.php:301 classes/models/class-sandbox-list.php:31
+msgid "Sandboxes"
+msgstr ""
+
+#: classes/class-hooks.php:225 classes/class-hooks.php:307
+#: classes/modules/class-statistics.php:45
+msgid "Statistics"
+msgstr ""
+
+#: classes/class-hooks.php:233 classes/class-hooks.php:312
+msgid "Settings"
+msgstr ""
+
+#: classes/class-hooks.php:265 classes/class-hooks.php:298
+msgid "Restrictions"
+msgstr ""
+
+#: classes/class-hooks.php:377
+msgid "Demo Shortcodes"
+msgstr ""
+
+#: classes/class-hooks.php:378 classes/shortcodes/class-shortcode-try.php:94
+msgid "Try Demo Form"
+msgstr ""
+
+#: classes/class-hooks.php:379
+#: classes/shortcodes/class-shortcode-try-popup.php:96
+msgid "Try Demo Popup"
+msgstr ""
+
+#: classes/class-hooks.php:380
+msgid "Is Sandbox"
+msgstr ""
+
+#: classes/class-hooks.php:381
+msgid "Is Not Sandbox"
+msgstr ""
+
+#: classes/class-hooks.php:382 templates/admin/shortcodes/popup.php:81
+msgid "Insert"
+msgstr ""
+
+#: classes/class-hooks.php:383 templates/admin/sandboxes/edit.php:92
+#: templates/admin/settings/toolbar.php:152
+#: templates/admin/shortcodes/popup.php:82
+msgid "Cancel"
+msgstr ""
+
+#: classes/class-shortcodes.php:208
+msgid "Mail was not sent."
+msgstr ""
+
+#: classes/class-shortcodes.php:262
+#: classes/controllers/class-controller-mail.php:44
+msgid "Wrong e-mail format"
+msgstr ""
+
+#: classes/class-shortcodes.php:317
+msgid "Server error has happened."
+msgstr ""
+
+#: classes/class-site-error.php:31 classes/class-site-error.php:43
+msgid "Plugin requirements"
+msgstr ""
+
+#: classes/controllers/class-controller-back-compatibility.php:29
+#: classes/controllers/class-controller-toolbar.php:26
+msgid "No data"
+msgstr ""
+
+#: classes/controllers/class-controller-mail.php:28
+msgid "Security error!"
+msgstr ""
+
+#: classes/controllers/class-controller-mail.php:53
+msgid "You cannot avoid passing Captcha."
+msgstr ""
+
+#: classes/controllers/class-controller-mail.php:60
+msgid "The secret parameter is missing."
+msgstr ""
+
+#: classes/controllers/class-controller-mail.php:61
+msgid "The secret parameter is invalid or malformed."
+msgstr ""
+
+#: classes/controllers/class-controller-mail.php:62
+msgid "The response parameter is missing."
+msgstr ""
+
+#: classes/controllers/class-controller-mail.php:63
+msgid "The response parameter is invalid or malformed."
+msgstr ""
+
+#: classes/controllers/class-controller-sandbox.php:35
+msgid "This is not sandbox"
+msgstr ""
+
+#: classes/controllers/class-controller-sandbox.php:106
+msgid "Applied replacements:"
+msgstr ""
+
+#: classes/controllers/class-controller-sandbox.php:119
+#, php-format
+msgid "%s utilities removal failed: %s"
+msgstr ""
+
+#: classes/controllers/class-controller-sandbox.php:119
+#, php-format
+msgid "%s utilities were successfully removed"
+msgstr ""
+
+#: classes/controllers/class-controller-sandbox.php:165
+msgid "File does not exist."
+msgstr ""
+
+#: classes/controllers/class-controller-sandbox.php:357
+msgid "Error while writing file "
+msgstr ""
+
+#: classes/controllers/class-controller-sandbox.php:361
+#, php-format
+msgid "Error: %s."
+msgstr ""
+
+#: classes/controllers/class-controller-sandbox.php:365
+#, php-format
+msgid "File %s is not writable."
+msgstr ""
+
+#: classes/controllers/class-controller-sandbox.php:369
+#, php-format
+msgid "File %s does not exist."
+msgstr ""
+
+#: classes/libs/logs.php:56
+#, php-format
+msgid ""
+"Unable to create log file %s. Is its parent directory writable by the server?"
+msgstr ""
+
+#: classes/models/class-license.php:30 classes/modules/class-settings.php:293
+msgid "Settings saved."
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:30
+msgid "Sandbox"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:39
+msgid "<a href='admin.php?page=mp-demo'>All</a>"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:40
+msgid "<a href='admin.php?page=mp-demo&status=active'>Active</a>"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:41
+msgid "<a href='admin.php?page=mp-demo&status=archived'>Archived</a>"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:42
+msgid "<a href='admin.php?page=mp-demo&status=deactivated'>Deactivated</a>"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:75
+msgid "No sandboxes avaliable."
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:94
+#: templates/admin/sandboxes/edit.php:56
+msgid "Yes"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:142 templates-functions/admin.php:37
+msgid "View"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:150
+#: classes/models/class-sandbox-list.php:215 templates-functions/admin.php:40
+msgid "Delete"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:157
+#: classes/models/class-sandbox-list.php:216 templates-functions/admin.php:39
+msgid "Edit"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:164
+#: templates/admin/sandboxes/export-form.php:77
+msgid "Export"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:179
+msgid "Path"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:180
+msgid "E-mail"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:181
+msgid "Registered"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:182
+msgid "Expires on"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:183
+#: templates/admin/sandboxes/edit.php:64
+#: templates/admin/settings/license.php:27
+#: templates/admin/settings/system-info.php:26
+msgid "Status"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:184
+msgid "Lifetime"
+msgstr ""
+
+#: classes/models/class-sandbox-list.php:185
+#: templates/admin/settings/toolbar.php:51
+msgid "ID"
+msgstr ""
+
+#: classes/models/class-sandbox.php:518
+msgid ""
+"Error while creating Demo. Use another email address or contact support."
+msgstr ""
+
+#: classes/models/class-settings-sandbox.php:134
+msgid "Database cannot be exported because mysqldump utility is missing."
+msgstr ""
+
+#: classes/models/class-settings-sandbox.php:142
+msgid ""
+"Your hosting server doesn't support PHP extention 'zip', please contact your "
+"hosting provider for details. Exported file won't be compressed but you can "
+"download it via FTP."
+msgstr ""
+
+#: classes/modules/class-back-compatibility.php:58
+#, php-format
+msgid ""
+"Demo Builder needs to complete a database upgrade. Click <a id=\"mp-demo-"
+"upgrate-database\" href=\"%s\">here</a> to start the upgrade."
+msgstr ""
+
+#: classes/modules/class-mailchimp.php:266
+msgid "Unable to add a new member to the list."
+msgstr ""
+
+#: classes/modules/class-mailchimp.php:286
+msgid "Income data format error "
+msgstr ""
+
+#: classes/modules/class-settings.php:53
+msgid "Manage Sandboxes"
+msgstr ""
+
+#: classes/modules/class-settings.php:68
+msgid "General"
+msgstr ""
+
+#: classes/modules/class-settings.php:73
+msgid "Notifications"
+msgstr ""
+
+#: classes/modules/class-settings.php:78
+msgid "Toolbar"
+msgstr ""
+
+#: classes/modules/class-settings.php:83
+msgid "System Info"
+msgstr ""
+
+#: classes/modules/class-settings.php:88
+msgid "MailChimp"
+msgstr ""
+
+#: classes/modules/class-settings.php:97
+msgid "License"
+msgstr ""
+
+#: classes/modules/class-settings.php:113
+msgid "Sandbox Restrictions"
+msgstr ""
+
+#: classes/modules/class-settings.php:141
+msgid "Demo User Notification"
+msgstr ""
+
+#: classes/modules/class-settings.php:146
+msgid "Admin Notification"
+msgstr ""
+
+#: classes/modules/class-settings.php:169
+#: classes/modules/class-settings.php:174
+#: classes/modules/class-settings.php:180
+#: classes/modules/class-settings.php:186
+#: classes/modules/class-settings.php:192
+msgid "This option does not meet minimum requirements"
+msgstr ""
+
+#: classes/modules/class-settings.php:198
+msgid ""
+"Expired accounts won't be automatically cleaned up. Set this option to false."
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-is-not-sandbox.php:30
+msgid "Content is not visible in the sandbox"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-is-sandbox.php:30
+msgid "Content visible in sandbox"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:102
+msgid "Form title"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:103
+#: classes/shortcodes/class-shortcode-try.php:100
+msgid "To create your demo website provide the following data"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:108
+#: classes/shortcodes/class-shortcode-try.php:105
+msgid "Label for email"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:109
+#: classes/shortcodes/class-shortcode-try.php:106
+msgid "Your email:"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:114
+#: classes/shortcodes/class-shortcode-try.php:111
+msgid "Email placeholder"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:120
+#: classes/shortcodes/class-shortcode-try.php:117
+msgid "Description under the email field"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:121
+#: classes/shortcodes/class-shortcode-try.php:118
+msgid ""
+"An activation email will be sent to this email address. After the "
+"confirmation you will be redirected to WordPress Dashboard."
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:126
+msgid "Open popup button label"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:127
+msgid "Launch demo"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:132
+msgid "Submit button"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:133
+#: classes/shortcodes/class-shortcode-try.php:124
+msgid "Submit"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:138
+#: classes/shortcodes/class-shortcode-try.php:129
+msgid "Success message"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:139
+#: classes/shortcodes/class-shortcode-try.php:130
+msgid "An activation email was sent to your email address."
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:144
+#: classes/shortcodes/class-shortcode-try.php:135
+msgid "Fail message"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:145
+#: classes/shortcodes/class-shortcode-try.php:136
+msgid "An error has occurred. Please notify the website Administrator."
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:150
+#: classes/shortcodes/class-shortcode-try.php:141
+msgid "CSS class"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:156
+#: classes/shortcodes/class-shortcode-try.php:147
+msgid "Use reCAPTCHA"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:163
+#: classes/shortcodes/class-shortcode-try.php:154
+msgid ""
+"Write a label for drop-down list of the items available for creating "
+"sandboxes"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try-popup.php:171
+#: classes/shortcodes/class-shortcode-try.php:162
+msgid "Blog ID to create Demo from, default is 1"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try.php:99
+msgid "Form Title"
+msgstr ""
+
+#: classes/shortcodes/class-shortcode-try.php:123
+msgid "Submit button label"
+msgstr ""
+
+#: classes/widgets/class-try-popup-widget.php:25
+msgid "A pop-up form for user to create new demo website."
+msgstr ""
+
+#: classes/widgets/class-try-popup-widget.php:27
+msgid "Demo Registration Popup"
+msgstr ""
+
+#: classes/widgets/class-try-popup-widget.php:67
+#: classes/widgets/class-try-widget.php:67
+msgid "Title"
+msgstr ""
+
+#: classes/widgets/class-try-widget.php:24
+msgid "A form for user to create new demo website."
+msgstr ""
+
+#: classes/widgets/class-try-widget.php:26
+msgid "Demo Registration Form"
+msgstr ""
+
+#: templates-functions/admin.php:180
+msgid "Dowload archive:"
+msgstr ""
+
+#: templates-functions/admin.php:184
+msgid "Delete archive"
+msgstr ""
+
+#: templates-functions/admin.php:188
+#, php-format
+msgid "Something went wrong, check zip message: %s"
+msgstr ""
+
+#: templates-functions/admin.php:196
+#, php-format
+msgid "<b>Copied uploads:</b> %d files"
+msgstr ""
+
+#: templates-functions/admin.php:209
+msgid "Copied tables:"
+msgstr ""
+
+#: templates-functions/admin.php:215
+#, php-format
+msgid "<b>Details:</b> %s"
+msgstr ""
+
+#: templates-functions/admin.php:228
+msgid "Archive was deleted"
+msgstr ""
+
+#: templates/admin/errors/multisite.php:10
+msgid ""
+"Your WordPress installation does not meet Demo Builder plugin requirements:"
+msgstr ""
+
+#: templates/admin/menu-restrictions.php:1
+msgid ""
+"Allow users to access these Dashboard menus in Sandbox (WordPress user role "
+"selected for Sandbox has higher priority)."
+msgstr ""
+
+#: templates/admin/menu-restrictions.php:3
+msgid "Restrictions for"
+msgstr ""
+
+#: templates/admin/menu-restrictions.php:73
+msgid "Disallow users to access these URLs."
+msgstr ""
+
+#: templates/admin/menu-restrictions.php:74
+msgid ""
+"Type in relative links to your main Dashboard separated by new line. For "
+"example \"post-new.php?post_type=page\""
+msgstr ""
+
+#: templates/admin/menu-restrictions.php:80
+msgid "Plugins"
+msgstr ""
+
+#: templates/admin/menu-restrictions.php:101
+#: templates/admin/settings/general.php:144
+#: templates/admin/settings/license.php:96
+#: templates/admin/settings/mail/to-admin.php:93
+#: templates/admin/settings/mail/to-customer.php:81
+#: templates/admin/settings/mailchimp.php:185
+#: templates/admin/settings/toolbar.php:237
+msgid "Save"
+msgstr ""
+
+#: templates/admin/sandbox.php:12 templates/admin/sandboxes.php:13
+msgid "Search E-mail"
+msgstr ""
+
+#: templates/admin/sandboxes/edit.php:14 templates/admin/sandboxes/edit.php:53
+#: templates/admin/sandboxes/edit.php:70
+msgid "- No Change -"
+msgstr ""
+
+#: templates/admin/sandboxes/edit.php:27
+msgid "Edit Sandbox ID(s)"
+msgstr ""
+
+#: templates/admin/sandboxes/edit.php:33
+msgid "Expiration Date"
+msgstr ""
+
+#: templates/admin/sandboxes/edit.php:42
+msgid "Format: YYYY-MM-DD HH:MM:SS. Current server time: "
+msgstr ""
+
+#: templates/admin/sandboxes/edit.php:47
+msgid "Is Lifetime"
+msgstr ""
+
+#: templates/admin/sandboxes/edit.php:58
+msgid "No"
+msgstr ""
+
+#: templates/admin/sandboxes/edit.php:74
+msgid "Active"
+msgstr ""
+
+#: templates/admin/sandboxes/edit.php:77
+msgid "Archived"
+msgstr ""
+
+#: templates/admin/sandboxes/edit.php:80
+msgid "Deactivated"
+msgstr ""
+
+#: templates/admin/sandboxes/edit.php:90 templates/admin/statistics.php:13
+msgid "Update"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:5
+msgid "Export Sandbox, ID:"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:5
+msgid "email:"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:9
+msgid "1. Choose tables you would like to export from database"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:12
+msgid ""
+"Note: all tables are exported with DROP TABLE statement. Table with Users is "
+"not exported."
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:14
+msgid "All tables of this sandbox"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:29
+msgid "2. Export uploads"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:35
+msgid "Export uploads of this sandbox"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:40
+msgid "Path: "
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:41
+msgid "Total size: "
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:41
+msgid " bytes"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:44
+msgid "3. Database replacements"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:52
+msgid "Find"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:54
+msgid "Replace with"
+msgstr ""
+
+#: templates/admin/sandboxes/export-form.php:70
+msgid "Add replacement"
+msgstr ""
+
+#: templates/admin/settings/general.php:1
+msgid "Genreal Settings"
+msgstr ""
+
+#: templates/admin/settings/general.php:7
+msgid "Disable Registration"
+msgstr ""
+
+#: templates/admin/settings/general.php:13
+msgid "Hide registration forms to prevent new sandboxes from being created"
+msgstr ""
+
+#: templates/admin/settings/general.php:20
+msgid "Sandbox User Role"
+msgstr ""
+
+#: templates/admin/settings/general.php:36
+msgid ""
+"Grant this role in Sandbox to the user. If you change this option, it will "
+"not be applied to already created Sandboxes."
+msgstr ""
+
+#: templates/admin/settings/general.php:50
+msgid "User can reset demo"
+msgstr ""
+
+#: templates/admin/settings/general.php:52
+msgid ""
+"Let users reset demo content to default. User's demo lifetime, ID and login "
+"credentials won't change."
+msgstr ""
+
+#: templates/admin/settings/general.php:59
+msgid "Sandbox Expiration"
+msgstr ""
+
+#: templates/admin/settings/general.php:63
+msgid "Never"
+msgstr ""
+
+#: templates/admin/settings/general.php:64
+msgid "Limited time"
+msgstr ""
+
+#: templates/admin/settings/general.php:68
+msgid "Minutes"
+msgstr ""
+
+#: templates/admin/settings/general.php:69
+msgid "Hours"
+msgstr ""
+
+#: templates/admin/settings/general.php:70
+msgid "Days"
+msgstr ""
+
+#: templates/admin/settings/general.php:71
+msgid "Weeks"
+msgstr ""
+
+#: templates/admin/settings/general.php:72
+msgid "Months"
+msgstr ""
+
+#: templates/admin/settings/general.php:79
+msgid "Action After Expiration"
+msgstr ""
+
+#: templates/admin/settings/general.php:83
+msgid "Delete Sandbox"
+msgstr ""
+
+#: templates/admin/settings/general.php:84
+msgid "Archive Sandbox"
+msgstr ""
+
+#: templates/admin/settings/general.php:85
+msgid "Deactivate Sandbox"
+msgstr ""
+
+#: templates/admin/settings/general.php:91
+msgid "Redirect After Activation"
+msgstr ""
+
+#: templates/admin/settings/general.php:97
+msgid ""
+"Automatically redirect user to this URL after sandbox activation (optional)."
+msgstr ""
+
+#: templates/admin/settings/general.php:102
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: templates/admin/settings/general.php:104
+msgid "Protect registration forms from spam and abuse."
+msgstr ""
+
+#: templates/admin/settings/general.php:108
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+#: templates/admin/settings/general.php:115
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: templates/admin/settings/general.php:122
+msgid "reCAPTCHA Language"
+msgstr ""
+
+#: templates/admin/settings/general.php:130
+msgid "Enable Logging"
+msgstr ""
+
+#: templates/admin/settings/general.php:136
+msgid "Create a log file when sandbox is created or removed."
+msgstr ""
+
+#: templates/admin/settings/license.php:4
+msgid "Plugin License"
+msgstr ""
+
+#: templates/admin/settings/license.php:5
+#, php-format
+msgid ""
+"The License Key is required in order to get automatic plugin updates and "
+"support. You can manage your License Key in your personal account. <a "
+"%s>Learn more</a>."
+msgstr ""
+
+#: templates/admin/settings/license.php:14
+msgid "License Key"
+msgstr ""
+
+#: templates/admin/settings/license.php:35
+msgid "Inactive"
+msgstr ""
+
+#: templates/admin/settings/license.php:41
+msgid "Valid until"
+msgstr ""
+
+#: templates/admin/settings/license.php:43
+msgid "Valid"
+msgstr ""
+
+#: templates/admin/settings/license.php:47
+msgid "Disabled"
+msgstr ""
+
+#: templates/admin/settings/license.php:53
+msgid "Invalid"
+msgstr ""
+
+#: templates/admin/settings/license.php:56
+#, php-format
+msgid ""
+"Your License Key does not match the installed plugin. <a %s>How to fix this."
+"</a>"
+msgstr ""
+
+#: templates/admin/settings/license.php:68
+msgid "Action"
+msgstr ""
+
+#: templates/admin/settings/license.php:75
+msgid "Activate License"
+msgstr ""
+
+#: templates/admin/settings/license.php:79
+msgid "Deactivate License"
+msgstr ""
+
+#: templates/admin/settings/license.php:84
+msgid "Renew License"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:11
+msgid "Do not send email when new sandbox is activated"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:15
+#: templates/admin/settings/mail/to-customer.php:5
+msgid "Email Template"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:19
+#: templates/admin/settings/mail/to-customer.php:9
+msgid "Default"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:21
+msgid "Plain Text"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:26
+msgid "To Email"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:33
+#: templates/admin/settings/mail/to-customer.php:16
+msgid "From Email"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:40
+#: templates/admin/settings/mail/to-customer.php:23
+msgid "From Name"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:47
+#: templates/admin/settings/mail/to-customer.php:30
+msgid "Subject"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:54
+#: templates/admin/settings/mail/to-customer.php:37
+msgid "Message"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:64
+msgid "Site title"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:65
+#: templates/admin/settings/mail/to-customer.php:52
+msgid "User e-mail"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:66
+#: templates/admin/settings/mail/to-customer.php:53
+msgid "User login"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:72
+#: templates/admin/settings/mail/to-customer.php:60
+msgid "Send Test Message"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:76
+#: templates/admin/settings/mail/to-customer.php:64
+msgid "Send"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:82
+#: templates/admin/settings/mail/to-customer.php:70
+msgid "Check your e-mail"
+msgstr ""
+
+#: templates/admin/settings/mail/to-admin.php:84
+#: templates/admin/settings/mail/to-customer.php:72
+msgid "An error occurred"
+msgstr ""
+
+#: templates/admin/settings/mail/to-customer.php:11
+msgid "Plain text"
+msgstr ""
+
+#: templates/admin/settings/mail/to-customer.php:47
+msgid "Confirmation url"
+msgstr ""
+
+#: templates/admin/settings/mail/to-customer.php:48
+msgid "Demo duration time. From General settings."
+msgstr ""
+
+#: templates/admin/settings/mail/to-customer.php:49
+msgid "Demo duration time measure. From General settings."
+msgstr ""
+
+#: templates/admin/settings/mail/to-customer.php:50
+msgid "Demo duration in hours"
+msgstr ""
+
+#: templates/admin/settings/mail/to-customer.php:51
+msgid "Demo duration in days"
+msgstr ""
+
+#: templates/admin/settings/mail/to-customer.php:54
+msgid "User passsword"
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:1
+msgid "MailChimp Settings"
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:13
+msgid "Subscribe users to Mailchimp after Sandbox activation"
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:20
+msgid "MailChimp User Name"
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:31
+msgid "MailChimp API Key"
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:46
+msgid "Opt-In Confirmation"
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:52
+msgid "Send Confirmation Email"
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:53
+msgid ""
+"Inside the confirmation email, the subscriber will see a link to confirm "
+"their subscription. To be added to your list, they must click the link."
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:60
+msgid "Update Lists"
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:64
+msgid "Synchronize"
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:65
+msgid "Synchronize with your current MailChimp lists and interests."
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:71
+msgid "Select the lists to subscribe a new member to"
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:115
+msgid ""
+"I would like to subscribe new members to other lists and interests for this "
+"sub-site. "
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:119
+msgid ""
+"Select the lists and interests you wish a new member to be subscribed by "
+"default. You may select different lists for each sub-site."
+msgstr ""
+
+#: templates/admin/settings/mailchimp.php:142
+msgid "Category:"
+msgstr ""
+
+#: templates/admin/settings/system-info.php:20
+msgid "System Information"
+msgstr ""
+
+#: templates/admin/settings/system-info.php:24
+msgid "Name"
+msgstr ""
+
+#: templates/admin/settings/system-info.php:25
+msgid "Value"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:5
+msgid "Toolbar Settings"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:13
+msgid "Show Toolbar"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:19
+msgid ""
+"Display Toolbar with your products, responsive switcher and call to action "
+"button."
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:20
+msgid ""
+"Add ?dr=1 to this demo webiste URL to view Toolbar. Example http://demo.com/?"
+"dr=1"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:26
+msgid "Hide on Blogs"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:40
+msgid "Enter blog IDs separeted by comma"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:45
+msgid "Products List"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:52
+msgid "Label"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:53
+msgid "Link"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:54
+msgid "Image"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:55
+msgid "Button Text"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:56
+msgid "Button Link"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:57
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:70
+msgid "Fill in the form bellow to create a product"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:79
+msgid "Drag and drop to arrange"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:84
+msgid "Add/Edit Product"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:91
+msgid "ID:"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:93
+msgid ""
+"It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:98
+msgid "Label:"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:104
+msgid "Link to product:"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:110
+msgid "Thumbnail"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:115
+msgid "Select Thumbnail"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:120
+msgid "Preview"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:126
+msgid "Button text"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:132
+#: templates/admin/settings/toolbar.php:192
+msgid "Button URL"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:138
+#: templates/admin/settings/toolbar.php:201
+msgid "Button CSS class"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:162
+msgid "Logo"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:177
+msgid "Upload Logo"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:183
+msgid "Button text when no product selected"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:210
+msgid "Theme"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:214
+msgid "Dark"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:217
+msgid "Light"
+msgstr ""
+
+#: templates/admin/settings/toolbar.php:224
+msgid "Toolbar Background Color"
+msgstr ""
+
+#: templates/admin/statistics.php:6
+msgid "From"
+msgstr ""
+
+#: templates/admin/statistics.php:9
+msgid "To"
+msgstr ""
+
+#: templates/admin/statistics.php:16
+msgid "Sandboxes Activity for"
+msgstr ""
+
+#: templates/admin/statistics.php:22 templates/admin/statistics.php:45
+msgid "Creation Date"
+msgstr ""
+
+#: templates/admin/statistics.php:24 templates/admin/statistics.php:47
+msgid "Total Created"
+msgstr ""
+
+#: templates/admin/statistics.php:26 templates/admin/statistics.php:49
+msgid "Total Activated"
+msgstr ""
+
+#: templates/admin/statistics.php:55
+msgid "Summary for"
+msgstr ""
+
+#: templates/admin/statistics.php:58
+msgid "Total Created:"
+msgstr ""
+
+#: templates/admin/statistics.php:62
+msgid "Total Activated:"
+msgstr ""
+
+#: templates/sandboxes/reset-confirmation.php:5
+msgid "Reset your demo to default (syncronized with Administrator's updates)."
+msgstr ""
+
+#: templates/sandboxes/reset-confirmation.php:7
+msgid "Confirm"
+msgstr ""
+
+#: templates/toolbar.php:35
+msgid "Select..."
+msgstr ""
+
+#: templates/toolbar.php:61
+msgid "View Desktop"
+msgstr ""
+
+#: templates/toolbar.php:63
+msgid "View Tablet Landscape (1024x768)"
+msgstr ""
+
+#: templates/toolbar.php:65
+msgid "View Tablet Portrait (768x1024)"
+msgstr ""
+
+#: templates/toolbar.php:67
+msgid "View Mobile Landscape (480x320)"
+msgstr ""
+
+#: templates/toolbar.php:69
+msgid "View Mobile Portrait (320x480)"
+msgstr ""

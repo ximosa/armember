@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Skrill payment gateway Addon v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-09-17 06:15:18+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armemberskrill.php:306
+#: armemberskrill.php:368
+#: css/armemberskrill_28May2020.php:291
+#: css/armemberskrill_28May2020.php:352
+#@ ARM_SKRILL
+msgid "Skrill"
+msgstr "Skrill"
+
+#: armemberskrill.php:317
+#: css/armemberskrill_28May2020.php:302
+#@ ARM_SKRILL
+msgid "Skrill For ARMember plugin requires ARMember Plugin installed and active."
+msgstr "Skrill For ARMember plugin requires ARMember Plugin installed and active."
+
+#: armemberskrill.php:320
+#: css/armemberskrill_28May2020.php:305
+#@ ARM_SKRILL
+msgid "Skrill For ARMember plugin requires ARMember plugin installed with version 3.0 or higher."
+msgstr "Skrill For ARMember plugin requires ARMember plugin installed with version 3.0 or higher."
+
+#: armemberskrill.php:345
+#@ ARM_SKRILL
+msgid "You can find Merchant Email in your Skrill merchant account."
+msgstr "You can find Merchant Email in your Skrill merchant account."
+
+#: armemberskrill.php:355
+#: css/armemberskrill_28May2020.php:339
+#@ ARM_SKRILL
+msgid "Please make sure you have set following callback URL in your skrill account."
+msgstr "Please make sure you have set following callback URL in your skrill account."
+
+#: armemberskrill.php:356
+#: css/armemberskrill_28May2020.php:340
+#@ ARM_SKRILL
+msgid "To get more information about how to set callback URL in your skrill account, please refer this"
+msgstr "To get more information about how to set callback URL in your skrill account, please refer this"
+
+#: armemberskrill.php:356
+#: css/armemberskrill_28May2020.php:330
+#: css/armemberskrill_28May2020.php:340
+#@ ARM_SKRILL
+msgid "document"
+msgstr "document"
+
+#: armemberskrill.php:417
+#: css/armemberskrill_28May2020.php:401
+#@ ARM_SKRILL
+msgid "Skrill (if Skrill payment gateway is enabled)"
+msgstr "Skrill (if Skrill payment gateway is enabled)"
+
+#: armemberskrill.php:419
+#@ ARM_SKRILL
+msgid "Skrill does not support Auto-Debit Payment method subscriptions."
+msgstr "Skrill does not support Auto-Debit Payment method subscriptions."
+
+#: armemberskrill.php:436
+#: css/armemberskrill_28May2020.php:420
+#@ ARM_SKRILL
+msgid "Payment Fail (Skrill)"
+msgstr "Payment Fail (Skrill)"
+
+#: armemberskrill.php:481
+#: css/armemberskrill_28May2020.php:465
+#@ ARM_SKRILL
+msgid "Merchant Account (email)"
+msgstr "Merchant Account (email)"
+
+#: armemberskrill.php:998
+#: css/armemberskrill_28May2020.php:982
+#@ ARM_SKRILL
+msgid "Payment through skrill is not supported for selected plan."
+msgstr "Payment through skrill is not supported for selected plan."
+
+#: armemberskrill.php:2482
+#: css/armemberskrill_28May2020.php:2628
+#@ ARM_SKRILL
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armemberskrill.php:2487
+#: css/armemberskrill_28May2020.php:2633
+#@ ARM_SKRILL
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: css/armemberskrill_28May2020.php:330
+#@ ARM_SKRILL
+msgid "You can find Secret key and Public key in your Skrill account. To get more details, Please refer this"
+msgstr "You can find Secret key and Public key in your Skrill account. To get more details, Please refer this"
+
+#: css/armemberskrill_28May2020.php:403
+#@ ARM_SKRILL
+msgid "Skrill does not support Free trial/plan amount with auto recurring billing cycle."
+msgstr "Skrill does not support Free trial/plan amount with auto recurring billing cycle."
+
+#: css/armemberskrill_28May2020.php:457
+#@ ARM_SKRILL
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#: css/armemberskrill_28May2020.php:2058
+#@ ARM_SKRILL
+msgid "Skrill Plans"
+msgstr "Skrill Plans"
+
+#: css/armemberskrill_28May2020.php:2058
+#@ ARM_SKRILL
+msgid "You must need to add plan ID for recurring plans"
+msgstr "You must need to add plan ID for recurring plans"
+
+#: css/armemberskrill_28May2020.php:2058
+#@ ARM_SKRILL
+msgid "You can find / create plans easily via the"
+msgstr "You can find / create plans easily via the"
+
+#: css/armemberskrill_28May2020.php:2058
+#@ ARM_SKRILL
+msgid "plan management"
+msgstr "plan management"
+
+#: css/armemberskrill_28May2020.php:2058
+#@ ARM_SKRILL
+msgid "page of the Skrill dashboard."
+msgstr "page of the Skrill dashboard."
+
+#: css/armemberskrill_28May2020.php:2108
+#@ ARM_SKRILL
+msgid "Skrill plan ID"
+msgstr "Skrill plan ID"
+

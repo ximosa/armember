@@ -1,0 +1,1052 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember Affiliate Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function() {
+                if ( jQuery(window).scrollTop() > amountScrolled ) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function() {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function(event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop:0}, 'fast','swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast',function(){
+                       jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+id+'"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                }); 
+                jQuery("#overlay").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+window.location.hash+'"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height(){
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#membership_setup_wizard">ARMember - Affiliate Setup Wizard</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="panel" href="#affiliate_manage">Manage Affiliate</a></li>
+                            <li><a class="panel" href="#affiliate_referrals">Manage Referrals</a></li>
+                            <li><a class="panel" href="#affiliate_commision_setup">Manage User Commission</a></li>
+                            <li><a class="panel" href="#affiliate_payouts">Manage Payouts</a></li>
+                            <li><a class="panel" href="#affiliate_banners">Manage Banners</a></li>
+                            <li><a class="panel" href="#affiliate_statistics">Affiliate Statistics</a></li>
+                            <li><a class="panel" href="#affiliate_settings">Affiliate Settings</a></li>
+                            <li><a class="panel" href="#affiliate_migration">Migration Tool</a></li>
+                            <li><a class="panel" href="#dashboard_widget">Dashboard Widgets</a></li>
+                            <li><a class="panel" href="#email_notification">Email Notifications</a></li>
+                            <li><a class="panel" href="#affiliate_shortcode">Shortcodes</a></li>
+                        </ul>
+                        <h5>Miscellaneous</h5>
+                        <ul>
+                          <li><a class="panel" href="#affiliate_woocommerce_integration">WooCommerce Integration</a></li>
+                        </ul>
+                        <h5>Changelog</h5>
+                        <ul>
+                          <li><a class="panel" href="#affiliate_changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - Affiliate Addon ( Version: 3.2 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 06/08/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This plugin will only work if ARMember plugin <strong>version is higher than 2.0 . </strong> </p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/ARMemeber_affiliate_addon.png">
+                                    <img src="images/ARMemeber_affiliate_addon.png" alt="ARMemeber Affiliate addon" />
+                                </a>
+                            </p>
+                            <h2>ARMember - Affiliate Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup and manage with <strong>ARMember</strong></li>
+                                <li>Allow to manage affiliate specific <strong>Commission</strong> on register with payment.</li>
+                                <li>Allow to give referral to affiliates on purchase membership plan with coupon code.</li>
+                                <li>Setup plan wise <strong>Referral Rate</strong>. You can set Referral rate in <strong>Percentage</strong> OR <strong>Flat Rate</strong></li>
+                                <li>Allow plan wise <strong>Referral Rate</strong> on <strong>recurring payment.</strong></li>
+                                <li>Easy to <strong>Active</strong> or <strong>Inactive</strong> Affiliate user.</li>
+                                <li>Manage user wise payments.</li>
+                                <li>Best Affiliate Referral Statistics.</li>
+                                <li>Set Default <strong>Referral URL</strong>.</li>
+                                <li>Allow referrals on <strong>Renew / Change</strong> Plan</li>
+                                <li>Create <strong>Fancy Affiliate URL</strong>.</li>
+                                <li>Supports <strong>Data Migration</strong> from <code>AffiliateWP</code> and <code>Affiliate Pro</code>.</li>
+                                <li>Supports <strong>WooCommerce Integration</strong>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <!--  intro -->
+                    <div id="intro">
+                        <h1>ARMember - Affiliate Addon ( Version: 3.2 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 06/08/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong>This plugin will only work if ARMember plugin <strong>version is higher than 2.0 . </strong> </p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/ARMemeber_affiliate_addon.png">
+                                    <img src="images/ARMemeber_affiliate_addon.png" alt="ARMemeber Affiliate addon" />
+                                </a>
+                            </p>
+                            <h2>ARMember - Affiliate Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup and manage with <strong>ARMember</strong></li>
+                                <li>Allow to manage affiliate specific <strong>Commission</strong> on register with payment.</li>
+								<li>Allow to give referral to affiliates on purchase membership plan with coupon code.</li>
+                                <li>Setup plan wise <strong>Referral Rate</strong>. You can set Referral rate in <strong>Percentage</strong> OR <strong>Flat Rate</strong></li>
+                                <li>Allow plan wise <strong>Referral Rate</strong> on <strong>recurring payment.</strong></li>
+                                <li>Easy to <strong>Active</strong> or <strong>Inactive</strong> Affiliate user.</li>
+                                <li>Manage user wise payments.</li>
+                                <li>Best Affiliate Referral Statistics.</li>
+                                <li>Set Default <strong>Referral URL</strong>.</li>
+                                <li>Allow referrals on <strong>Renew / Change</strong> Plan</li>
+                                <li>Create <strong>Fancy Affiliate URL</strong>.</li>
+                                <li>Supports <strong>Data Migration</strong> from <code>AffiliateWP</code> and <code>Affiliate Pro</code>.</li>
+                                <li>Supports <strong>WooCommerce Integration</strong>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- installation -->
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                           <h2>Steps For Installation And Activation</h2>
+                           <p>You can install plugin either of these two methods.</p>
+                           <h3>New install via FTP </h3>
+                           <ol class="large_bottom_margin bottom_margin" type="a">
+                               <li>Download the plugin and extract it. You will find a directory <strong>armemberaffiliate</strong>.</li>
+                               <li>In your WordPress installation directory, upload <strong>armemberaffiliate</strong> to <code>wp-content/plugins/</code></li>
+                               <li>Activate the <code>ARMember - Affiliate</code> plugin through the <code>Plugins</code> menu from WordPress admin panel.</li>
+                           </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download the plugin.</li>
+                                <li>Log in to your WordPress admin panel.</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the plugin uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- setup wizard -->
+                    <div id="membership_setup_wizard">
+                        <h1>ARMember - Affiliate Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup ARMember - Affiliate For Your Website</h2>
+                            <p class="bottom_margin">After activating the plugin, you will be able to see <strong>ARMember Affiliate</strong> admin menu in left side with following options.
+                            <ol class="bottom_margin">
+                                <li><a class="panel" href="#affiliate_manage">Manage Affiliate</a></li>
+                                <li><a class="panel" href="#affiliate_referrals">Manage Referrals</a></li>
+                                <li><a class="panel" href="#affiliate_commision_setup">Manage User Commission</a></li>
+                                <li><a class="panel" href="#affiliate_payouts">Manage Payouts</a></li>
+                                <li><a class="panel" href="#affiliate_banners">Manage Banners</a></li>
+                                <li><a class="panel" href="#affiliate_statistics">Affiliate Statistics</a></li>
+                                <li><a class="panel" href="#affiliate_settings">Affiliate Settings</a></li>
+                                <li><a class="panel" href="#affiliate_migration">Migration Tool</a></li>
+                            </ol>
+                            <h4>Let's setup ARMember - Affiliate for your website :</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>When plugin activated then Affiliate menu and pages will be displayed.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/affiliate_menu.png">
+                                            <img src="images/affiliate_menu.png" alt="ARMember Affiliate Menus" >
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>For viewing a list of all affiliate users with user details go to the <a class="panel" href="#affiliate_manage">Manage Affiliate</a> menu from the admin interface.
+                                </li>
+                                <li>
+                                    <p>To view list of all referrals with their details go to the  <a class="panel" href="#affiliate_referrals">Manage Referrals</a> menu from the admin interface.</p>
+                                </li>
+                                <li>
+                                    <p>To check all payouts with their details go to the  <a class="panel" href="#affiliate_payouts">Manage Payouts</a> menu from the admin interface.</p>
+                                </li>
+                                <li>
+                                    <p>To view list of all banners with their details go to the <a class="panel" href="#affiliate_banners">Manage Banners</a> menu from the admin interface.</p>
+                                </li>
+                                <li>
+                                    <p>On the <a class="panel" href="#affiliate_statistics">Affiliate Statistics</a> page you can track site statistics like Total Earnings, Total Paid, Total Unpaid, Total Visitor, Total Referral, Total Affiliate user.
+                                </li>
+                                <li>
+                                    <p>Affiliate basic settings are available in Affiliate Settings. To get more detail about this section, please <a class="panel" href="#affiliate_settings">click here</a>.</p>
+                                </li>
+                                <li>
+                                    <p>ARMember Affiliate supports data migration. Get more detail from <a class="panel" href="#affiliate_migration">Migration</a> section.</p>
+                                </li>
+                                <li>
+                                    <p>You will also have <strong>Affiliate Settings</strong> at <code>ARMember</code> -> <code>Manage Plans</code> -> <code>Add / Edit Plan</code> after activate plugin.</p>
+                                    <p> When you select Subscription / Recurring payment plan type, you will see <strong>Affiliate Settings On Recurring Payment</strong> added after affiliate settings which is helpful to add referral on each recurring payment. </p>
+
+                                    <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong> Add referral on recurring payment is supported from ARMember <strong>2.2.1</strong>. </p>
+
+                                    <p>Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/affiliate_add_edit_plan.png">
+                                            <img src="images/affiliate_add_edit_plan.png" alt="Affiliate PRO Section in Add Edit Plan" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Here you are able to enable and disable referrals plan wise.</p>
+                                </li>
+                                <li>
+                                    <p>You can set referral rate in 'Fixed Rate' or 'Percentage' wise.</p>
+                                    <p>Also you need to set this settings for each plan.</p>
+                                    <p>For easy way to configure referral for each plan you may change directly at <a class="panel" href="#affiliate_commision_setup">Manage User Commission</a> where all plans are available at ARMember Plans Affiliates section and change affiliate settings for each plans easily.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- manage affiliate -->
+                    <div id="affiliate_manage">
+                        <h1>Manage Affiliate</h1>
+                        <div class="card">
+                            <p>To view list of all Affiliate with their details go to the Manage Affiliate menu from the admin interface. Also here you can track how many user visit your website using affiliate user referral link and Display how many visitor converted as user through the affiliate user referral link.</p>
+                            <p>Here you are able to see all affiliate user listed with their details like Username, email, Affiliate Starts From, User status, Affiliate Id, Number Of visitors, Converted As Users and Revenue Amount. Also Affiliate username, email, Number Of visitors, Converted As Users and Revenue Amount column is sortable here.</p>
+                            <p>Please see below screen.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_manage.png">
+                                    <img src="images/affiliate_manage.png" alt="ARMember Affiliate Manage" />
+                                </a>
+                            </p>
+                            
+                            <h2>Bulk Actions</h2>
+                            <p>This option will be helpful when same action need to be performed on multiple user rows at same time.</p>
+                                <ol class="large_bottom_margin bottom_margin">
+                                    <li>
+                                        <h4>Delete</h4>
+                                        <p>Select number of rows that you want to delete and select Delete Bulk Action then click on Go button.</p>
+                                    </li>
+                                </ol>
+                            <h2>Actions</h2>
+                            <p>For each row of grid there are some action options provided which are as following</p>
+                                <ol class="large_bottom_margin bottom_margin">
+                                    <li>
+                                        <h4>Delete</h4>
+                                        <p>Each Referral can be deleted by just one click on <code>DELETE</code> Icon at right side.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Active & Inactive</h4>
+                                        <p>You can <code>ACTIVE</code> or <code>INACTIVE</code> direct login using single switch.</p>
+                                    </li>
+                                </ol>
+                            <h2>Search</h2>
+                                <p>You have Search Box at top of the grid plus other filter options are also available which are <code>FILTER BY STATUS</code>.</p>
+                            <h2>Create Affiliate User</h2>
+                            <p>For create affiliate user click on <code>Create Affiliate User</code>.</p>
+                            <p>Please see below Screen.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_add.png">
+                                    <img src="images/affiliate_add.png" alt="ARMember Affiliate Manage Referral" width="100%" />
+                                </a>
+                            </p>
+                            <p>You can select user that you want to create affiliate user.</p>
+                            <p>click on Save button.</p>
+                        </div>
+                    </div>
+                    <!-- manage referrals -->
+                    <div id="affiliate_referrals">
+                        <h1>Manage Referrals</h1>
+                        <div class="card">
+                            <p>To view list of all Referrals with their details go to the Manage Referrals menu from the admin interface.</p>
+                            <p>Here you are able to see all referral listed with their details like Affiliate User, Amount, Plan Name, Reference User, Date, Status and Link. Also Affiliate user, Amount and date column is sortable here.</p>
+                            <p class="alert alert_info"><i class="ts_icon ts_icon_info_circle"></i><strong>Please note that, </strong> if affiliate user is referred with any payment transaction then referral will be added on purchased plan amount. If plan has trial active and transact with trial amount then referral will be added on trial amount.</p>
+                            <p>Please see below screen.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_manage_referral.png">
+                                    <img src="images/affiliate_manage_referral.png" alt="ARMember Referral Manage" />
+                                </a>
+                            </p>
+                            <h2>Bulk Actions</h2>
+                            <p>This option will be helpful when same action need to be performed on multiple user rows at same time.</p>
+                                <ol class="large_bottom_margin bottom_margin">
+                                    <li>
+                                        <h4>Delete</h4>
+                                        <p>Select number of rows that you want to delete and select Delete Bulk Action then click on Go button.</p>
+                                    </li>
+                                </ol>
+                            <h2>Actions</h2>
+                            <p>For each row of grid there are some action options provided which are as following</p>
+                                <ol class="large_bottom_margin bottom_margin">
+                                    <li>
+                                        <h4>Accept</h4>
+                                        <p>Each Referral Can be accepted by just one click on <code>ACCEPT</code> Icon at right side. When you accept any referral then status should be unpaid.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Reject</h4>
+                                        <p>If you see any bad Referral then you will be able to reject by just one click on <code>REJECT</code> Icon at right side</p>
+                                    </li>
+                                    <li>
+                                        <h4>Edit Referral Amount</h4>
+                                        <p>For edit referral amount click on<code>Edit Referral Amount</code> button. And set your new amount in popup amount text-box and click on save.</p>
+                                        <p>Please see below screen.</p>
+                                        <p class="doc_image">
+                                            <a rel="lightbox" href="images/affiliate_referral_edit.png">
+                                                <img src="images/affiliate_referral_edit.png" alt="ARMember Referral edit" />
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>Delete</h4>
+                                        <p>Each Referral can be deleted by just one click on <code>DELETE</code> Icon at right side.</p>
+                                    </li>
+                                </ol>
+                            <h2>Search</h2>
+                                <p>You have Search Box at top of the grid plus other filter options are also available which are <code>FILTER BY MEMBERSHIP PLAN</code>, <code>FILTER BY STATUS</code>, <code>FILTER BY DATE</code>.</p>
+                            <h2>Export To CSV</h2>
+                                <p>This button is provide facility to export displayed records in CSV file.</p>
+
+                        </div>
+                    </div>
+                    <!-- manage payouts --> 
+                    <div id="affiliate_payouts">
+                        <h1>Manage Payouts</h1>
+                        <div class="card">
+                            <p>To view list of all payouts with their details go to the Manage Payouts menu from the admin interface.</p>
+                            <p>Here you are able to see all payouts listed with their details like Affiliate User, Total Earnings, Paid Amount, Due Amount. Also the all column is sortable here.</p>
+                            <p>Please see below screen.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_manage_payouts.png">
+                                    <img src="images/affiliate_manage_payouts.png" alt="ARMember Affiliate Manage Payouts"/>
+                                </a>
+                            </p>
+                            <h2>Actions</h2>
+                            <p>For each row of grid there are some action options provided which are as following</p>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <h4>Export To CSV</h4>
+                                    <p>For Specific affiliate user payment history export by just one click on <code> EXPORT TO CSV </code> icon. </p>
+                                </li>
+                                <li>
+                                    <h4>Payment History</h4>
+                                    <p>You will be able to see each affiliate user payment history by click on <code> PAYMENT HISTORY </CODE> icon. </p>
+                                    <p>Please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/affiliate_payment_history.png">
+                                            <img src="images/affiliate_payment_history.png" alt="ARMember payment history" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4>Pay to User</h4>
+                                    <p>For Pay to user click on <code>PAY TO USER</code> button. And set amount that you want to pay to user in popup text-box and click on <code>Pay</code> button.</p>
+                                </li>
+                            </ol>
+                            <h2>Search</h2>
+                                <p>You have Search Box at top of the grid.</p>
+                            <h2>Export To CSV</h2>
+                                <p>You will click on it the button and able to download displayed record in CSV file.</p>
+                        </div>
+                    </div>
+                    <!-- manage banners -->
+                    <div id="affiliate_banners">
+                        <h1>Affiliate Banners</h1>
+                        <div class="card">
+                            <p>To view list of all Banners with their details go to the Manage Banners menu from the admin interface.</p>
+                            <p>Banners or text links allows your affiliates user to easily promote your web site. The text or banner links your affiliates will use to traffic to your web site.</p>
+                            <p>This allows your affiliates user to log into their affiliate area and get the code for the advertisement.</p>
+                            <p>Affiliate user can copy and paste the banner code to their site for send visitors to your web site</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_manage_banner.png">
+                                    <img src="images/affiliate_manage_banner.png" alt="ARMember Affiliate Manage Banner" />
+                                </a>
+                            </p> 
+                            <h2>Bulk Actions</h2>
+                            <p>This option will be helpful when same action need to be performed on multiple user rows at same time.</p>
+                                <ol class="large_bottom_margin bottom_margin">
+                                    <li>
+                                        <h4>Delete</h4>
+                                        <p>Select number of rows that you want to delete and select Delete Bulk Action then click on Go button. When you click on Go button then only visitor will be deleted.</p>
+                                    </li>
+                                </ol>
+                            <h2>Actions</h2>
+                            <p>For each row of grid there are some action options provided which are as following</p>
+                                <ol class="large_bottom_margin bottom_margin">
+                                    <li>
+                                        <h4>Edit Banner</h4>
+                                        <p>For edit Banner click on<code>EDIT BANNER</code> button. And you can edit all banner details than click on save button.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Delete</h4>
+                                        <p>Each Banner can be deleted by just one click on <code>DELETE</code> Icon at right side.</p>
+                                    </li>
+                                </ol>
+                            <h2>Add Banner</h2>
+                            <p>For create banner click on <code>ADD BANNER</code> Button.</p>
+                            <p>Please see below Screen.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_add_banner.png">
+                                    <img src="images/affiliate_add_banner.png" alt="ARMember Affiliate add banner" width="100%" />
+                                </a>
+                            </p>
+                            <p>You can insert all details and click on <code>SAVE</code> button.</p>
+                        </div>
+                    </div>
+                    <!-- affiliate statistics -->
+                    <div id="affiliate_statistics">
+                        <h1>Affiliate Statistics</h1>
+                        <div class="card">
+                            <p>Here you can track site statistics like Total Earnings, Current Month Earnings, Total Payment(Paid), Current Month Payment(Paid), Total Payments(Unpaid), Current Month Payments(Unpaid), Total Visitor, Current Month Visitor, Total Referral, Current Month Referral, Total Affiliate User, Current Month Affiliate user.</p>
+                            <h2>Visits</h2>              
+                            <p>Here you are able to see your web site through affiliate users visits listed with their details like Date Time, Browser, IP, Country, Visitor Converted as user, Affiliate user, Referred user(Display username if visitor converted as user), Commission and Membership Plan.</p> <p>Also Affiliate user, Referred user, Commission and membership plan column is sortable here.</p>                            
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_statistics.png">
+                                    <img src="images/affiliate_statistics.png" alt="ARMember Affiliate Statistics"/>
+                                </a>
+                            </p>
+                            <h2>Search</h2>
+                            <p>You have filters at top of the grid, filter options are also available which are <code>FILTER BY AFFILIATE USER</code> <code>FILTER BY MEMBERSHIP PLAN</code> <code>FILTER BY DATE</code>.</p>
+                            <h2>Export To CSV</h2>
+                            <p>You will click on it the button and able to download displayed record in CSV file.</p>
+                            <br/>
+                            <h2>Summery</h2>
+                            <p>Here you are able to see day wise your web site Total Visitor, Total Converted, Commission, Revenue Amount.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_statistics_summery.png">
+                                    <img src="images/affiliate_statistics_summery.png" alt="ARMember Affiliate Statistics Summery"/>
+                                </a>
+                            </p>
+                            <h2>Search</h2>
+                            <p>You have filters at top of the grid, filter options are available which are <code>FILTER BY MEMBERSHIP PLAN</code><code>FILTER BY DATE</code>.</p>
+                        </div>
+                    </div>
+                    <!-- affiliate settings -->
+                    <div id="affiliate_settings">
+                        <h1>ARMember - Affiliate Settings</h1>
+                        <div class="card">
+                            <p>After installation and activation of the plugin, check about the Affiliate Settings. Go to the Affiliate Settings menu from the admin interface.</p>
+                            <p>Let's check each option in detail:</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_setting.png">
+                                    <img src="images/affiliate_setting.png" alt="ARMember Affiliate Setting" />
+                                </a>
+                            </p>
+                            
+                            <h3>Affiliate URL Parameter Name</h3>
+                                <p>You can change the URL variable for referral URLs. The default value is armaff. </p>
+                                <br>
+                                
+                            <h3>Referral Cookie Expiration</h3>
+                                <p>This option is for How many days should the referral tracking cookie be valid for?</p>
+                                <p>If you enter 0, referrals will only be valid until the visitor closes the browser (session).</p>
+                                <p>The default value is 1. In this case, if a visitor comes to your site via an affiliate link, a suggested referral will be valid until 1 days after she or he clicked that affiliate link.</p>
+                                <br>
+
+                            <h3>Default Referral Amount</h3>
+                                <p>If visitor visit the site using shared link and register using simple ARMember Registration page then this amount should be commission.</p>
+                                <br>
+
+                            <h3>Referral URL</h3>
+                                <p>The default referral URL is your website URL. You will be change this any other page, that you want to referral visit the page first.</p>
+                                <br>
+
+                            <h3>Referral Status</h3>
+                                <p>You can able to set default referral status. So when new referral is create then the default status should be selected.</p>
+                                <p>By default referral status should be pending.</p>
+                                <br>
+
+                            <h3>Allow Referrals on Renew / Change Plan</h3>
+                                <p>This option Allows you to give affiliate user commission when someone refer to affiliate and renew OR change plan then affiliate user get the commission.</p>
+                                <br>
+
+                            <h3>Do Not Allow Zero Amount Commission</h3>
+                                <p>This option Allows you to block zero amount referrals. This Option is default allow zero amount referrals.</p>
+                                <br>
+
+                            <h3>Automatic Create Affiliate link upon new Registration</h3>
+                                <p>If this option is enable then. New user create in your WordPress site then automatic new affiliate user will be create.</p>
+                                <br>
+
+                            <h3>Affiliate Id Encoding</h3>
+                                <p>You can able to set encoding affiliate URL value using this option.</p>
+                                <p></p>
+                                <p>If you change <code>Affiliate Id Encoding</code> and <code>Affiliate URL Parameter Name</code> setting and have distributed affiliate links or permalinks, make sure that these are updated. Unless the incoming affiliate links reflect the current encoding, no affiliate hits, visits or referrals will be recorded.</p>
+                                <br>
+
+                            <h3>Enable Fancy Affiliate URL</h3>
+                                <p>Enable this option to provide fancy url to your affiliates to share their affiliate referral urls.</p>
+                                <div class="example">
+                                    <h5>Example</h5>
+                                    <pre><code>http://yoursite.com/armaff/affiliate_id</code></pre>
+                                </div>
+                                <br>
+                            <hr>
+                            <h3>Form Settings</h3>
+                                <p>Form settings are available for form replaced with shortcode <code>[arm_affiliate_register]</code>.</p>
+                                <p>Following options are available to customize form.</p>
+                                <p class="doc_image">
+                                    <a rel="lightbox" href="images/affiliate_form_settings.png">
+                                        <img src="images/affiliate_form_settings.png" alt="ARMember Affiliate Form Settings" />
+                                    </a>
+                                </p>
+                                <h4>Form Input Style</h4>
+                                <p>Here you have choice to set form input style from <strong>Material Style</strong> and <strong>Standard Style</strong>. Default Material Style will be applied.</p>
+                                <br>
+                                <h4>Form Title</h4>
+                                <p>Here you are able to change form title to display at front form. </p>
+                                <br>
+                                <h4>Field Options</h4>
+                                <p>You have field options where you are able change <strong>Label</strong> and <strong>Required</strong> status for each fields and submit button in form.</p>
+                                <br>
+                            <hr>
+                            <h3>WooCommerce</h3>
+                                <br>
+                                <p>ARMember Affiliate supports <em>WooCommerce Integration</em>, you will have WooCommerce section visible at affiliate settings if you have installed and activate WooCommerce plugin.</p>
+                                <p><em><strong>Enable Integration</strong></em></p>
+                                <p>Enable integration to get WooCommerce support in ARMember Affiliates. If you have enabled integration, affiliates will get referrals created on each order of WooCommerce product if he/she is referred.</p>
+                                <p>At <strong>Manage Referrals</strong>, you have <strong>Order</strong> column referring to the Order Id in WooCommerce for which affiliate is referred.</p>
+                                <p class="doc_image">
+                                    <a rel="lightbox" href="images/armember_affiliate_wc_order.png">
+                                        <img src="images/armember_affiliate_wc_order.png" alt="ARMember Affiliate WooCommerce Support" />
+                                    </a>
+                                </p>
+                                <p>ARMember Affiliate also enables other facilities to integrate with WooCommerce, <a href="#affiliate_woocommerce_integration">Click here</a> to get more information. </p>
+                                <br>
+                        </div>
+                    </div>
+
+                    <div id="affiliate_migration">
+                        <h1>ARMember Affiliate - Migration</h1>
+                        <div class="card">
+                            <p>ARMember Affiliate supports data migration from AffiliateWP and Affiliate Pro plugins which helps you to migrate affiliate accounts to the ARMember Affiliate plugin.</p>
+                            <p>Start to migrate affiliate accounts at <code>ARMember Affiliate &gt; Migration</code>.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_migration.png">
+                                    <img src="images/affiliate_migration.png" alt="ARMember Affiliate Migration" />
+                                </a>
+                            </p>
+                            <p>Here you need to <strong>Select Plugin</strong> from where you would like to migrate affiliate accounts, and then click on <strong>Migrate</strong> button.</p>
+                            <p>On click migrate, before start to migrate affiliate accounts you have following points to note and options to check if you need to apply after complete migration.</p>
+                            <ul class="large_bottom_margin">
+                                <li>While migrating <strong>Banners / Creative</strong> with duplicate ID will be skipped as it is not possible to migrate without duplicating an banner ID.</li>
+                                <li><strong>Deactivate <code>{AFFILIATE}</code> plugin After Complete Migration.</strong>
+                                    <p>This will deactivate plugin from where you are migrating affiliate accounts after complete migration to prevent conflicts with affiliate accounts when register new user. This is checked default. </p>
+                                </li>
+                                <li><strong>Change affiliate parameter name</strong>
+                                    <p>Affiliate URL parameter(variable) may different in plugin from where you are going to migrate affiliate accounts, so to make all affiliates referral URL same you may need to change parameter name in ARMember Affiliate. This is default checked.</p>
+                                </li>
+                                <li><strong>Replace shortcodes after complete migration</strong>
+                                    <p>Replace shortcodes of <code>{AFFILIATE}</code> plugin from where you are migrating affiliate accounts with ARMember affiliate supported shortcodes at all pages/posts.</p>
+                                </li>
+                                <li><strong>Enable Fancy URL</strong>
+                                    <p>Check this option to enable fancy URL after complete migration as this may needed if you have enabled pretty URL in <code>{AFFILIATE}</code> plugin.</p>
+                                </li>
+                                <li><strong>Enable Affiliate Id Encoding</strong>
+                                    <p>Check this option if you need to enable affiliate id after complete migration.</p>
+                                </li>
+                            </ul>
+                            <p>Click on <strong>Continue</strong> to start migration of affiliate accounts.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Important Note:</strong> <br> If you already have exist affiliate accounts in ARMember Affiliate then migration can be possible if last affiliate Id exist in ARMember Affiliate is less then first affiliate Id in plugin from where you need to migrate.</p>
+                        </div>
+                    </div>
+
+                    <div id="affiliate_commision_setup">
+                        <h1>ARMember Affiliate - Commission Setup</h1>
+                        <div class="card">
+                            <p>From this page you can set commission on individual affiliate accounts.</p>
+                            <hr>
+                            <h3>ARMember User Commissions</h3>
+                            <p>If you want to set different referral rate for particular affiliate account then here it is possible at <strong>ARMember User Commissions</strong>.</p>
+                            <p>Click on <strong>Add New User Commission</strong> button to add new affiliate account and different referral rate and type. You will get popup where you can select your affiliate account and configure referral settings.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_commision_setup_affiliates.png">
+                                    <img src="images/affiliate_commision_setup_affiliates.png" alt="ARMember Affiliates Commission Setup" />
+                                </a>
+                            </p>
+                            <p>You will be able to update/delete affiliate settings for affiliates by click on action buttons displayed by hovering on each row of affiliate accounts in grid.</p>
+                            <ul class="large_bottom_margin">
+                                <li><strong>Edit</strong> : Click here to update referral setting for particular affiliate account.</li>
+                                <li><strong>Delete</strong> : Click here to remove referral settings for particular affiliate account.</li>
+                            </ul>
+
+                            <p class="alert alert_info"><i class="ts_icon ts_icon_info_circle"></i><strong>Please note that,</strong> <span style="color:red;">When you add affiliate settings for particular affiliate account then it will overwrite all other affiliate settings.</span> User specific affiliate settings will have first priority always. Let's get understand by example below.</p>
+                            <p><strong>For example,</strong><br/><br/>
+                            If you have <strong>Subscription Plan</strong> with affiliate referral enabled and referral rate is <code>5%</code> for subscription plan. And an affiliate account <strong>ARM_Affiliate</strong> is added with referral rate <code>15%</code> at Manage User Commission.</p>
+                            <p>Now whenever any user register with your <strong>Subscription Plan</strong> and refer <strong>ARM_Affiliate</strong> then ARM_Affiliate will get <strong>15%</strong> referral on plan amount instead of 5%.</p>
+
+                            <p class="alert alert_info"><i class="ts_icon ts_icon_info_circle"></i><strong>Please note that,</strong> when affiliate is referred on registration without payment then <strong>Default Referral Amount</strong> will be applied from Affiliate Settings.</strong></p>
+                            <hr>
+                            <h3>ARMember Plans Affiliates</h3>
+                            <p>You may enable and configure referrals in particular plan at <code>ARMember</code> -> <code>Manage Plans</code> -> <code>Add / Edit Plan</code>. Same things are available here to configure referral settings on particular plan directly without edit plan in ARMember. Same affiliate settings are also available here as you can see in screenshot.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_commision_setup_plans.png">
+                                    <img src="images/affiliate_commision_setup_plans.png" alt="ARMember Affiliate Plans Commission Setup" />
+                                </a>
+                            </p>
+                            <p>Please refer at <a class="panel" href="#membership_setup_wizard">ARMember - Affiliate Setup Wizard</a> for affiliate settings on particular plan.</p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Note:</strong> Affiliate Settings On Recurring Payment will be available for subscription plans only.</p>
+                        </div>
+                    </div>
+
+                    <!-- dashboard_widget -->
+                    <div id="dashboard_widget">
+                        <h1>Dashboard Widgets</h1>
+                        <div class="card">
+                            <h4>Recent Referrals</h4>
+                            <p>Here you have list of 6 recently added referrals with their Affiliate user, Amount and Referral User. You can view all referral by clicking on View All Referrals link.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/affiliate_dashboard_widget.png">
+                                    <img src="images/affiliate_dashboard_widget.png" alt="ARMember Affiliate Dashboard Widget" />
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- affiliate shortcode -->
+                    <div id="affiliate_shortcode">
+                        <h1>Affiliate Shortcodes</h1>
+                        <div class="card">
+                            <h1>[arm_affiliate]</h1>
+                            <p>Place this shortcode to display affiliate's detail in your page like display referral URL for current logged in affiliate. Make sure to add <strong>{URL}</strong> in your content to display affiliate's referral URL.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>social_fields</code></td>
+                                    <td>Social network name(ex: facebook/twitter/linkedin/vkontakt/email)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>affiliate_text</code></td>
+                                    <td>Affiliate text that you want to display in affiliate area for affiliate user.<strong> Use : </strong> {URL} (For display referral URL.) </td>
+                                </tr>
+                            </table>
+
+                            <br>
+                            <h1>[arm_user_referral]</h1>
+                            <p>Use this shortcode to allow your affiliate users to get their referrals detail in your site.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>title</code></td>
+                                    <td>Section Heading.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>per_page</code></td>
+                                    <td>Number of Records per Page</td>
+                                </tr>
+                                <tr>
+                                    <td><code>message_no_record</code></td>
+                                    <td>record 	Display Message if no records found.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>label</code></td>
+                                    <td>Referrals - Grid Column Label</td>
+                                </tr>
+                                <tr>
+                                    <td><code>value</code></td>
+                                    <td>Referrals - Grid Column Label Value</td>
+                                </tr>
+                            </table>
+
+                            <br>
+                            <h1>[arm_user_payout_transaction]</h1>
+                            <p>This shortcode will be replaced with the grid containing payout transactions for current logged in affiliate user.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>title</code></td>
+                                    <td>Section Heading.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>per_page</code></td>
+                                    <td>Number of Records per Page</td>
+                                </tr>
+                                <tr>
+                                    <td><code>message_no_record</code></td>
+                                    <td>record 	Display Message if no records found.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>label</code></td>
+                                    <td>Payouts Transaction - Grid Column Label</td>
+                                </tr>
+                                <tr>
+                                    <td><code>value</code></td>
+                                    <td>Payouts Transaction - Grid Column Label Value</td>
+                                </tr>
+                            </table>
+
+                            <br>
+                            <h1>[arm_aff_banner]</h1>
+                            <p>Place this shortcode in your page where you want to display your specific banner with embed code for affiliates.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>item_id</code></td>
+                                    <td>Affiliate Banner Id.</td>
+                                </tr>
+                            </table>
+
+                            <br>
+                            <h1>[arm_affiliate_register]</h1>
+                            <p>You may have users who does not have created affiliate or you may disabled <code>Automatic Create Affiliate link upon new Registration</code> then users can create affiliate from where you have placed this shortcode in your site while they are logged in. </p>
+                            <p>While user who has no affiliate account is logged in this shortcode will be replaced with form having some required fields and while user who has affiliate account is logged in this shortcode will be replaced with user's affiliate detail.</p>
+                            <p>You are also able to change form title, form input style and field options from <code>Affiliate Settings &gt; Form Settings</code>.</p>
+                            <br>
+                            <h1>[arm_aff_visits]</h1>
+                            <p>This shortcode will be replaced with the total number of visits for current logged in affiliate.</p>
+
+                            <br>
+                            <h1>[arm_if_affiliate]...[/arm_if_affiliate]</h1>
+                            <p>You may want to add specific content in your page which should be visible only for affiliates. This shortcode can be useful for that case. Use this shortcode like,</p>
+                            <div class="example">
+                                <h5>Shortcode</h5>
+                                <pre><code>[arm_if_affiliate] <br>    This content will be visible only for affiliates. <br>[/arm_if_affiliate]</code></pre>
+                            </div>
+
+                            <br>
+                            <h1>[arm_if_non_affiliate]...[/arm_if_non_affiliate]</h1>
+                            <p>Using this shortcode you are also able to add specific content in your page which should be visible only for non affiliates. <br>For Example,</p>
+                            <div class="example">
+                                <h5>Shortcode</h5>
+                                <pre><code>[arm_if_non_affiliate] <br>    This content will be visible only for non affiliates. <br>[/arm_if_non_affiliate]</code></pre>
+                            </div>
+
+                            <br>
+                            <h1>[arm_referrals_friend_invite]</h1>
+                            <p>Place this shortcode to display form for Refer or Invite friend by email and you can enter multiple email by comma separate in email field. This shortcode only accessible for affiliate users.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>form_id</code></td>
+                                    <td>Display Form id</td>
+                                </tr>
+                                <tr>
+                                    <td><code>title</code></td>
+                                    <td>Section Heading</td>
+                                </tr>
+                                <tr>
+                                    <td><code>email_label</code></td>
+                                    <td>Label for email field</td>
+                                </tr>
+                                <tr>
+                                    <td><code>submit_button_text</code></td>
+                                    <td>Form submit button text label</td>
+                                </tr>
+                                <tr>
+                                    <td><code>success_msg</code></td>
+                                    <td>Form submited after success message</td>
+                                </tr>
+                            </table>
+
+                            <br>
+                            <h1>[arm_aff_statistics]</h1>
+                            <p>Place this shortcode to display statistics. This shortcode only accessible for affiliate users.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>earning_back_color</code></td>
+                                    <td>Display earnings background color</td>
+                                </tr>
+                                <tr>
+                                    <td><code>paid_payment_back_color</code></td>
+                                    <td>Display paid payment background color</td>
+                                </tr>
+                                <tr>
+                                    <td><code>unpaid_payment_back_color</code></td>
+                                    <td>Display unpaid payment background color</td>
+                                </tr>
+                                <tr>
+                                    <td><code>visitor_back_color</code></td>
+                                    <td>Display visitor background color</td>
+                                </tr>
+                                <tr>
+                                    <td><code>referral_back_color</code></td>
+                                    <td>Display referral background color</td>
+                                </tr>
+                                <tr>
+                                    <td><code>earning_title</code></td>
+                                    <td>Display earning title</td>
+                                </tr>
+                                <tr>
+                                    <td><code>payment_paid_title</code></td>
+                                    <td>Display paid payment title</td>
+                                </tr>
+                                <tr>
+                                    <td><code>payment_unpaid_title</code></td>
+                                    <td>Display unpaid payment title</td>
+                                </tr>
+                                <tr>
+                                    <td><code>visitor_title</code></td>
+                                    <td>Display visitor title</td>
+                                </tr>
+                                <tr>
+                                    <td><code>referral_title</code></td>
+                                    <td>Display referral title</td>
+                                </tr>
+                            </table>
+
+                            <br>
+                            <h1>[arm_aff_earning]</h1>
+                            <p>Place this shortcode to display earning. This shortcode only accessible for affiliate users.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>duration</code></td>
+                                    <td>(Optional) Display last month earning (value:1)</td>
+                                </tr>
+                            </table>
+
+                            <br>
+                            <h1>[arm_aff_payment_paid]</h1>
+                            <p>Place this shortcode to display paid payment. This shortcode only accessible for affiliate users.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>duration</code></td>
+                                    <td>(Optional) Display last month paid payment (value:1)</td>
+                                </tr>
+                            </table>
+
+                            <br>
+                            <h1>[arm_aff_payment_unpaid]</h1>
+                            <p>Place this shortcode to display unpaid payment. This shortcode only accessible for affiliate users.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>duration</code></td>
+                                    <td>(Optional) Display last month unpaid payment (value:1)</td>
+                                </tr>
+                            </table>
+
+                            <br>
+                            <h1>[arm_aff_referral]</h1>
+                            <p>Place this shortcode to display referral. This shortcode only accessible for affiliate users.</p>
+                            <table class="full_width">
+                                <tr>
+                                    <th colspan="2">Possible Arguments:</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><code>duration</code></td>
+                                    <td>(Optional) Display last month referral (value:1)</td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div id="email_notification">
+                        <h1>Manage Automated Email Messages</h1>
+                        <div class="card">
+                            <p>ARMember allows you to enable and configure email notification for different activities. To configure email for community activities please go to <code>ARMember</code> -> <code>Email Notification</code>.</p>
+                            <p>Click on <strong>Add New Response</strong> you will get popup open to configure email notification where you have options of all community activities in <strong>Message To Be Sent</strong> input as you can see in following image. </p>
+                            <p class="doc_image"><a rel="lightbox" href="images/armember_affiliate_email_notifications_screenshot.png"><img src="images/armember_affiliate_email_notifications_screenshot.png" alt="Community Email Notification Configuration" /></a></p>
+                            <p>Now, after configuring email notification content you need to enable particular notification from Community Settings. Following are community activities for which you can enable email notification. </p>
+                            <div class="card_inner">
+                                <h4>On user register as affiliate account</h4>
+                                <p>This event will trigger when register new affiliate account. You can set individually event for each plan or multiple plan.</p>
+                                <hr>
+                                <h4>On Affiliate user Refer/Invite friends</h4>
+                                <p>This event will trigger when affiliate user Refer/Invite friends. You can set individually event for each plan or multiple plan.</p>
+                                <hr>
+                                <h4>Notify admin when one user refer to other user</h4>
+                                <p>This event will trigger when one user refer to other user. You can set individually event for each plan or multiple plan.</p>
+                                <hr>
+                                <h4>Notify the affiliates when credited with a referral</h4>
+                                <p>This event will trigger when affiliates credited with a referral. You can set individually event for each plan or multiple plan.</p>
+                            </div>
+                        </div>        
+                    </div>
+                    <!-- affiliate change log  -->
+                    <div id="affiliate_woocommerce_integration">
+                        <h1>WooCommerce Integration</h1>
+                        <div class="card">
+                            <p>After enable <em>WooCommerce Integration</em> from affiliate settings ARMember Affiliate allows referrals on each sale of WooCommerce products. Let's see in detail :</p>
+                            <br/>
+                            <h3>ARMember affiliate referral on individual product</h3>
+                            <br/>
+                            <p>Go to <em>Products -&gt; Add / Edit Product</em>, you will see <strong>ARMember Affiliate</strong> is added in Product data - metabox. </p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/armember_affiliate_wc_product.png">
+                                    <img src="images/armember_affiliate_wc_product.png" alt="ARMember Affiliate WooCommerce Support" />
+                                </a>
+                            </p>
+                            <p>Click on that and configure commission rate for particular product which will be used as affiliate referral amount when affiliate is referred on selling of product.</p>
+                            <p><em><strong>ARMember Affiliate Rate</strong></em></p>
+                            <p>Enter referral amount for particular product here. If you want to use default referral amount please keep this field value blank.</p>
+                            <p><em><strong>Disable affiliate commission</strong></em></p>
+                            <p>Check here if you need to prevent referrals on particular product for your ARMember Affiliates.</p>
+                            <hr>
+                            <h3>ARMember affiliate referral on Coupons</h3>
+                            <br/>
+                            <p>Go to <em>WooCommerce -&gt; Coupons -&gt; Add / Edit Coupon</em>, you will see <strong>ARMember Affiliate</strong> option with all your ARMember affiliates list at Coupon data - metabox.</p>
+                            <p>When your particular coupon code is redeemed in WooCommerce, selected affiliate for this coupon will be referred and get referral added.</p>
+                            <p class="doc_image">
+                                <a rel="lightbox" href="images/armember_affiliate_wc_coupon.png">
+                                    <img src="images/armember_affiliate_wc_coupon.png" alt="ARMember Affiliate WooCommerce Support" />
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- affiliate change log  -->
+                    <div id="affiliate_changelog">
+                        <h1>Changelog</h1>
+                        <div class="card">
+                            <h2>Version 3.2 (06 Aug, 2020)</h2>
+                            <ul>
+                                <li>Updated DataTables Library.</li>
+                                <li>Other Minor Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 3.1 (06 Jul, 2020)</h2>
+                            <ul>
+                                <li>Minor Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 3.0 (15 May, 2020)</h2>
+                            <ul>
+                                <li>Added New Facility to allow referral using affiliate username.</li>
+                                <li>Minor Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 2.9 (27 Mar, 2020)</h2>
+                            <ul>
+								<li>Added New shortcodes to view Affiliate Statistics, Affiliate Earnings, Affiliate Referral, Affiliate Paid Payments and Affiliate unpaid Payments.</li>
+                                <li>Minor Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 2.8 (28 Dec, 2019)</h2>
+                            <ul>
+                                <li>Minor Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 2.7 (14 Oct, 2019)</h2>
+                            <ul>
+                                <li>Added Facility to apply affiliate referral from ARMember Coupons.</li>
+                                <li>Added Facility for affiliate to Refer/Invite friend using shortcode.</li>
+                                <li>Added New Email Notification on user register/signup as Affiliate user.</li>
+                                <li>Other Minor Bug Fixes.</li>
+                            </ul>
+							<h2>Version 2.6 (15 Mar, 2019)</h2>
+                            <ul>
+                                <li>Minor Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 2.5 (07 Jan, 2019)</h2>
+                            <ul>
+                                <li>Added new facility to set commission on individual affiliate accounts.</li>
+                                <li>Minor Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 2.4 (11 Dec, 2018)</h2>
+                            <ul>
+                                <li>Minor Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 2.3 (26 September, 2018)</h2>
+                            <ul>
+                                <li>Minor Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 2.2 (30 June, 2018)</h2>
+                            <ul>
+                                <li>Added new shortcodes to display specific content only for either affiliates or non-affiliates.</li>
+                                <li>Added new shortcode to display affiliate visit.</li>
+                                <li>Other Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 2.1 (30 May, 2018)</h2>
+                            <ul>
+                                <li>Added support to add referral on each recurring payment cycle.</li>
+                                <li>Other minor Bug Fixes.</li>
+                            </ul>
+                            <h2>Version 2.0 (05 April, 2018)</h2>
+                            <ul>
+                                <li>Added support for Migration to migrate all the affiliate accounts from affiliateWP and affiliatePro.</li>
+                                <li>Added new shortcode [arm_affiliate_register] to allow already registered user to create affiliate account.</li>
+                                <li>Added new feature to enable fancy URL.</li>
+                                <li>Added support for WooCommerce Integration.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>

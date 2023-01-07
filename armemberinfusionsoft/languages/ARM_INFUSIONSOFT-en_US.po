@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARMember - Infusionsoft Addon v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-10-16 10:46:49+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: armemberinfusionsoft.php:115
+#@ ARM_INFUSIONSOFT
+msgid "ARMember - Infusionsoft plugin requires ARMember Plugin installed and active."
+msgstr "ARMember - Infusionsoft plugin requires ARMember Plugin installed and active."
+
+#: armemberinfusionsoft.php:135
+#@ ARM_INFUSIONSOFT
+msgid "Are you sure to delete configuration?"
+msgstr "Are you sure to delete configuration?"
+
+#: core/classes/class.arm_general_settings.php:119
+#@ ARM_INFUSIONSOFT
+msgid "Infusionsoft"
+msgstr "Infusionsoft"
+
+#: core/view/arm_general_setting_infusionsoft.php:12
+#@ ARM_INFUSIONSOFT
+msgid "App Name"
+msgstr "App Name"
+
+#: core/view/arm_general_setting_infusionsoft.php:15
+#@ ARM_INFUSIONSOFT
+msgid "The App Name is the portion of your InfusionSoft URL that comes before \".infusionsoft.com\""
+msgstr "The App Name is the portion of your InfusionSoft URL that comes before \".infusionsoft.com\""
+
+#: core/view/arm_general_setting_infusionsoft.php:20
+#@ ARM_INFUSIONSOFT
+msgid "API Encrypted Key"
+msgstr "API Encrypted Key"
+
+#: core/view/arm_general_setting_infusionsoft.php:23
+#@ ARM_INFUSIONSOFT
+msgid "Instructions for how to get API Encrypted Key is available at "
+msgstr "Instructions for how to get API Encrypted Key is available at "
+
+#: core/view/arm_general_setting_infusionsoft.php:24
+#@ ARM_INFUSIONSOFT
+msgid "InfusionSoft User Guide"
+msgstr "InfusionSoft User Guide"
+
+#: armemberinfusionsoft.php:117
+#@ ARM_INFUSIONSOFT
+msgid "ARMember - Infusionsoft plugin requires ARMember plugin installed with version 2.0 or higher."
+msgstr "ARMember - Infusionsoft plugin requires ARMember plugin installed with version 2.0 or higher."
+
+#: armemberinfusionsoft.php:266
+#@ ARM_INFUSIONSOFT
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+
+#: armemberinfusionsoft.php:271
+#@ ARM_INFUSIONSOFT
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+

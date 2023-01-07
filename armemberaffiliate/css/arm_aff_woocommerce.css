@@ -1,0 +1,65 @@
+/*
+#woocommerce-product-data ul.wc-tabs li.armaffiliate_mapping_tab a::before{
+    content: url("../images/armember_affiliate_menu_icon.png");
+}
+*/
+#woocommerce-product-data ul.wc-tabs li.armaffiliate_mapping_tab a::before,
+#woocommerce-product-data ul.wc-tabs li.armaffiliate_mapping_tab.active a::before{
+   
+    background-image: url('../images/armember_affiliate_menu_icon.png');
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}
+
+#woocommerce-product-data ul.wc-tabs li.armaffiliate_mapping_tab span{
+    position: absolute;
+}
+
+#woocommerce-product-data ul.wc-tabs li.armaffiliate_mapping_tab{
+    background: #0e8dab none repeat scroll 0 0 !important;
+    color: #ffffff;
+  
+}
+#woocommerce-product-data ul.wc-tabs li.armaffiliate_mapping_tab.active{
+    background: #ffffff none repeat scroll 0 0 !important;
+    border-bottom: none !important;
+   
+}
+
+#woocommerce-product-data ul.wc-tabs li.armaffiliate_mapping_tab a{ 
+    background: #0e8dab none repeat scroll 0 0 !important;
+    color: #ffffff;
+    border-bottom: none !important;
+   
+}
+
+
+#woocommerce-product-data ul.wc-tabs li.armaffiliate_mapping_tab.active a{
+    background: #ffffff none repeat scroll 0 0 !important;
+    margin: 0;
+    color: #00b2f0;
+}
+
+.woocommerce_options_panel p.form-field._armaffiliate_product_rate_field {
+    padding: 5px 20px 5px 192px !important;
+}
+
+.woocommerce_options_panel p.form-field._armaffiliate_referrals_disabled_field {
+    padding: 5px 20px 5px 42px !important;
+}
+
+.woocommerce_options_panel p.armaffiliate_wc_products_title {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.woocommerce_options_panel input.armaffiliate_wc_products_input{ width: 25% !important; }
+
+.woocommerce_options_panel .armaffiliate_wc_product_options label,
+.woocommerce_options_panel .armaffiliate_wc_product_options .description {
+    font-size: 13px;
+    font-style: normal;
+}

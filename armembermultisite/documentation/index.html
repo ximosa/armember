@@ -1,0 +1,367 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>ReputeInfosystems | ARMember Member Network Site Documentation</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+            var amountScrolled = 460;
+            jQuery(window).scroll(function() {
+                if ( jQuery(window).scrollTop() > amountScrolled ) {
+                    jQuery('a.back-to-top').fadeIn('slow');
+                } else {
+                    jQuery('a.back-to-top').fadeOut('slow');
+                }
+            });
+            jQuery(function ($) {
+                jQuery('a.back-to-top').click(function() {
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, 700);
+                    return false;
+                });
+                jQuery(document).on('click', '.panel', function(event) {
+                    event.preventDefault();
+                    jQuery('.panel').removeClass('active');
+                    jQuery('html,body').animate({scrollTop:0}, 'fast','swing');
+                    var id = this.hash;
+                    jQuery('#content').fadeOut('fast',function(){
+                       jQuery(this).html(jQuery(id).html()).fadeIn();
+                    });
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+id+'"]').addClass('active');
+                });
+                jQuery("#menu_toggle").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                }); 
+                jQuery("#overlay").click(function(){
+                    jQuery("body").toggleClass("nav_open");
+                });
+                if (window.location.hash) {
+                    jQuery('.sidebar_links_wrapper').find('a[href="'+window.location.hash+'"]').trigger('click');
+                } else {
+                    jQuery('.sidebar_links_wrapper').find('a[href="#intro"]').trigger('click');
+                }
+            });
+            function set_min_height(){
+                var minheight = jQuery(window).height();
+                jQuery(".main_wrap").css('min-height', minheight);
+            }
+            jQuery(window).load(function () {
+                set_min_height();
+            });
+            jQuery(window).resize(function () {
+                set_min_height();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <a class="show_on_mobile" id="menu_toggle">
+                <span class="menu_icon"></span>
+                <span class="vert_divider"></span>
+            </a>
+            <div class="logo_wrap">
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="main_wrap" style="min-height: 346px;">
+            <div class="wrap armclear">
+                <div id="sidebar">
+                    <div id="api_sections" class="sidebar_links_wrapper">
+                        <h5>Getting Started</h5>
+                        <ul>
+                            <li><a class="panel" href="#intro">Home</a></li>
+                            <li><a class="panel" href="#installation">Installation & Activation</a></li>
+                            <li><a class="panel" href="#multisite_setup_wizard">Subsite Setup Wizard</a></li>
+                            <li><a class="panel" href="#single_membership_case">In case of single Membership</a></li>
+                            <li><a class="panel" href="#multiple_membership_case">In case of multiple Membership</a></li>
+                        </ul>
+                        <h5>Changelog</h5>
+                        <ul>
+                          <li><a class="panel" href="#changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>ARMember - Member Network Site Addon ( Version: 1.1 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 06/08/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            
+                            <div style="clear: both;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p><code><strong>Note:</strong></code> This addon only work if your WordPress is <strong>multisite enabled.</strong></p>
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>This add-on will work with ARMember Version 3.2.1 or grater.</p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/ARMemeber_multisite_subsite_addon.png">
+                                            <img src="images/ARMemeber_multisite_subsite_addon.png" alt="ARMemeber_multisite_subsite_addon" />
+                                        </a>
+                                    </p>
+                            <h2>ARMember - Member Network Site Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>site creation</strong> with <strong>Member Network Site</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nonecontent" style="display: none;">
+                    <div id="intro">
+                        <h1>ARMember - Member Network Site Addon ( Version: 1.1 )</h1>
+                        <div class="card">
+                            <p><span class="icon_clock"></span><strong>Created:</strong> 06/06/2020</p>
+                            <p><span class="icon_by"></span><strong>By:</strong>&nbsp;<a href="http://www.reputeinfosystems.com" target="_blank">Repute Infosystems</a> </p>
+                            <p><span class="icon_email"></span><strong> Email: </strong><a href="mailto:info@reputeinfosystems.com">info@reputeinfosystems.com</a></p>
+                            <hr>
+                            <div style="clear: both;"></div>
+                            <p>Thank you for purchasing the plugin. If you have any query which are beyond the scope of this help file, please feel free to email via contact form <a href="http://www.armemberplugin.com/redirect.php?rdt=t1" target="_blank">here</a>. Thank you so much!</p>
+                            <p>This add-on will allows to create, delete, activate/deactivate subsite to user on your ARMember membership setup via Member Network Site Addon.</p>
+                            <p>This addon also work with <strong>multiple membership.</strong></p>
+                            
+                            
+                            
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i>This add-on will work with ARMember Version 3.2.1 or grater.</p>
+                            
+                            <p class="alert alert_error"><i class="ts_icon ts_icon_info_circle"></i><strong>Note:</strong> This addon only work if Enabled WordPress <strong><a href="https://wordpress.org/support/article/create-a-network/" target="_blank">"Multisite Network"</a> at your website.</strong></p>
+                            <p class="doc_image">
+                                        <a rel="lightbox" href="images/ARMemeber_multisite_subsite_addon.png">
+                                            <img src="images/ARMemeber_multisite_subsite_addon.png" alt="ARMemeber_multisite_subsite_addon" />
+                                        </a>
+                                    </p>
+                            <h2>ARMember - Member Network Site Addon Key Features:</h2>
+                            <ul class="large_bottom_margin">
+                                <li>Easy Installation</li>
+                                <li>Easy Setup of <strong>subsite</strong> with <strong>a membership plan.</strong></li>
+                                <li>Easily manage subsite using <strong>Member Network Site addon.</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="installation">
+                        <h1>Installation & Activation</h1>
+                        <div class="card">
+                           <h2>Steps For Installation And Activation</h2>
+                           <p>You can install a plugin in the following two ways. and ARMember - Member Network Site plugin requires ARMember Plugin installed and active and also multisite enable.</p>
+                           <h3>New install via  FTP </h3>
+                           <ol class="large_bottom_margin bottom_margin" type="a">
+                               <li>Download the plugin and extract it. You will find a directory <strong>armembermultisite</strong>.</li>
+                               <li>In your WordPress installation directory, upload <strong>armembermultisite</strong> to <code>wp-content/plugins/</code></li>
+                               <li>Activate the <code>ARMember - Member Network Site</code> plugin through the <code>Plugins</code> menu from the WordPress admin panel.</li>
+                           </ol>
+                            <h3>New install via the WordPress Uploader </h3>
+                            <ol class="large_bottom_margin bottom_margin" type="a">
+                                <li>Download the plugin.</li>
+                                <li>Log in to your WordPress admin panel</li>
+                                <li>Go to <code>Plugins</code> -> <code>Add New</code> -> <code>Upload</code></li>
+                                <li>Click on "choose file" and browse the download package. When the plugin uploads successfully, click on <code>Activate Plugin</code>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="multisite_setup_wizard">
+                        <h1>Member Network Site Setup Wizard</h1>
+                        <div class="card">
+                            <h2>Steps to Setup Member Network Site For Your Website</h2>
+                            <h4>Let's setup ARMember - Member Network Site for your website:</h4>
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>When you activate this plugin, you will be able to see a link "Manage Subsites" where you can view all the details of created subsites by members.</p><p> Please take a look at below screen to get better idea.<br></p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/Manage_Multisubsite_menu.png">
+                                            <img src="images/Manage_Multisubsite_menu.png" alt="general setting screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Admin can also activate/deactivate, view and delete subsite. please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/manage_multisite_admin.png">
+                                            <img src="images/manage_multisite_admin.png" alt="general setting screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>You can configure a multisite option from the <code>Manage Plans</code> menu. please see below screen.<br><strong>Note:</strong> if your WordPress enable multisite then only you can see below option.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/multisite_option_on_plan_creation.png">
+                                            <img src="images/multisite_option_on_plan_creation.png" alt="general setting screen" />
+                                        </a>
+                                    </p>
+                                    <p>If you want to allow users to create a subsite with a particular plan then enable <strong>Enable Multisite for Members</strong> option and enter the number of sites you want to allow. you can assign the role for subsite user by selecting <strong>Apply Role to Subsite Owner</strong> option.</p>
+                                </li>
+                            </ol>
+                            <h4>Shortcodes for multisite addon: </h4>
+                            <ol>
+                                <li>
+                                    <p>You can see <strong>Membership Shortcode</strong> block in Gutenberg editor. please see below screenshot.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/armember_shortcode_block_in_gutenberg_editor.png">
+                                            <img src="images/armember_shortcode_block_in_gutenberg_editor.png" alt="create multisite from front-end" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>From the below screen you can add the <strong>shortcode for subsite creation form</strong> in your page.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/shortcode_for_create_multisite_front_end.png">
+                                            <img src="images/shortcode_for_create_multisite_front_end.png" alt="create multisite from front-end" />
+                                        </a>
+                                    </p>
+                                    <p><strong>shortcode:</strong> [arm_site_creation form_id="101" arm_multisite_form_title="Add New Subsite" site_name="Site Name" site_title="Site title" enable_note_belt="true" site_limit_message="You have reached to limit of site(s) allowed to create." submit_button_text="Submit"]<br><h4><u>Parameter</u></h4>
+                                    <i><strong>form_id:</strong></i> Form ID of form to apply form style to the subsite creation form.<br>
+                                    <i><strong>arm_multisite_form_title:</strong></i> Text that you want to display as title of the subsite creation form.<br>
+                                    <i><strong>site_name:</strong></i> Label for Site name input in form.<br>
+                                    <i><strong>site_title:</strong></i> Label for Site title input in form.<br>
+                                    <i><strong>enable_note_belt:</strong></i> Displays note as belt above the form title if it is <strong>true</strong>.<br>
+                                    <i><strong>site_limit_message:</strong></i> Message to be displayed while user reached at maximum limit to create a subsite.<br>
+                                    <i><strong>submit_button_text:</strong></i> Text to display on submit button in form.</p>
+                                </li>
+                                <li>
+                                    <p>From the below screen you can add the <strong>shortcode for manage multisite</strong> in your page.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/shortcode_for_managing_multisite_front_end.png">
+                                            <img src="images/shortcode_for_managing_multisite_front_end.png" alt="to manage multisite from front-end" />
+                                        </a>
+                                    </p>
+                                    <p><strong>Shortcode:</strong> [arm_manage_subsite form_title="Manage Subsites" records_per_page="10" no_record_message="There is no record of subsite" enable_note_belt="true" activate_button_label="Activate" deactivate_button_label="Deactivate" delete_button_label="Delete" membership_plan_label="Membership Plan" site_label="Site" status_label="Status" action_label="Action"]<br><h4><u>Parameter</u></h4>
+                                    <i><strong>form_title:</strong></i> Text to display as title above the list of all subsites.<br>
+                                    <i><strong>records_per_page:</strong></i> Number of records to display per page.<br>
+                                    <i><strong>no_record_message:</strong></i> Message to be displayed when there is no records in the table.<br>
+                                    <i><strong>enable_note_belt:</strong></i> Displays note as belt above the title if it is <strong>true</strong>.<br>
+                                    <i><strong>site_limit_message:</strong></i> Message to be displayed while user reached at maximum limit to create a subsite.</p>
+
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div id="single_membership_case">
+                        <h1>In case of single membership</h1>
+                        <div class="card">
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>After adding the multisite creation shortcode user can see multisite creation form at front-end side <strong>if user logged-in.</strong></p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/multisite_creation.png">
+                                            <img src="images/multisite_creation.png" alt="general setting screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>After adding the multisite manage shortcode user can see multisite manage form at front-end side <strong>if user logged-in.</strong></p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/single_membership_manage_multisite.png">
+                                            <img src="images/single_membership_manage_multisite.png" alt="general setting screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>If you try to create more subsite than allowed in the membership plan then it will give you an alert message. please see below screen.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/alert_while_creating_more_than_maximum_allowed.png">
+                                            <img src="images/alert_while_creating_more_than_maximum_allowed.png" alt="general setting screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>If you enable upgrade/downgrade option in plan setup and member is purchasing the plan which is under the condition of upgrade or downgrade then member's subsite will get deactivated.</p>
+                                </li>
+                                <li>
+                                    <p>In case of canceling a plan or change the plan or remove the plan by admin, then member's subsite will get deactivated.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div id="multiple_membership_case">
+                        <h1>In case of multiple membership</h1>
+                        <div class="card">
+                            <ol class="large_bottom_margin bottom_margin">
+                                <li>
+                                    <p>If you enable multiple memberships then you will get one another option in the site creation form. it indicates that under which plan you want to create a subsite.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/multiple_membership_site_creation.png">
+                                            <img src="images/multiple_membership_site_creation.png" alt="general setting screen" />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>In case of multiple membership, If you activate any subsite then it will ask you to activate the subsite under a particular plan which is available to the user.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/multiple_membership_manage_multisite.png">
+                                            <img src="images/multiple_membership_manage_multisite.png" alt="while user cancel the plan." />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>If your <strong>subscription plan is suspended</strong> then your site will be deactivated automatically.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/membership_plan_with_suspended_subscription_plan.png">
+                                            <img src="images/membership_plan_with_suspended_subscription_plan.png" alt="while user cancel the plan." />
+                                        </a>
+                                    </p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/subsite_deactivate_while_subscription_supspended.png">
+                                            <img src="images/subsite_deactivate_while_subscription_supspended.png" alt="while user cancel the plan." />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>If member renew plan then his subsite will not get affected, it will remain with the same status.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/renew_membership_plan.png">
+                                            <img src="images/renew_membership_plan.png" alt="while user cancel the plan." />
+                                        </a>
+                                    </p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/subsite_status_after_renew_plan.png">
+                                            <img src="images/subsite_status_after_renew_plan.png" alt="while user cancel the plan." />
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>If admin cancels the plan or change the plan or remove the plan then the related subsite of the plan will get deactivated.</p>
+                                </li>
+                                <li>
+                                    <p>If the user has no plan then all subsite will be deactivated and will not even get activate option.</p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/delete_all_plan_from_user.png">
+                                            <img src="images/delete_all_plan_from_user.png" alt="while user cancel the plan." />
+                                        </a>
+                                    </p>
+                                    <p class="doc_image">
+                                        <a rel="lightbox" href="images/deactive_all_subsite_if_user_have_no_plan.png">
+                                            <img src="images/deactive_all_subsite_if_user_have_no_plan.png" alt="while user cancel the plan." />
+                                        </a>
+                                    </p>
+                                </li>
+                            </ol>
+
+                        </div>
+                    </div>
+
+                    <!-- affiliate change log  -->
+                    <div id="changelog">
+                        <h1>Changelog</h1>
+                        <div class="card">
+                            <h2>Version 1.1 (06 Aug, 2020)</h2>
+                            <ul>
+                                <li>Updated DataTables Library.</li>
+                                <li>Other minor bug fixes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#" class="back-to-top"><i class="ts_icon ts_icon_arrow_large_up clear_white float_left small_right_margin"></i></a>
+        </div>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,130 @@
+.arm_selectbox dd ul, .arm_multiple_selectbox dd ul{
+    max-height: 121px !important;   
+}
+
+.arm_table_label_direct_logins{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.arm_table_label_direct_logins tr{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+.arm_table_label_direct_logins tr th{
+    display: inline-block;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    padding: 10px 0 0 20px;
+} 
+.arm_table_label_direct_logins tr td{
+    display: inline-block;
+    float: left;
+    width: 67%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    padding: 5px 20px 12px;
+}
+.arm_table_label_direct_logins tr th{font-weight: normal;text-align: left; padding: 10px 0 0 20px;}
+.arm_add_achievements_wrapper .arm_table_label_direct_logins tr th,
+.add_new_user_badges_wrapper .arm_table_label_direct_logins tr th,
+.arm_edit_achievements_wrapper .arm_table_label_direct_logins tr th{
+    padding: 10px 20px 5px 20px;
+}
+.arm_table_label_direct_logins .chosen-container{min-width: 500px;margin-bottom: 2px;}
+.popup_wrapper{
+    font-family: 'NotoSans', sans-serif, "Trebuchet MS";
+}
+.arm_table_label_direct_logins .bootstrap-datetimepicker-widget table tr{
+    display: table-row;
+}
+.arm_table_label_direct_logins .bootstrap-datetimepicker-widget table tr th,
+.arm_table_label_direct_logins .bootstrap-datetimepicker-widget table tr td{
+    display: table-cell;
+    float: none;
+}
+.arm_table_label_direct_logins .bootstrap-datetimepicker-widget table span{
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+}
+
+.add_new_form_wrapper.popup_wrapper table.arm_table_label_direct_logins{width:70%;}
+.add_new_form_wrapper.popup_wrapper table.arm_table_label_direct_logins tr{width:98%;}
+.add_new_form_wrapper.popup_wrapper table.arm_table_label_direct_logins td dl dt{width: 340px;}
+.add_new_form_wrapper.popup_wrapper table.arm_table_label_direct_logins td input{width:85%;}
+
+.arm_dl_select_user_type tr td{ padding: 0; width:45%;}
+.arm_table_label_dl_expiration tr { margin-bottom: 10px; }
+.arm_table_label_dl_expiration tr td{ padding: 0; width:50%; }
+
+.arm_admin_form .icheckbox_minimal-red + label, .arm_admin_form .iradio_minimal-red + label{ margin-right: 0px !important;}
+
+div.color_red{ color:red; }
+div.color_green{ color:green; }
+div.color_orenge{ color:#caa723; }
+
+span.arm_dl_set_disable_switch{ background-image: url(../images/toggle_disable_icon.png);
+    background-repeat: no-repeat;
+    background-position: 8px center;}
+
+/*********** rtl change **************/
+
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm .arm_table_label_direct_logins tr th,
+.arm_page_rtl.arm_edit_direct_logins_wrapper_frm .arm_table_label_direct_logins tr th{
+    float:right;
+}
+
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm .arm_table_label_direct_logins tr td,
+.arm_page_rtl.arm_edit_direct_logins_wrapper_frm .arm_table_label_direct_logins tr td{
+    float:right;
+}
+
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm [dir='rtl'] .arm_admin_form .icheckbox_minimal-red + label, 
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm [dir='rtl'] .arm_admin_form .iradio_minimal-red + label, .
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm arm_page_rtl .arm_admin_form .icheckbox_minimal-red + label, 
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm .arm_page_rtl .arm_admin_form .iradio_minimal-red + label{
+    margin-left: 12px;
+}
+
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm .arm_selectbox dt span, 
+.arm_page_rtl.arm_edit_direct_logins_wrapper_frm .arm_selectbox dt span, 
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm .arm_multiple_selectbox dt span
+.arm_page_rtl.arm_edit_direct_logins_wrapper_frm .arm_multiple_selectbox dt span{
+    float: right;
+}
+
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm .arm_selectbox dd ul li, 
+.arm_page_rtl.arm_edit_direct_logins_wrapper_frm .arm_selectbox dd ul li, 
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm .arm_multiple_selectbox dd ul li
+.arm_page_rtl.arm_edit_direct_logins_wrapper_frm .arm_multiple_selectbox dd ul li{
+    text-align: right;
+}
+
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm .arm_selectbox input:not([type='button']), 
+.arm_page_rtl.arm_edit_direct_logins_wrapper_frm .arm_selectbox input:not([type='button']), 
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm .arm_selectbox select, 
+.arm_page_rtl.arm_edit_direct_logins_wrapper_frm .arm_selectbox select, 
+.arm_page_rtl.arm_add_direct_logins_wrapper_frm .arm_selectbox textarea
+.arm_page_rtl.arm_edit_direct_logins_wrapper_frm .arm_selectbox textarea{
+    float: right;
+}
+
+.arm_page_rtl .wrap #example_wrapper tr:not(.arm_child_user_row).armopen td, 
+.arm_page_rtl .wrap #example_wrapper tr:not(.arm_child_user_row):hover td, 
+.arm_page_rtl #example_1_wrapper tr:not(.arm_child_user_row).armopen td, 
+.arm_page_rtl #example_1_wrapper tr:not(.arm_child_user_row):hover td, 
+.arm_page_rtl .wrap #example_1_wrapper tr:not(.arm_child_user_row).armopen td, 
+.arm_page_rtl .wrap #example_1_wrapper tr:not(.arm_child_user_row):hover td{
+    box-shadow: 0px 1px 0px 0px rgba(214,214,214,0.4) !important;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(214,214,214,0.4) !important;
+}
